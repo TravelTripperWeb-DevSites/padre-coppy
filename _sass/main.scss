@@ -59,11 +59,7 @@ a:active {
         font-size: 14px;
         margin-bottom: 0px;
     }
-    p {
-       
-        color: #8d8d8d;
-        
-    }
+   
     .dimond {
         font-size: 20px;
         color: #8f7d4f;
@@ -125,6 +121,25 @@ a:active {
         }
     }
 }
+.transparant-button-brown {
+    a {
+        font-family: 'Avenir LT W01_45 Book1475508';
+        letter-spacing: 0.3em;
+        background-color:transparent;
+		border:1px solid #8f7d4f;
+        font-size: 13px;
+        padding: 19px  22px ;
+        color: #8f7d4f;
+        display: inline-block;
+        text-align: center;
+        text-transform: uppercase;
+        &:hover {
+            text-decoration: none;
+            background-color: #8f7d4f;
+            color: #fff;
+        }
+    }
+}
 .brown-color {
     color: #8f7d4f !important;
 }
@@ -133,19 +148,27 @@ a:active {
     font-family: 'Blythe W01 Mono45';
     text-align: center;
     color: #9d8d64;
+@media (max-width:800px){
+	font-size: 22px;
+}
 }
 .text-bold {
     font-size: 48px;
     font-family: 'Avenir LT W01_95 Black1475556';
     color: #9d8d64;
     text-transform: uppercase;
+	letter-spacing: 1.3px;
+@media (max-width:800px){
+	font-size: 22px;
+}
 }
 p {
     font-family: 'Avenir LT W01_45 Book1475508';
     color: #8d8d8d;
     line-height: 25px;
     font-size: 14px;
-	letter-spacing:1px;
+	font-weight:600;
+	letter-spacing:0.5px;
 }
 .-show {
     position: fixed;
@@ -204,3 +227,4 @@ font-family:'Blythe W01 Mono45';*/
 @import 'location';
 @import 'gallery';
 @import 'room-details';
+@import 'special-details';

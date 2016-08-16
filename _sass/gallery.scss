@@ -9,16 +9,19 @@
 			font-size: 24px;
 			color: #9d8d64;
 			text-transform: uppercase;
-			padding:90px 0px 50px 0px;
+			padding:50px 0px;
 			margin: 0px;
 			@media (max-width: 1154px){
 				
 				padding:30px;
+				
 				}
 			}
 	img{
 		 margin-bottom: 30px;
+		 
 	}
+	
 	.lastrow-img-margin{
 		@media (min-width: 1154px){
 		margin-bottom: 0px;

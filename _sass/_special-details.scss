@@ -1,0 +1,152 @@
+.dine-comfort-section{
+position:relative;
+	.dine-flower{
+		position:absolute;
+		z-index: 40;
+		bottom:40px;
+		@media (max-width:600px){
+		display:none;
+		}
+		}
+.dine-stay-container{
+	margin-top:75px;
+	
+	.col-md-8{
+		border-right:20px solid #8f7d4f;
+		padding-right:0px;
+		}
+	
+	.facilities-section{
+		padding: 120px 0px 0px 80px;
+		
+		@media (max-width:1024px){
+		padding: 120px 0px 0px 40px;	
+		}
+		@media (max-width:800px){
+		padding: 10px;	
+		}
+		}
+	
+.dine-conent{
+	width:685px;
+	min-height:476px;
+	background-color:#1a1a1a;
+	padding:50px 60px;
+	margin-left:84px;
+	position:relative;
+	z-index:3;
+	@media (max-width:1024px){
+	padding:40px;	
+	margin-left:50px;
+	}
+	@media (max-width:1024px){
+		width:600px;
+		}
+	@media (max-width:800px){
+	width:100%;
+	min-height:inherit;
+	margin-left:0px;
+	}
+	&::before{
+		content:"";
+		position:absolute;
+		border:1px solid #8f7d4f;
+		top: -30px;
+   		left: -30px;
+		width: 100%;
+    	height: 100%;
+		z-index:4;
+		@media (max-width:800px){
+			top: -15px;
+   			left: -15px;
+		}
+		
+		}
+	a{
+		position:relative;
+		z-index:5;
+		}
+	
+	h2{
+		margin:0px;
+		position:relative;
+	
+		}
+	h3{ text-align:left;color:#fff; }
+	p{ max-width:440px;
+		color:#9d8d64;
+		margin: 20px 0px 40px 0px;
+		@media (max-width:800px){
+		margin: 20px;
+		}
+		}
+	}	
+	
+	
+	.dine-conent-img-palce{
+		position:relative;
+		z-index:2;
+		clear:both;
+		margin-top:-87px;
+		max-width:937px;
+		@media (max-width:800px){
+			margin-top:10px;
+		}
+	
+	
+	}
+
+}
+}
+.newsletter{
+		background-color:#fff;
+		margin-top: 20px;
+		
+		p{
+			color:#2b2a2a;
+			}
+		.bg-text{
+			
+			color:#8f7d4f;
+			span{
+			color:#2b2a2a
+			;
+				}
+			}
+		.newsletter-form{
+			
+			max-width:700px;
+			.row{
+			 margin:40px 0px;
+			}
+					
+			.textbox{
+				padding:20px;
+				color:#2b2a2a;
+				 letter-spacing: 0.1em;
+				font-weight:600;
+				    width: 100%;
+				font-size:14px;;
+				border:1px solid #8f7d4f;
+				&::-webkit-input-placeholder { color: #2b2a2a; opacity: 1 !important; }
+				&:-moz-placeholder { color: #2b2a2a;}
+				&::-moz-placeholder {color: #2b2a2a;}
+				&:-ms-input-placeholder {color: #2b2a2a;}
+				
+				}
+			.form-btn{
+				 width: 100%;
+				 background-color:#2b2a2a;
+				 padding:20px;
+				 font-family:'Avenir LT W01_85 Heavy1475544';
+				 color:#fff;
+				 border:1px solid #2b2a2a;
+				 text-transform:uppercase;
+				  letter-spacing: 0.3em;
+				
+				}
+			}
+		}
+	.border-single-bottom{
+		border-bottom:1px solid #8f7d4f;
+		}
