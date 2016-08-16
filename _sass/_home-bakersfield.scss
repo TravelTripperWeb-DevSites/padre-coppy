@@ -1,0 +1,101 @@
+.home-bakersfield{
+	
+	
+	.section-border{
+		margin:35px;
+		border:1px solid #8f7d4f;
+		text-align:center;
+		padding:48px 46px;
+		
+		@media (max-width:1024px)
+				
+				{
+					margin:18px;
+					padding: 11px 30px;
+					}
+		
+		}
+	h4{
+		font-family:'Avenir LT W01_65 Medium1475532';
+		color:#8f7d4f;
+		font-size:14px;
+		
+		}
+	p{	
+		font-family:'Avenir LT W01_45 Book1475508';
+		color:#8d8d8d;
+		line-height:25px;
+		font-size:14px;
+		
+		}
+	.dimond{
+		font-size:20px;
+		color:#8f7d4f;
+		display: block;
+    	margin: 18px 0px;
+		}
+	.padre{
+		text-align:center;
+		background-color:#1a1a1a;
+			
+		.bg-text{
+			margin-top:20px;
+			font-family:'Didot W01 Bold';
+			font-size:120px;
+			text-transform:uppercase;
+			color:#8f7d4f;
+			position:relative;	
+			display: inline-block;
+			
+			@media (max-width:1024px){
+				margin-top:0px;
+				}
+				
+			@media (max-width:480px){
+				font-size:60px;
+				}
+			
+			span{
+				position:absolute;
+				font-size:20px;	
+				font-family:'Avenir LT W01_95 Black1475556';
+				text-align:center;
+				color: #ffffff;
+				letter-spacing:4px;
+				display: block;
+				top: 50%;
+				right: 0;
+				transform: translateY(-50%);
+				left: 0;
+				
+				@media (max-width:480px){
+				font-size:9px;
+				}
+			}
+			}
+			a{
+					font-family:'Avenir LT W01_45 Book1475508';
+					
+					letter-spacing: 0.3em;
+					font-size: 13px;
+					padding: 18px 44px;
+					margin-top:20px;
+					color:#8f7d4f;
+					display:inline-block;
+					border:1px solid #8f7d4f;
+					@media (max-width:800px){
+					margin-bottom:40px;	
+					}
+					@media (max-width:480px){
+					margin:0px 0px 20px 0px;	
+					}
+					&:hover
+					{
+					text-decoration:none;
+					background-color:#8f7d4f;
+					color:#fff;
+						}
+					}
+		}
+		
+	}

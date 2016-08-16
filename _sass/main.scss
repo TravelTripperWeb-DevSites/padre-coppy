@@ -1,0 +1,206 @@
+@import 'bootstrap.scss';
+html {
+    width: 100%;
+}
+body {
+    margin: 50px 0px;
+    background-color: #fcfbf9;
+    @media(max-width: 1154px) {
+        margin: 0px;
+    }
+}
+a,
+a:hover,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+.hover-transition {
+    transition: all 0.6s ease;
+}
+.global-container {
+    max-width: 1220px;
+    background-color: #fff;
+    margin: 0px auto;
+}
+@media (min-width: 992px) {
+    .container {
+        width: 100%;
+    }
+}
+.no-gutter {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.img-width {
+    width: 100%;
+}
+.section-margin {
+    margin-top: 65px;
+	@media (max-width:800px){
+	 margin-top: 0px;
+	}
+}
+.section-padding {
+    padding-top: 65px;
+	@media (max-width:800px){
+	 padding-top: 0px;
+	}
+}
+.img-top-border {
+    border-top: 21px solid #8f7d4f;
+}
+.common-description-block {
+	max-width:450px;
+    text-align: center;
+    h4 {
+        font-family: 'Avenir LT W01_65 Medium1475532';
+        color: #8f7d4f;
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    p {
+       
+        color: #8d8d8d;
+        
+    }
+    .dimond {
+        font-size: 20px;
+        color: #8f7d4f;
+        display: block;
+        margin: 18px 0px;
+    }
+}
+.brown-button {
+    a {
+        font-family: 'Avenir LT W01_45 Book1475508';
+        letter-spacing: 0.3em;
+        font-size: 13px;
+         padding: 18px 29px;
+        color: #8f7d4f;
+        display: inline-block;
+        border: 1px solid #8f7d4f;
+        text-transform: uppercase;
+        &:hover {
+            text-decoration: none;
+            background-color: #8f7d4f;
+            color: #fff;
+        }
+    }
+}
+.white-button {
+    a {
+        font-family: 'Avenir LT W01_45 Book1475508';
+        letter-spacing:0.3em;
+        background-color: #fff;
+        font-size: 13px;
+        padding: 18px 29px;
+        color: #8f7d4f;
+        display: inline-block;
+        text-align: center;
+        text-transform: uppercase;
+        &:hover {
+            text-decoration: none;
+            background-color: #2b2a2a;
+            color: #fff;
+        }
+    }
+}
+.transparant-button {
+    a {
+        font-family: 'Avenir LT W01_45 Book1475508';
+        letter-spacing: 0.3em;
+        background-color:transparent;
+		border:1px solid #fff;
+        font-size: 13px;
+        padding: 19px  22px ;
+        color: #fff;
+        display: inline-block;
+        text-align: center;
+        text-transform: uppercase;
+        &:hover {
+            text-decoration: none;
+            background-color: #2b2a2a;
+            color: #fff;
+        }
+    }
+}
+.brown-color {
+    color: #8f7d4f !important;
+}
+.text-cursive {
+    font-size: 54px;
+    font-family: 'Blythe W01 Mono45';
+    text-align: center;
+    color: #9d8d64;
+}
+.text-bold {
+    font-size: 48px;
+    font-family: 'Avenir LT W01_95 Black1475556';
+    color: #9d8d64;
+    text-transform: uppercase;
+}
+p {
+    font-family: 'Avenir LT W01_45 Book1475508';
+    color: #8d8d8d;
+    line-height: 25px;
+    font-size: 14px;
+	letter-spacing:1px;
+}
+.-show {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    min-width: 1220px;
+}
+.-banner-onscroll-padding {
+    padding-top: 98px;
+	@media (max-width: 1154px){
+		padding-top: 0px;	
+		}
+}
+.view-offer-button{
+	padding:18px 45px !important;
+	@media (max-width:768px){
+		padding:16px !important;
+	}
+	}
+.content-top-margin{
+@media (max-width: 1154px){
+		margin-top:70px;	
+		}
+}
+.thickborder-bottom{
+	
+	border-bottom:20px solid #8f7d4f;
+	}
+/*font-family:'Didot W01 Roman';
+font-family:'Didot W01 Italic';
+font-family:'Didot W01 Bold';
+font-family:'Didot W01 Headline';
+font-family:'Didot W01 Bold Italic';
+font-family:'Avenir LT W01_35 Light_1475502';
+font-family:'Avenir LT W01_45 Book1475508';
+font-family:'Avenir LT W01_45 Book O1475514';
+font-family:'Avenir LT W01_55 Roman1475520';
+font-family:'Avenir LT W01_55 Obliqu1475526';
+font-family:'Avenir LT W01_65 Medium1475532';
+font-family:'Avenir LT W01_65 Medium1475538';
+font-family:'Avenir LT W01_85 Heavy1475544';
+font-family:'Avenir LT W01_85 Heavy_1475550';
+font-family:'Avenir LT W01_95 Black1475556';
+font-family:'Avenir LT W01_95 Black_1475562';
+font-family:'Blythe W01 Mono45';*/
+
+@import 'header';
+@import 'carousel';
+@import 'footer';
+@import 'home-bakersfield';
+@import 'home-uniquestay';
+@import 'home-hotels';
+@import 'home-events-weddings';
+@import 'home-offers';
+@import 'home-activities';
+@import 'location';
+@import 'gallery';
+@import 'room-details';

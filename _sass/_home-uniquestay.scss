@@ -1,0 +1,62 @@
+
+
+.home-uniquestay {
+	 	position:relative;
+			.caption-stay{
+			font-size:54px;
+			font-family:'Blythe W01 Mono45';
+			text-align:center;
+			margin-top:90px;
+			color:#9d8d64;
+			letter-spacing:3px;
+			@media (max-width:800px){
+				margin-top:20px;
+				font-size:33px;
+			}
+			}
+		
+		.flower-left{
+			position:absolute;
+			top: 234px;
+    		left: -50px;
+			}
+		.brown-button{
+			padding:26px 0px 65px 0px;
+			
+			a{
+				padding:18px 45px;
+				}
+			}
+		.vertical-text-container{
+			
+			position:relative;
+					.comfort-text{
+					font-size:72px;
+					font-family:'Avenir LT W01_95 Black1475556';
+					color:#9d8d64;
+					position:absolute;
+					right: 0px;
+					bottom: 0px;
+					text-transform:uppercase;
+					 -ms-transform: rotate(90deg); /* IE 9 */
+					-ms-transform-origin: 89% 0%; /* IE 9 */
+					-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+					-webkit-transform-origin: 94% 0%; /* Chrome, Safari, Opera */
+					transform: rotate(90deg);
+					transform-origin:94% 0%;
+							@media (max-width:768px){
+								
+								font-size:34px;
+								
+								}
+								@media (max-width:320px){
+								
+								font-size:20px;
+								
+								}
+			}
+			
+			}	
+		
+		
+	}

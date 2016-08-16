@@ -1,0 +1,133 @@
+
+.carousel{
+	
+	max-height:553px;
+	position:relative;
+	@media (max-width: 1154px){
+		margin-top:70px;
+		}
+	.carousel-indicators{
+			position:absolute;
+			width:50px;
+			background-color:#8f7d4f;
+		    left: -50px;
+			margin: 0px;
+			padding: 12px 19px;
+			bottom: 0px;
+			@media (max-width: 800px){
+				left:0px;
+				}
+		li{
+			display:block;
+			margin: 12px 0px;
+			border:2px solid #fff;
+			width:11px;
+			height:11px;
+			}
+		}
+	 .social-icons{
+			position:absolute;
+			width:50px;
+			left: -50px;
+			margin: 0px;
+			padding: 7px 19px 0px 19px;
+			bottom: 132px;
+			ul{
+				list-style:none;
+				padding:0px;
+				li{
+				a{
+					color:#8f7d4f ;
+					font-size:17px;
+					line-height: 38px;
+				&:hover{
+					color:#1a1a1a ;
+					}
+					}
+				}
+			}
+	
+		}
+	.title{
+		position:absolute;
+		z-index:30;
+		-webkit-transform: rotate(90deg) translateY(-50%);;
+		-moz-transform: rotate(90deg) translateY(-50%);;
+		-o-transform: rotate(90deg) translateY(-50%);;
+		font-family:'Avenir LT W01_95 Black1475556';
+		letter-spacing:3px;
+		 color:#8f7d4f;
+		 font-size:14px;
+		  	top: 49%;
+    		right: -111px;
+			text-transform: uppercase;
+			height: 10px;
+			font-size: 14px;
+		@media (max-width: 1024px){
+			display:none;
+		}
+		}
+		.carousel-caption{
+				position:absolute;
+				left: 52.4%;
+				right:0;
+    			top: 23%;
+				z-index:32;
+				font-family:'Avenir LT W01_95 Black1475556';
+				text-transform:uppercase;
+				text-align:left;
+				text-shadow:none;
+				@media (max-width: 800px)
+					 {
+						left: 40%;
+						top:10%; 
+						 }
+				
+				h3{
+					font-size:72px;
+					margin:0px;
+					margin-left: -6px;
+					line-height: 65px;
+					letter-spacing: .03em;
+					@media (max-width: 800px)
+					 
+					 {
+						 font-size:50px;
+						 letter-spacing:1px;	
+						 line-height: 45px;				
+						}
+					
+					}
+				h4{
+					font-size:20px;
+					letter-spacing:4px;
+					padding-bottom: 8px;
+					@media (max-width: 800px)
+					 
+					 {
+						 font-size:10px;
+						 letter-spacing:1px;
+						  line-height: inherit;		
+						  padding:0PX;							
+						}
+					}	
+				a{
+					font-family:'Avenir LT W01_45 Book1475508';
+					
+					letter-spacing:0.3em;
+					font-size:13px;
+					padding:18px 24px;
+					margin-top:30px;
+					color:#fff;
+					display:inline-block;
+					border:1px solid #fff;
+					&:hover
+					{
+					text-decoration:none;
+					background-color:#fff;
+					color:#8f7d4f;
+						}
+					}
+				}
+		
+	}

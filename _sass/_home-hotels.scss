@@ -1,0 +1,48 @@
+.hotels-container {
+	 	max-width:1120px;
+		padding-top:98px;
+		@media (max-width:800px){
+			padding-top:30px;
+		}
+		.col-md-2 {
+				min-width: 20%;
+				padding-left: 7px;
+				padding-right: 7px;
+				margin-bottom:14px;
+			}
+		.black-bg{
+			background-color:#1a1a1a;
+			
+			}
+		.brown-bg{
+			background-color:#8f7d4f;
+			}
+		.button-padding{
+		padding:50px 0px 0px 0px;
+	}
+	h2{
+		padding-top:24px;
+		
+		@media (max-width:800px){
+		
+			margin:0px;
+			padding-top:0px;
+		}
+		
+		}
+	.discover-more-container{
+		padding-top: 53px;
+		@media (max-width:800px){
+		padding-top: 0px;
+		}
+		.description{
+			width:440px;
+			padding-left:43px;
+			@media (max-width:800px){
+			width:100%;
+			padding:0px;
+			}
+			}
+		}
+		
+	}

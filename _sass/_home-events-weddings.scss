@@ -1,0 +1,62 @@
+.home-events-wedding {
+	.header{
+		background-color:#8f7d4f;
+		text-align:center;
+		padding-bottom:180px;
+		@media (max-width: 768px)
+		 {
+			 padding-bottom:20px;
+			 }
+		}
+	
+	 .bg-text{
+			margin-top:20px;
+			font-family:'Didot W01 Bold';
+			font-size:120px;
+			text-transform:uppercase;
+			color:#2b2a2a;
+			position:relative;	
+			display: inline-block;
+			@media (max-width : 480px)
+		 	{
+			 font-size:60px;
+			 }
+			span{
+				position:absolute;
+				font-size:20px;	
+				font-family:'Avenir LT W01_95 Black1475556';
+				text-align:center;
+				color: #ffffff;
+				letter-spacing:4px;
+				display: block;
+				top: 50%;
+				right: 0;
+				transform: translateY(-50%);
+				left: 0;
+				@media (max-width : 480px)
+				{
+				 font-size:9px;
+				 }
+			}
+	 }
+	 .discovermore-img{
+		 position:relative;
+		 max-width:896px;
+		 margin:0px auto;
+		 margin-top:-170px;
+		 border-bottom:20px solid #8f7d4f;
+		 .row{}
+		 @media (max-width: 768px)
+		 {
+			 margin:20px;
+			 }
+		 
+		 }
+		 .center-button{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			    z-index: 20;
+			transform: translate(-50%, -50%);
+			 }
+	}

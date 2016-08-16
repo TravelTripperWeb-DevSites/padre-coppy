@@ -1,0 +1,182 @@
+
+
+.header-wrapper{
+		
+		background-color:#1a1a1a;
+		height:98px;
+		@media(max-width:1154px) {
+		position: fixed;
+		height:70px;
+		top:0;
+		z-index: 999;
+		min-width: 100%;	
+		}
+		
+	.logo{
+		
+		padding:23px 49px 23px 42px;
+		 @media(max-width: 1154px) {
+			 padding:14px;	 
+		 
+		 }
+		
+		img{
+			  @media(max-width: 1154px) {
+					width:100px
+		 
+				 }
+			 }
+		
+		
+		
+		}
+	.header-nav-bar{
+			    padding-top: 43px;
+				display:block;
+				 @media(max-width:1154px) {
+					    display: none;
+						clear: both;
+						position: fixed;
+						z-index: 999;
+						width: 100%;
+						top: 27px;
+					
+					}
+		 ul{
+			 margin:0px;
+			 @media(max-width: 1154px) {
+				padding:0px; 
+			 }
+			 
+			 li{	
+			 		font-size:16px;
+					letter-spacing:3px;
+					text-transform:uppercase;
+				    list-style-type: none;
+    				display: inline-block;
+					padding-right: 38px;
+					@media(max-width: 1154px) {
+					display: block;
+					background-color:#1a1a1a;
+					line-height: 40px;
+					padding-left:23px;
+					border-bottom:1px solid #2b2a2a;
+					
+					}
+					&:hover{
+						@media(max-width:1154px) {
+						background-color: #2b2a2a;
+						   
+						}
+						}
+					
+					 span{
+						 font-family:'Avenir LT W01_45 Book1475508';
+						 color:#8f7d4f;
+						 font-size:12px;
+						 letter-spacing:1px;
+						 padding-right:12px;
+						 padding-bottom:5px;
+						 top: -3px;
+						 position: relative;
+						 
+						 				 
+						 }
+						
+					span::after{
+							    position: absolute;
+								content: "";
+								width: 14px;
+								height: 1px;
+								border-bottom: solid 1px #8f7d4f;
+								left: 0;
+								bottom: 2px;
+								 }
+					a{	font-family:'Avenir LT W01_65 Medium1475532';
+						text-decoration:none;
+						color:#fff;
+						 display: block;
+						 letter-spacing: .25em;
+						&:hover{
+						color:#8f7d4f;
+						cursor: pointer; 
+						
+						}
+					}
+					
+				 }
+			 
+			 }
+			 	
+			 
+		}
+	.booknow-btn{
+		
+		a{	font-family:'Avenir LT W01_85 Heavy1475544';
+			height: 98px;
+			
+			padding:43px 40px 41px 43px;
+			display: block;
+			background-color:#8f7d4f;
+			color:#fff;
+			text-transform:uppercase;
+			letter-spacing:3.9px;
+			font-size:16px;
+			@media(max-width:1154px) {
+			height: 70px;	
+			letter-spacing:1px;
+			line-height: 70px;	
+			
+			
+			}
+			@media(max-width:1154px) {
+			
+    		font-size: 12px;
+			padding:0px 40px;
+			
+			}
+			@media(max-width:480px) {
+			
+    		font-size: 12px;
+			padding:0px 10px;
+			
+			}
+			&:hover{
+				background-color:#6b5827;
+				text-decoration:none;
+								}
+			}
+		
+		}
+	.menu-icon-holder {
+			display:none;
+		 @media(max-width: 1154px) {
+			width: 30px;
+			transition: all 0.3s;
+			float: right;
+			padding: 23px 0 0 0;
+			margin: 0 30px 0 0;
+			display: block;
+		 }
+		  @media(max-width: 480px) {
+			  margin: 0 12px 0 0;
+		  }
+	}
+	.menu-icon {
+    border-top: solid 2px #fff;
+    border-bottom: solid 2px #fff;
+    position: relative;
+    height: 12px;
+    display: block;
+    cursor: pointer;
+	}
+	.menu-icon:after {
+    content: "";
+    position: absolute;
+    border-bottom: solid 2px #fff;
+    height: 5px;
+    width: 30px;
+    height: 20px;
+}
+	}
+	

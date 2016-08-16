@@ -1,11 +1,16 @@
-<!DOCTYPE html>
-<html>
-  <head></head>
-  <body>
-    <div>
-      
-        {{ content }}
-      
-    </div>
-  </body>
-</html>
+
+{% include head.html %} 
+
+<section class="global-container">
+{% include header.html %}  
+</section>
+
+ 
+{{ content }} 
+
+<section class="global-container">
+
+{% include footer.html %} 
+{% include scripts.html %}  
+
+</section>

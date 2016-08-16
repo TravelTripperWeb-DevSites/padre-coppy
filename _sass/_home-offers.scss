@@ -1,0 +1,200 @@
+.home-offers {
+	position:relative;
+	
+	.header{
+		
+		background-color:#1a1a1a;
+		text-align:center;
+		padding-bottom:188px;
+		padding-top: 64px;
+		margin-top: 48px;
+		@media (max-width: 768px)
+		 {
+			 padding-top: 30px;
+			 padding-bottom:20px;
+			 }
+			 
+		h3{
+			margin: 0px;
+		}
+		
+	
+	 .dimond{
+		font-size: 20px;
+		color: #8f7d4f;
+		display: block;
+		margin: 18px 0px;
+		 }
+	
+		p{
+			color:#fff;	
+			}
+		}
+	 .offers-list{
+		 
+		 max-width:1100px;
+		 
+		 margin:0px auto;
+		 margin-top:-160px;
+		 margin-bottom:20px;
+		 text-align:center;
+		  @media (max-width: 768px)
+		 		{
+			 margin-top:0px;
+			 margin-bottom:0px;
+			 }
+		.item-padding{
+			padding:0px 25px; 
+			  @media (max-width: 768px)
+		 		{
+					padding:0px; 
+					}
+			}
+		 .col-sm-4 {
+			 
+			 margin-bottom:25px;
+			 }
+		
+		 h5{ 
+		 	 font-family:'Avenir LT W01_65 Medium1475532';
+			 font-size:14px;
+			 color:#8f7d4f;
+			 padding-top:14px;
+			 }
+		p{
+			color:#8d8d8d;
+			padding:14px 27px;	
+			}
+		
+		 }
+	.activities-section{
+		padding-top: 52px;
+		p{
+			margin-left: 30px;
+			}
+		}	 
+	.lady
+		{
+			max-width:508px;
+			position:relative;
+			margin-top:-104px !important;	
+			@media (max-width:1024px)
+			{  max-width:400px;
+				margin:0px !important;	
+				}
+			@media (max-width: 768px)
+			{   max-width:508px;
+				margin:0px !important;	
+				}
+			
+			}	
+			
+	.flower-right{
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+		position:absolute;
+		right:0px;
+		top:30%;
+		/*z-index:60;*/
+		@media (max-width:768px){
+		display:none;
+		}
+				}
+.testmonials{
+	position:relative;
+	min-height:370px;
+	border:1px solid #8f7d4f;
+	margin-left: 24px;
+	@media (max-width: 768px)
+		 {
+			margin-left: 0px;
+			 }
+	
+	.carousel-indicators{
+			position:absolute;
+			width:50px;
+			background-color:#fff;
+			left: 0px;
+			margin: 0px;
+			padding: 10px 19px;
+			bottom: 0px;
+			.active{
+				background-color:#8f7d4f;
+				}
+		li{
+			display:block;
+			margin: 12px 0px;
+			border: 2px solid #8f7d4f;
+			}
+		}
+	.carousel-inner{
+		text-align:center;
+		max-width:505px;
+		
+		margin:0px auto;
+		margin-top:66px;
+		h4{
+			font-family:'Avenir LT W01_65 Medium1475532';
+			font-size:30px;
+			text-transform:uppercase;
+			color:#8f7d4f;
+			letter-spacing:5px;
+			
+			}
+		p{
+		  position:relative;
+		  padding:0px 48px;
+		  margin-top:51px;
+		  letter-spacing:.02em;
+		  
+		  &:before {
+				display: block;
+				content: "\201C";
+				font-family:'Didot W01 Bold';
+				font-size: 90px;
+				position: absolute;
+				left: 0px;
+				top: 16px;
+				color: #8f7d4f;
+				}
+			&:after {
+				display: block;
+				content: "\201D";
+				font-family:'Didot W01 Bold';
+				font-size: 90px;
+				position: absolute;
+				right: 44px;
+				bottom: -27px;
+				color: #8f7d4f;
+				}
+			}
+			.date{
+				font-family:'Avenir LT W01_85 Heavy_1475550';
+				font-size:14px;
+				color:#8d8d8d;
+				padding-top:8px;
+				}
+		
+		}
+	
+		
+		
+	}		
+	.button-padding{
+		padding: 48px 0px;
+        margin-left: 30px;
+		a{
+			padding: 18px 30px;
+			}
+	}
+	h2{
+		padding-top:27px;
+		}
+	.col-sm-7{
+		
+		}
+	}
