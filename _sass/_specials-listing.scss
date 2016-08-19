@@ -1,0 +1,228 @@
+.specials-listing-banner {
+    position: relative;
+    h1 {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        width: 100%;
+        font-family: 'Avenir LT W01_95 Black1475556';
+        font-size: 72px;
+        letter-spacing: .8px;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0px;
+        @media (max-width: 768px) {
+            font-size: 50px;
+        }
+        @media (max-width: 320px) {
+            font-size: 26px;
+        }
+    }
+	.social-icons{
+			position:absolute;
+			width:50px;
+			left: -50px;
+			margin: 0px;
+			transform: translateY(68%);
+			padding: 7px 19px 0px 19px;
+			
+			ul{
+				list-style:none;
+				padding:0px;
+				li{
+				a{
+					color:#8f7d4f ;
+					font-size:17px;
+					line-height: 38px;
+				&:hover{
+					color:#1a1a1a ;
+					}
+					}
+				}
+			}
+	
+		}
+	.title{
+		position:absolute;
+		z-index:30;
+		-webkit-transform: rotate(90deg) translateY(-50%);;
+		-moz-transform: rotate(90deg) translateY(-50%);;
+		-o-transform: rotate(90deg) translateY(-50%);;
+		font-family:'Avenir LT W01_95 Black1475556';
+		letter-spacing:3px;
+		 color:#8f7d4f;
+		 font-size:14px;
+		  	top: 49%;
+    		right: -111px;
+			text-transform: uppercase;
+			height: 10px;
+			font-size: 14px;
+		@media (max-width: 1024px){
+			display:none;
+		}
+		}
+}
+
+.specials-listings-container{
+	
+			.specials-listings{
+				position: relative;
+				
+				.specials-listing-flower{
+					position: absolute;
+					z-index: 40;
+					right: 0;
+					padding-top: 52px;
+					@media (max-width: 800px) {
+						display:none;
+					}
+				}
+				
+				.specials-list {
+				 max-width: 1060PX;
+				 margin:0px auto;
+				 padding-top:80px;
+				 
+					.specials-list-img {
+						max-width: 473px;
+						position: relative;
+						z-index: 1;
+						padding: 0px;
+						float:left;
+						margin-left: 18px;
+						&::before {
+										content: "";
+										position: absolute;
+										border: 1px solid #8f7d4f;
+										width: 100%;
+										height: 100%;
+										z-index: 2;
+										top: -18px;
+										left: -18px;
+						
+						}	
+					
+					}
+				.specials-list-content-area{
+					max-width:855px;
+					padding:56px 130px 42px 0px;
+					position:relative;
+					margin-top:-213px;
+					background-color:#1a1a1a;
+					border-left:21px solid #8f7d4f;
+					text-align:center;
+					float:right;
+					@media (max-width:800px){
+					margin-top:0px;
+					width:100%;
+					padding:15px;
+					border:0px;
+					}
+								.specials-list-content{
+									 max-width:305px;
+									 position:relative;
+									 float:right;
+									@media (max-width:800px){
+										max-width:100%;
+										
+										}
+									 
+										h3{
+											font-size:48px;
+											font-family: 'Avenir LT W01_95 Black1475556';
+											text-transform:uppercase;
+											color:#9d8d64;
+											text-align:center;
+											margin: 0px;
+											line-height: 60px;
+											@media (max-width:800px){
+											font-size:26px;
+											line-height: 30px;
+											
+											
+											}
+											}
+										.dimond{
+											color:#9d8d64;
+											padding:16px 0px;
+											display: block;
+											}
+										p{
+											color:#ffffff;
+											font-weight:normal;
+											
+											}
+										
+								}
+						.button-position{
+											position:absolute;
+											bottom:53px;
+											left:48px;
+											@media (max-width:800px){
+											position: initial;
+											margin: 10px 0px;
+											}
+											}
+					}	
+				}
+			  
+			}
+			
+}
+
+.specials-listings-second{
+			
+				
+				.specials-listing-flower{
+					position: absolute;
+					z-index: 40;
+					left: 0;
+					padding-top: 52px;
+					-moz-transform: scaleX(-1);
+					-o-transform: scaleX(-1);
+					-webkit-transform: scaleX(-1);
+					transform: scaleX(-1);
+					filter: FlipH;
+					-ms-filter: "FlipH";
+				}
+				
+				.specials-list {
+								 
+					.specials-list-img {
+						float:right !important;
+						 margin-left:0px !important;
+						 margin-right: 18px;
+						 
+						
+						 
+						&::before {
+									left: 18px !important;
+						
+						}	
+					
+					}
+				.specials-list-content-area{
+					border-left:none !important;
+					border-right:21px solid #8f7d4f;
+					padding: 56px 0px 42px 130px !important;
+					float:left !important;
+					@media (max-width:800px){
+					
+					padding:15px !important;
+					
+					}
+								.specials-list-content{
+									 max-width:305px;
+									 position:relative;
+									 float: left !important;
+											
+								}
+						.button-position{
+											    left: inherit !important;
+    											right: 48px;
+											}
+					}	
+				}
+			  
+			}

@@ -117,7 +117,7 @@ position:relative;
 			
 			max-width:700px;
 			.row{
-			 margin:40px 0px;
+			 margin:40px 0px 0px 0px;
 			}
 					
 			.textbox{
@@ -149,4 +149,6 @@ position:relative;
 		}
 	.border-single-bottom{
 		border-bottom:1px solid #8f7d4f;
+		margin:0px;
+		padding-top:50px;
 		}
