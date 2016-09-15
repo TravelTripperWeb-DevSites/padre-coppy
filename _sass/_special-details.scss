@@ -10,14 +10,22 @@ position:relative;
 		}
 .dine-stay-container{
 	margin-top:75px;
-	
+	@media (min-width:1220px){
+	.col-md-8{
+		    width: 65%;
+		}
+		.col-md-4{
+		    width: 35%;
+		}
+	}
 	.col-md-8{
 		border-right:20px solid #8f7d4f;
 		padding-right:0px;
 		}
 	
 	.facilities-section{
-		padding: 120px 0px 0px 80px;
+		padding:130px 0px 0px 90px;
+		   
 		
 		@media (max-width:1024px){
 		padding: 120px 0px 0px 40px;	
@@ -106,11 +114,11 @@ position:relative;
 			color:#2b2a2a;
 			}
 		.bg-text{
-			
+			 letter-spacing: 3px;
 			color:#8f7d4f;
+			padding: 0px;
 			span{
-			color:#2b2a2a
-			;
+			color:#2b2a2a;
 				}
 			}
 		.newsletter-form{

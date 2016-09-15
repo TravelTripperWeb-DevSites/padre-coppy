@@ -20,7 +20,7 @@
 		
 	
 	 .dimond{
-		font-size: 20px;
+		font-size: 15px;
 		color: #8f7d4f;
 		display: block;
 		margin: 18px 0px;
@@ -43,6 +43,23 @@
 			 margin-top:0px;
 			 margin-bottom:0px;
 			 }
+		.img-container{
+			height:330px;
+			background-color:#000000;
+			overflow:hidden;
+			position:relative;
+			img{
+				
+					     height: inherit;
+						 width: inherit;
+						 position:absolute;
+						 left: 50%;
+						 top: 50%;
+						 -webkit-transform: translateY(-50%) translateX(-50%);
+					
+			}
+		
+		}
 		.item-padding{
 			padding:0px 25px; 
 			  @media (max-width: 768px)
@@ -64,6 +81,8 @@
 		p{
 			color:#8d8d8d;
 			padding:14px 27px;	
+			max-height: 120px;
+    		overflow: hidden;
 			}
 		
 		 }
@@ -99,7 +118,7 @@
 		position:absolute;
 		right:0px;
 		top:30%;
-		/*z-index:60;*/
+		z-index:60;
 		@media (max-width:768px){
 		display:none;
 		}
@@ -167,7 +186,7 @@
 				font-family:'Didot W01 Bold';
 				font-size: 90px;
 				position: absolute;
-				right: 44px;
+				right: 17px;
 				bottom: -27px;
 				color: #8f7d4f;
 				}
@@ -198,3 +217,7 @@
 		
 		}
 	}
+	
+	.viewallspecials{
+			margin-top:50px;
+			}

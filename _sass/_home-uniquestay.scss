@@ -19,6 +19,10 @@
 			position:absolute;
 			top: 234px;
     		left: -50px;
+			z-index:40;
+			@media (max-width:768px){
+				display:none;
+			}
 			}
 		.brown-button{
 			padding:26px 0px 65px 0px;

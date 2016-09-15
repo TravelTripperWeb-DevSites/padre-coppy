@@ -1,188 +1,291 @@
-.location-container{
-		h3{
-				font-size: 48px;
-				font-family: 'Avenir LT W01_95 Black1475556';
-				text-transform:uppercase;
-				letter-spacing:1px;
-		}
-		h6{	
-				font-family:'Avenir LT W01_65 Medium1475532';
-				text-transform:uppercase;
-				letter-spacing:1px;
-				
-				}
-		h5{ 
-			font-family:'Avenir LT W01_65 Medium1475532';
-		    letter-spacing:1px;
-			color:#8f7d4f;
-			font-size:14px;
-			text-transform:uppercase;
-			}
-	.address{
-		
-		background-color: #8f7d4f;
-		color:#fff !important;
-		.col-md-12{
-			 padding:0px;
-			 padding-left:55px;
-			}
-		.address-title{
-			    padding-top: 25px;
-			}
-		.time-out{
-			padding-top: 20px;
-			}
-			
-		h3{
-			padding-left:55px;	
-			padding-top:55px;
-    		
-			}
-		h6{	
-			
-			padding-top: 40px;
-			}
-		p{
-			color:#fff;
-			font-size:12px;
-			letter-spacing:1px;
-			}
-		.vertical-padding{
-			padding-bottom:1.8em;
-			}
-		}
-	 .logo-container{
-		background-color:#1a1a1a;
-		img{
-			padding:52px 0px;
-			}
-		
-		}
-	 .directions{
-		padding-left:77px;
-		.col-md-12{
-			 padding:0px;
-			}
-		 h3{ 
-		 	 padding-top:54px;		 	 
-			 color:#9d8d64;
-			 }
-		h5{ 
-			
-			padding-top:46px;
-		 	
-			}
-		 }
-	.location-images{
-		padding-left:52px !important;
-		float:right;
-			@media(max-width:768px) {
-				display:none;
-			}
-	}
-	.attractions{
-		padding-top:55px;
-		max-width:1110px;
-		margin:0px auto;
-		.col-md-8{
-			padding-left:44px;
-			
-			}
-		h3{
-			padding-top:25px;
-			color:#9d8d64;
-			}
-		}
-		ul{
-			    padding: 14px;
-				margin-top: 54px;
-			li{
-				color:#8d8d8d;
-				letter-spacing:0.04em;
-				line-height: 26px;
-    			padding-left: 19px;
-				}
-			}	 
+.location-container {
 	
-	}
-.view-all-button-container{
-	margin:0px auto;
-	max-width:1093px;
-	background-color:#8f7d4f;
-	padding:33px 0px;
-	text-align:center;
-	}
-
-
-	.hr-border{
-		  border:1px solid #ada07e;
-		  margin:50px 0px 0px 0px;
-		  border-top: 1px solid #ada07e;
-    		border-bottom: 1px solid #e1dcd0;
+	.info-row-container{
+		position:relative;
+		}
+		
+    h3 {
+        font-size: 48px;
+        font-family: 'Avenir LT W01_95 Black1475556';
+        text-transform: uppercase;
+        letter-spacing: 1px;
+		 @media(max-width: 320px) {
+                    font-size: 35px;
+        }
+    }
+    h6 {
+        font-family: 'Avenir LT W01_65 Medium1475532';
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    h5 {
+        font-family: 'Avenir LT W01_65 Medium1475532';
+        letter-spacing: 1px;
+        color: #8f7d4f;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    .address {
+        background-color: #8f7d4f;
+        color: #fff !important;
+        .col-md-12 {
+            padding:0px 45px ;
+          
+			@media (max-width: 1024px) {
+				 padding:0px 36px;
+			 }
+			
+			 @media (max-width: 768px) {
+				 padding-left: 30px;
+    			 padding-top: 10px;
+			 }
+        }
+        .address-title {
+            padding-top: 25px;
+			@media (max-width: 1024px) {
+				 padding-top: 10px;
+			 }
+			@media (max-width: 768px) {
+				 padding-top: 0px;
+			 }
+        }
+        
+        h3 {
+			padding:45px 0px 0px 45px;
+           
+			@media (max-width: 1024px) {
+				padding:10px 0px 0px 30px;
+				    
+			 }
+			
+			
+			 @media (max-width: 768px) {
+				 padding-left: 30px;
+    			 padding-top: 10px;
+			 }
+			
+        }
+        h6 {
+            padding-top: 10px;
+			@media (max-width: 1024px) {
+				    padding-top: 10px;
+			 }
+			@media (max-width: 768px) {
+				 padding-top: 0px;
+			 }
+        }
+		h4{
+			font-size: 30px;
+    		font-family: 'Avenir LT W01_95 Black1475556';
 			}
- 
-.location-carousel-caption{
-	position: absolute;
-    top:calc(53% - 88px ) ;
+        p {
+            color: #fff;
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+        a {
+            display: block;
+            color: #fff;
+            &:hover {
+                color: #1a1a1a;
+            }
+        }
+        .vertical-padding {
+            padding-bottom: 1.8em;
+        }
+    }
+    .logo-container {
+        background-color: #1a1a1a;
+        .logo {
+            padding: 52px 0px;
+			@media (max-width: 1024px) {
+				    padding: 36px 0px;
+			 }
+        }
+    }
+    .directions {
+        padding-left: 77px;
+		@media (max-width: 1024px) {
+				 padding-left: 40px;
+			 }
+		@media (max-width: 768px) {
+			padding:0px 0px 25px 25px;
+				
+			 }
+        .col-md-12 {
+            padding: 0px;
+        }
+        h3 {
+            padding-top: 54px;
+            color: #9d8d64;
+			@media (max-width: 1024px) {
+				padding-top: 10px;
+			 }
+		@media (max-width: 768px) {
+				padding-top: 0px;
+			 }
+        }
+        h5 {
+            padding-top: 46px;
+			@media (max-width: 1024px) {
+				 padding-top: 0px;
+			 }
+			
+        }
+    }
+    .location-images {
+        position: absolute;
+		right: 0px;
+		top: 0px;
+		
+		height: 100%;
+	    max-width: 354px;
+		.location-img1{
+			background-image:url(/assets/images/location-img1.jpg);
+			
+			background-size:cover;
+			height:35%;
+			}
+		.location-img2{
+			background-image:url(/assets/images/location-img2.jpg);
+			
+			height:25%;
+			}
+		.location-img3{
+			background-image:url(/assets/images/location-img3.jpg);
+			background-size:cover;
+			height:40%;
+			}	
+        @media(max-width: 768px) {
+            display: none;
+        }
+    }
+    .attractions {
+        padding-top: 55px;
+        max-width: 1110px;
+        margin: 0px auto;
+		 @media(max-width: 768px) {
+                padding-top: 0px;
+        }
+        .col-md-8 {
+            padding-left: 44px;
+			 @media(max-width: 768px) {
+                 padding: 0px;
+        }
+        }
+        h3 {
+            padding-top: 25px;
+            color: #9d8d64;
+			 
+        }
+    }
+    ul {
+        padding: 14px;
+        margin-top: 54px;
+		 @media(max-width: 768px) {
+                margin-top: 0px;
+        }
+        li {
+            color: #8d8d8d;
+            letter-spacing: 0.04em;
+            line-height: 26px;
+            padding-left: 19px;
+			 @media(max-width: 320px) {
+                 padding-left: 0px;
+      	   }
+        }
+    }
+}
+.view-all-button-container {
+    margin: 0px auto;
+    max-width: 1093px;
+    background-color: #8f7d4f;
+    padding: 33px 0px;
+    text-align: center;
+}
+.hr-border {
+    border: 1px solid #ada07e;
+    margin: 50px 0px 0px 0px;
+    border-top: 1px solid #ada07e;
+    border-bottom: 1px solid #e1dcd0;
+    max-width: 1220px;
+}
+.location-carousel-caption {
+    position: absolute;
+    top: calc(53% - 88px);
     z-index: 32;
     font-family: 'Avenir LT W01_95 Black1475556';
     text-transform: uppercase;
     text-align: center;
-	left: 0;
+    left: 0;
     right: 0;
     text-shadow: none;
-	h3{
-					font-size:72px;
-					margin:0px auto;
-					line-height: 68px;
-   					letter-spacing: .02em;
-					color:#fff;
-					text-align:center;
-					@media (max-width: 768px)
-					 
-					 {
-						 font-size:50px;
-						 letter-spacing:1px;						
-						}
-					
-					}
-	}
-.downtown-section{
-	background-color:#8f7d4f;
-	color:#fff;
-		h5{
-			font-size: 54px;
-			color:#fff;
-   			font-family: 'Blythe W01 Mono45';
-			text-transform:none;
-			
-			}
-		.col-md-9{
-			width:71%;
-			@media(max-width:768px) {
-			width:100%;	
-			}
-			}
-			
-		.col-md-3{
-			width:29%;
-			@media(max-width:768px) {
-			width:100%;	
-			}
-			}	
-			.content{
-				text-align:center;
-				h5{
-					padding-top: 83px;
-					line-height: 41px;
-					}
-				
-				P{	
-					padding-top:36px;
-				   font-size:12px;
-					width:240px;
-					color:#fff;
-					  letter-spacing:1px;
-					}
-			}
-	}
+	 @media (max-width: 320px) {
+             top:50%;
+        }
+    h3 {
+        font-size: 72px;
+        margin: 0px auto;
+        line-height: 68px;
+        letter-spacing: .02em;
+        color: #fff;
+        text-align: center;
+        @media (max-width: 768px) {
+            font-size: 30px;
+            line-height: 35px;
+        }
+        @media (max-width: 320px) {
+            font-size: 25px;
+            line-height: 15px;
+        }
+    }
+}
+.downtown-section {
+    background-color: #8f7d4f;
+    color: #fff;
+	   
+	 @media(max-width: 768px) {
+           padding-bottom: 20px;
+        }
+	
+    h5 {
+        font-size: 54px;
+        color: #fff;
+        font-family: 'Blythe W01 Mono45';
+        text-transform: none;
+		 
+		
+    }
+    .col-md-9 {
+        width: 71%;
+        @media(max-width: 768px) {
+            width: 100%;
+        }
+    }
+    .col-md-3 {
+        width: 29%;
+        @media(max-width: 768px) {
+            width: 100%;
+        }
+    }
+    .content {
+        text-align: center;
+        h5 {
+            padding-top: 83px;
+            line-height: 41px;
+			@media(max-width: 768px) {
+           padding-top: 20px;
+      		  }
+        }
+        P {
+            padding-top: 36px;
+            font-size: 12px;
+            width: 240px;
+            color: #fff;
+            letter-spacing: 1px;
+			 @media(max-width: 768px) {
+          		 padding-top: 10px;
+        }
+        }
+    }
+}

@@ -20,7 +20,7 @@
   -moz-osx-font-smoothing: grayscale; }
 
 .lg-actions .lg-next, .lg-actions .lg-prev {
-		background-image:url(../images/gallery-icons.png);
+		background-image:url(/assets/images/gallery-icons.png);
 		background-repeat:no-repeat;
   border-radius: 2px;
   color: #666;

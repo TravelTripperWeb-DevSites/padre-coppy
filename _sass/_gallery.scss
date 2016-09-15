@@ -1,0 +1,58 @@
+.gallery-container{
+		max-width:938px;
+		margin:0px auto;
+		@media (max-width: 1154px){
+		margin-top:70px;	
+		}
+		h4{	font-family: 'Avenir LT W01_95 Black1475556';
+			text-align:center;
+			font-size: 24px;
+			color: #9d8d64;
+			text-transform: uppercase;
+			padding:50px 0px;
+			margin: 0px;
+			@media (max-width: 1154px){
+				
+				padding:30px;
+				
+				}
+			}
+	img{
+		 margin-bottom: 30px;
+		 
+	}
+	
+	.lastrow-img-margin{
+		@media (min-width: 1154px){
+		margin-bottom: 0px;
+		}
+	 }
+	}
+	
+.media-container{
+	margin-top: 0px;
+	    font-size: 14px;
+		color: #8d8d8d;
+	a{
+		    color: #333333;
+			
+			
+			
+		&:hover{
+			color: #8f7d4f;
+		}
+	}
+	.fa{
+		   
+			font-size: 24px;
+			color: #8f7d4f;
+			padding-right: 5px;
+		}
+	.marketing-link{
+		margin-top:50px;
+		}
+			
+	}
+	
+	
+	

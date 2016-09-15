@@ -5,8 +5,8 @@
       $interpolateProvider.endSymbol(']]');
     })
     .value('rt3api', new Rt3Api({
-      portalId: 'wphsouthbeach',
-      hotelId: 'MIAWPH',
+      portalId: 'thepadrehotel',
+      hotelId: 'PADREH',
       defaultLocale: 'en',
       defaultCurrency: 'USD'
     }))

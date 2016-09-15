@@ -1,0 +1,96 @@
+
+.event-list {
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #8a6d3b;
+ @media(max-width: 1024px) {
+ margin-bottom: 20px;
+ padding-bottom: 20px;
+}
+P {
+	margin: 0px;
+}
+h5 {
+	text-align: center;
+	padding-bottom: 15px;
+}
+img {
+	margin-bottom: 25px;
+}
+.description {
+	max-width: 80%
+}
+.ticket {
+	font-family: 'Avenir LT W01_95 Black1475556';
+	font-size: 12px;
+	position: relative !important;
+	background: #8a6d3b;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin: 0px 0px  0px 10px;
+ h6 {
+ font-size: 22px;
+ text-transform: uppercase;
+}
+p {
+	color: #fff;
+}
+}
+.ticket:after {
+	content: "";
+	position: absolute !important;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	border-right: #fff 7px solid;
+	border-bottom: #fff 7px solid;
+	-moz-border-radius: 0 0 20px 0;
+	-webkit-border-radius: 0 0 20px 0;
+	border-radius: 0 0 20px 0;
+}
+.ticket:before {
+	content: "";
+	position: absolute !important;
+	z-index: 100;
+	top: 0;
+	right: 0;
+	border-left: #fff 7px solid;
+	border-bottom: #fff 7px solid;
+	-moz-border-radius: 0 0 0 20px;
+	-webkit-border-radius: 0 0 0 20px;
+	border-radius: 0 0 0 20px;
+}
+.ticket span:after {
+	content: "";
+	position: absolute !important;
+	z-index: 100;
+	bottom: 0;
+	left: 0;
+	border-right: #fff 7px solid;
+	border-top: #fff 7px solid;
+	-moz-border-radius: 0 20px 0 0;
+	-webkit-border-radius: 0 20px 0 0;
+	border-radius: 0 20px 0 0;
+}
+.ticket span:before {
+	content: "";
+	position: absolute !important;
+	z-index: 1000;
+	bottom: 0;
+	right: 0;
+	border-left: #fff 7px solid;
+	border-top: #fff 7px solid;
+	-moz-border-radius: 20px 0 0 0;
+	-webkit-border-radius: 20px 0 0 0;
+	border-radius: 20px 0 0 0;
+}
+a{
+	font-weight:normal;
+	min-width:211px;
+	color:#fff;
+	&:hover{
+		    color: #fff;
+		}
+	}
+}

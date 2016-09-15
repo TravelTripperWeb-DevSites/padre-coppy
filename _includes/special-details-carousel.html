@@ -1,56 +1,29 @@
 
-  <section >
+
   <div id="Carousel" class="carousel slide " data-ride="carousel">
     <!-- Carousel indicators -->
     <div class="title">The Padre Hotel</div>
     <div class="social-icons"><ul>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li> <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                 <li><a href="https://twitter.com/thepadrehotel" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://facebook.com/thepadrehotel"  target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li> <a href="https://instagram.com/thepadrehotel"  target="_blank"><i class="fa fa-instagram"></i></a></li>
               </ul>
      </div>
     <ol class="carousel-indicators">
-        <li data-target="#Carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#Carousel" data-slide-to="1"></li>
-        <li data-target="#Carousel" data-slide-to="2"></li>
-        <li data-target="#Carousel" data-slide-to="3"></li>
+       <li ng-repeat="offering in specialOffer.images" data-target="#Carousel" data-slide-to="[[$index]]" ng-class="{active:!$index}"></li> 
     </ol>   
     <!-- Wrapper for carousel items -->
-    <div class="carousel-inner ">
-        <div class="item active">
-            <img src="../assets/images/special-banner1.jpg" alt="First Slide">
+    <div class="carousel-inner carousel-height">
+        <div  ng-repeat="offering in specialOffer.images"  class="item banner-color-overlay"  ng-class="{active:!$index}">
+            <img ng-src="[[offering.large]]" alt="First Slide">
             <div class="room-carousel-caption">
-           <h3>Dine & stay<br>Package</h3>
-           <h6>12 JULY 2016 - 25 OCTOBER 2016 </h6>
-           <div class="brown-button "><a href="#" class="hover-transition">Book this OFFER</a></div>
+           <h3>[[specialOffer.rate_plan_name | filterHtmlChars]] </h3>
+           <h6><!--[[specialOffer.booking_start_date | filterHtmlChars | dateFrmt]]-<br>[[specialOffer.booking_end_date | filterHtmlChars | dateFrmt ]]--></h6>
+           <div class="brown-button gold-button"> <a ng-href="https://thepadrehotel.reztrip.com/en/special_offer?rate_code=[[specialOffer.rate_plan_code]]" class="hover-transition" target="_blank"> Book this OFFER</a></div>
             </div>
         </div>
-        
-        <div class="item">
-            <img src="../assets/images/special-banner1.jpg" alt="Third Slide">
-             <div class="room-carousel-caption">
-           <h3>Dine & stay<br>Package</h3>
-           <h6>12 JULY 2016 - 25 OCTOBER 2016 </h6>
-           <div class="brown-button "><a href="#" class="hover-transition">Book this OFFER</a></div>
-            </div>
-        </div>
-        <div class="item">
-            <img src="../assets/images/special-banner1.jpg" alt="Fourth Slide">
-              <div class="room-carousel-caption">
-           <h3>Dine & stay<br>Package</h3>
-           <h6>12 JULY 2016 - 25 OCTOBER 2016 </h6>
-           <div class="brown-button "><a href="#" class="hover-transition">Book this OFFER</a></div>
-            </div>
-        </div>
-        <div class="item">
-            <img src="../assets/images/room-details-banner1.jpg" alt="Fourth Slide">
-            <div class="room-carousel-caption">
-           <h3>Dine & stay<br>Package</h3>
-           <h6>12 JULY 2016 - 25 OCTOBER 2016 </h6>
-           <div class="brown-button "><a href="#" class="hover-transition">Book this OFFER</a></div>
-            </div>
-        </div>
+         
     </div>
     
 </div>
-  </section>
+

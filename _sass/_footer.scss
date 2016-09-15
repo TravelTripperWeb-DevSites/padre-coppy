@@ -43,7 +43,7 @@
 		@media(max-width:1024px) {
 			padding: 20px 0px 0px 0px;
 			}
-		P{
+		P{	
 			color:#fff;
 			padding-left: 29px;
 			font-size: 13px;
@@ -51,7 +51,18 @@
 			@media(max-width: 1024px) {
 			padding-left: 18px;
 			font-size:10px;
+			
 			}
+			
+			a{
+				color:#fff;
+				&.address-footer{
+				display:block;
+				}
+				&:hover{
+					color: #8f7d4f;
+					}
+				}
 			@media(max-width: 800px) {
 			
 			font-size:13px;
@@ -123,10 +134,26 @@
         height: 45px;
 		max-width: 263px;
         border: solid 1px #fff;
+		position:relative;
         @media(max-width: $screen-sm-max) {
             width: 260px;
 			margin-left: 16px ;
         }
+		.ctct-form-errorMessage{
+			color:#8f7d4f;
+			position:absolute;
+			top: 47px;
+			font-size: 11px;
+			left: 0px;
+					
+			}
+		#success_message{
+			position:absolute;
+			font-size: 14px;
+			color:#fff;
+			top: 52px;
+    		left: 0px;
+			}
         .textbox {
             width: 79%;
             background-color: transparent;
@@ -182,7 +209,7 @@
             max-width: 267px;
             width: 42px;
             height: 43px;
-            background-image: url(../assets/images/btn-arrow.png);
+            background-image: url(/assets/images/btn-arrow.png);
             background-repeat: no-repeat;
             background-position: center center;
             background-color: transparent;
@@ -197,7 +224,7 @@
 		width: 300px;
         font-size: 13px;
         font-weight: normal;
-        padding: 45px 15px 7px 24px;
+        padding: 24px 15px 7px 24px;
         text-transform: uppercase;
         color: #8f7d4f;
         @media(max-width: $screen-sm-max) {

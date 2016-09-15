@@ -1,9 +1,10 @@
 .home-activities {
 		    padding-top: 32px;
-	.border-buttom{
-		 border-bottom:20px solid #8f7d4f;
-		  
-		}
+			
+			iframe{
+			 border-bottom:20px solid #8f7d4f !important;
+			}
+	
 		.title{
 			   font-size: 72px;
 			   font-family: 'Avenir LT W01_95 Black1475556';
@@ -12,12 +13,19 @@
 			   height: 96px;
 			  text-transform: uppercase;
 			   border-bottom:20px solid #8f7d4f;
+			   @media (max-width : 600px)
+					{
+					        font-size: 50px;
+    						height: 70px;
+					 }
 				@media (max-width : 480px)
 					{
-					     font-size: 38px;
-   						 height: 60px;
+					         font-size: 25px;
+    						 height: 46px;
 					 }
 			  }
 		
+		
 	}
+	
 	

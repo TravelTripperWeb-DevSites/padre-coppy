@@ -1,56 +1,27 @@
-
-  <section >
-  <div id="Carousel" class="carousel slide " data-ride="carousel">
+ 
+  <div  rt3-room-details="details"  rt3-rooms-browser="browser" data-room-id="{{ page.roomCode }}" id="Carousel" class="carousel slide " data-ride="carousel">
     <!-- Carousel indicators -->
-    <div class="title">The Padre Hotel</div>
+    <div class="title">The Padre Hotel</div> 
     <div class="social-icons"><ul>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li> <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                 <li><a href="https://twitter.com/thepadrehotel" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://facebook.com/thepadrehotel"  target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li> <a href="https://instagram.com/thepadrehotel"  target="_blank"><i class="fa fa-instagram"></i></a></li>
               </ul>
      </div>
     <ol class="carousel-indicators">
-        <li data-target="#Carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#Carousel" data-slide-to="1"></li>
-        <li data-target="#Carousel" data-slide-to="2"></li>
-        <li data-target="#Carousel" data-slide-to="3"></li>
+        <li ng-repeat="photo in details.photos" data-target="#Carousel" data-slide-to="[[$index]]" ng-class="{active:!$index}"></li> 
     </ol>   
     <!-- Wrapper for carousel items -->
-    <div class="carousel-inner ">
-        <div class="item active">
-            <img src="../assets/images/room-details-banner1.jpg" alt="First Slide">
+    <div class="carousel-inner carousel-height" role="listbox">
+        <div ng-repeat="photo in details.photos"  class="item banner-color-overlay"  ng-class="{active:!$index}">
+            <img ng-src="[[photo.large]]" alt="banner room [[details.name]]">
             <div class="room-carousel-caption">
-           <h3>oil<br>baron suite</h3>
-           <h6>TONIGHT’S RATE $ 480</h6>
-          <div class="brown-button "><a href="#" class="hover-transition">Book this suite</a></div>
+           <h3>[[details.name]]</h3>
+           <h6>TONIGHT’S RATE: [[ browser.roomRates[ {{ page.roomIndex }} ] ]]</h6>
+          <div class="brown-button gold-button"><a href="https://thepadrehotel.reztrip.com/search?&selected_room={{ page.roomCode }}" target="_blank" class="hover-transition">Book this Room</a></div>
             </div>
         </div>
-        
-        <div class="item">
-            <img src="../assets/images/room-details-banner1.jpg" alt="Third Slide">
-             <div class="room-carousel-caption ">
-           <h3>oil<br>baron suite</h3>
-           <h6>TONIGHT’S RATE $ 480</h6>
-          <div class="brown-button "><a href="#" class="hover-transition">Book this suite</a></div>
-            </div>
-        </div>
-        <div class="item">
-            <img src="../assets/images/room-details-banner1.jpg" alt="Fourth Slide">
-              <div class="room-carousel-caption">
-           <h3>oil<br>baron suite</h3>
-           <h6>TONIGHT’S RATE $ 480</h6>
-           <div class="brown-button "><a href="#" class="hover-transition">Book this suite</a></div>
-            </div>
-        </div>
-        <div class="item">
-            <img src="../assets/images/room-details-banner1.jpg" alt="Fourth Slide">
-            <div class="room-carousel-caption">
-             <h3>oil<br>baron suite</h3>
-           <h6>TONIGHT’S RATE $ 480</h6>
-          <div class="brown-button "><a href="#" class="hover-transition">Book this suite</a></div>
-            </div>
-        </div>
+       
     </div>
     
-</div>
-  </section>
+</div> 

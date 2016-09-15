@@ -20,11 +20,13 @@
 			padding:10px 0px;	
 			display:block;
 			text-transform:uppercase;
+			
 			&:hover{
-				font-family:'Avenir LT W01_85 Heavy1475544';
+				
 				color:#8f7d4f;
 				
 				}
+				
 			}	
 			
 			
@@ -48,7 +50,7 @@
     text-transform: uppercase;
     text-align: center;
 	text-shadow: none;
-	padding:60px 70px;
+	padding:55px 75px 60px 75px;
 	@media (max-width: 1154px){
 		padding:30px;
 		}
@@ -74,7 +76,8 @@
 	h6{
 		font-size:20px;
 		letter-spacing:.2em;
-		margin: 32px 0px 50px 0px;
+		margin: 16px 0px 36px 0px;
+		line-height:26px;
 		@media (max-width: 1154px){
 			margin:10px;
 			font-size:15px;	
@@ -85,7 +88,7 @@
 				
 			}
 		}
-	a{
+	a{	
 		padding: 18px 20px;
 		
 		@media (max-width: 600px){
@@ -125,10 +128,7 @@
 	.room-couple-img-width{
 		
 		max-width:937px;
-		img{
-			
-			}
-		}
+				}
 	
 	.style-container{
 		padding-top:64px;
@@ -251,6 +251,52 @@
 			position:relative;
 			
 			}
+		.owl-item{
+			
+			padding:0px 14px;
+			
+			.item{
+				overflow:hidden;
+				}
+			img{
+				max-width: 500px;
+				}
+			}
+		.owl-buttons{
+			margin-top:35px;
+			@media (max-width : 780px)
+						{
+						margin-top:15px;
+						}
+			}
+		.owl-prev{
+							
+				background-color: #8f7d4f;
+				font-size: 30px;
+				color: #fff;
+				height: 46px;
+				width: 46px;
+				margin-right:10px;
+    			display:inline-block;
+				
+				&:hover{
+					background-color: #1a1a1a;
+					}
+			}
+		.owl-next{
+			    
+				background-color: #8f7d4f;
+				font-size: 30px;
+				color: #fff;
+				margin-let:10px;
+				height: 46px;
+				width: 46px;
+				display:inline-block;
+				&:hover{
+					background-color: #1a1a1a;
+					}
+			}	
+			
 		h3{
 			       margin: 35px 0px;
 			}
@@ -263,6 +309,7 @@
 			font-family: 'Avenir LT W01_45 Book1475508';
 			font-size:14px;
 			font-weight:600;
+			text-transform:uppercase;
 			letter-spacing: .8px;
 			background-color: #fff;
 			padding:20px 10px;
@@ -283,4 +330,16 @@
 			text-align: center;
 			max-width: 1095px;
 			
+
 			}
+.carousel-height{
+	
+	.item {
+		max-height:553px;
+		overflow:hidden;
+			img{
+			width:100%;
+			}
+		}
+	
+	}

@@ -1,34 +1,33 @@
 ---
 layout: default
 ---
+<div ng-controller="specialDetail">
 <section class="global-container banner-onscroll content-top-margin"> {% include special-details-carousel.html %} </section>
 <section class="container global-container room-container">
   <div class="row">
     <div class="col-md-12 sublinks">
       <ul>
-        <li><a href="#">naughty romance        </a> </li>
-        <li><a href="#">spring for savings</a></li>
-        <li><a href="#"> dine & stay Package</a></li>
+        <li ng-repeat="offering in offer.special_rates"><a ng-click="reloadPage"  ng-href="/special/[[offering.rate_plan_name | spaceDash]]/">[[offering.rate_plan_name | filterHtmlChars]]</a></li>
        
       </ul>
     </div>
   </div>
 </section>
 <section class="style-comfort-section dine-comfort-section">
-<img src="../assets/images/dine-flower.png" class="dine-flower" alt="">
+<img src="/assets/images/dine-flower.png" class="dine-flower" alt="">
   <div class="global-container">
     <div class="container ">
       <div class="dine-stay-container row ">
-      
+        
      
         <div class=" col-sm-12 col-md-8 ">
         <div class="dine-conent pull-right">
         
-            <h2 class="text-bold">dine & Stay</h2>
+            <h2 class="text-bold">[[specialOffer.rate_plan_name | filterHtmlChars]]</h2>
             <h3 class="text-cursive text-left">Feast for all senses</h3>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+            <p> [[specialOffer.long_description | filterHtmlChars]] </p>
             <div class="transparant-button-brown  ">
-            <a href="#" class="hover-transition">Book this offer</a>
+            <a ng-href="https://thepadrehotel.reztrip.com/en/special_offer?rate_code=[[specialOffer.rate_plan_code]]" class="hover-transition"  target="_blank">Book this offer</a>
             </div>
          <div class="dine-shadow"></div>  
          
@@ -41,17 +40,17 @@ layout: default
           <div class=" clearfix"></div>  
          </div>
         <div class="col-sm-12   col-md-4  facilities-section  ">
-         <h6>Offer features</h6>
+         <h6>WHY BOOK DIRECT</h6>
           <ul>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
+            <li>Best Rate Guarantee</li>
+            <li>Exclusive Special Offers</li>
+            <li>Easily Modify Reservations</li>
+            
           </ul>
         </div>
        
      <div class="dine-conent-img-palce pull-right">
-    <img src="../assets/images/dine-img.jpg" class="img-width" alt=""/></div>
+    <img ng-src="[[specialOffer.lead_photo_url.large]]" class="img-width" alt=""/></div>
     
       </div>
       
@@ -61,13 +60,13 @@ layout: default
   </div>
 </section>
 <section class="global-container ">
- <div class="row">
+ <div class="row  no-gutter">
         <div class="col-sm-12">
         
           <div class="gallery-banner newsletter  ">
             <div class="row bg-text">exclusive <span>padre hotel newsletter</span> </div>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>
-				Aenean commodo ligula eget dolor.</p>
+            <p>Get the all the #hotelhapps! From ticket giveaways to exclusive parties,<br>
+                 you'll be the first to receive insider info on life at The Padre!</p>
                 <div class="newsletter-form center-block">
                 <div class="row ">
                 <div class="col-md-4 ">
@@ -90,18 +89,22 @@ layout: default
                 </div>
           </div>
          <hr class="border-single-bottom">
-          <div class="row discover-list-container ">
+          <div class="row discover-list-container " rt3-rooms-browser="browser" ng-cloak>
           
             <h3 class="text-bold ">discover more rooms</h3>
-            <div class="col-sm-12 col-md-4"><img src="../assets/images/discover-rooms1.jpg"  class="img-width" alt=""/> <a href="#">FARMER’S DAUGHTER SUITE</a> </div>
-            <div class="col-sm-12  col-md-4"><img src="../assets/images/discover-rooms2.jpg"  class="img-width" alt=""/> <a href="#">HEAD HONCHO</a> </div>
-            <div class="col-sm-12  col-md-4"><img src="../assets/images/discover-rooms3.jpg"  class="img-width" alt=""/> <a href="#">40 WINKS</a> </div>
+            
+            <data-owl-carousel id ="owl-example" class="owl-carousel" data-options="{navigation: true,  pagination: true, rewindNav : false,  navigationText:				['&#8249;','&#8250;'], items : 3, itemsMobile:[479,1], itemsTablet:[800,2], itemsDesktop:[1220,3],	 responsive : true}">
+      <div owl-carousel-item="" ng-repeat="list in :: browser.roomsv" class="item" >
+       <img  ng-src="[[list.photos[0].yankee_large]]" alt="[[list.name]]">
+         <a ng-href="/room/[[list.name | spaceDash]]/">[[list.name]] </a>
+      </div>
+
+    </data-owl-carousel>
           </div>
-          <div class="row  button-container center-block">
-            <div class="transparant-button "><a href="#" class="hover-transition">View all Rooms</a></div>
-          </div>
+         
            <hr class="hr-border">
         </div>
       </div>
       
 </section>
+</div>

@@ -1,0 +1,74 @@
+
+.dine {
+	text-align: left;
+	color: #8d8d8d;
+	 @media(max-width: 1024px) {
+		 margin-top: 0px;
+	 }
+	 .collage{
+		    border-bottom: 20px solid #8f7d4f;
+			margin: 0px 0px 30px 0px;
+			position:relative;
+			
+			img{
+				margin:0px;
+				}
+			.center-button {
+				  position: absolute;
+				  top: 50%;
+				  left: 50%;
+				  z-index: 20;
+				  transform: translate(-50%, -50%);
+				  a{
+					  font-weight:normal; 
+					  }
+				}
+	}
+	 .brown-button {
+			 text-align:center; 
+			
+				a {	
+					 min-width:270px;
+					 margin: 15px 0px;
+					 font-weight:normal;
+				}
+	}
+ul {
+	margin: 0px;
+ li {
+	 font-family: 'Avenir LT W01_45 Book1475508';
+	 font-size:14px;
+	 line-height:25px;
+	}
+}
+a {
+	font-weight: 600;
+}
+.dine-hours-section {
+	max-width: 600px;
+	padding: 10px 25px;
+	border: 1px solid #9d8d64;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background-image: url(/assets/images/hours-img.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-color: #1a1a1a;
+ @media(max-width: $screen-sm-max) {
+ background-size: 22%;
+}
+h4 {
+	padding: 20px 0px 0px 0px;
+	color: #fff;
+	text-align: left;
+}
+h6 {
+	font-family: 'Avenir LT W01_45 Book1475508';
+	font-size:14px;
+	padding-top: 10px;
+	color: #9d8d64;
+	font-size: 16px;
+}
+
+}
+}

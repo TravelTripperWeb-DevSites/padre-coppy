@@ -3,12 +3,21 @@ html {
     width: 100%;
 }
 body {
+	font-family: 'Avenir LT W01_45 Book1475508';
     margin: 50px 0px;
     background-color: #fcfbf9;
     @media(max-width: 1154px) {
         margin: 0px;
     }
 }
+a, a:hover, a:active, a:visited,a:link {
+    text-decoration:none;
+	color: #9d8d64;
+   
+}
+a:hover{
+	color:#1a1a1a;
+	}
 hr{ border:none;}
 a,
 a:hover,
@@ -62,7 +71,7 @@ a:active {
     }
    
     .dimond {
-        font-size: 20px;
+        font-size: 15px;
         color: #8f7d4f;
         display: block;
         margin: 18px 0px;
@@ -85,6 +94,16 @@ a:active {
         }
     }
 }
+.gold-button{
+	a{
+	 background-color: #8f7d4f;
+	 color:#fff;
+	 border:none;
+	 &:hover{
+		 background-color: #1a1a1a;
+		 }
+	 }
+	}
 .white-button {
     a {
         font-family: 'Avenir LT W01_45 Book1475508';
@@ -170,13 +189,13 @@ p {
     color: #8d8d8d;
     line-height: 25px;
     font-size: 14px;
-	font-weight:600;
+	
 	letter-spacing:0.5px;
 }
-.-show {
+.showmenu {
     position: fixed;
     top: 0;
-    z-index: 999;
+    z-index: 1100;
     min-width: 1220px;
 }
 .-banner-onscroll-padding {
@@ -200,6 +219,51 @@ p {
 	
 	border-bottom:20px solid #8f7d4f;
 	}
+h5{
+	font-size: 22px;
+    font-family: 'Avenir LT W01_95 Black1475556';
+    color: #9d8d64;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+	
+}
+.common-container{
+		padding:50px 0px 0px 0px;
+		@media (max-width: 1154px){
+		padding:20px 0px 0px 0px;
+		}
+		
+	}
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+	background-color: #8f7d4f;
+	padding:11px 15px ;
+	border: 1px solid #1a1a1a;
+	color:#fff !important;
+	z-index:100;	
+	&:hover{
+		background-color: #1a1a1a;
+		
+		}
+}
+.banner-color-overlay{
+	 position: relative;
+	 &::before{
+		 content: "";
+		 top: 0; right: 0; bottom: 0; left: 0;
+		 position: absolute;
+		 background-color: rgba(0,0,0,.3);
+		 }
+	}
+.button-zindex{
+	position:relative;
+	z-index:1000;
+	}
+
 /*font-family:'Didot W01 Roman';
 font-family:'Didot W01 Italic';
 font-family:'Didot W01 Bold';
@@ -218,6 +282,7 @@ font-family:'Avenir LT W01_95 Black1475556';
 font-family:'Avenir LT W01_95 Black_1475562';
 font-family:'Blythe W01 Mono45';*/
 
+@import 'jquery-ui';
 @import 'header';
 @import 'carousel';
 @import 'footer';
@@ -232,3 +297,16 @@ font-family:'Blythe W01 Mono45';*/
 @import 'room-details';
 @import 'special-details';
 @import 'specials-listing';
+@import 'room-listing';
+@import 'aboutus_listing_banner';
+@import 'contactus';
+@import 'owl-carousel';
+@import 'sitemap';
+@import 'booking-widget';
+@import 'datepicker';
+@import 'dine';
+@import 'events';
+
+
+
+

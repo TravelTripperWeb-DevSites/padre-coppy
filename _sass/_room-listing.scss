@@ -1,0 +1,136 @@
+.room-list-container{
+	@media (min-width: 1024px){
+			.col-md-8 {
+			width: 61.4%;
+		}
+		.col-md-4 {
+			width: 38.6%;
+		}
+	}
+	}
+	.padd-l40{
+		 padding-left:37px;
+		 @media (max-width: 1024px){
+		 padding-left:0px;	 
+		 }
+	}
+	.rooms-list-top-margin{
+		margin-top:74px;
+		 @media (max-width: 1024px){
+		 margin-top:25px;
+		 }
+		}
+	.rooms-description1{
+		margin-top:36px;
+		border:1px solid #8f7d4f;
+		max-width:562px;
+		text-align:center;
+		padding:42px 55px;
+		
+		 @media (max-width: 1024px){
+		margin-top:15px;
+		padding:20px 30px;
+		 }
+		.rooms-icon-right{
+			position:absolute;
+			top: -61px;
+    		right: 12px;
+			}
+		.rooms-icon-left{
+			position:absolute;
+			top: -32px;
+    		left: -47px;
+			}
+			.rooms-boot-second{
+			    top: -33px;
+  			  right: 12px;
+			}
+			.rooms-hat-first{
+			    top: -54px;
+   			 right: -7px;
+			}
+			
+		.rooms-hat-flip{
+			 -webkit-transform: rotate(-86deg);
+			-moz-transform: rotate(-86deg);
+			-o-transform: rotate(-86deg);
+			-ms-transform: rotate(-86deg);
+			transform: rotate(-86deg);
+			top: -55px;
+    		left: -23px;
+			}
+			.rooms-gun-first{
+			 top: -40px;
+   			 left: 0px;
+			}
+		.rooms-gun-second{
+			    top: -28px;
+   			 right: -14px;
+			}
+		.dimond{
+			color:#8f7d4f;
+			display:block;
+			padding:15px;
+			@media (max-width: 1024px){
+			padding:10px;
+		 }
+			}
+		h4{
+			font-family:'Avenir LT W01_65 Medium1475532';
+			font-size:14px;
+			color:#8f7d4f;
+			letter-spacing:.04em;
+			text-transform:uppercase;
+			
+			}
+		h3{
+			font-family:'Avenir LT W01_95 Black1475556';
+			font-size:18px;
+			color:#8f7d4f;
+			letter-spacing:.2em;
+			position:relative;
+			text-transform:uppercase;
+			    margin: 15px 0px 0px 0px;
+			}
+			p{ font-weight:normal;
+			overflow:hidden;
+			height:145px;
+			}
+		.buttons-container{
+			margin-top:42px;
+			@media (max-width: 1024px){
+			margin-top:10px;
+		 }
+			a{
+				min-width:206px;
+				margin:  0px 5px;
+				}
+			}
+		
+		}
+		.rooms-description2{
+			margin-left: 25px;
+			margin-top: 15px;
+			border:none;
+			@media (max-width: 1024px){
+			margin-left: 0px;
+			margin-top: 0px;
+		 }
+		 @media (max-width: 800px){
+			 padding-top: 40px;
+			margin:0px auto;
+		 }
+		  @media (max-width: 800px){
+			 padding-top: 15px;
+		
+		 }
+			
+			a{
+				display:block;
+				width:206px;
+				margin: 0px  auto !important;
+				margin-bottom: 17px !important;
+				 
+				}
+			
+			}
