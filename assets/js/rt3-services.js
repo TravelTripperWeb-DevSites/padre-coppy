@@ -158,13 +158,15 @@ angular.module('rezTrip')
     }
     Browser.prototype.tonightavailRooms=function()
     {
-
+       var reverse = true;
       var self = this;
       var code = [];
       self.isRate=true;
       rt3api.getAllRooms().then(function(result){
+              
               $rootScope.$apply(function() {
-                 self.roomsv = result.rooms;   
+
+                 self.roomsv =  result.rooms;    
                  angular.forEach(result.rooms, function(value, key) {
                    code.push(value.code);
                 }); 
@@ -265,7 +267,7 @@ angular.module('rezTrip')
             if (myVals[i] == items[j].code)
             {
 
-             console.log("myval"+" "+"i val"+" "+i+" "+myVals[i]+":"+"j val"+" "+j+" "+items[j].code+" "+items[j].min_average_price);
+            // console.log("myval"+" "+"i val"+" "+i+" "+myVals[i]+":"+"j val"+" "+j+" "+items[j].code+" "+items[j].min_average_price);
             count=0;
             tonightrate[i]=" $"+Math.round(items[j].rate_plans[0].total_price);
             }
