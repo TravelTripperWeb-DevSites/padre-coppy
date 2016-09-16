@@ -18,7 +18,10 @@ img {
 	margin-bottom: 25px;
 }
 .description {
-	max-width: 80%
+	max-width: 80%;
+	@media(max-width: 768px) {
+		max-width: 100%;
+	}
 }
 .ticket {
 	font-family: 'Avenir LT W01_95 Black1475556';
@@ -29,6 +32,9 @@ img {
 	text-align: center;
 	padding: 20px;
 	margin: 0px 0px  0px 10px;
+	@media(max-width: 768px) {
+		margin:15px 0px;
+	}
  h6 {
  font-size: 22px;
  text-transform: uppercase;

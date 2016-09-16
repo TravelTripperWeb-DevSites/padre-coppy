@@ -19,7 +19,9 @@
 		font-family:'Avenir LT W01_65 Medium1475532';
 		color:#8f7d4f;
 		font-size:14px;
-		
+		@media (max-width:600px){
+			line-height:24px;
+			}
 		}
 	p{	
 		font-family:'Avenir LT W01_45 Book1475508';

@@ -88,8 +88,14 @@
 		 }
 	.activities-section{
 		padding-top: 52px;
+		@media (max-width:768px){
+			padding-top: 0px;
+			}
 		p{
 			margin-left: 30px;
+			@media (max-width:768px){
+			margin-left: 0px;
+			}
 			}
 		}	 
 	.lady
@@ -128,9 +134,10 @@
 	min-height:370px;
 	border:1px solid #8f7d4f;
 	margin-left: 24px;
-	@media (max-width: 768px)
+	@media (max-width: 767px)
 		 {
-			margin-left: 0px;
+			margin: 10px;
+			padding: 10px;
 			 }
 	
 	.carousel-indicators{
@@ -156,6 +163,9 @@
 		
 		margin:0px auto;
 		margin-top:66px;
+		@media (max-width: 767px){
+			margin-top:30px;
+			}
 		h4{
 			font-family:'Avenir LT W01_65 Medium1475532';
 			font-size:30px;
@@ -169,7 +179,9 @@
 		  padding:0px 48px;
 		  margin-top:51px;
 		  letter-spacing:.02em;
-		  
+		  @media (max-width: 767px){
+			margin-top:30px;
+			}
 		  &:before {
 				display: block;
 				content: "\201C";
@@ -220,4 +232,7 @@
 	
 	.viewallspecials{
 			margin-top:50px;
+			@media (max-width:768px){
+				margin-top:0px;
+			}
 			}

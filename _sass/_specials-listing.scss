@@ -1,5 +1,15 @@
 .specials-listing-banner {
     position: relative;
+	 @media (max-width: 767px) {
+		 	height:250px;
+			overflow: hidden;
+	 }
+	 img{
+		  @media (max-width: 767px) {
+		 	height:250px;
+			width: inherit;
+		 }
+		 }
     h1 {
         position: absolute;
         top: 50%;
@@ -13,6 +23,7 @@
         text-transform: uppercase;
         margin: 0px;
         @media (max-width: 768px) {
+			padding:0px 15px;
             font-size: 50px;
         }
         @media (max-width: 320px) {
