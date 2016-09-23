@@ -318,37 +318,55 @@ angular.module('rezTrip')
 
       this.thisDate = date.getFullYear() +'-'+ ('0' + (date.getMonth() + 1)).slice(-2) +'-'+ ('0' + date.getDate()).slice(-2);
 
-      if(this.searchParams || this.storageContainer) {
-        rt3api.availableRooms(this.searchParams || this.storageContainer).then(function(response) {
+      if(this.searchParams) {
+        rt3api.availableRooms(this.searchParams).then(function(response) {
           $rootScope.$apply(function() {
             self.rooms = response.room_details_list;
+           self.rateToday =[];   //added by tufail
+            //console.log("HelloBooking"+JSON.stringify(self.rooms));
             if(self.rooms.length==0)
             {
               self.getRate="Check Availability";
+              self.getRateCode="";
               $('.-count').css("font-size", "23px");
               $('.-count').css("line-height", "28px");
-              $('.-count').css("text-align", "center");
+              $('.-count').css("text-align", "center"); 
             }
             else
             {
-              if(self.getdiff==true)
-              {
+               
+              ////added by tufail
+               angular.forEach(self.rooms, function(value) {
+                self.rateToday.push(value.min_average_price);  
+               }); 
 
-                 self.getRate = "$ "+Math.round(self.rooms[0].rate_plans[0].average_discounted_nightly_price);
-              //console.log(self.getRate);
-              $('.-count').css("font-size", "38px");
+                function indexOfMax(arr) {
+                    if (arr.length === 0) {
+                        return -1;
+                    }
+
+                    var max = arr[0];
+                    var maxIndex = 0;
+
+                    for (var i = 1; i < arr.length; i++) {
+                        if (arr[i] > max) {
+                            maxIndex = i;
+                            max = arr[i];
+                        }
+                    }
+
+                    return maxIndex;
+                }
+              var roomtodayi = self.rateToday.indexOf(Math.min.apply(null, self.rateToday)); 
+               
+
+              //self.getRate = "$ "+Math.min.apply(null, self.rateToday);  
+              //console.log("min" + Math.min.apply(null, self.rateToday));
+               self.getRate = "$ "+ Math.round(self.rooms[roomtodayi].min_average_price);
+               self.getRateCode =  self.rooms[roomtodayi].code;
+              $('.-count').css("font-size", "43px");
               $('.-count').css("line-height", "40px");
-              $('.-count').css("text-align", "left");
-              //self.getdiff=true;
-              }
-              else
-              {
-              self.getRate = "$ "+Math.round(self.rooms[0].rate_plans[0].total_price);
-              //console.log(self.getRate);
-              $('.-count').css("font-size", "38px");
-              $('.-count').css("line-height", "40px");
-              $('.-count').css("text-align", "left");
-              }
+              $('.-count').css("text-align", "left"); 
             }
             
             self.errors = response.error_info.error_details;

@@ -196,9 +196,14 @@ p {
 	letter-spacing:0.5px;
 	
 }
+.main-menu {
+  max-width: 1220px;
+  background-color: #fff;
+  margin: 0px auto; }
+  
 .showmenu {
     position: fixed;
-    top: 0;
+    top:0 !important;
     z-index: 1100;
     min-width: 1220px;
 }
