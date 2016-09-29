@@ -1,4 +1,15 @@
 ---
+- stay/weather/: play/in-the-area/
+- stay/our-hotel-rooms/: rooms-and-suites/
+- stay/hotel/: about-us/
+- stay/directions/: location/
+- specials/: special-offers/
+- play/spa-packages/: play/spa-packages/
+- play/prairie-fire/: dine/prairie-fire/
+- play/giddy-up/: play/events/
+- play/contests/: play/events/
+- gather/holidayparties/: gather/holiday-parties/
+- gather/corporate-meetings-events/: gather/corporate-meetings-and-events/
 - events/: play/events/
 - '4': ''
 - '3': ''
