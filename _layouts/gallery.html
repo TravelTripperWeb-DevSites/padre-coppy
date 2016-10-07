@@ -2,147 +2,49 @@
 layout: default
 ---
 <section class="global-container ">
-
    <div class="gallery-container">
-      <h4>The Hotel</h4>
-      <div class="row no-gutter padre-gallery" > 
+      {% region gallery-hotel-title %}
+      
+      <div class="row no-gutter padre-gallery" >
+      {% assign gallery-hotel-items = site.data._models.gallery-hotel | sort: 'sort_order' %}
+      {% for gallery-hotel-item in gallery-hotel-items %}
+      <a class="col-xs-6 col-sm-4" href="{{ gallery-hotel-item.large_image.url }}" > 
+      <img src="{{ gallery-hotel-item.thumbnail_image.url }}" /> </a>
+      {% endfor %}  
         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/hotel-gallery-1.jpg"> 
-         <img src="/assets/images/gallery/hotel-gallery-1.jpg" class="img-width" /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/hotel-gallery-2.jpg"> 
-         <img src="/assets/images/gallery/hotel-gallery-2.jpg" class="img-width"  /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/hotel-gallery-3.jpg"> 
-         <img src="/assets/images/gallery/hotel-gallery-3.jpg"  class="img-width" /> </a>
-        
-         
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/hotel-gallery-4.jpg"> 
-         <img src="/assets/images/gallery/hotel-gallery-4.jpg" class="img-width" /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/hotel-gallery-5.jpg"> 
-         <img src="/assets/images/gallery/hotel-gallery-5.jpg" class="img-width"  /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/hotel-gallery-6.jpg"> 
-         <img src="/assets/images/gallery/hotel-gallery-6.jpg"  class="img-width" /> </a>
-         
-         
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/hotel-gallery-7.jpg"> 
-         <img src="/assets/images/gallery/hotel-gallery-7.jpg" class="img-width lastrow-img-margin" /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/hotel-gallery-8.jpg"> 
-         <img src="/assets/images/gallery/hotel-gallery-8.jpg" class="img-width lastrow-img-margin"  /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/hotel-gallery-9.jpg"> 
-         <img src="/assets/images/gallery/hotel-gallery-9.jpg"  class="img-width lastrow-img-margin" /> </a>
-         
-         
          
       </div>
-      <h4>Rooms & Suites</h4>
-      <div  class="row  no-gutter padre-gallery" > 
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/rooms-suites-1.jpg"> 
-         <img src="/assets/images/gallery/rooms-suites-1.jpg" class="img-width" /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/rooms-suites-2.jpg"> 
-         <img src="/assets/images/gallery/rooms-suites-2.jpg" class="img-width"  /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/rooms-suites-3.jpg"> 
-         <img src="/assets/images/gallery/rooms-suites-3.jpg"  class="img-width" /> </a>
-        
-         
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/rooms-suites-4.jpg"> 
-         <img src="/assets/images/gallery/rooms-suites-4.jpg" class="img-width" /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/rooms-suites-5.jpg"> 
-         <img src="/assets/images/gallery/rooms-suites-5.jpg" class="img-width"  /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/rooms-suites-6.jpg"> 
-         <img src="/assets/images/gallery/rooms-suites-6.jpg"  class="img-width" /> </a>
-         
-         
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/rooms-suites-7.jpg"> 
-         <img src="/assets/images/gallery/rooms-suites-7.jpg" class="img-width lastrow-img-margin" /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/rooms-suites-8.jpg"> 
-         <img src="/assets/images/gallery/rooms-suites-8.jpg" class="img-width lastrow-img-margin"  /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/rooms-suites-9.jpg"> 
-         <img src="/assets/images/gallery/rooms-suites-9.jpg"  class="img-width lastrow-img-margin" /> </a>
+      {% region  gallery-rooms-title %}
+
+      <div class="row no-gutter padre-gallery" >
+      {% assign gallery-rooms-items = site.data._models.gallery-rooms | sort: 'sort_order' %}
+      {% for gallery-rooms-item in gallery-rooms-items %}
+      <a class="col-xs-6 col-sm-4" href="{{ gallery-rooms-item.large_image.url }}" > 
+      <img src="{{ gallery-rooms-item.thumbnail_image.url }}" /> </a>
+      {% endfor %}  
       </div>
-      <h4>Dining & Bar</h4>
-      <div  class="row  no-gutter padre-gallery" > 
-          <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/dining-gallery-1.jpg"> 
-         <img src="/assets/images/gallery/dining-gallery-1.jpg" class="img-width" /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/dining-gallery-2.jpg"> 
-         <img src="/assets/images/gallery/dining-gallery-2.jpg" class="img-width"  /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/dining-gallery-3.jpg"> 
-         <img src="/assets/images/gallery/dining-gallery-3.jpg"  class="img-width" /> </a>
-        
-         
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/dining-gallery-4.jpg"> 
-         <img src="/assets/images/gallery/dining-gallery-4.jpg" class="img-width" /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/dining-gallery-5.jpg"> 
-         <img src="/assets/images/gallery/dining-gallery-5.jpg" class="img-width"  /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/dining-gallery-6.jpg"> 
-         <img src="/assets/images/gallery/dining-gallery-6.jpg"  class="img-width" /> </a>
-         
-         
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/dining-gallery-7.jpg"> 
-         <img src="/assets/images/gallery/dining-gallery-7.jpg" class="img-width" /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/dining-gallery-8.jpg"> 
-         <img src="/assets/images/gallery/dining-gallery-8.jpg" class="img-width"  /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/dining-gallery-9.jpg"> 
-         <img src="/assets/images/gallery/dining-gallery-9.jpg"  class="img-width" /> </a>
+      
+      {% region  gallery-bar-title %}
+
+       <div class="row no-gutter padre-gallery" >
+      {% assign gallery-dining-items = site.data._models.gallery-dining | sort: 'sort_order' %}
+      {% for gallery-dining-item in gallery-dining-items %}
+      <a class="col-xs-6 col-sm-4" href="{{ gallery-dining-item.large_image.url }}" > 
+      <img src="{{ gallery-dining-item.thumbnail_image.url }}" /> </a>
+      {% endfor %}  
       </div>
-       <h4>EVENTS<p>Interested in a party at The Padre?<br>
-Check out our <a href="/gather/corporate-meetings-and-events/">Corporate Meetings</a>, <a href="/gather/weddings/">Weddings</a> & <a href="/gather/holiday-parties/">Parties page!</a></p></h4>
-       
-       <div  class="row  no-gutter padre-gallery" > 
-          <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/events-gallery-1.jpg"> 
-         <img src="/assets/images/gallery/events-gallery-1.jpg" class="img-width" /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/events-gallery-2.jpg"> 
-         <img src="/assets/images/gallery/events-gallery-2.jpg" class="img-width"  /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/events-gallery-3.jpg"> 
-         <img src="/assets/images/gallery/events-gallery-3.jpg"  class="img-width" /> </a>
-        
-         
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/events-gallery-4.jpg"> 
-         <img src="/assets/images/gallery/events-gallery-4.jpg" class="img-width" /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/events-gallery-5.jpg"> 
-         <img src="/assets/images/gallery/events-gallery-5.jpg" class="img-width"  /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/events-gallery-6.jpg"> 
-         <img src="/assets/images/gallery/events-gallery-6.jpg"  class="img-width" /> </a>
-         
-         
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/events-gallery-7.jpg"> 
-         <img src="/assets/images/gallery/events-gallery-7.jpg" class="img-width lastrow-img-margin" /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/events-gallery-8.jpg"> 
-         <img src="/assets/images/gallery/events-gallery-8.jpg" class="img-width lastrow-img-margin"  /> </a>
-         
-         <a class="col-xs-6 col-sm-4" href="/assets/images/gallery/large/events-gallery-9.jpg"> 
-         <img src="/assets/images/gallery/events-gallery-9.jpg"  class="img-width lastrow-img-margin" /> </a>
+
+      {% region  gallery-events-title %}
+      
+      <div class="row no-gutter padre-gallery" >
+      {% assign gallery-events-items = site.data._models.gallery-events | sort: 'sort_order' %}
+      {% for gallery-events-item in gallery-events-items %}
+      <a class="col-xs-6 col-sm-4" href="{{ gallery-events-item.large_image.url }}" > 
+      <img src="{{ gallery-events-item.thumbnail_image.url }}" /> </a>
+      {% endfor %}  
       </div>
-       
+      
+      
    </div>
    
 </section>

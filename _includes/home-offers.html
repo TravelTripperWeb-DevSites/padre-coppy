@@ -1,106 +1,105 @@
 
 <div class="home-offers ">
-<img src="/assets/images/flower-left.png"  class="flower-right" alt=""/>
+  <img src="/assets/images/flower-left.png"  class="flower-right" alt=""/>
   <div class="container global-container ">
     <div class="row">
      <div class="col-md-12 no-gutter">
       <div class="header">
-        <h3 class="text-bold">special offers</h3>
+        <h3 class="text-bold"> {%region home-special-offers-title %} </h3>
         <span class="dimond"> ◆</span>
-        <p>Whether it's a romantic evening, a foodie retreat or an extended vacay you're looking for, <br>
-      	   let our unique hotel packages be the cherry on top of your Padre getaway.
-          </p>
+        <p>{%region home-special-offers-para %}</p>
       </div>
       <div class="offers-list"  rt3-special-rates="specials">
         <div class="row no-gutter">
           <div class="col-sm-4 col-md-4 ">
             <div class="item-padding"> 
              <div class="img-container">
-            <img ng-src="[[ specials.special_rates[1].lead_photo_url.large]]"  class="img-width"  alt=""/>
+              <img ng-src="[[ specials.special_rates[1].lead_photo_url.large]]"  class="img-width"  alt=""/>
             </div>
-              <h5>[[ specials.special_rates[1].rate_plan_name | filterHtmlChars ]]</h5>
-              <p>[[ specials.special_rates[1].short_description | filterHtmlChars ]]</p>
-              <div class="brown-button "><a  ng-href="/special/[[specials.special_rates[1].rate_plan_name | spaceDash]]/" class="hover-transition view-offer-button">View offer</a></div>
-            </div>
+            <h5>[[ specials.special_rates[1].rate_plan_name | filterHtmlChars ]]</h5>
+            <p>[[ specials.special_rates[1].short_description | filterHtmlChars ]]</p>
+            <div class="brown-button "><a  ng-href="/special/[[specials.special_rates[1].rate_plan_name | spaceDash]]/" class="hover-transition view-offer-button">View offer</a></div>
           </div>
-          <div class="col-sm-4 col-md-4 ">
-            <div class="item-padding"> 
+        </div>
+        <div class="col-sm-4 col-md-4 ">
+          <div class="item-padding"> 
             <div class="img-container">
-            <img ng-src="[[ specials.special_rates[2].lead_photo_url.large]]"  class="img-width"  alt=""/>
+              <img ng-src="[[ specials.special_rates[2].lead_photo_url.large]]"  class="img-width"  alt=""/>
             </div>
-              <h5>[[ specials.special_rates[2].rate_plan_name | filterHtmlChars ]]</h5>
-              <p>[[ specials.special_rates[2].short_description | filterHtmlChars ]]</p>
-              <div class="brown-button "><a  ng-href="/special/[[specials.special_rates[2].rate_plan_name | spaceDash]]/" class="hover-transition view-offer-button">View offer</a></div>
-            </div>
+            <h5>[[ specials.special_rates[2].rate_plan_name | filterHtmlChars ]]</h5>
+            <p>[[ specials.special_rates[2].short_description | filterHtmlChars ]]</p>
+            <div class="brown-button "><a  ng-href="/special/[[specials.special_rates[2].rate_plan_name | spaceDash]]/" class="hover-transition view-offer-button">View offer</a></div>
           </div>
-          <div class="col-sm-4 col-md-4 ">
-            <div class="item-padding">
-             <div class="img-container">
+        </div>
+        <div class="col-sm-4 col-md-4 ">
+          <div class="item-padding">
+           <div class="img-container">
              <img ng-src="[[ specials.special_rates[3].lead_photo_url.large]]"  class="img-width"  alt=""/>
-             </div>
-              <h5>[[ specials.special_rates[3].rate_plan_name | filterHtmlChars ]]</h5>
-              <p>[[ specials.special_rates[3].short_description | filterHtmlChars ]]</p>
-              <div class="brown-button "><a  ng-href="/special/[[specials.special_rates[3].rate_plan_name | spaceDash]]/" class="hover-transition view-offer-button button-zindex">View offer</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row view-all-button-container ">
-  <div class="transparant-button "><a href="/special-offers/" class="hover-transition">View all offers</a></div>
-</div>
-      <div class="viewallspecials"> <img src="/assets/images/offers-couple-img.jpg"  class="img-width" alt=""/>
+           </div>
+           <h5>[[ specials.special_rates[3].rate_plan_name | filterHtmlChars ]]</h5>
+           <p>[[ specials.special_rates[3].short_description | filterHtmlChars ]]</p>
+           <div class="brown-button "><a  ng-href="/special/[[specials.special_rates[3].rate_plan_name | spaceDash]]/" class="hover-transition view-offer-button button-zindex">View offer</a></div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="row view-all-button-container ">
+    <div class="transparant-button ">
+
+      <a href="/special-offers/" class="hover-transition">View all offers</a></div>
+    </div>
+    <div class="viewallspecials">
+      {%region home-special-offers-couple-img %}
       
-       </div>
-       </div>
+      
     </div>
-    <div class="row activities-section">
-      <div class="  col-md-6 text-center ">
-        <h2 class="text-bold ">Activities & Events</h2>
-        <div class="text-cursive">Unique discoveries</div>
+  </div>
+</div>
+<div class="row activities-section">
+  <div class="  col-md-6 text-center ">
+    <h2 class="text-bold ">{%region home-activities-events-title %}</h2>
+    <div class="text-cursive">{%region home-activities-events-cursive %}</div>
+  </div>
+  <div class="col-md-5 ">
+    <p class="brown-color">
+      {%region home-activities-events-para %}
+      
+      <div class="brown-button button-padding"><a href="/play/events/" class="hover-transition">discover more</a></div>
+    </p>
+  </div>
+</div>
+<div class="row ">
+  <div class="col-sm-12 lady pull-left no-gutter ">
+   {%region home-activities-events-carousel-img %}
+   
+ </div>
+ <div class="col-sm-12 col-md-7 pull-right no-gutter  ">
+  <div id="testmonials" class="carousel slide testmonials" data-ride="carousel"> 
+    <!-- Carousel indicators -->
+
+    <ol class="carousel-indicators">
+      <li data-target="#testmonials" data-slide-to="0" class="active"></li>
+      <li data-target="#testmonials" data-slide-to="1"></li>
+      <li data-target="#testmonials" data-slide-to="2"></li>
+      <li data-target="#testmonials" data-slide-to="3"></li>
+    </ol>
+    <!-- Wrapper for carousel items -->
+    <div class="carousel-inner">
+      <div class="item active">
+        {%region home-activities-events-carousel-1 %}
       </div>
-      <div class="col-md-5 ">
-        <p class="brown-color"> Giddy up! Between monthly wine tastings, signature whiskey events and local beer dinners, we’re keeping your social calendar so full you’ll never have to leave the hotel! But that’s not to say there isn’t fun to be found outside our four walls. Enjoy an evening of entertainment with our neighbor the historic Fox Theater. Or go boating and fishing on beautiful Lake Webb and discover a fascinating 18th-century village at the Kern County Museum. However you choose to pair your stay, you’re in good company with the Padre.
-        <div class="brown-button button-padding"><a href="/play/events/" class="hover-transition">discover more</a></div>
-        </p>
+      <div class="item">
+        {%region home-activities-events-carousel-2 %}
       </div>
-    </div>
-    <div class="row ">
-      <div class="col-sm-12 lady pull-left no-gutter "><img src="/assets/images/home-lady.jpg"  class="img-width" alt=""/></div>
-      <div class="col-sm-12 col-md-7 pull-right no-gutter  ">
-        <div id="testmonials" class="carousel slide testmonials" data-ride="carousel"> 
-          <!-- Carousel indicators -->
-          
-          <ol class="carousel-indicators">
-            <li data-target="#testmonials" data-slide-to="0" class="active"></li>
-            <li data-target="#testmonials" data-slide-to="1"></li>
-            <li data-target="#testmonials" data-slide-to="2"></li>
-            <li data-target="#testmonials" data-slide-to="3"></li>
-          </ol>
-          <!-- Wrapper for carousel items -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <h4>testimonials</h4>
-              <p>Old school charm melded with modern amenities, this hotel has it all without the cookie-cutter corporate feel of many other hotels. The decor and design touches blow me away every time and my room this round (Forty-winks) was just as stunning as it was comfortable.</p>
-              <div class="date">Heather P.</div>
-            </div>
-            <div class="item">
-              <h4>testimonials</h4>
-              <p>The Padre Hotel meets and exceeds all my expectations. The bed is so comfortable, the rooms are beautifully decorated, the shower is nice. The Belvedere is the restaurant inside the hotel, the food is very good, wine selection is perfect. The staff is there to please, excellent customer service all around.  </p>
-              <div class="date">Victoria M. </div>
-            </div>
-            <div class="item">
-              <h4>testimonials</h4>
-              <p>My first time at the Padre Hotel here in Bakersfield and I will always only stay here. Just had one of the best meals in ages here in the Belvedere Room. The hotel ambiance is super chic, hip, uber cool - a hotel you would expect to find only in a major hip, metropolitan and cosmopolitan city like San Francisco, L.A. or Portland.</p>
-              <div class="date">Jo S.</div>
-            </div>
-            <div class="item">
-              <h4>testimonials</h4>
-              <p>The Padre Hotel would have to be one of the "coolest" hotels we have stayed at anywhere in the world. Everything was done so stylishly and uniquely different to other hotels. The staff were all very friendly and helpful. We loved it!</p>
-              <div class="date">Jason</div>
-            </div>
-          </div>
-        </div>
+      <div class="item">
+        {%region home-activities-events-carousel-3 %}
+      </div>
+      <div class="item">
+       {%region home-activities-events-carousel-4 %}
       </div>
     </div>
   </div>
+</div>
+</div>
+</div>
 </div>

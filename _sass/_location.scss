@@ -243,6 +243,14 @@
 .downtown-section {
     background-color: #8f7d4f;
     color: #fff;
+
+    .location-bowntown-images{
+
+        img{
+
+            float: left;
+        }
+    }
 	   
 	 @media(max-width: 768px) {
            padding-bottom: 20px;

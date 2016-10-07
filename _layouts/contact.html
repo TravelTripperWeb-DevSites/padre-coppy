@@ -2,109 +2,63 @@
 layout: default
 ---
 <section class="global-container banner-onscroll content-top-margin">
-<div class="container">
-<div class="row">
- <div class="col-md-12 no-gutter specials-listing-banner banner-color-overlay">
- <div class="social-icons"><ul>
-                 <li><a href="https://twitter.com/thepadrehotel" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://facebook.com/thepadrehotel"  target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li> <a href="https://instagram.com/thepadrehotel"  target="_blank"><i class="fa fa-instagram"></i></a></li>
-              </ul>
-     </div>
-   <div class="title">The Padre Hotel</div>
-  
-   <img src="/assets/images/specials-listing-banner.jpg" class="img-width " alt=""/> 
-   
-    <h1>Contact</h1>
-   </div>
-
-</div>
-<div class="row location-container">
-<div class="col-md-3 no-gutter logo-container " >
-  <div class="row no-gutter address">
-     <h3>INFO</h3>
-     
-      <div class="col-sm-6 col-md-12">
-      <p>Unaccompanied guests under the age of 21 should contact the hotel prior to their arrival to make arrangements for their stay.</p>
-        <h6 class="address-title"> Address</h6>
-        <p><a href="https://goo.gl/maps/ec3nHfzzCen"  target="_blank" > The Padre Hotel<br>
-          1702 18th Street<br>
-           Bakersfield, CA 93301<br>
-         </a>
-        </p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 no-gutter specials-listing-banner banner-color-overlay">
+        <div class="social-icons"><ul>
+          <li><a href="https://twitter.com/thepadrehotel" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://facebook.com/thepadrehotel"  target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li> <a href="https://instagram.com/thepadrehotel"  target="_blank"><i class="fa fa-instagram"></i></a></li>
+        </ul>
       </div>
-      <div class="col-sm-6 col-md-12">
-        <h6> contact</h6>
-        <p> Toll Free	888-GIDDE-UP<br>
-           <a href="tel:+16614274900">Tel +1 661 427 4900</a>
-          Fax		+1 661 328 0034<br>
-        </p>
-      </div>
-      <div class="col-sm-6 col-md-12">
-        <h6>Check-in / Out</h6>
-        <p> Check-in time:<br>
-         4:00pm<br>
-        </p>
-        <p class="time-out"> Check-out time:<br>
-          11:00am </p>
-      </div>
-      <div class="col-sm-6 col-md-12">
-         <h6>PETS</h6>
-        <p> The Padre Hotel is a pet friendly hotel. We charge a $50 non-refundable pet cleaning fee per pet. Occasionally the Hotel will need to contact pet owners if the pet is left unattended and causing a disturbance. Please leave your cell phone contact information with the front desk for this purpose. If the pet causes any damage to the room or furniture, you will incur further fees.
-        </p>
+      <div class="title">The Padre Hotel</div>
+      {% region contact-header %}
+      
+    </div>
+  </div>
+  <div class="row location-container">
+    <div class="col-md-3 no-gutter logo-container " >
+      <div class="row no-gutter address">
+        {% region contact-info %}
         
       </div>
-      <div class="col-sm-6 col-md-12 vertical-padding">
-        <h6>gps</h6>
-        <p> 35°22'31.9548" N<br>
-          -119°01'17.8212" W </p>
-      </div>
-   
-  </div>
-
- </div>
-  <div class="col-md-8  directions">
- 
-    <h3>get in touch</h3>
-    <p>We wanna hear from you! <br>
-Contact us at <a href="mailto:team@thepadrehotel.com">team@thepadrehotel.com</a></p>
-   <form class="form contact-form" action="https://submit.jotform.me/submit/62433149079459/" method="post" name="form_62432390331447" id="62433149079459" accept-charset="utf-8">
-    <input type="hidden" name="formID" value="62433149079459" />
-  <div class="form-group">
-    <label >Name*</label>
-    <input type="text" class="form-control validate[required, Alphabetic]" id="input_3" name="q3_input3"   placeholder="First Name" required> 
-  </div>
-  <div class="form-group">
-    <label >Email Address*</label>
-    <input type="email" class="form-control validate[required, Email]" id="input_4" name="q4_input4"  placeholder="Email" required> 
-  </div>
-  <div class="form-group">
-    <label> Message </label>
-    
-    <textarea class="form-control " id="input_5"   name="q5_input5"  cols="40" rows="5" ></textarea>
-  </div>
-  <button type="submit"  id="input_2" class="btn btn-default formbtn">Submit<span> <img src="/assets/images/button_arrow.png" width="24" height="24" alt=""/></span></button>
-  
-  <input type="hidden" id="simple_spc" name="simple_spc" value="62433149079459" />
-  <script type="text/javascript">
-  document.getElementById("si" + "mple" + "_spc").value = "62433149079459-62433149079459";
-  </script>
-</form>
-<script type="text/javascript">JotForm.ownerView=true;</script>   
-    
-  </div>
-</div>
-<div class="row contact-three-images" >
-  <div class="contact-img contact-img1">
-  
-   </div>
-   <div class="contact-img contact-img2">
-  
     </div>
-    <div class="contact-img contact-img3">
+    <div class="col-md-8  directions">
+      {% region contact-form-text %}
+      
+      <form class="form contact-form" action="https://submit.jotform.me/submit/62433149079459/" method="post" name="form_62432390331447" id="62433149079459" accept-charset="utf-8">
+        <input type="hidden" name="formID" value="62433149079459" />
+        <div class="form-group">
+          <label >Name*</label>
+          <input type="text" class="form-control validate[required, Alphabetic]" id="input_3" name="q3_input3"   placeholder="First Name" required>
+        </div>
+        <div class="form-group">
+          <label >Email Address*</label>
+          <input type="email" class="form-control validate[required, Email]" id="input_4" name="q4_input4"  placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <label> Message </label>
+          
+          <textarea class="form-control " id="input_5"   name="q5_input5"  cols="40" rows="5" ></textarea>
+        </div>
+        <button type="submit"  id="input_2" class="btn btn-default formbtn">Submit<span> <img src="/assets/images/button_arrow.png" width="24" height="24" alt=""/></span></button>
+        
+        <input type="hidden" id="simple_spc" name="simple_spc" value="62433149079459" />
+        <script type="text/javascript">
+        document.getElementById("si" + "mple" + "_spc").value = "62433149079459-62433149079459";
+        </script>
+      </form>
+      <script type="text/javascript">JotForm.ownerView=true;</script>
+      
+    </div>
+  </div>
+  <div class="row contact-three-images" >
+  {% region contact-three-images %}
+    
+  </div>
+  <div class="row">
+   <hr class=" hr-border">
+  </div>
  
- </div>
-   </div>
-  <hr class=" hr-border">
- </div>
+</div>
 </section>

@@ -278,9 +278,10 @@
 				width: 46px;
 				margin-right:10px;
     			display:inline-block;
-				
+				 transition: all 0.6s ease;
 				&:hover{
 					background-color: #1a1a1a;
+					 transition: all 0.6s ease;
 					}
 			}
 		.owl-next{
@@ -292,8 +293,10 @@
 				height: 46px;
 				width: 46px;
 				display:inline-block;
+				 transition: all 0.6s ease;
 				&:hover{
 					background-color: #1a1a1a;
+					 transition: all 0.6s ease;
 					}
 			}	
 			
@@ -317,9 +320,11 @@
 			display: inline-table;
 			border:none;
 			min-width:234px;
+			 transition: all 0.6s ease;
 			&:hover{
 				background-color:#1a1a1a;
 				color:#fff;
+				 transition: all 0.6s ease;
 				}
 			}
 		

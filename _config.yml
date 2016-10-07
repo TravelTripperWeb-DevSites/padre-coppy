@@ -1,17 +1,18 @@
 # Site settings
-title: Washington Park Hotel South Beach | Miami Beach, FL
-email:  wphreservations@wphsouthbeach.com
-phone:  (305) 421-6265
+title: 
+email:  
+phone:  
 description: > # this means to ignore newlines until "baseurl:"
- Washington Park Hotel South Beach is located in the heart of South Beach just two blocks from Miami Beach, FL and a half mile from Lincoln Road and the SoFi District. Visit our website for exclusive specials and booking offers.
-
+ 
 permalink: pretty
  
 default_lang: 'en'
+
 languages: ['en']
  
+port: 4001
 exclude:
   - 'sitemap.json'
-
-
-port: 4001
+  
+keep_files: ['assets']
+rsync_copy: ['_assets']

@@ -87,3 +87,17 @@ $(document).ready(function(){
   $('#Carousel').carousel({
     interval: 2600
 });
+
+$(window).load(function() {
+        
+
+    var hash = location.hash.replace('#',''); 
+        if(hash != ''){  
+        // smooth scroll to the anchor id
+        $('html, body').animate({
+            scrollTop: $(window.location.hash).offset().top - 130 +"px"
+        },500, 'swing'); 
+       } 
+        
+});
+

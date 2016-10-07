@@ -60,51 +60,68 @@ layout: default
   </div>
 </section>
 <section class="global-container ">
- <div class="row  no-gutter">
-        <div class="col-sm-12">
-        
-          <div class="gallery-banner newsletter  ">
-            <div class="row bg-text">exclusive <span>padre hotel newsletter</span> </div>
-            <p>Get the all the #hotelhapps! From ticket giveaways to exclusive parties,<br>
-                 you'll be the first to receive insider info on life at The Padre!</p>
-                <div class="newsletter-form center-block">
-                <div class="row ">
-                <div class="col-md-4 ">
-               
-                <input type="text" class="textbox " size="10" placeholder="*Name" id="first_20">
-                
-                </div>
-                <div class="col-md-4 ">
-               
-                <input type="text" class="textbox " size="10" placeholder="*Email" id="first_20">
-                
-                </div>
-                <div class="col-md-4">
-               
-              <button type="submit" form="form1" class="form-btn" value="Submit">SUBSCRIBE</button>
-                
-                </div>
-                
-                </div>
-                </div>
-          </div>
-         <hr class="border-single-bottom">
-          <div class="row discover-list-container " rt3-rooms-browser="browser" ng-cloak>
-          
-            <h3 class="text-bold ">discover more rooms</h3>
-            
-            <data-owl-carousel id ="owl-example" class="owl-carousel" data-options="{navigation: true,  pagination: true, rewindNav : false,  navigationText:				['&#8249;','&#8250;'], items : 3, itemsMobile:[479,1], itemsTablet:[800,2], itemsDesktop:[1220,3],	 responsive : true}">
-      <div owl-carousel-item="" ng-repeat="list in :: browser.roomsv" class="item" >
-       <img  ng-src="[[list.photos[0].yankee_large]]" alt="[[list.name]]">
-         <a ng-href="/room/[[list.name | spaceDash]]/">[[list.name]] </a>
-      </div>
-
-    </data-owl-carousel>
-          </div>
+    <div class="row  no-gutter">
+      <div class="col-sm-12">
+        <div class="gallery-banner newsletter  ">
+          <div class="row bg-text">exclusive <span>padre hotel newsletter</span> </div>
+          <p>Get the all the #hotelhapps! From ticket giveaways to exclusive parties,<br>
+            you'll be the first to receive insider info on life at The Padre!</p>
+              <span id="success_message" style="display:none;">
+           <div style="text-align:center;">Thanks for signing up!</div>
+       </span>
+           <form data-id="embedded_signup:form" class="ctct-custom-form Form" name="embedded_signup" method="POST" action="https://visitor2.constantcontact.com/api/signup">
          
-           <hr class="hr-border">
+           <!-- The following code must be included to ensure your sign-up form works properly. -->
+           <input data-id="ca:input" type="hidden" name="ca" value="cc7b5913-a263-4f2d-ad7d-12eb6d536fb9">
+           <input data-id="list:input" type="hidden" name="list" value="9">
+           <input data-id="source:input" type="hidden" name="source" value="EFD">
+           <input data-id="required:input" type="hidden" name="required" value="list,email,first_name">
+           <input data-id="url:input" type="hidden" name="url" value="">
+          <div class="newsletter-form center-block">
+            <div class="row ">
+              <div class="col-md-4 ">
+               <p data-id="First Name:p" >
+                <input  type="text" class="textbox ctct-form-required" size="10" placeholder="*Name" name="first_name"  data-id="First Name:input" required="required"></p>
+               
+              </div>
+              <div class="col-md-4 ">
+               <p data-id="Email Address:p" >
+                <input type="email" class="textbox ctct-form-required" size="10" placeholder="*Email" name="email"  data-id="Email Address:input" required="required"></p>
+              </div>
+              <div class="col-md-4">
+              
+                <button type="submit" class="form-btn"  data-enabled="enabled">SUBSCRIBE</button>
+              </div>
+            </div>
+          </div>
+          </form>
+          <script type='text/javascript'>
+   var localizedErrMap = {};
+   localizedErrMap['required'] = 		'This field is required.';
+   localizedErrMap['ca'] = 			'An unexpected error occurred while attempting to send email.';
+   localizedErrMap['email'] = 			'Please enter your email address in name@email.com format.';
+   localizedErrMap['birthday'] = 		'Please enter birthday in MM/DD format.';
+   localizedErrMap['anniversary'] = 	'Please enter anniversary in MM/DD/YYYY format.';
+   localizedErrMap['custom_date'] = 	'Please enter this date in MM/DD/YYYY format.';
+   localizedErrMap['list'] = 			'Please select at least one email list.';
+   localizedErrMap['generic'] = 		'This field is invalid.';
+   localizedErrMap['shared'] = 		'Sorry, we could not complete your sign-up. Please contact us to resolve this.';
+   localizedErrMap['state_mismatch'] = 'Mismatched State/Province and Country.';
+	localizedErrMap['state_province'] = 'Select a state/province';
+   localizedErrMap['selectcountry'] = 	'Select a country';
+   var postURL = 'https://visitor2.constantcontact.com/api/signup';
+</script>
+<script type='text/javascript' src='https://static.ctctcdn.com/h/contacts-embedded-signup-assets/1.0.2/js/signup-form.js'></script>
         </div>
+        <hr class="border-single-bottom">
+        <div class="row discover-list-container " rt3-rooms-browser="browser" ng-cloak>
+          <h3 class="text-bold ">discover more rooms</h3>
+          <data-owl-carousel id ="owl-example" class="owl-carousel" data-options="{navigation: true,  pagination: true, rewindNav : false,  navigationText:				['&#8249;','&#8250;'], items : 3, itemsMobile:[479,1], itemsTablet:[800,2], itemsDesktop:[1220,3],	 responsive : true}">
+            <div owl-carousel-item="" ng-repeat="list in :: browser.roomsv" class="item" > <img  ng-src="[[list.photos[0].yankee_large]]" alt="[[list.name]]"> <a ng-href="/room/[[list.name | spaceDash]]/">[[list.name]] </a> </div>
+          </data-owl-carousel>
+        </div>
+        <hr class="hr-border">
       </div>
-      
-</section>
+    </div>
+  </section>
 </div>

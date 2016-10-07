@@ -1,57 +1,34 @@
-
-
-  <div id="Carousel" class="carousel slide " data-ride="carousel">
+<div id="Carousel" class="carousel slide " data-ride="carousel">
     <!-- Carousel indicators -->
     <div class="title">The Padre Hotel</div>
-    <div class="social-icons"><ul>
-                 <li><a href="https://twitter.com/thepadrehotel" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://facebook.com/thepadrehotel"  target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li> <a href="https://instagram.com/thepadrehotel"  target="_blank"><i class="fa fa-instagram"></i></a></li>
-              </ul>
-     </div>
+    <div class="social-icons">
+        <ul>
+            <li><a href="https://twitter.com/thepadrehotel" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://facebook.com/thepadrehotel"  target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://instagram.com/thepadrehotel"  target="_blank"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </div>
     <ol class="carousel-indicators">
-    
+        
         <li data-target="#Carousel" data-slide-to="0" class="active"></li>
         <li data-target="#Carousel" data-slide-to="1"></li>
         <li data-target="#Carousel" data-slide-to="2"></li>
         <li data-target="#Carousel" data-slide-to="3"></li>
-    </ol>   
+    </ol>
     <!-- Wrapper for carousel items -->
     <div class="carousel-inner">
         <div class="item banner-color-overlay active">
-            <img src="/assets/images/banner1.jpg" alt="First Slide">
-            <div class="carousel-caption">
-            <h4>A Sophisticated & unique</h4>
-            <h3>Boutique <br>Hotel</h3>
-              <a class="hover-transition" href="/rooms-and-suites/">Discover More </a>
-            </div>
+            {% region home-banner-1 %}            
         </div>
         
         <div class="item banner-color-overlay">
-            <img src="/assets/images/banner2.jpg" alt="Third Slide">
-            <div class="carousel-caption">
-            <h4>THE PERFECT DESTINATION</h4>
-            <h3>Since<br>1928 </h3>
-              <a class="hover-transition" href="/location/">Discover More </a>
-            </div>
+            {% region home-banner-2 %}   
         </div>
         <div class="item banner-color-overlay">
-            <img src="/assets/images/banner3.jpg" alt="Fourth Slide">
-            <div class="carousel-caption">
-            <h4>TRAVEL IN STYLE</h4>
-            <h3>Exclusive <br>Offers</h3>
-               <a class="hover-transition" href="/special-offers/">Discover More </a>
-            </div>
+           {% region home-banner-3 %}   
         </div>
         <div class="item banner-color-overlay">
-            <img src="/assets/images/banner4.jpg" alt="Fourth Slide">
-            <div class="carousel-caption">
-            <h4>VINTAGE CHARM MEETS</h4>
-            <h3>Modern <br>Luxury</h3>
-            <a class="hover-transition" href="/gallery/">Discover More </a>
-            </div>
+           {% region home-banner-4 %}   
         </div>
     </div>
-    
 </div>
-

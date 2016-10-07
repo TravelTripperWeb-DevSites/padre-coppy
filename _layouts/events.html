@@ -13,102 +13,34 @@ layout: default
           </ul>
         </div>
         <div class="title">The Padre Hotel</div>
-        <img src="/assets/images/play/events.jpg" class="img-width" alt=""/>
-        <h1>Events</h1>
+        {% region events-image %}
       </div>
     </div>
     <div class="gallery-container  common-container dine">
       <div class="row ">
         <div class="col-md-12">
+          {% assign eventitems = site.data._models.events | sort: 'sort_order' %}
+          {% for eventitem in eventitems %}
           <div  class="event-list">
-            <h5 >70's Wedding Murder Mystery Dinner</h5>
-            <img src="/assets/images/events/wedding-murder-mystery-dinner-tickets.jpg" class="img-width" alt="70's Wedding Murder Mystery Dinner"/>
+            <h5 >{{ eventitem.title }}</h5>
+            <img src={{ eventitem.banner_image.url }} class="img-width" alt="{{ eventitem.title }}"/>
             <div class="row ">
               <div class="col-md-6">
-                <p  class="description">Travel back in time, deceit and groovy kind of love are in the air! Join us on Saturday, October 29th at our 70's Wedding Murder Mystery Mixer in Belvedere Room. Your $75 ticket includes food, admission to our Prospect Halloween party and all the who done it fun you can handle. </p>
+                <p class="description">{{ eventitem.description }}</p>
               </div>
               <div class="col-md-6 link-container">
-                <div class="ticket"><span>
-                  <div class="transparant-button "> <a href="https://www.eventbrite.com/e/70s-wedding-murder-mystery-dinner-tickets-28236377766" class="hover-transition" target="_blank">BUY TICKETS</a> </div>
-                  </span> </div>
-              </div>
-            </div>
-          </div>
-          <div  class="event-list">
-            <h5 >Party at Prospect this Halloween</h5>
-            <img src="/assets/images/events/party-at-prospect-this-Halloween.jpg" class="img-width" alt="Party at Prospect this Halloween"/>
-            <div class="row ">
-              <div class="col-md-6">
-                <p  class="description">Get into the spirit with beats from DJ Kimble and drink specials all night. $10 cover after 10pm. Bottle service available - <a href="tel:6614274900">Call: 661.427.4900</a></p>
-              </div>
-              <div class="col-md-6 link-container">
-                <div class="ticket"><span>
-                  <div class="transparant-button "> <a href="mailto:team@thepadrehotel.com" class="hover-transition">team@thepadrehotel.com</a> </div>
-                  </span> </div>
-              </div>
-            </div>
-          </div>
-          <div  class="event-list">
-            <h5 >Brews & Bites Beer Dinner Series - Modern Times Brewery</h5>
-            <img src="/assets/images/events/PADRE_BeerDinner_WebCalendar.jpg" class="img-width" alt="Brews & Bites Beer Dinner Series - Modern Times Brewery"/>
-            <div class="row ">
-              <div class="col-md-6">
-                <p  class="description">Join us on October 17th at 7pm as we pair with Modern Times Brewery for the 4th event of our Brews & Bites beer dinner series! Enjoy 5 courses prepared by Chef Chris and perfectly paired with extremely limited Modern Times brews. Space at this intimate table is limited! Buy your $75 seat today!</p>
-              </div>
-              <div class="col-md-6 link-container">
-                <div class="ticket"><span>
-                  <div class="transparant-button "><a href="https://www.eventbrite.com/e/brews-bites-featuring-modern-times-brewery-tickets-27947753483" target="_blank" class="hover-transition">BUY TICKETS</a></div>
-                  </span> </div>
-              </div>
-            </div>
-          </div>
-          <div id="fallwine" class="event-list">
-            <h5 >FALL WINE SERIES</h5>
-            <img src="/assets/images/events/FallWine_WebCalendar.jpg" class="img-width" alt="FALL WINE SERIES"/>
-            <div class="row ">
-              <div class="col-md-6">
-                <p  class="description"> Sip It, Swish It, Swig It, Swill It! The summer may be winding down, but we’re still wining every 3rd Wednesday of the month from 6-8pm at Prospect Lounge in The Padre Hotel. Your admission to our signature Summer Wine Series includes vino and handcrafted bites. </p>
-              </div>
-              <div class="col-md-6 link-container">
-                <div class="ticket"><span>
-                  <h6>Tickets at the door</h6>
-                  </span>
-                  <p>$15 general, $10 registered hotel guests</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="yappyhour" class="event-list">
-            <h5>Yappy Hour </h5>
-            <img src="/assets/images/events/PADRE_YappyHour_WebCalendar.jpg" class="img-width" alt="Yappy Hour"/>
-            <div class="row ">
-              <div class="col-md-6 ">
-                <p class="description">Pups are taking over Prairie Fire every 1st Friday of the month from 6-9pm! Join Marley’s Mutts on the roof and meet their adorable, adoptable dogs while you sip on the night’s featured cocktails. 20% of the night’s proceeds will be donated to dog charity.</p>
-              </div>
-              <div class="col-md-6 link-container">
-                <div class="ticket"><span>
-                  <h6>Free Admission!</h6>
-                  </span> </div>
-              </div>
-            </div>
-          </div>
-          <div id="Brunch" class="event-list">
-            <h5>Brunch & Bubbles at Belvedere Room</h5>
-            <img src="/assets/images/events/preview-full-Padre_Brunch15_WebCalendar.jpg" class="img-width" alt="Brunch & Bubbles at Belvedere Room"/>
-            <div class="row ">
-              <div class="col-md-6">
-                <p  class="description"> Because brunch pairs best with bubbles, every Sunday in the Belvedere Room at The Padre we're serving up free flowing champagne with a buffet of all your brunch faves from 9am to 2pm. $29 adults // $13 children (12 & under)</p>
-              </div>
-              <div class="col-md-6 link-container">
-                <div class="ticket"><span>
-                  <div class="transparant-button "><a href="http://www.opentable.com/the-belvedere-room-at-the-padre-hotel" target="_blank" class="hover-transition">MAKE A RESERVATION</a></div>
-                  <!-- <h6>Reservations are strongly recommended </h6>--> 
+                <div class="ticket">
+                  <span>
+                 {{ eventitem.button_text }}
                   </span> 
-                  <!-- <p>Call: <a href="tel:6614274900">661-427-4900</a></p>--> 
                 </div>
               </div>
             </div>
           </div>
+          {% endfor %}
+
+         
+          
         </div>
       </div>
     </div>

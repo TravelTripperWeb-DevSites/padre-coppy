@@ -1,0 +1,7 @@
+{
+  "title": {"required":true},
+  "banner_image": {"type":"image","required":true},
+  "description": {"type":"richtext","required":true},
+  "button_text": {"type":"richtext"},
+  "sort_order": {"type":"integer","required":true}
+}
