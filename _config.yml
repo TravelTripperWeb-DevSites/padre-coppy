@@ -10,9 +10,8 @@ default_lang: 'en'
 
 languages: ['en']
  
-port: 4001
-exclude:
-  - 'sitemap.json'
+port: 8080
+
   
 keep_files: ['assets']
 rsync_copy: ['_assets']
