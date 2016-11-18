@@ -3,6 +3,7 @@ GEM
   specs:
     coderay (1.1.1)
     colorator (0.1)
+    ffi (1.9.14-x64-mingw32)
     ffi (1.9.14-x86-mingw32)
     i18n (0.7.0)
     jekyll (3.1.6)
@@ -40,6 +41,7 @@ GEM
     xkeys (2.2.0)
 
 PLATFORMS
+  x64-mingw32
   x86-mingw32
 
 DEPENDENCIES
@@ -50,4 +52,4 @@ DEPENDENCIES
   xkeys
 
 BUNDLED WITH
-   1.12.4
+   1.13.2
