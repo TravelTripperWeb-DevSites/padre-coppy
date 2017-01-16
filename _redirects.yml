@@ -17,3 +17,11 @@
 - '0': ''
 - "?page_id=19": ''
 - "?page_id=116": ''
+- gather/holiday-parties: gather/event-promos/
+- gather/holiday-parties/: gather/event-promos/
+- Gather/holiday-parties: gather/event-promos/
+- Gather/holiday-parties/: gather/event-promos/
+- Gather/Holiday-Parties: gather/event-promos/
+- Gather/Holiday-Parties/: gather/event-promos/
+- GATHER/HOLIDAY-PARTIES: gather/event-promos/
+- GATHER/HOLIDAY-PARTIES/: gather/event-promos/
