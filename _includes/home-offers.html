@@ -12,23 +12,23 @@
       <div class="offers-list"  rt3-special-rates="specials">
         <div class="row no-gutter">
           <div class="col-sm-4 col-md-4 ">
-            <div class="item-padding"> 
+            <div class="item-padding">
              <div class="img-container">
               <img ng-src="[[ specials.special_rates[1].lead_photo_url.large]]"  class="img-width"  alt=""/>
             </div>
             <h5>[[ specials.special_rates[1].rate_plan_name | filterHtmlChars ]]</h5>
             <p>[[ specials.special_rates[1].short_description | filterHtmlChars ]]</p>
-            <div class="brown-button "><a  ng-href="/special/[[specials.special_rates[1].rate_plan_name | spaceDash]]/" class="hover-transition view-offer-button">View offer</a></div>
+            <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[1].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button">View offer</a></div>
           </div>
         </div>
         <div class="col-sm-4 col-md-4 ">
-          <div class="item-padding"> 
+          <div class="item-padding">
             <div class="img-container">
               <img ng-src="[[ specials.special_rates[2].lead_photo_url.large]]"  class="img-width"  alt=""/>
             </div>
             <h5>[[ specials.special_rates[2].rate_plan_name | filterHtmlChars ]]</h5>
             <p>[[ specials.special_rates[2].short_description | filterHtmlChars ]]</p>
-            <div class="brown-button "><a  ng-href="/special/[[specials.special_rates[2].rate_plan_name | spaceDash]]/" class="hover-transition view-offer-button">View offer</a></div>
+            <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[2].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button">View offer</a></div>
           </div>
         </div>
         <div class="col-sm-4 col-md-4 ">
@@ -38,7 +38,7 @@
            </div>
            <h5>[[ specials.special_rates[3].rate_plan_name | filterHtmlChars ]]</h5>
            <p>[[ specials.special_rates[3].short_description | filterHtmlChars ]]</p>
-           <div class="brown-button "><a  ng-href="/special/[[specials.special_rates[3].rate_plan_name | spaceDash]]/" class="hover-transition view-offer-button button-zindex">View offer</a></div>
+           <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[3].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button button-zindex">View offer</a></div>
          </div>
        </div>
      </div>
@@ -50,8 +50,8 @@
     </div>
     <div class="viewallspecials">
       {%region home-special-offers-couple-img %}
-      
-      
+
+
     </div>
   </div>
 </div>
@@ -63,7 +63,7 @@
   <div class="col-md-5 ">
     <p class="brown-color">
       {%region home-activities-events-para %}
-      
+
       <div class="brown-button button-padding"><a href="/play/events/" class="hover-transition">discover more</a></div>
     </p>
   </div>
@@ -71,10 +71,10 @@
 <div class="row ">
   <div class="col-sm-12 lady pull-left no-gutter ">
    {%region home-activities-events-carousel-img %}
-   
+
  </div>
  <div class="col-sm-12 col-md-7 pull-right no-gutter  ">
-  <div id="testmonials" class="carousel slide testmonials" data-ride="carousel"> 
+  <div id="testmonials" class="carousel slide testmonials" data-ride="carousel">
     <!-- Carousel indicators -->
 
     <ol class="carousel-indicators">

@@ -1,37 +1,32 @@
 ---
 layout: default
 ---
+<section ng-controller="roomDetail"   rt3-rooms-browser="browser">
+<input type="hidden" id="roomList" value="[[ browser.roomsList ]]"   />
 <section class="global-container banner-onscroll content-top-margin"> {% include room-details-carousel.html %} </section>
 <section class="container global-container room-container">
   <div class="row">
     <div class="col-md-12 sublinks">
       <ul>
-        <li><a href="/room/Farmer's-Daughter-Suite/">FARMER’S DAUGHTER SUITE</a> </li>
-        <li><a href="/room/Double-Deuce/">DOUBLE DEUCE</a> </li>
-        <li><a href="/room/Maverick/">MAVERICK</a> </li>
-        <li><a href="/room/40-Winks/">40 WINKS</a> </li>
-        <li><a href="/room/Oil-Baron-Suite/">OIL BARON SUITE</a> </li>
-        <li><a href="/room/Head-Honcho-Suite/">HEAD HONCHO</a> </li>
-        <li><a href="/room/Corner-Pocket/">CORNER POCKET</a> </li>
-        <li><a href="/room/Maverick-ADA/">MAVERICK ADA</a> </li>
+        <li ng-repeat="room in browser.roomsList"><a href="/room/?[[room.name | formatNameForLink]]">[[room.name]]</a> </li>
       </ul>
     </div>
   </div>
 </section>
-<section rt3-room-details="details"  data-room-id="DBL" class="style-comfort-section"> <img src="/assets/images/flower-left-room-details.png" class="flowerleft" alt=""/>
+<section   class="style-comfort-section"> <img src="/assets/images/flower-left-room-details.png" class="flowerleft" alt=""/>
   <div class="global-container">
     <div class="container ">
       <div class="row ">
-        <div class="col-sm-10 pull-right no-gutter room-couple-img-width"> 
-          <h5>[[details.description]] </h5>
-          <img ng-src="[[details.photos[0].large ]]" class="img-width" alt=""/> </div>
+        <div class="col-sm-10 pull-right no-gutter room-couple-img-width">
+          <h5>[[selectedRoom.description]] </h5>
+          <img ng-src="[[selectedRoom.photos[0].large ]]" class="img-width" alt=""/> </div>
       </div>
       <div class="row style-container">
         <div class="col-sm-7 text-left-alignment">
           <h2 class="text-bold">style & comfort</h2>
           <h3 class="text-cursive">Unique stay</h3>
-          <p class="brown-color">[[details.short_description]]</p>
-          <div class="brown-button "><a href="https://thepadrehotel.reztrip.com/search?&selected_room={{ page.roomCode }}" class="hover-transition"  target="_blank" >Book This Room</a></div>
+          <p class="brown-color">[[selectedRoom.short_description]]</p>
+          <div class="brown-button "><a href="https://thepadrehotel.reztrip.com/search?&selected_room=[[selectedRoom.code]]" class="hover-transition"  target="_blank" >Book This Room</a></div>
         </div>
         <div class="col-sm-5 facilities-section">
           <h6>FACILITIES & AMENITIES</h6>
@@ -40,35 +35,36 @@ layout: default
              <li> iPod Docking Station</li>
              <li> Down Feather Bedding</li>
              <li> Coffee/Tea Maker</li>
-            <li ng-repeat=" amenities in details.amenities">[[amenities]]</li>
-            
+            <li ng-repeat=" amenities in selectedRoom.amenities">[[amenities]]</li>
+
           </ul>
         </div>
       </div>
       <div class="row" rt3-rooms-browser="browser" ng-cloak>
         <div class="col-sm-12 no-gutter">
           <div class="gallery-banner">
-            <div class="row bg-text">Gallery <span>[[details.name]]</span></div>             </div>
+            <div class="row bg-text">Gallery <span>[[selectedRoom.name]]</span></div>             </div>
           <img src="/assets/images/rooms-img.jpg"  class="img-width thickborder-bottom" alt=""/>
           <div class="row discover-list-container">
-        
-         
+
+
            <h3 class="text-bold ">discover more rooms</h3>
            <data-owl-carousel id ="owl-example" class="owl-carousel" data-options="{navigation: true,  pagination: true, rewindNav : false,  navigationText:				['&#8249;','&#8250;'], items : 3, itemsMobile:[479,1], itemsTablet:[800,2], itemsDesktop:[1220,3],	 responsive : true}">
-      <div owl-carousel-item="" ng-repeat="list in :: browser.roomsv" class="item" >
+      <div owl-carousel-item="" ng-repeat="list in :: browser.roomsList" class="item" >
        <img  ng-src="[[list.photos[0].yankee_large]]" alt="[[list.name]]">
-         <a ng-href="/room/[[list.name | spaceDash]]/">[[list.name]] </a>
+         <a ng-href="/room/?[[list.name | formatNameForLink]]">[[list.name]] </a>
       </div>
 
     </data-owl-carousel>
-			
-			
+
+
         </div>
-        
+
             <hr class="hr-border">
         </div>
       </div>
-     
+
     </div>
   </div>
+</section>
 </section>

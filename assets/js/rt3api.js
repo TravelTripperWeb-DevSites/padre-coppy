@@ -61,12 +61,65 @@ Rt3Api.prototype.availableRooms = function(searchParams) {
         // TODO
     }
 
-    
+
 
     var params = $.extend(defaultParams, searchParams)
         //console.log(JSON.stringify(params));
     return query(path, params);
 };
+
+
+Rt3Api.prototype.getAllAvailableRooms = function(searchParams) {
+    var path = '/hotels/rooms.json';
+    var newParams = {};
+    if(searchParams){
+         newParams.arrival_date_0 = searchParams.arrival_date;
+         newParams.departure_date_0 = searchParams.departure_date;
+         newParams.adults_0 = searchParams.adults;
+         newParams.children_0 = searchParams.children;
+         newParams.rooms = 1;
+
+         delete searchParams.arrival_date;
+         delete searchParams.departure_date;
+         delete searchParams.adults;
+         delete searchParams.children;
+
+    }
+    else {
+        var now = new Date();
+        var day = ("0" + now.getDate()).slice(-2);
+        var month = ("0" + (now.getMonth() + 1)).slice(-2);
+        var today = now.getFullYear() + "-" + (month) + "-" + (day);
+
+        var nextDay;
+        nextDay = new Date(today);
+        var tomarrow=new Date(nextDay.setDate(nextDay.getDate() + 1));
+        var depart=tomarrow.toISOString().slice(0,10);
+
+        newParams.arrival_date_0 = today;
+        newParams.departure_date_0 = depart;
+        newParams.adults_0 = 2;
+        newParams.children_0 = 0;
+        newParams.rooms = 1;
+    }
+    
+    var defaultParams = {
+        hotel_id: this.config.hotelId,
+        portal_id: this.config.portalId,
+        locale: this.config.defaultLocale,
+        currency: this.config.defaultCurrency,
+        ip_address : sessionStorage.ip_add
+    }
+
+
+
+
+
+    var params = $.extend(defaultParams, newParams , searchParams)
+        //console.log(JSON.stringify(params));
+    return query(path, params);
+};
+
 
 Rt3Api.prototype.availableRoomsTonight = function() {
     var path = '/hotels/roomRateList.json';
@@ -80,8 +133,7 @@ Rt3Api.prototype.availableRoomsTonight = function() {
     var tomarrow=new Date(nextDay.setDate(nextDay.getDate() + 1));
     var depart=tomarrow.toISOString().slice(0,10);
     //console.log("cuurent"+today);
-   
-   
+
     var defaultParams = {
         hotel_id: this.config.hotelId,
         portal_id: this.config.portalId,

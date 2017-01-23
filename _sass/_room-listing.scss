@@ -1,17 +1,44 @@
 .room-list-container{
-	@media (min-width: 1024px){
+
 			.col-md-8 {
-			width: 61.4%;
+
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+        @media (min-width: 1024px){
+          width: 61.4%;
+          vertical-align: middle;
+          display: table-cell;
+          float: none;
+          clear:both;
+      }
+      @media (min-width: $screen-xs-min){
+          min-height: 300px;
+      }
+
+
 		}
 		.col-md-4 {
-			width: 38.6%;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+        @media (min-width: 1024px){
+          width: 38.6%;
+          vertical-align: middle;
+          display: table-cell;
+          float: none;
+          clear:both;
+        }
+        @media (min-width: $screen-xs-min){
+            min-height: 300px;
+        }
 		}
-	}
+
 	}
 	.padd-l40{
 		 padding-left:37px;
 		 @media (max-width: 1024px){
-		 padding-left:0px;	 
+		 padding-left:0px;
 		 }
 	}
 	.rooms-list-top-margin{
@@ -19,6 +46,10 @@
 		 @media (max-width: 1024px){
 		 margin-top:25px;
 		 }
+     .row {
+       display: table;
+       width: 100%;
+     }
 		}
 	.rooms-description1{
 		margin-top:36px;
@@ -26,7 +57,7 @@
 		max-width:562px;
 		text-align:center;
 		padding:42px 55px;
-		
+
 		 @media (max-width: 1024px){
 		margin-top:15px;
 		padding:20px 30px;
@@ -49,7 +80,7 @@
 			    top: -54px;
    			 right: -7px;
 			}
-			
+
 		.rooms-hat-flip{
 			 -webkit-transform: rotate(-86deg);
 			-moz-transform: rotate(-86deg);
@@ -81,7 +112,7 @@
 			color:#8f7d4f;
 			letter-spacing:.04em;
 			text-transform:uppercase;
-			
+
 			}
 		h3{
 			font-family:'Avenir LT W01_95 Black1475556';
@@ -106,7 +137,7 @@
 				margin:  0px 5px;
 				}
 			}
-		
+
 		}
 		.rooms-description2{
 			margin-left: 25px;
@@ -122,15 +153,15 @@
 		 }
 		  @media (max-width: 800px){
 			 padding-top: 15px;
-		
+
 		 }
-			
+
 			a{
 				display:block;
 				width:206px;
 				margin: 0px  auto !important;
 				margin-bottom: 17px !important;
-				 
+
 				}
-			
+
 			}

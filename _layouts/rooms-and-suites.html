@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<section rt3-rooms-browser="browser">
 <section class="container banner-onscroll content-top-margin global-container room-container " >
   <div class="row">
     <div class="col-md-12 no-gutter specials-listing-banner banner-color-overlay">
@@ -13,160 +14,63 @@ layout: default
       </div>
       <div class="title">The Padre Hotel</div>
       {% region rooms-and-suites-header %}
-      
-      
+
+
     </div>
   </div>
   <div class="row">
     <div class="col-md-12 sublinks">
      <ul>
-        <li><a href='#farmer'>FARMER’S DAUGHTER SUITE</a> </li>
-        <li><a href='#double'>DOUBLE DEUCE</a> </li>
-        <li><a href='#maverick'>MAVERICK</a> </li>
-        <li><a href='#40winks'>40 WINKS</a> </li>
-        <li><a href='#oilbaron'>OIL BARON SUITE</a> </li>
-        <li><a href='#headhoncho'>HEAD HONCHO</a> </li>
-        <li><a href='#cornerpocket'>CORNER POCKET</a> </li>
-        <li><a href='#maverickada'>MAVERICK ADA</a> </li>
+        <li ng-repeat="room in browser.roomsList"><a href='#[[room.code]]'>[[room.name]]</a> </li>
+
       </ul>
-      
+
     </div>
   </div>
 </section>
-<div class="global-container" rt3-rooms-browser="browser" ng-cloak >
+<div class="global-container"  ng-cloak >
   <section class="style-comfort-section">
     <div class="container ">
       <div class="row ">
         <div class="col-sm-10 pull-right no-gutter room-couple-img-width">
-          
+
           {% region rooms-and-suites-description %}
-          
+
         </div>
       </div>
     </div>
   </section>
   <section class="container room-list-container" >
-    <div class="rooms-list-top-margin " >
-      <div class="row " id="farmer">
-        <div class="col-md-4  no-gutter"> <img src="/assets/images/rooms-list1.jpg"  class="img-responsive img-width padd-l40" alt=""/> </div>
+    <div class="rooms-list-top-margin " ng-repeat="room in browser.roomsList">
+      <div ng-if="$even" class="row " id="[[room.code]]">
+        <div class="col-md-4  no-gutter  " style="background-image: url([[room.photos[0].yankee_large]])"> </div>
         <div class="col-md-8 no-gutter">
           <div class="rooms-description1 center-block" >
-       		 
-            <h4>[[browser.roomsv[6].name]]</h4>
-            <h3 class="room-rate">TONIGHT’S RATE:[[ browser.roomRates[6] ]]<img src="/assets/images/room-icon1.png" class="rooms-icon-right"  alt=""/></h3>
+
+            <h4>[[room.name]]</h4>
+            <h3 class="room-rate">TONIGHT’S RATE:[[room.todayRate]]</h3>
             <span class="dimond"> ◆</span>
-            <p>[[browser.roomsv[6].description]]</p>
-            <div class="brown-button buttons-container"><a href="/room/Farmer's-Daughter-Suite/" class="hover-transition">VIEW SUITE</a> <a ng-href="https://thepadrehotel.reztrip.com/search?&selected_room=[[browser.roomsv[6].code]]" target="_blank" class="hover-transition">BOOK SUITE</a></div>
+            <p>[[room.description]]</p>
+            <div class="brown-button buttons-container"><a href="/room/?[[room.name | formatNameForLink]]" class="hover-transition">VIEW SUITE</a> <a ng-href="https://thepadrehotel.reztrip.com/search?&selected_room=[[room.code]]" target="_blank" class="hover-transition">BOOK SUITE</a></div>
           </div>
         </div>
       </div>
-      <div class="row " id="double">
+      <div ng-if="$odd" class="row " id="[[room.code]]">
         <div class=" col-md-4 no-gutter">
           <div class="rooms-description1 rooms-description2 center-block">
-        
-<h4>[[browser.roomsv[1].name]]</h4>
-            <h3 class="room-rate">TONIGHT’S RATE:[[ browser.roomRates[1] ]]<img src="/assets/images/room-icon2.png" class="rooms-icon-left"  alt=""/></h3>
+
+            <h4>[[room.name]]</h4>
+            <h3 class="room-rate">TONIGHT’S RATE:[[room.todayRate]]</h3>
             <span class="dimond"> ◆</span>
-            <p>[[browser.roomsv[1].description]]</p>
-            <div class="brown-button buttons-container"><a href="/room/Double-Deuce/" class="hover-transition">VIEW ROOM</a> <a href="https://thepadrehotel.reztrip.com/search?&selected_room=[[browser.roomsv[1].code]]"  target="_blank"  class="hover-transition">BOOK ROOM</a></div>
+            <p>[[room.description]]</p>
+            <div class="brown-button buttons-container"><a href="/room/?[[room.name | formatNameForLink]]" class="hover-transition">VIEW ROOM</a> <a href="https://thepadrehotel.reztrip.com/search?&selected_room=[[room.code]]"  target="_blank"  class="hover-transition">BOOK ROOM</a></div>
           </div>
         </div>
-        <div class=" col-md-8 no-gutter"> <img src="/assets/images/rooms-list2.jpg"  class="img-reponsive img-width" alt=""/> </div>
+        <div class=" col-md-8 no-gutter"> <img ng-src="[[room.photos[0].yankee_large]]"  class="img-reponsive img-width" alt=""/> </div>
       </div>
     </div>
-    
-    <div class="rooms-list-top-margin ">
-      <div class="row " id="maverick">
-        <div class="col-md-4  no-gutter"> <img src="/assets/images/rooms-list3.jpg"  class="img-responsive img-width padd-l40" alt=""/> </div>
-        <div class="col-md-8 no-gutter">
-          <div class="rooms-description1 center-block">
-         
-            <h4>[[browser.roomsv[0].name]]</h4>
-            <h3 class="room-rate">TONIGHT’S RATE:[[ browser.roomRates[0] ]]<img src="/assets/images/room-icon3.png" class="rooms-icon-left rooms-gun-first"  alt=""/></h3>
-            <span class="dimond"> ◆</span>
-            <p>[[browser.roomsv[0].description]]</p>
-            <div class="brown-button buttons-container"><a href="/room/Maverick/" class="hover-transition">VIEW ROOM</a> <a href="https://thepadrehotel.reztrip.com/search?&selected_room=[[browser.roomsv[0].code]]"  target="_blank"  class="hover-transition">BOOK ROOM</a></div>
-          </div>
-        </div>
-      </div>
-      <div class="row " id="40winks">
-        <div class="col-md-4 no-gutter">
-          <div class="rooms-description1 rooms-description2 center-block">
-        
-<h4>[[browser.roomsv[4].name]]</h4>
-            <h3 class="room-rate">TONIGHT’S RATE:[[ browser.roomRates[4] ]]<img src="/assets/images/room-icon4.png" class="rooms-icon-right rooms-hat-first"  alt=""/></h3>
-            <span class="dimond"> ◆</span>
-            <p>[[browser.roomsv[4].description]]</p>
-            <div class="brown-button buttons-container"><a href="/room/40-Winks/" class="hover-transition">VIEW ROOM</a> <a href="https://thepadrehotel.reztrip.com/search?&selected_room=[[browser.roomsv[4].code]]"  target="_blank"  class="hover-transition">BOOK ROOM</a></div>
-          </div>
-        </div>
-        <div class="col-md-8 no-gutter"> <img src="/assets/images/rooms-list4.jpg"  class="img-reponsive img-width" alt=""/> </div>
-      </div>
-    </div>
-    
-    <div class="rooms-list-top-margin ">
-      <div class="row "  id="oilbaron">
-        <div class="col-md-4  no-gutter"> <img src="/assets/images/rooms-list5.jpg"  class="img-responsive img-width padd-l40" alt=""/> </div>
-        <div class=" col-md-8 no-gutter">
-          <div class="rooms-description1 center-block">
-         
-            <h4>[[browser.roomsv[5].name]]</h4>
-            <h3 class="room-rate">TONIGHT’S RATE:[[ browser.roomRates[5] ]]<img src="/assets/images/room-icon2.png" class="rooms-icon-right rooms-boot-second"  alt=""/></h3>
-            <span class="dimond"> ◆</span>
-            <p>[[browser.roomsv[5].description]]</p>
-            <div class="brown-button buttons-container"><a href="/room/Oil-Baron-Suite/" class="hover-transition">VIEW SUITE</a> <a href="https://thepadrehotel.reztrip.com/search?&selected_room=[[browser.roomsv[5].code]]"  target="_blank"  class="hover-transition">BOOK SUITE</a></div>
-          </div>
-        </div>
-      </div>
-      <div class="row "  id="headhoncho">
-        <div class="col-md-4 no-gutter">
-          <div class="rooms-description1 rooms-description2 center-block">
-        
-<h4>[[browser.roomsv[2].name]]</h4>
-            <h3 class="room-rate">TONIGHT’S RATE:[[ browser.roomRates[2] ]]
-            <img src="/assets/images/room-icon4.png" class="rooms-icon-left rooms-hat-flip"  alt=""/></h3>
-            <span class="dimond"> ◆</span>
-            <p>[[browser.roomsv[2].description]]</p>
-            <div class="brown-button buttons-container"><a href="/room/Head-Honcho-Suite/" class="hover-transition">VIEW SUITE</a> <a href="https://thepadrehotel.reztrip.com/search?&selected_room=[[browser.roomsv[2].code]]"  target="_blank"  class="hover-transition">BOOK SUITE</a></div>
-          </div>
-        </div>
-        <div class=" col-md-8 no-gutter"> <img src="/assets/images/rooms-list6.jpg"  class="img-reponsive img-width" alt=""/> </div>
-      </div>
-    </div>
-    
-<div class="rooms-list-top-margin ">
-     <div class="row "  id="cornerpocket">
-        <div class=" col-md-4  no-gutter"> <img src="/assets/images/rooms-list7.jpg"  class="img-responsive img-width padd-l40" alt=""/> </div>
-        <div class="col-md-8 no-gutter">
-          <div class="rooms-description1 center-block">
-         
-            <h4>[[browser.roomsv[3].name]]</h4>
-            <h3 class="room-rate">TONIGHT’S RATE:[[ browser.roomRates[3] ]]<img src="/assets/images/room-icon3.png" class="rooms-icon-right rooms-gun-second"  alt=""/></h3>
-            <span class="dimond"> ◆</span>
-            <p>[[browser.roomsv[3].description]]</p>
-            <div class="brown-button buttons-container"><a href="/room/Corner-Pocket/" class="hover-transition">VIEW ROOM</a> <a href="https://thepadrehotel.reztrip.com/search?&selected_room=[[browser.roomsv[3].code]]"  target="_blank"  class="hover-transition">BOOK ROOM</a></div>
-          </div>
-        </div>
-      </div>
-      <div class="row "   id="maverickada">
-        <div class=" col-md-4 no-gutter">
-          <div class="rooms-description1 rooms-description2 center-block">
-        
-<h4>[[browser.roomsv[7].name]]</h4>
-            <h3 class="room-rate">TONIGHT’S RATE:[[ browser.roomRates[7] ]]
-            <img src="/assets/images/room-icon4.png" class="rooms-icon-left rooms-hat-flip"  alt=""/></h3>
-            <span class="dimond"> ◆</span>
-            <p>[[browser.roomsv[7].description]]</p>
-            <div class="brown-button buttons-container"><a href="/room/Maverick-ADA/" class="hover-transition">VIEW ROOM</a> <a href="https://thepadrehotel.reztrip.com/search?&selected_room=[[browser.roomsv[7].code]]"  target="_blank"  class="hover-transition">BOOK ROOM</a></div>
-          </div>
-        </div>
-        <div class="col-md-8 no-gutter"> <img src="/assets/images/rooms-list8.jpg"  class="img-reponsive img-width" alt=""/> </div>
-      </div>
-    </div>
-    
-      
-  
-    
+
+
   </section>
 <div class="home-offers ">
 
@@ -182,23 +86,23 @@ layout: default
       <div class="offers-list"  rt3-special-rates="specials">
         <div class="row no-gutter">
           <div class="col-sm-4 col-md-4 ">
-            <div class="item-padding"> 
+            <div class="item-padding">
              <div class="img-container">
             <img ng-src="[[ specials.special_rates[1].lead_photo_url.large]]"  class="img-width"  alt=""/>
             </div>
               <h5>[[ specials.special_rates[1].rate_plan_name | filterHtmlChars ]]</h5>
               <p>[[ specials.special_rates[1].short_description | filterHtmlChars ]]</p>
-              <div class="brown-button "><a  ng-href="/special/[[specials.special_rates[1].rate_plan_name | spaceDash]]/" class="hover-transition view-offer-button">View offer</a></div>
+              <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[1].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button">View offer</a></div>
             </div>
           </div>
           <div class="col-sm-4 col-md-4 ">
-            <div class="item-padding"> 
+            <div class="item-padding">
             <div class="img-container">
             <img ng-src="[[ specials.special_rates[2].lead_photo_url.large]]"  class="img-width"  alt=""/>
             </div>
               <h5>[[ specials.special_rates[2].rate_plan_name | filterHtmlChars ]]</h5>
               <p>[[ specials.special_rates[2].short_description | filterHtmlChars ]]</p>
-              <div class="brown-button "><a  ng-href="/special/[[specials.special_rates[2].rate_plan_name | spaceDash]]/" class="hover-transition view-offer-button">View offer</a></div>
+              <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[2].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button">View offer</a></div>
             </div>
           </div>
           <div class="col-sm-4 col-md-4 ">
@@ -208,15 +112,15 @@ layout: default
              </div>
               <h5>[[ specials.special_rates[3].rate_plan_name | filterHtmlChars ]]</h5>
               <p>[[ specials.special_rates[3].short_description | filterHtmlChars ]]</p>
-              <div class="brown-button "><a  ng-href="/special/[[specials.special_rates[3].rate_plan_name | spaceDash]]/" class="hover-transition view-offer-button">View offer</a></div>
+              <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[3].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button">View offer</a></div>
             </div>
           </div>
         </div>
       </div>
-      
+
     </div>
-    
-    
+
+
   </div>
 </div>
 <div class="row view-all-button-container">
@@ -226,3 +130,4 @@ layout: default
 <hr class=" hr-border">
 
 </div>
+</section>

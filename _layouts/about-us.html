@@ -6,7 +6,7 @@ layout: default
 
 
 <section class="global-container banner-onscroll">
-{% include aboutus-carousel.html %}  
+{% include aboutus-carousel.html %}
 
 	<div class="home-bakersfield ">
 		<div class="container ">
@@ -19,18 +19,18 @@ layout: default
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-6 no-gutter">
-           {% region aboutus-bakers-img-1 %} 
-					
+           {% region aboutus-bakers-img-1 %}
+
 				</div>
 			</div>
 			<div class="row padre" >
 				<div class="col-sm-12 col-md-6 no-gutter">
         {% region aboutus-bakers-img-2 %}
-					
+
 				</div>
 				<div class="col-sm-12 col-md-6 no-gutter ">
 					<div class="row bg-text">padre
-  
+
 						<span>{% region aboutus-bakers-historical %} </span>
 					</h2>
 				</div>
@@ -50,28 +50,28 @@ layout: default
         <h3 class="text-bold"> {% region aboutus-special-offers-title %} </h3>
         <span class="dimond"> ◆</span>
      {% region aboutus-special-offers-para %}
-         
+
       </div>
       <div class="offers-list"  rt3-special-rates="specials">
         <div class="row no-gutter">
           <div class="col-sm-4 col-md-4 ">
-            <div class="item-padding"> 
+            <div class="item-padding">
              <div class="img-container">
             <img ng-src="[[ specials.special_rates[1].lead_photo_url.large]]"  class="img-width"  alt=""/>
             </div>
               <h5>[[ specials.special_rates[1].rate_plan_name | filterHtmlChars ]]</h5>
               <p>[[ specials.special_rates[1].short_description | filterHtmlChars ]]</p>
-              <div class="brown-button "><a  ng-href="/special/[[specials.special_rates[1].rate_plan_name | spaceDash]]/" class="hover-transition view-offer-button">View offer</a></div>
+              <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[1].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button">View offer</a></div>
             </div>
           </div>
           <div class="col-sm-4 col-md-4 ">
-            <div class="item-padding"> 
+            <div class="item-padding">
             <div class="img-container">
             <img ng-src="[[ specials.special_rates[2].lead_photo_url.large]]"  class="img-width"  alt=""/>
             </div>
               <h5>[[ specials.special_rates[2].rate_plan_name | filterHtmlChars ]]</h5>
               <p>[[ specials.special_rates[2].short_description | filterHtmlChars ]]</p>
-              <div class="brown-button "><a  ng-href="/special/[[specials.special_rates[2].rate_plan_name | spaceDash]]/" class="hover-transition view-offer-button">View offer</a></div>
+              <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[2].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button">View offer</a></div>
             </div>
           </div>
           <div class="col-sm-4 col-md-4 ">
@@ -81,15 +81,15 @@ layout: default
              </div>
               <h5>[[ specials.special_rates[3].rate_plan_name | filterHtmlChars ]]</h5>
               <p>[[ specials.special_rates[3].short_description | filterHtmlChars ]]</p>
-              <div class="brown-button "><a  ng-href="/special/[[specials.special_rates[3].rate_plan_name | spaceDash]]/" class="hover-transition view-offer-button">View offer</a></div>
+              <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[3].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button">View offer</a></div>
             </div>
           </div>
         </div>
       </div>
-      
+
     </div>
-    
-    
+
+
   </div>
 </div>
 <div class="row view-all-button-container">
@@ -97,7 +97,5 @@ layout: default
 </div>
 
 <hr class=" hr-border">
-{% include  home-activities.html %} 
-</section> 
-
-
+{% include  home-activities.html %}
+</section>
