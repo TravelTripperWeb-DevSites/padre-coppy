@@ -24,7 +24,66 @@
     						 height: 46px;
 					 }
 			  }
-		
+				#instafeed{
+		                    
+		                    .intsaimage{
+		                    	 background-repeat: no-repeat;
+		                    	 background-size: cover;
+		                    	 background-position: center center;
+		                    	 min-height: 120px;
+		                    	 @media(min-width: $screen-sm-min){
+		                    	 	min-height: 200px;
+		                    	 }
+		                    	 @media(min-width: $screen-md-min){
+		                    	 	min-height: 300px;
+		                    	 }
+		                    	 transition: all 0.5s ease;
+		                    	 a{
+		                    	 	 position: absolute;
+		                    	 	 top: 0px;
+		                    	 	 bottom: 0px;
+		                    	 	 left: 0px;
+		                    	 	 right: 0px; 
+		                    	 	 transition: all 0.5s ease;
+		                    	 	 background: rgba(0,0,0,0);
+		                    	 	 overflow: hidden;
+		                    	 	 opacity: 0; 
+		                    	 	 height: 0;
+		                    	     overflow: hidden;
+		                    	 	 span{
+		                    	 	 	position: absolute;
+		                    	 	 	width: 100px;
+		                    	 	 	height: 30px;
+		                    	 	 	text-align: center;
+		                    	 	 	 top: 50%; 
+		                    	 	 	 left: 50%;
+		                    	 	 	 width: auto;
+		                    	 	 	 -webkit-transform: translate(-50%, -50%);
+		                    	 	 	    -moz-transform: translate(-50%, -50%); 
+		                    	 	 	    -ms-transform: translate(-50%, -50%); 
+		                    	 	 	    -o-transform: translate(-50%, -50%); 
+		                    	 	 	    transform: translate(-50%, -50%); 
+		                    	 	 	 color: white;
+		                    	 	 	 transition: all 0.5s ease;
+		                    	 	 	 .fa-comment-o{
+		                    	 	 	 	 padding-left: 20px;
+		                    	 	 	 }
+		                    	 	 }
+		                    	 	 
+		                    	 }
+		                    	 &:hover{
+		                    	 	   a{
+		                    	 	   	 opacity: 1; 
+		                    	 	 	 height: auto;
+		                    	 	 	 background: rgba(0,0,0,0.5); 
+		                    	 	 	}
+
+		                    	 	 }
+		                    }
+		                    .no-padding{
+		                    	 padding: 0px;
+		                    }
+				}
 		
 	}
 	

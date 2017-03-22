@@ -22,7 +22,21 @@ function getIp(data){
 <script src="/assets/js/lg-thumbnail.js"></script>
 <script src="/assets/js/script.js" type="text/javascript"></script>
 <script src="/assets/js/masonry.js"></script>
-
+<script type="text/javascript" src="/js/instafeed.js"></script> 
+    <script type="text/javascript">
+    var userFeed = new Instafeed({
+    get: 'user',
+    userId: '288716439',
+    clientId: '026e8f80a7984cafa351229e8622c145',
+    accessToken: '288716439.039dc34.ecbebb9ddf8149609bec702456361b39',
+    resolution: 'standard_resolution',
+    template: '<div class="col-xs-6 col-sm-3 no-padding intsaimage" style="background-image: url([[image]]);"><a href="[[link]]" target="_blank" id="[[id]]"><span><i class="fa fa-heart-o" aria-hidden="true"></i> [[likes]] <i class="fa fa-comment-o" aria-hidden="true"></i> [[comments]]</span></a></div>',
+    sortBy: 'most-recent',
+    limit: 4,
+    links: false
+  });
+  userFeed.run();
+</script>
 <script src="https://use.typekit.net/rmo4aei.js"></script>
 <script type="text/jscript">
 
