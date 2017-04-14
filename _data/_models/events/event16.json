@@ -5,5 +5,6 @@
 	"sort_order": 1,
 	"banner_image": {
 		"url": "https://cdn.traveltripper.io/site-assets/408_410_369/media/2017-03-07-193918/Padre_EasterSunday2017_937x400.jpg"
-	}
+	},
+	"unpublish": false
 }

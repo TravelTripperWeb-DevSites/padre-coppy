@@ -16,27 +16,29 @@ layout: default
         {% region events-image %}
       </div>
     </div>
-    <div class="gallery-container  common-container dine">
+    <div class="gallery-container common-container dine">
       <div class="row ">
         <div class="col-md-12">
           {% assign eventitems = site.data._models.events | sort: 'sort_order' %}
           {% for eventitem in eventitems %}
-          <div  class="event-list">
-            <h5 >{{ eventitem.title }}</h5>
-            <img src={{ eventitem.banner_image.url }} class="img-width" alt="{{ eventitem.title }}"/>
-            <div class="row ">
-              <div class="col-md-6">
-                <p class="description">{{ eventitem.description }}</p>
-              </div>
-              <div class="col-md-6 link-container">
-                <div class="ticket">
-                  <span>
-                 {{ eventitem.button_text }}
-                  </span> 
+            {% if eventitem.unpublish != true %}
+              <div  class="event-list">
+                <h5 >{{ eventitem.title }}</h5>
+                <img src={{ eventitem.banner_image.url }} class="img-width" alt="{{ eventitem.title }}"/>
+                <div class="row ">
+                  <div class="col-md-6">
+                    <p class="description">{{ eventitem.description }}</p>
+                  </div>
+                  <div class="col-md-6 link-container">
+                    <div class="ticket">
+                      <span>
+                    {{ eventitem.button_text }}
+                      </span> 
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
+            {% endif %}
           {% endfor %}
 
          
