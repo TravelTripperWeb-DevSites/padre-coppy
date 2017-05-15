@@ -1,7 +1,6 @@
 [
-	{
-		"_template": "html",
-		"content": "<p>Get into the groove: Speakeasy vibes without all the pretension and twice the cool. Craft cocktails and cult wine are here to quench your thirst while progressive share plates entertain your palate.</p>\n<p>But save room for to get lost in the melodic melody of the lounge. A comfortable seat on our couch awaits you; we promise you'll feel right at home.</p>",
-		"rendered_height": 500
-	}
+  {
+    "_template": "html",
+    "content": "<p>Get into the groove: Speakeasy vibes without all the pretension and twice the cool. Craft cocktails and cult wine are here to quench your thirst while progressive share plates entertain your palate.</p>\n<p>But save room for to get lost in the melodic melody of the lounge. A comfortable seat on our couch awaits you; we promise you'll feel right at home.</p>\n<div class=\"row\">\n<div class=\"col-md-12\">\n<div class=\"brown-button\"><a class=\"hover-transition\" href=\"http://www.eatdrinkandsleep.net/EDS_Media/2017/Padre/Website/Prospect_Menu_091616_WEB.pdf\" target=\"_blank\">VIEW MENU</a></div>\n</div>\n</div>"
+  }
 ]
