@@ -1,9 +1,10 @@
 {
-	"title": "Padre Picks",
-	"description": "<p><span style=\"color: #333333; font-family: Helvetica, arial, sans-serif; font-size: 14px;\">Because everyone should be able to enjoy great wine!&nbsp;</span><span style=\"color: #333333; font-family: Helvetica, arial, sans-serif; font-size: 14px;\">Each month, sip on a selection of deeply discounted wine from every region. Enjoy the bottle with your dinner at Belvedere or grab it to go to pair with a meal at home!</span></p>\n<p>&nbsp;</p>",
-	"button_text": "<p><a href=\"http://www.eatdrinkandsleep.net/EDS_Media/2017/Padre/Website/PADRE_PadrePicks.pdf\" target=\"_blank\">See Menu</a></p>",
-	"banner_image": {
-		"url": "https://cdn.traveltripper.io/site-assets/408_410_369/media/2017-02-14-181753/Padre_PadrePicks_February937x400.jpg"
-	},
-	"sort_order": 2
+  "title": "Padre Picks",
+  "description": "<p><span style=\"color: #333333; font-family: Helvetica, arial, sans-serif; font-size: 14px;\">Because everyone should be able to enjoy great wine!&nbsp;</span><span style=\"color: #333333; font-family: Helvetica, arial, sans-serif; font-size: 14px;\">Each month, sip on a selection of deeply discounted wine from every region. Enjoy the bottle with your dinner at Belvedere or grab it to go to pair with a meal at home!</span></p>\n<p>&nbsp;</p>",
+  "button_text": "<p><a href=\"http://www.eatdrinkandsleep.net/EDS_Media/2017/Padre/Website/PADRE_PadrePicks.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">See Menu</a></p>",
+  "banner_image": {
+    "url": "https://cdn.traveltripper.io/site-assets/408_410_369/media/2017-02-14-181753/Padre_PadrePicks_February937x400.jpg"
+  },
+  "sort_order": 2,
+  "unpublish": true
 }
