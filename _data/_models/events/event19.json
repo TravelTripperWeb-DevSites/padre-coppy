@@ -1,7 +1,7 @@
 {
   "title": "Anderson Valley Brewing Beer Dinner",
-  "description": "<p>Take a seat for a night of brews and bites during our 2nd&nbsp;Beer Dinner of the season! June 27th's four course dinner with feature beer pairings from <a href=\"https://avbc.com//\" target=\"_blank\">Anderson Brewing Company</a>. Seating is limited so snag your <a href=\"https://avbc.com/\" target=\"_blank\">$50 ticket today</a>!</p>",
-  "button_text": "<p><a href=\"https://www.eventbrite.com/e/brews-bites-beer-dinner-with-anderson-brewing-company-tickets-34710088810?aff=erelexpmlt\" target=\"_blank\">Buy a Ticket</a></p>",
+  "description": "<p>Take a seat for a night of brews and bites during our 2nd&nbsp;Beer Dinner of the season! June 27th's four course dinner with feature beer pairings from <a href=\"https://avbc.com//\" target=\"_blank\" rel=\"noopener noreferrer\">Anderson Brewing Company</a>. Seating is limited so snag your <a href=\"https://avbc.com/\" target=\"_blank\" rel=\"noopener noreferrer\">$50 ticket today</a>!</p>\n<p><a href=\"http://www.eatdrinkandsleep.net/EDS_Media/2017/Padre/Website/PADRE_BeerDinner_Menu_WEB.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">View the Menu &gt;&gt;</a></p>",
+  "button_text": "<p><a href=\"https://www.eventbrite.com/e/brews-bites-beer-dinner-with-anderson-brewing-company-tickets-34710088810?aff=erelexpmlt\" target=\"_blank\" rel=\"noopener noreferrer\">Buy a Ticket</a></p>",
   "sort_order": 1,
   "banner_image": {
     "url": "https://cdn.traveltripper.io/site-assets/408_410_369/media/2017-05-22-135837/PADRE-BeerDinner-WebCalendar.jpg"
