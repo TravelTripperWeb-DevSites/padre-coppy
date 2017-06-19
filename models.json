@@ -1,252 +1,176 @@
 {
   "events": [
-    [
-      {
-        "title": "Bakersfield Unplugged",
-        "file": "event14.json"
-      }
-    ],
-    [
-      {
-        "title": "Padre Picks",
-        "file": "event15.json"
-      }
-    ],
-    [
-      {
-        "title": "Easter Brunch",
-        "file": "event16.json"
-      }
-    ],
-    [
-      {
-        "title": "Heating Up at Prairie Fire",
-        "file": "event17.json"
-      }
-    ],
-    [
-      {
-        "title": "Jazz Nights",
-        "file": "event18.json"
-      }
-    ],
-    [
-      {
-        "title": "Temblor Beer Dinner",
-        "file": "event19.json"
-      }
-    ],
-    [
-      {
-        "title": "Mother's Day",
-        "file": "event20.json"
-      }
-    ],
-    [
-      {
-        "title": "Cinco de Mayo",
-        "file": "event21.json"
-      }
-    ],
-    [
-      {
-        "title": "Brunch & Bubbles at Belvedere Room",
-        "file": "event5.json"
-      }
-    ],
-    [
-      {
-        "title": "Wine Down Wednesdays",
-        "file": "events1.json"
-      }
-    ]
+    {
+      "title": "Bakersfield Unplugged",
+      "file": "event14.json"
+    },
+    {
+      "title": "Padre Picks",
+      "file": "event15.json"
+    },
+    {
+      "title": "Easter Brunch",
+      "file": "event16.json"
+    },
+    {
+      "title": "Heating Up at Prairie Fire",
+      "file": "event17.json"
+    },
+    {
+      "title": "Jazz Nights",
+      "file": "event18.json"
+    },
+    {
+      "title": "Anderson Valley Brewing Beer Dinner",
+      "file": "event19.json"
+    },
+    {
+      "title": "Mother's Day",
+      "file": "event20.json"
+    },
+    {
+      "title": "Cinco de Mayo",
+      "file": "event21.json"
+    },
+    {
+      "title": "Brunch & Bubbles at Belvedere Room",
+      "file": "event5.json"
+    },
+    {
+      "title": "Wine Down Wednesdays",
+      "file": "events1.json"
+    },
+    {
+      "title": "Prairie Fire Luau",
+      "file": "events2.json"
+    },
+    {
+      "title": "Classic Rock Cover Night",
+      "file": "events3.json"
+    },
+    {
+      "title": "Walkabout Wine Dinner",
+      "file": "events4.json"
+    },
+    {
+      "title": "Dueling Piano Nights",
+      "file": "events5.json"
+    }
   ],
   "gallery-dining": [
-    [
-      {
-        "file": "gallery-dining1.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-dining2.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-dining3.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-dining4.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-dining5.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-dining6.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-dining7.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-dining8.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-dining9.json"
-      }
-    ]
+    {
+      "file": "gallery-dining1.json"
+    },
+    {
+      "file": "gallery-dining2.json"
+    },
+    {
+      "file": "gallery-dining3.json"
+    },
+    {
+      "file": "gallery-dining4.json"
+    },
+    {
+      "file": "gallery-dining5.json"
+    },
+    {
+      "file": "gallery-dining6.json"
+    },
+    {
+      "file": "gallery-dining7.json"
+    },
+    {
+      "file": "gallery-dining8.json"
+    },
+    {
+      "file": "gallery-dining9.json"
+    }
   ],
   "gallery-events": [
-    [
-      {
-        "file": "gallery-events1.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-events2.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-events3.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-events4.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-events5.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-events6.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-events7.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-events8.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-events9.json"
-      }
-    ]
+    {
+      "file": "gallery-events1.json"
+    },
+    {
+      "file": "gallery-events2.json"
+    },
+    {
+      "file": "gallery-events3.json"
+    },
+    {
+      "file": "gallery-events4.json"
+    },
+    {
+      "file": "gallery-events5.json"
+    },
+    {
+      "file": "gallery-events6.json"
+    },
+    {
+      "file": "gallery-events7.json"
+    },
+    {
+      "file": "gallery-events8.json"
+    },
+    {
+      "file": "gallery-events9.json"
+    }
   ],
   "gallery-hotel": [
-    [
-      {
-        "file": "gallery-hotel1.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-hotel2.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-hotel3.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-hotel4.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-hotel5.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-hotel6.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-hotel7.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-hotel8.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-hotel9.json"
-      }
-    ]
+    {
+      "file": "gallery-hotel1.json"
+    },
+    {
+      "file": "gallery-hotel2.json"
+    },
+    {
+      "file": "gallery-hotel3.json"
+    },
+    {
+      "file": "gallery-hotel4.json"
+    },
+    {
+      "file": "gallery-hotel5.json"
+    },
+    {
+      "file": "gallery-hotel6.json"
+    },
+    {
+      "file": "gallery-hotel7.json"
+    },
+    {
+      "file": "gallery-hotel8.json"
+    },
+    {
+      "file": "gallery-hotel9.json"
+    }
   ],
   "gallery-rooms": [
-    [
-      {
-        "file": "gallery-rooms1.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-rooms2.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-rooms3.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-rooms4.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-rooms5.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-rooms6.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-rooms7.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-rooms8.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery-rooms9.json"
-      }
-    ]
+    {
+      "file": "gallery-rooms1.json"
+    },
+    {
+      "file": "gallery-rooms2.json"
+    },
+    {
+      "file": "gallery-rooms3.json"
+    },
+    {
+      "file": "gallery-rooms4.json"
+    },
+    {
+      "file": "gallery-rooms5.json"
+    },
+    {
+      "file": "gallery-rooms6.json"
+    },
+    {
+      "file": "gallery-rooms7.json"
+    },
+    {
+      "file": "gallery-rooms8.json"
+    },
+    {
+      "file": "gallery-rooms9.json"
+    }
   ]
 }

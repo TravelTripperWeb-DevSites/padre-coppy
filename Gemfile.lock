@@ -1,12 +1,15 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    addressable (2.5.0)
+      public_suffix (~> 2.0, >= 2.0.2)
     colorator (0.1)
-    concurrent-ruby (1.0.5)
+    concurrent-ruby (1.0.4)
     extras (0.1.0)
       forwardable-extended (~> 2.5)
-    fastimage (2.1.0)
-    ffi (1.9.18-x64-mingw32)
+    fastimage (2.0.1)
+      addressable (~> 2)
+    ffi (1.9.17-x86-mingw32)
     forwardable-extended (2.6.0)
     i18n (0.8.1)
     jekyll (3.1.6)
@@ -37,6 +40,7 @@ GEM
     mercenary (0.3.6)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
+    public_suffix (2.0.5)
     rack (1.6.5)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
@@ -50,7 +54,7 @@ GEM
     xkeys (2.2.0)
 
 PLATFORMS
-  x64-mingw32
+  x86-mingw32
 
 DEPENDENCIES
   i18n
@@ -59,4 +63,4 @@ DEPENDENCIES
   xkeys
 
 BUNDLED WITH
-   1.14.6
+   1.13.1

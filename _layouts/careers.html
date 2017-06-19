@@ -20,8 +20,109 @@ layout: default
 <div class="row ">
  
       
-   <div class="col-md-12 text-center">
+   <div class="col-md-12 text-center contact-form" id="top">
      {% region careers-content-area-1 %}
+
+<br><br>
+
+
+<script type="text/javascript">
+var ampersand = decodeURIComponent("%26");
+
+function createParam(paramName, userValue, preDefinedValue){
+
+
+        var p = encodeURIComponent(paramName) + '=';
+
+        if(typeof userValue != typeof undefined)  
+
+            return p + encodeURIComponent(userValue) + ampersand;
+
+        if(preDefinedValue != "")  
+
+            return p + encodeURIComponent(preDefinedValue) + ampersand;
+
+        return "";  
+
+    }  
+
+    // initial definition for parameters 
+
+    var predefindParams = [];
+
+    predefindParams["keywords"] = ""; 
+    predefindParams["jobcategory"] = "";
+    predefindParams["postalCode"] = "";
+    predefindParams["orderBy"] = "";
+    predefindParams["companyId"] = "436659963"; //  -- put your company id here
+    predefindParams["companyIds"] = ""; //  -- custom divisions ids (optional)
+    predefindParams["showJobsFromDealer"] = "false";
+    predefindParams["selectedCountry"] = "";
+    predefindParams["radius"] = "";
+
+    // Job list display options - These are used to control what options are available.
+    // A parameter is set by adding "true" between the empty quotes next to the parameter to be set.
+    // Change the "companyId" parameter to the company's Id.
+    // The company id can be found on the Company Profile page in the Accolo application.
+
+    predefindParams["disableSearch"] = "false";
+    predefindParams["hideJobAgentLink"] = "false";
+    predefindParams["showFunctionalTitle"] = "false";
+    predefindParams["disableJobCount"] = "false";
+    predefindParams["disableTableHeader"] = "false";
+    predefindParams["showCompanyName"] = "false";
+    predefindParams["hideIndustryDropdown"] = "true";
+    predefindParams["jobConfidentiality"] = "";
+    predefindParams["industryId"] = "";
+    predefindParams["hideLaunchDate"] = "false";
+    predefindParams["hideLocation"] = "false";
+    predefindParams["hideJobType"] = "false";
+    predefindParams["hideLocationDropdown"] = "false";
+    predefindParams["hideCountryDropdown"] = "true";
+    predefindParams["customerId"] = "";
+    predefindParams["hideJobCategoryDropdown"] = "false";
+    predefindParams["hideKeywordSearch"] = "false";
+    predefindParams["hideRadiusSearch"] = "true";
+    predefindParams["radiusDistanceMiles"] = "";
+    predefindParams["radiusZipCode"] = "";
+    predefindParams["showAllExternalJobs"] = "false";
+    predefindParams["popupsForApply"] = "false";
+
+  var paramsStr = ""; 
+
+    var searchStr = document.location.search; 
+
+    var userParams = [];
+
+    if(searchStr.length> 0){ 
+
+        // parse parameters from url 
+
+        searchStr = searchStr.substr(1, searchStr.length - 1); 
+
+        var params = searchStr.split(ampersand);
+
+        for(var paramNo in params){ 
+            if (params.hasOwnProperty(paramNo)) {
+                var pair = params[paramNo].split("=");
+                var key = pair[0];
+                var value = pair[1];
+                userParams[key] = decodeURIComponent(value);
+            }
+        }
+
+    } 
+
+    //create parameters for jsp call 
+
+    for(var paramName in predefindParams){ 
+        if (predefindParams.hasOwnProperty(paramName)) {
+            paramsStr += createParam(paramName, userParams[paramName], predefindParams[paramName]);
+        }
+    }
+
+  document.write("<script type='text/javascript' src='https://app.hiremojo.com/public/communityJobs.htm?isJSInclude=1&"+paramsStr+"'></s"+"cript>");
+</script>
    </div>
  
 </div>

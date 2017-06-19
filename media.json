@@ -20,6 +20,45 @@
     "git_file_name": "_assets/image_data/site-assets_408_410_2694_media_2017-05-10-152611_Padre-WineDown-937x400.jpg.json"
   },
   {
+    "name": "PadreHotel_Events_ClassicRock",
+    "file_name": "PadreHotel_Events_ClassicRock.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/408_410_3625/media/2017-06-06-154429/PadreHotel-Events-ClassicRock.jpg",
+    "date_added": "2017-06-06-154430",
+    "tags": "",
+    "file_size": 61869.0,
+    "width": 937,
+    "height": 400,
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_408_410_3625_media_2017-06-06-154429_PadreHotel-Events-ClassicRock.jpg.json"
+  },
+  {
+    "name": "PadreHotel_Events_DuelingPianos",
+    "file_name": "PadreHotel_Events_DuelingPianos.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/408_410_3625/media/2017-06-06-154430/PadreHotel-Events-DuelingPianos.jpg",
+    "date_added": "2017-06-06-154430",
+    "tags": "",
+    "file_size": 46884.0,
+    "width": 937,
+    "height": 400,
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_408_410_3625_media_2017-06-06-154430_PadreHotel-Events-DuelingPianos.jpg.json"
+  },
+  {
+    "name": "PadreHotel_Events_LuauParty",
+    "file_name": "PadreHotel_Events_LuauParty.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/408_410_3625/media/2017-06-06-154431/PadreHotel-Events-LuauParty.jpg",
+    "date_added": "2017-06-06-154431",
+    "tags": "",
+    "file_size": 108699.0,
+    "width": 937,
+    "height": 400,
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_408_410_3625_media_2017-06-06-154431_PadreHotel-Events-LuauParty.jpg.json"
+  },
+  {
     "name": "Padre_BakersfieldUnplugged_937x400",
     "file_name": "Padre_BakersfieldUnplugged_937x400.jpg",
     "file_type": "image/jpeg",
@@ -128,6 +167,32 @@
     "tags": "",
     "description": "",
     "git_file_name": "_assets/image_data/site-assets_408_410_369_media_2017-04-12-131446_Padre_Events_Cinco.jpg.json"
+  },
+  {
+    "name": "PADRE_BeerDinner_WebCalendar",
+    "file_name": "PADRE_BeerDinner_WebCalendar.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/408_410_369/media/2017-05-22-135837/PADRE-BeerDinner-WebCalendar.jpg",
+    "date_added": "2017-05-22-135837",
+    "tags": "",
+    "file_size": 184196.0,
+    "width": 937,
+    "height": 400,
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_408_410_369_media_2017-05-22-135837_PADRE-BeerDinner-WebCalendar.jpg.json"
+  },
+  {
+    "name": "Padre_ClassicRockNight_937x400",
+    "file_name": "Padre_ClassicRockNight_937x400.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/408_410_4101/media/2017-06-12-180410/Padre-ClassicRockNight-937x400.jpg",
+    "date_added": "2017-06-12-180410",
+    "tags": "",
+    "file_size": 238618.0,
+    "width": 937,
+    "height": 400,
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_408_410_4101_media_2017-06-12-180410_Padre-ClassicRockNight-937x400.jpg.json"
   },
   {
     "name": "PADRE_WinterWineSeries_937x300",
