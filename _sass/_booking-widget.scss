@@ -14,6 +14,30 @@
   }
 }
 
+.booking-widget {
+  form {
+    display: none;
+  }
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    background: url('/assets/images/loading.gif') white center center no-repeat;
+  }
+  .booking-widget_header {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+  }
+}
+
 .booking-widget_header {
   background: #322C2C;
   @extend .clearfix;
@@ -32,7 +56,7 @@
 }
 
 .booking-widget_title {
-  font-family: 'Avenir LT W01_95 Black1475556';
+  font-family: 'Lato', sans-serif;
   font-size: 24px;
   font-weight: lighter;
   letter-spacing: 2px;
@@ -68,7 +92,7 @@
   letter-spacing: 2px;
   font-weight: bold;
   font-size: 11px;
- font-family: 'Avenir LT W01_95 Black1475556';
+  font-family: 'Lato', sans-serif;
 }
 
 .booking-widget_flexible-dates_icon {
@@ -165,7 +189,7 @@
 
 .booking-widget_special-rates_button {
   display: block;
- font-family: 'Avenir LT W01_95 Black1475556';
+  font-family: 'Lato', sans-serif;
   font-size: 12px;
   text-decoration: none;
   text-transform: uppercase;
@@ -186,7 +210,7 @@
   border-bottom: 1px solid #e6e5e5;
 
   span {
-    font-family: 'Avenir LT W01_95 Black1475556';
+    font-family: 'Lato', sans-serif;
     font-size: 14px;
     float: left;
     width: 86px;
@@ -200,7 +224,7 @@
   padding-left: 96px;
 
   input {
-    font-family: 'Avenir LT W01_95 Black1475556';
+    font-family: 'Lato', sans-serif;
     font-size: 14px;
     width: calc(100% - 20px);
     height: 30px;
@@ -246,7 +270,7 @@
 
   input[type="text"] {
     float: right;
-    font-family: 'Avenir LT W01_95 Black1475556';
+    font-family: 'Lato', sans-serif;
     font-size: 14px;
     height: 30px;
     margin: 0;
@@ -282,7 +306,7 @@
 }
 
 .booking-widget_special-rates_radio_title {
-  font-family: 'Avenir LT W01_95 Black1475556';
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
   margin-left: 10px;
   color: #322c2c;
@@ -297,7 +321,7 @@
 
 .bookin-widget_parameters_select-group {
   @extend .clearfix;
-  font-size: 0; 
+  font-size: 0;
   margin: 0 -10px;
 
   select {
@@ -343,7 +367,7 @@
 
 .booking-widget_rate_col {
   float: left;
- font-family: 'Avenir LT W01_45 Book1475508';
+  font-family: 'Lato', sans-serif;
   width: 50%;
   height: 46px;
 
@@ -352,22 +376,22 @@
     text-transform: uppercase;
     text-align: center;
     color: #322c2c;
-		padding-top:12px; 
+		padding-top:12px;
   }
 
   &.-count {
     font-size: 48px;
     font-weight: lighter;
     text-align: left;
-    color: #8f7d4f;
-    line-height: 46px; 
+    color: #3a9dc4;
+    line-height: 46px;
   }
 }
 
 .booking-widget_rate_button {
   display: block;
   width: 100%;
-  font-family: 'Avenir LT W01_45 Book1475508';
+  font-family: 'Lato', sans-serif;
   font-size: 13px;
   text-decoration: none;
   text-transform: uppercase;
@@ -457,7 +481,7 @@
   border-bottom: 1px solid #fff;
 
   &.-error {
-    border-top: 1px solid #8f7d4f;
+    border-top: 1px solid #3a9dc4;
     border-bottom: 1px solid #3a9dc4;
   }
 }
@@ -470,13 +494,13 @@
   left: 185px;
 
   input {
-    font-family: 'Avenir LT W01_45 Book1475508';
+    font-family: 'Lato', sans-serif;
     font-size: 14px;
     width: 100%;
     height: 100%;
     border: none;
     outline: none;
-    color: #8f7d4f;
+    color: #3a9dc4;
   }
 }
 
@@ -484,7 +508,7 @@
   position: relative;
   top: 13px;
   padding-left: 50px;
-  font-family: 'Avenir LT W01_45 Book1475508';
+  font-family: 'Lato', sans-serif;
   font-size: 12px;
   text-transform: uppercase;
   color: #7a7878;
