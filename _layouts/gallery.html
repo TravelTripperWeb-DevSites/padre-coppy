@@ -8,8 +8,10 @@ layout: default
       <div class="row no-gutter padre-gallery" >
       {% assign gallery-hotel-items = site.data._models.gallery-hotel | sort: 'sort_order' %}
       {% for gallery-hotel-item in gallery-hotel-items %}
+      {% if gallery-hotel-item.unpublish != true %}
       <a class="col-xs-6 col-sm-4" href="{{ gallery-hotel-item.large_image.url }}" > 
       <img src="{{ gallery-hotel-item.thumbnail_image.url }}" /> </a>
+      {% endif %}
       {% endfor %}  
         
          
@@ -19,8 +21,10 @@ layout: default
       <div class="row no-gutter padre-gallery" >
       {% assign gallery-rooms-items = site.data._models.gallery-rooms | sort: 'sort_order' %}
       {% for gallery-rooms-item in gallery-rooms-items %}
+      {% if gallery-rooms-item.unpublish != true %}
       <a class="col-xs-6 col-sm-4" href="{{ gallery-rooms-item.large_image.url }}" > 
       <img src="{{ gallery-rooms-item.thumbnail_image.url }}" /> </a>
+      {% endif %}
       {% endfor %}  
       </div>
       
@@ -29,8 +33,10 @@ layout: default
        <div class="row no-gutter padre-gallery" >
       {% assign gallery-dining-items = site.data._models.gallery-dining | sort: 'sort_order' %}
       {% for gallery-dining-item in gallery-dining-items %}
+      {% if gallery-dining-item.unpublish != true %}
       <a class="col-xs-6 col-sm-4" href="{{ gallery-dining-item.large_image.url }}" > 
       <img src="{{ gallery-dining-item.thumbnail_image.url }}" /> </a>
+      {% endif %}
       {% endfor %}  
       </div>
 
@@ -39,8 +45,10 @@ layout: default
       <div class="row no-gutter padre-gallery" >
       {% assign gallery-events-items = site.data._models.gallery-events | sort: 'sort_order' %}
       {% for gallery-events-item in gallery-events-items %}
+      {% if gallery-events-item.unpublish != true %}
       <a class="col-xs-6 col-sm-4" href="{{ gallery-events-item.large_image.url }}" > 
       <img src="{{ gallery-events-item.thumbnail_image.url }}" /> </a>
+      {% endif %}
       {% endfor %}  
       </div>
       

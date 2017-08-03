@@ -1,58 +1,72 @@
 {
   "events": [
     {
+      "name": "Bakersfield Unplugged",
       "title": "Bakersfield Unplugged",
       "file": "event14.json"
     },
     {
+      "name": "Padre Picks",
       "title": "Padre Picks",
       "file": "event15.json"
     },
     {
+      "name": "Easter Brunch",
       "title": "Easter Brunch",
       "file": "event16.json"
     },
     {
+      "name": "Heating Up at Prairie Fire",
       "title": "Heating Up at Prairie Fire",
       "file": "event17.json"
     },
     {
+      "name": "Jazz Nights",
       "title": "Jazz Nights",
       "file": "event18.json"
     },
     {
+      "name": "Anderson Valley Brewing Beer Dinner",
       "title": "Anderson Valley Brewing Beer Dinner",
       "file": "event19.json"
     },
     {
+      "name": "Mother's Day",
       "title": "Mother's Day",
       "file": "event20.json"
     },
     {
+      "name": "Cinco de Mayo",
       "title": "Cinco de Mayo",
       "file": "event21.json"
     },
     {
+      "name": "Brunch & Bubbles at Belvedere Room",
       "title": "Brunch & Bubbles at Belvedere Room",
       "file": "event5.json"
     },
     {
+      "name": "Wine Down Wednesdays",
       "title": "Wine Down Wednesdays",
       "file": "events1.json"
     },
     {
+      "name": "Prairie Fire Luau",
       "title": "Prairie Fire Luau",
       "file": "events2.json"
     },
     {
+      "name": "Classic Rock Cover Night",
       "title": "Classic Rock Cover Night",
       "file": "events3.json"
     },
     {
+      "name": "Walkabout Wine Dinner",
       "title": "Walkabout Wine Dinner",
       "file": "events4.json"
     },
     {
+      "name": "Dueling Piano Nights",
       "title": "Dueling Piano Nights",
       "file": "events5.json"
     }

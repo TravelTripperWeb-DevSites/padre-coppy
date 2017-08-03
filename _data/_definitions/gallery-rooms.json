@@ -10,5 +10,8 @@
   "sort_order": {
     "type": "integer",
     "required": true
+  },
+  "unpublish": {
+    "type": "boolean"
   }
 }

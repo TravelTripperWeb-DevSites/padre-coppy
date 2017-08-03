@@ -1,6 +1,17 @@
 {
-  
-  "thumbnail_image": {"type":"image","required":true},
-  "large_image": {"type":"image","required":true},
-  "sort_order": {"type":"integer","required":true}
+  "thumbnail_image": {
+    "type": "image",
+    "required": true
+  },
+  "large_image": {
+    "type": "image",
+    "required": true
+  },
+  "sort_order": {
+    "type": "integer",
+    "required": true
+  },
+  "unpublish": {
+    "type": "boolean"
+  }
 }
