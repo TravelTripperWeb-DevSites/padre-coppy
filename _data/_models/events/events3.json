@@ -3,6 +3,8 @@
   "description": "<p>Hit the Prairie Fire rooftop on Saturday, July 29th - we've got you covered! This no cover and all ages event promises nothing but the hits as you sing and dance along to you favorite classic rock covers&nbsp;performed live by the The Levitators! The music kicks off at 7pm.</p>",
   "sort_order": 2,
   "banner_image": {
-    "url": "https://cdn.traveltripper.io/site-assets/408_410_4101/media/2017-06-12-180410/Padre-ClassicRockNight-937x400.jpg"
-  }
+    "url": "https://cdn.traveltripper.io/site-assets/408_410_4101/media/2017-06-12-180410/Padre-ClassicRockNight-937x400.jpg",
+    "alt": "Classic Rock Night"
+  },
+  "unpublish": true
 }
