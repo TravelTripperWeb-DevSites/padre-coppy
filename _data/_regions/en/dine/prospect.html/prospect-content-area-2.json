@@ -1,1 +1,6 @@
-[{"_template":"html","content":"<h4>Hours </h4> <p>Tuesday through Thursday 6pm - 11pm</p><p>Friday 6pm - 1:30am</p>","rendered_height":500}]
+[
+  {
+    "_template": "html",
+    "content": "<h4>Hours</h4>\n<p>Tuesday through Thursday 6pm - 11pm</p>\n<p>Friday &amp; Saturday 8pm - 1:30am</p>"
+  }
+]
