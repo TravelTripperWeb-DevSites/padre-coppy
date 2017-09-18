@@ -1,0 +1,8 @@
+# Disallowed and allowed directories and files
+
+User-agent: *
+Disallow: 
+
+# Define website sitemaps
+
+Sitemap: http://www.thepadrehotel.com/sitemap.xml
