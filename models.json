@@ -69,6 +69,16 @@
       "name": "Dueling Piano Nights",
       "title": "Dueling Piano Nights",
       "file": "events5.json"
+    },
+    {
+      "name": "Halloween",
+      "title": "Halloween",
+      "file": "events6.json"
+    },
+    {
+      "name": "Tablas Creek Wine Dinner",
+      "title": "Tablas Creek Wine Dinner",
+      "file": "events7.json"
     }
   ],
   "gallery-dining": [
