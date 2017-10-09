@@ -1,7 +1,7 @@
 [
   {
     "_template": "html",
-    "content": " <div class='item-padding'> <img src='/assets/images/events1.jpg' class='img-width' alt=''/> <h5> 70'S WEDDING MURDER MYSTERY DINNER </h5> <p>Travel back in time, deceit and groovy kind of love are in the air! Join us on Saturday, October 29th at our 70's Wedding Murder...</p><div class='brown-button '><a href='/play/events/#Wedding' >View event</a></div></div>",
+    "content": " <div class='item-padding'> <img src='/assets/images/events1.jpg' class='img-width' alt='WEDDING MURDER MYSTERY DINNER'/> <h5> 70'S WEDDING MURDER MYSTERY DINNER </h5> <p>Travel back in time, deceit and groovy kind of love are in the air! Join us on Saturday, October 29th at our 70's Wedding Murder...</p><div class='brown-button '><a href='/play/events/#Wedding'  title='View Event'>View event</a></div></div>",
     "rendered_height": 500
   }
 ]

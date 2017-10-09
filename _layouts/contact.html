@@ -5,12 +5,7 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-md-12 no-gutter specials-listing-banner banner-color-overlay">
-        <div class="social-icons"><ul>
-          <li><a href="https://twitter.com/thepadrehotel" target="_blank"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="https://facebook.com/thepadrehotel"  target="_blank"><i class="fa fa-facebook"></i></a></li>
-          <li> <a href="https://instagram.com/thepadrehotel"  target="_blank"><i class="fa fa-instagram"></i></a></li>
-        </ul>
-      </div>
+          {% include social-links.html %}
       <div class="title">The Padre Hotel</div>
       {% region contact-header %}
       
@@ -26,22 +21,22 @@ layout: default
     <div class="col-md-8  directions">
       {% region contact-form-text %}
       
-      <form class="form contact-form" action="https://submit.jotform.me/submit/62433149079459/" method="post" name="form_62432390331447" id="62433149079459" accept-charset="utf-8">
+      <form class="form contact-form" action="https://submit.jotform.me/submit/62433149079459/" method="post" name="form_62432390331447" id="62433149079459" accept-charset="utf-8" title="Contact Form">
         <input type="hidden" name="formID" value="62433149079459" />
         <div class="form-group">
           <label >Name*</label>
-          <input type="text" class="form-control validate[required, Alphabetic]" id="input_3" name="q3_input3"   placeholder="First Name" required>
+          <input type="text" class="form-control validate[required, Alphabetic]" id="input_3" name="q3_input3" aria-label="Name"   placeholder="First Name" required>
         </div>
         <div class="form-group">
           <label >Email Address*</label>
-          <input type="email" class="form-control validate[required, Email]" id="input_4" name="q4_input4"  placeholder="Email" required>
+          <input type="email" class="form-control validate[required, Email]" id="input_4" name="q4_input4" aria-label="Emailaddress"  placeholder="Email" required>
         </div>
         <div class="form-group">
           <label> Message </label>
           
-          <textarea class="form-control " id="input_5"   name="q5_input5"  cols="40" rows="5" ></textarea>
+          <textarea class="form-control " id="input_5"  aria-label="Message"  name="q5_input5"  cols="40" rows="5" ></textarea>
         </div>
-        <button type="submit"  id="input_2" class="btn btn-default formbtn">Submit<span> <img src="/assets/images/button_arrow.png" width="24" height="24" alt=""/></span></button>
+        <button type="submit"  id="input_2" aria-label="Submit" class="btn btn-default formbtn">Submit<span> <img src="/assets/images/button_arrow.png" width="24" height="24" alt="Submit"/></span></button>
         
         <input type="hidden" id="simple_spc" name="simple_spc" value="62433149079459" />
         <script type="text/javascript">

@@ -1,9 +1,10 @@
 @import 'bootstrap.scss';
+@import 'variables';
 html {
     width: 100%;
 }
 body {
-	font-family: 'Avenir LT W01_45 Book1475508';
+	font-family: $Book ;
     margin: 50px 0px;
     background-color: #fcfbf9;
     @media(max-width: 1154px) {
@@ -12,7 +13,7 @@ body {
 }
 a, a:hover, a:active, a:visited,a:link {
     text-decoration:none;
-	color: #9d8d64;
+	color: $Secondary;
    
 }
 a:hover{
@@ -30,7 +31,7 @@ a:active {
 }
 .global-container {
     max-width: 1220px;
-    background-color: #fff;
+    background-color: $White;
     margin: 0px auto;
 }
 @media (min-width: 992px) {
@@ -58,7 +59,7 @@ a:active {
 	}
 }
 .img-top-border {
-    border-top: 21px solid #8f7d4f;
+    border-top: 21px solid $Secondary;
 	@media (max-width:768px){
 	     margin-bottom: 20px;
 	}
@@ -67,42 +68,42 @@ a:active {
 	max-width:450px;
     text-align: center;
     h4 {
-        font-family: 'Avenir LT W01_65 Medium1475532';
-        color: #8f7d4f;
+        font-family: $Medium;
+        color: $Secondary;
         font-size: 14px;
         margin-bottom: 0px;
     }
    
     .dimond {
         font-size: 15px;
-        color: #8f7d4f;
+        color: $Secondary;
         display: block;
         margin: 18px 0px;
     }
 }
 .brown-button {
     a {
-        font-family: 'Avenir LT W01_45 Book1475508';
+        font-family: $Book ;
         letter-spacing: 0.3em;
         font-size: 13px;
          padding: 18px 29px;
-        color: #8f7d4f;
+        color: $Secondary;
         display: inline-block;
-        border: 1px solid #8f7d4f;
+        border: 1px solid $Secondary;
         text-transform: uppercase;
             transition: all 0.6s ease;
         &:hover {
             text-decoration: none;
-            background-color: #8f7d4f;
-            color: #fff;
+            background-color: $Secondary;
+            color: $White;
                 transition: all 0.6s ease;
         }
     }
 }
 .gold-button{
 	a{
-	 background-color: #8f7d4f;
-	 color:#fff;
+	 background-color: $Secondary;
+	 color:$White;
 	 border:none;
          transition: all 0.6s ease;
 	 &:hover{
@@ -113,12 +114,12 @@ a:active {
 	}
 .white-button {
     a {
-        font-family: 'Avenir LT W01_45 Book1475508';
+        font-family: $Book ;
         letter-spacing:0.3em;
-        background-color: #fff;
+        background-color: $White;
         font-size: 13px;
         padding: 18px 29px;
-        color: #8f7d4f;
+        color: $Secondary;
         display: inline-block;
         text-align: center;
         text-transform: uppercase;
@@ -126,21 +127,21 @@ a:active {
         &:hover {
             text-decoration: none;
             background-color: #2b2a2a;
-            color: #fff;
+            color: $White;
                 transition: all 0.6s ease;
         }
     }
 }
 .transparant-button {
     a {
-        font-family: 'Avenir LT W01_45 Book1475508';
+        font-family: $Book ;
         letter-spacing: 0.3em;
         background-color:transparent;
-		border:1px solid #fff;
+		border:1px solid $White;
         font-size: 13px;
 		
         padding: 19px  22px ;
-        color: #fff;
+        color: $White;
         display: inline-block;
         text-align: center;
         text-transform: uppercase;
@@ -148,49 +149,49 @@ a:active {
         &:hover {
             text-decoration: none;
             background-color: #2b2a2a;
-            color: #fff;
+            color: $White;
                 transition: all 0.6s ease;
         }
     }
 }
 .transparant-button-brown {
     a {
-        font-family: 'Avenir LT W01_45 Book1475508';
+        font-family: $Book ;
         letter-spacing: 0.3em;
         background-color:transparent;
-		border:1px solid #8f7d4f;
+		border:1px solid $Secondary;
         font-size: 13px;
         padding: 19px  22px ;
 		min-width:218px;
-        color: #8f7d4f;
+        color: $Secondary;
         display: inline-block;
         text-align: center;
         text-transform: uppercase;
             transition: all 0.6s ease;
         &:hover {
             text-decoration: none;
-            background-color: #8f7d4f;
-            color: #fff;
+            background-color: $Secondary;
+            color: $White;
                 transition: all 0.6s ease;
         }
     }
 }
 .brown-color {
-    color: #8f7d4f !important;
+    color: $Black !important;
 }
 .text-cursive {
     font-size: 54px;
-    font-family: 'Blythe W01 Mono45';
+    font-family: $Mono45;
     text-align: center;
-    color: #9d8d64;
+    color: $Primary;
 @media (max-width:800px){
 	font-size: 22px;
 }
 }
 .text-bold {
     font-size: 48px;
-    font-family: 'Avenir LT W01_95 Black1475556';
-    color: #9d8d64;
+    font-family: $Av-Black ;
+    color: $Primary;
     text-transform: uppercase;
 	letter-spacing: 1.3px;
 @media (max-width:800px){
@@ -198,8 +199,8 @@ a:active {
 }
 }
 p {
-    font-family: 'Avenir LT W01_45 Book1475508';
-    color: #8d8d8d;
+    font-family: $Book ;
+    color: $Black;
     line-height: 25px;
     font-size: 14px;
 	
@@ -208,7 +209,7 @@ p {
 }
 .main-menu {
   max-width: 1220px;
-  background-color: #fff;
+  background-color: $White;
   margin: 0px auto; }
   
 .showmenu {
@@ -236,12 +237,12 @@ p {
 }
 .thickborder-bottom{
 	
-	border-bottom:20px solid #8f7d4f;
+	border-bottom:20px solid $Secondary;
 	}
 h5{
 	font-size: 22px;
-    font-family: 'Avenir LT W01_95 Black1475556';
-    color: #9d8d64;
+    font-family: $Av-Black ;
+    color: $Primary;
     text-transform: uppercase;
     letter-spacing: 1.3px;
 	
@@ -259,10 +260,10 @@ h5{
     bottom: 20px;
     right: 20px;
     display:none;
-	background-color: #8f7d4f;
+	background-color: $Secondary;
 	padding:11px 15px ;
 	border: 1px solid #1a1a1a;
-	color:#fff !important;
+	color:$White !important;
 	z-index:100;	
 	&:hover{
 		background-color: #1a1a1a;
@@ -283,24 +284,6 @@ h5{
 	position:relative;
 	z-index:1000;
 	}
-
-/*font-family:'Didot W01 Roman';
-font-family:'Didot W01 Italic';
-font-family:'Didot W01 Bold';
-font-family:'Didot W01 Headline';
-font-family:'Didot W01 Bold Italic';
-font-family:'Avenir LT W01_35 Light_1475502';
-font-family:'Avenir LT W01_45 Book1475508';
-font-family:'Avenir LT W01_45 Book O1475514';
-font-family:'Avenir LT W01_55 Roman1475520';
-font-family:'Avenir LT W01_55 Obliqu1475526';
-font-family:'Avenir LT W01_65 Medium1475532';
-font-family:'Avenir LT W01_65 Medium1475538';
-font-family:'Avenir LT W01_85 Heavy1475544';
-font-family:'Avenir LT W01_85 Heavy_1475550';
-font-family:'Avenir LT W01_95 Black1475556';
-font-family:'Avenir LT W01_95 Black_1475562';
-font-family:'Blythe W01 Mono45';*/
 
 @import 'jquery-ui';
 @import 'header';

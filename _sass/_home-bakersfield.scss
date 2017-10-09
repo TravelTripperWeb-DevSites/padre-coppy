@@ -3,7 +3,7 @@
 	
 	.section-border{
 		margin:35px;
-		border:1px solid #8f7d4f;
+		border:1px solid $Secondary;
 		text-align:center;
 		padding:48px 46px;
 		
@@ -16,23 +16,23 @@
 		
 		}
 	h4{
-		font-family:'Avenir LT W01_65 Medium1475532';
-		color:#8f7d4f;
+		font-family:$Medium;
+		color:$Secondary;
 		font-size:14px;
 		@media (max-width:600px){
 			line-height:24px;
 			}
 		}
 	p{	
-		font-family:'Avenir LT W01_45 Book1475508';
-		color:#8d8d8d;
+		font-family:$Book ;
+		color:$Black;
 		line-height:25px;
 		font-size:14px;
 		
 		}
 	.dimond{
 		font-size:15px;
-		color:#8f7d4f;
+		color:$Secondary;
 		display: block;
     	margin: 18px 0px;
 		}
@@ -42,10 +42,10 @@
 			
 		.bg-text{
 			margin-top:20px;
-			font-family:'Didot W01 Bold';
+			font-family:'$Didot-Bold';
 			font-size:120px;
 			text-transform:uppercase;
-			color:#8f7d4f;
+			color:$Secondary;
 			position:relative;	
 			display: inline-block;
 			
@@ -60,9 +60,9 @@
 			span{
 				position:absolute;
 				font-size:20px;	
-				font-family:'Avenir LT W01_95 Black1475556';
+				font-family:$Av-Black ;
 				text-align:center;
-				color: #ffffff;
+				color: $White;
 				letter-spacing:4px;
 				display: block;
 				top: 50%;
@@ -76,15 +76,15 @@
 			}
 			}
 			a{
-					font-family:'Avenir LT W01_45 Book1475508';
+					font-family:$Book ;
 					
 					letter-spacing: 0.3em;
 					font-size: 13px;
 					padding: 18px 44px;
 					margin-top:20px;
-					color:#8f7d4f;
+					color:$White;
 					display:inline-block;
-					border:1px solid #8f7d4f;
+					border:1px solid $White;
 					@media (max-width:800px){
 					margin-bottom:40px;	
 					}
@@ -94,8 +94,8 @@
 					&:hover
 					{
 					text-decoration:none;
-					background-color:#8f7d4f;
-					color:#fff;
+					background-color:$White;
+					color:$Black;
 						}
 					}
 		}

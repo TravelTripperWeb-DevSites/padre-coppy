@@ -35,7 +35,7 @@
   }
 
   .ui-datepicker-calendar {
-    font-family: 'Avenir LT W01_45 Book1475508';
+    font-family: $Book ;
     font-size: 18px;
     font-weight: lighter;
 
@@ -68,8 +68,8 @@
 
     .ui-datepicker-current-day {
       .ui-state-active {
-        color: #fff;
-        background: #8f7d4f;
+        color: $White;
+        background: $Secondary;
         border-radius: 5px;
       }
     }

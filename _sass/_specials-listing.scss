@@ -16,10 +16,10 @@
         transform: translateY(-50%);
         text-align: center;
         width: 100%;
-        font-family: 'Avenir LT W01_95 Black1475556';
+        font-family: $Av-Black ;
         font-size: 72px;
         letter-spacing: .8px;
-        color: #fff;
+        color: $White;
         text-transform: uppercase;
         margin: 0px;
         @media (max-width: 768px) {
@@ -43,7 +43,7 @@
 				padding:0px;
 				li{
 				a{
-					color:#8f7d4f ;
+					color:$Secondary ;
 					font-size:17px;
 					line-height: 38px;
 				&:hover{
@@ -60,9 +60,9 @@
 		-webkit-transform: rotate(90deg) translateY(-50%);;
 		-moz-transform: rotate(90deg) translateY(-50%);;
 		-o-transform: rotate(90deg) translateY(-50%);;
-		font-family:'Avenir LT W01_95 Black1475556';
+		font-family:$Av-Black ;
 		letter-spacing:3px;
-		 color:#8f7d4f;
+		 color:$Secondary;
 		 font-size:14px;
 		  	top: 49%;
     		right: -111px;
@@ -106,7 +106,7 @@
 						&::before {
 										content: "";
 										position: absolute;
-										border: 1px solid #8f7d4f;
+										border: 1px solid $Secondary;
 										width: 100%;
 										height: 100%;
 										z-index: 2;
@@ -122,7 +122,7 @@
 					position:relative;
 					margin-top:-213px;
 					background-color:#1a1a1a;
-					border-left:21px solid #8f7d4f;
+					border-left:21px solid $Secondary;
 					text-align:center;
 					float:right;
 					@media (max-width:800px){
@@ -142,9 +142,9 @@
 									 
 										h3{
 											font-size:48px;
-											font-family: 'Avenir LT W01_95 Black1475556';
+											font-family: $Av-Black ;
 											text-transform:uppercase;
-											color:#9d8d64;
+											color:$Primary;
 											text-align:center;
 											margin: 0px;
 											line-height: 60px;
@@ -156,12 +156,12 @@
 											}
 											}
 										.dimond{
-											color:#9d8d64;
+											color:$Primary;
 											padding:16px 0px;
 											display: block;
 											}
 										p{
-											color:#ffffff;
+											color:$White;
 											font-weight:normal;
 											@media (min-width:800px){
 												min-height:80px;
@@ -218,7 +218,7 @@
 					}
 				.specials-list-content-area{
 					border-left:none !important;
-					border-right:21px solid #8f7d4f;
+					border-right:21px solid $Secondary;
 					padding: 56px 0px 42px 130px !important;
 					float:left !important;
 					@media (max-width:800px){

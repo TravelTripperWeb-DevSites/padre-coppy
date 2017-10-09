@@ -6,7 +6,7 @@
 		 margin-top: 0px;
 	 }
 	 .collage{
-		    border-bottom: 20px solid #8f7d4f;
+		    border-bottom: 20px solid $Secondary;
 			margin: 0px 0px 30px 0px;
 			position:relative;
 			
@@ -36,9 +36,10 @@
 ul {
 	margin: 0px;
  li {
-	 font-family: 'Avenir LT W01_45 Book1475508';
+	 font-family: $Book ;
 	 font-size:14px;
 	 line-height:25px;
+	 color:$Black;
 	}
 }
 a {
@@ -47,7 +48,7 @@ a {
 .dine-hours-section {
 	max-width: 600px;
 	padding: 10px 25px;
-	border: 1px solid #9d8d64;
+	border: 1px solid $Primary;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	background-image: url(/assets/images/hours-img.png);
@@ -59,16 +60,22 @@ a {
 }
 h4 {
 	padding: 20px 0px 0px 0px;
-	color: #fff;
+	color: $White;
 	text-align: left;
 }
 h6 {
-	font-family: 'Avenir LT W01_45 Book1475508';
+	font-family: $Book ;
 	font-size:14px;
 	padding-top: 10px;
-	color: #9d8d64;
+	color: $Primary;
 	font-size: 16px;
 }
+p{
+	color:$White;
+}
 
+}
+h5{
+	color:$Secondary;
 }
 }

@@ -4,10 +4,10 @@
 	 	position:relative;
 			.caption-stay{
 			font-size:54px;
-			font-family:'Blythe W01 Mono45';
+			font-family:$Mono45;
 			text-align:center;
 			margin-top:90px;
-			color:#9d8d64;
+			color:$Primary;
 			letter-spacing:3px;
 			@media (max-width:800px){
 				margin-top:20px;
@@ -39,8 +39,8 @@
 			position:relative;
 					.comfort-text{
 					font-size:72px;
-					font-family:'Avenir LT W01_95 Black1475556';
-					color:#9d8d64;
+					font-family:$Av-Black;
+					color:$Primary;
 					position:absolute;
 					right: 0px;
 					bottom: 0px;

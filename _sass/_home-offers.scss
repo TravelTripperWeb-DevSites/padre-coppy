@@ -21,13 +21,16 @@
 	
 	 .dimond{
 		font-size: 15px;
-		color: #8f7d4f;
+		color: $Secondary;
 		display: block;
 		margin: 18px 0px;
+		 &.dimond-white{
+		 	color:$White;
+		 }
 		 }
 	
 		p{
-			 color:#fff;	
+			 color:$White;	
 			 width: 50%;
    			 margin: auto;
    			@media (max-width: 768px)
@@ -79,14 +82,14 @@
 			 }
 		
 		 h5{ 
-		 	 font-family:'Avenir LT W01_65 Medium1475532';
+		 	 font-family:$Medium;
 			 font-size:14px;
-			 color:#8f7d4f;
+			 color:$Secondary;
 			 padding-top:14px;
 			 line-height:22PX;
 			 }
 		p{
-			color:#8d8d8d;
+			color:$Black;
 			padding:14px 27px;	
 			max-height: 120px;
     		overflow: hidden;
@@ -139,7 +142,7 @@
 .testmonials{
 	position:relative;
 	min-height:370px;
-	border:1px solid #8f7d4f;
+	border:1px solid $Secondary;
 	margin-left: 24px;
 	@media (max-width: 767px)
 		 {
@@ -150,18 +153,18 @@
 	.carousel-indicators{
 			position:absolute;
 			width:50px;
-			background-color:#fff;
+			background-color:$White;
 			left: 0px;
 			margin: 0px;
 			padding: 10px 19px;
 			bottom: 0px;
 			.active{
-				background-color:#8f7d4f;
+				background-color:$Secondary;
 				}
 		li{
 			display:block;
 			margin: 12px 0px;
-			border: 2px solid #8f7d4f;
+			border: 2px solid $Secondary;
 			}
 		}
 	.carousel-inner{
@@ -174,10 +177,10 @@
 			margin-top:30px;
 			}
 		h4{
-			font-family:'Avenir LT W01_65 Medium1475532';
+			font-family:$Medium;
 			font-size:30px;
 			text-transform:uppercase;
-			color:#8f7d4f;
+			color:$Secondary;
 			letter-spacing:5px;
 			
 			}
@@ -192,28 +195,28 @@
 		  &:before {
 				display: block;
 				content: "\201C";
-				font-family:'Didot W01 Bold';
+				font-family:$Didot-Bold;
 				font-size: 90px;
 				position: absolute;
 				left: 0px;
 				top: 16px;
-				color: #8f7d4f;
+				color: $Secondary;
 				}
 			&:after {
 				display: block;
 				content: "\201D";
-				font-family:'Didot W01 Bold';
+				font-family:$Didot-Bold;
 				font-size: 90px;
 				position: absolute;
 				right: 17px;
 				bottom: -27px;
-				color: #8f7d4f;
+				color: $Secondary;
 				}
 			}
 			.date{
 				font-family:'Avenir LT W01_85 Heavy_1475550';
 				font-size:14px;
-				color:#8d8d8d;
+				color:#656565;
 				padding-top:8px;
 				}
 		

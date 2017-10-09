@@ -6,10 +6,10 @@
         transform: translateY(-50%);
         text-align: center;
         width: 100%;
-        font-family: 'Avenir LT W01_95 Black1475556';
+        font-family: $Av-Black ;
         font-size: 72px;
         letter-spacing: .8px;
-        color: #fff;
+        color: $White;
         text-transform: uppercase;
         margin: 0px;
         @media (max-width: 768px) {
@@ -22,13 +22,13 @@
 }
 .aboutus-offers{
 	.header{
-		    background-color: #fff;
+		    background-color: $White;
 			p{
 				color: #8d8d8d ;
 			 }
 		}
 	.text-bold{
-		color:#8f7d4f;
+		color:$Secondary;
 		}
 	
 	}

@@ -40,7 +40,7 @@
     .carousel-indicators {
         position: absolute;
         width: 50px;
-        background-color: #8f7d4f;
+        background-color: $Secondary;
         left: -50px;
         margin: 0px;
         padding: 12px 19px;
@@ -52,7 +52,7 @@
         li {
             display: block;
             margin: 12px 0px;
-            border: 2px solid #fff;
+            border: 2px solid $White;
             width: 11px;
             height: 11px;
         }
@@ -69,7 +69,7 @@
             padding: 0px;
             li {
                 a {
-                    color: #8f7d4f;
+                    color: $Secondary;
                     font-size: 17px;
                     line-height: 38px;
                     &:hover {
@@ -88,9 +88,9 @@
         ;
         -o-transform: rotate(90deg) translateY(-50%);
         ;
-        font-family: 'Avenir LT W01_95 Black1475556';
+        font-family: $Av-Black ;
         letter-spacing: 3px;
-        color: #8f7d4f;
+        color: $Secondary;
         font-size: 14px;
         top: 49%;
         right: -111px;
@@ -107,7 +107,7 @@
         right: 0;
         top: 23%;
         z-index: 32;
-        font-family: 'Avenir LT W01_95 Black1475556';
+        font-family: $Av-Black ;
         text-transform: uppercase;
         text-align: left;
         text-shadow: none;
@@ -160,14 +160,14 @@
             }
         }
         a {
-            font-family: 'Avenir LT W01_45 Book1475508';
+            font-family: $Book ;
             letter-spacing: 0.3em;
             font-size: 13px;
             padding: 18px 24px;
             margin-top: 30px;
-            color: #fff;
+            color: $White;
             display: inline-block;
-            border: 1px solid #fff;
+            border: 1px solid $White;
             @media (max-width: 568px) {
                 font-size: 11px;
                 padding: 11px 9px;
@@ -175,8 +175,8 @@
             }
             &:hover {
                 text-decoration: none;
-                background-color: #fff;
-                color: #8f7d4f;
+                background-color: $White;
+                color: $Secondary;
             }
         }
     }

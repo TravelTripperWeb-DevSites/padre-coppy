@@ -2,12 +2,7 @@
   <div  rt3-room-details="details"  rt3-rooms-browser="browser" data-room-id="{{ page.roomCode }}" id="Carousel" class="carousel slide " data-ride="carousel">
     <!-- Carousel indicators -->
     <div class="title">The Padre Hotel</div> 
-    <div class="social-icons"><ul>
-                 <li><a href="https://twitter.com/thepadrehotel" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://facebook.com/thepadrehotel"  target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li> <a href="https://instagram.com/thepadrehotel"  target="_blank"><i class="fa fa-instagram"></i></a></li>
-              </ul>
-     </div>
+      {% include social-links.html %}
     <ol class="carousel-indicators">
         <li ng-repeat="photo in details.photos" data-target="#Carousel" data-slide-to="[[$index]]" ng-class="{active:!$index}"></li> 
     </ol>   

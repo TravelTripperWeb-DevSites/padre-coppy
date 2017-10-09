@@ -92,11 +92,11 @@
 						  
 						   @media(max-width: 1154px) {
 							  line-height: 15px;  
-							  background-color:#6c5f3f;
+							  background-color:$Secondary ;
 						   }
 						  
 						&:hover{
-								background-color:#6c5f3f;
+								background-color:$Secondary ;
 							    padding-right: 0px;
 								 transition: all 0.6s ease;   
 							 
@@ -106,7 +106,7 @@
 							}
 						a{
 							padding: 9px 0px;
-  							color: #fff;
+  							color: $White;
 							font-size:14px;
 							margin: 0px 30px;
 							height:100%;
@@ -121,8 +121,8 @@
 							  
 						   }
 						&:hover{
-							color:#FFF;
-							border-bottom:1px solid #6c5f3f;
+							color:$White;
+							border-bottom:1px solid $Secondary ;
 							transition: all 0.6s ease;
 							@media(max-width: 1154px) {								 
 								 border-bottom:none;
@@ -135,8 +135,8 @@
                     }
                 }
                 span {
-                    font-family: 'Avenir LT W01_45 Book1475508';
-                    color: #8f7d4f;
+                    font-family: $Book ;
+                    color: $White;
                     font-size: 12px;
                     letter-spacing: 1px;
                     padding-right: 12px;
@@ -153,14 +153,14 @@
                     content: "";
                     width: 14px;
                     height: 1px;
-                    border-bottom: solid 1px #8f7d4f;
+                    border-bottom: solid 1px $White;
                     left: 0;
                     bottom: 2px;
                 }
                 a {
-                    font-family: 'Avenir LT W01_65 Medium1475532';
+                    font-family: $Medium;
                     text-decoration: none;
-                    color: #fff;
+                    color: $White;
 					
                     display: block;
                     letter-spacing: .25em;
@@ -171,7 +171,7 @@
 							 padding-left: 15px;
 					  }
                     &:hover {
-                        color: #8f7d4f;
+                        color: $Primary ;
                         cursor: pointer;
 						transition: all 0.6s ease;
                     }
@@ -181,12 +181,12 @@
     }
     .booknow-btn {
         a {
-            font-family: 'Avenir LT W01_85 Heavy1475544';
+            font-family: $Heavy;
             height: 98px;
             padding: 38px 40px 41px 43px;
             display: block;
-            background-color: #8f7d4f;
-            color: #fff;
+            background-color: $Secondary;
+            color: $White;
             text-transform: uppercase;
             letter-spacing: 3.9px;
             font-size: 16px;
@@ -227,8 +227,8 @@
         }
     }
     .menu-icon {
-        border-top: solid 2px #fff;
-        border-bottom: solid 2px #fff;
+        border-top: solid 2px $White;
+        border-bottom: solid 2px $White;
         position: relative;
         height: 12px;
         display: block;
@@ -237,7 +237,7 @@
     .menu-icon:after {
         content: "";
         position: absolute;
-        border-bottom: solid 2px #fff;
+        border-bottom: solid 2px $White;
         height: 5px;
         width: 30px;
         height: 20px;

@@ -6,7 +6,7 @@
 		
     h3 {
         font-size: 48px;
-        font-family: 'Avenir LT W01_95 Black1475556';
+        font-family: $Av-Black ;
         text-transform: uppercase;
         letter-spacing: 1px;
 		 @media(max-width: 320px) {
@@ -14,20 +14,20 @@
         }
     }
     h6 {
-        font-family: 'Avenir LT W01_65 Medium1475532';
+        font-family: $Medium;
         text-transform: uppercase;
         letter-spacing: 1px;
     }
     h5 {
-        font-family: 'Avenir LT W01_65 Medium1475532';
+        font-family: $Medium;
         letter-spacing: 1px;
-        color: #8f7d4f;
+        color: $Secondary;
         font-size: 14px;
         text-transform: uppercase;
     }
     .address {
-        background-color: #8f7d4f;
-        color: #fff !important;
+        background-color: $Secondary;
+        color: $White !important;
         .col-md-12 {
             padding:0px 45px ;
           
@@ -76,16 +76,16 @@
         }
 		h4{
 			font-size: 30px;
-    		font-family: 'Avenir LT W01_95 Black1475556';
+    		font-family: $Av-Black ;
 			}
         p {
-            color: #fff;
+            color: $White;
             font-size: 12px;
             letter-spacing: 1px;
         }
         a {
             display: block;
-            color: #fff;
+            color: $White;
             &:hover {
                 color: #1a1a1a;
             }
@@ -117,7 +117,7 @@
         }
         h3 {
             padding-top: 54px;
-            color: #9d8d64;
+            color: $Primary;
 			@media (max-width: 1024px) {
 				padding-top: 10px;
 			 }
@@ -175,7 +175,7 @@
         }
         h3 {
             padding-top: 25px;
-            color: #9d8d64;
+            color: $Primary;
 			 
         }
     }
@@ -186,7 +186,7 @@
                 margin-top: 0px;
         }
         li {
-            color: #8d8d8d;
+            color: $Black;
             letter-spacing: 0.04em;
             line-height: 26px;
             padding-left: 19px;
@@ -199,7 +199,7 @@
 .view-all-button-container {
     margin: 0px auto;
     max-width: 1093px;
-    background-color: #8f7d4f;
+    background-color: $Secondary;
     padding: 33px 0px;
     text-align: center;
 }
@@ -214,7 +214,7 @@
     position: absolute;
     top: calc(53% - 88px);
     z-index: 32;
-    font-family: 'Avenir LT W01_95 Black1475556';
+    font-family: $Av-Black ;
     text-transform: uppercase;
     text-align: center;
     left: 0;
@@ -228,7 +228,7 @@
         margin: 0px auto;
         line-height: 68px;
         letter-spacing: .02em;
-        color: #fff;
+        color: $White;
         text-align: center;
         @media (max-width: 768px) {
             font-size: 30px;
@@ -241,8 +241,8 @@
     }
 }
 .downtown-section {
-    background-color: #8f7d4f;
-    color: #fff;
+    background-color: $Secondary;
+    color: $White;
 
     .location-bowntown-images{
 
@@ -258,8 +258,8 @@
 	
     h5 {
         font-size: 54px;
-        color: #fff;
-        font-family: 'Blythe W01 Mono45';
+        color: $White;
+        font-family: $Mono45;
         text-transform: none;
 		 
 		
@@ -289,7 +289,7 @@
             padding-top: 36px;
             font-size: 12px;
             width: 240px;
-            color: #fff;
+            color: $White;
             letter-spacing: 1px;
 			 @media(max-width: 768px) {
           		 padding-top: 10px;

@@ -1,12 +1,12 @@
 
 <div class="home-offers ">
-  <img src="/assets/images/flower-left.png"  class="flower-right" alt=""/>
+  <img src="/assets/images/flower-left.png"  class="flower-right" alt="Flower"/>
   <div class="container global-container ">
     <div class="row">
      <div class="col-md-12 no-gutter">
       <div class="header">
         <h3 class="text-bold"> {%region home-special-offers-title %} </h3>
-        <span class="dimond"> ◆</span>
+        <span class="dimond dimond-white"> ◆</span>
         <p>{%region home-special-offers-para %}</p>
       </div>
       <div class="offers-list"  rt3-special-rates="specials">
@@ -14,31 +14,31 @@
           <div class="col-sm-4 col-md-4 ">
             <div class="item-padding">
              <div class="img-container">
-              <img ng-src="[[ specials.special_rates[1].lead_photo_url.large]]"  class="img-width"  alt=""/>
+              <img ng-src="[[ specials.special_rates[1].lead_photo_url.large]]"  class="img-width"  alt="[[ specials.special_rates[1].rate_plan_name | filterHtmlChars ]]"/>
             </div>
             <h5>[[ specials.special_rates[1].rate_plan_name | filterHtmlChars ]]</h5>
             <p>[[ specials.special_rates[1].short_description | filterHtmlChars ]]</p>
-            <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[1].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button">View offer</a></div>
+            <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[1].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button" title="View offer">View offer</a></div>
           </div>
         </div>
         <div class="col-sm-4 col-md-4 ">
           <div class="item-padding">
             <div class="img-container">
-              <img ng-src="[[ specials.special_rates[2].lead_photo_url.large]]"  class="img-width"  alt=""/>
+              <img ng-src="[[ specials.special_rates[2].lead_photo_url.large]]"  class="img-width"  alt="[[ specials.special_rates[2].rate_plan_name | filterHtmlChars ]]"/>
             </div>
             <h5>[[ specials.special_rates[2].rate_plan_name | filterHtmlChars ]]</h5>
             <p>[[ specials.special_rates[2].short_description | filterHtmlChars ]]</p>
-            <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[2].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button">View offer</a></div>
+            <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[2].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button" title="View offer">View offer</a></div>
           </div>
         </div>
         <div class="col-sm-4 col-md-4 ">
           <div class="item-padding">
            <div class="img-container">
-             <img ng-src="[[ specials.special_rates[3].lead_photo_url.large]]"  class="img-width"  alt=""/>
+             <img ng-src="[[ specials.special_rates[3].lead_photo_url.large]]"  class="img-width"  alt="[[ specials.special_rates[3].rate_plan_name | filterHtmlChars ]]"/>
            </div>
            <h5>[[ specials.special_rates[3].rate_plan_name | filterHtmlChars ]]</h5>
            <p>[[ specials.special_rates[3].short_description | filterHtmlChars ]]</p>
-           <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[3].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button button-zindex">View offer</a></div>
+           <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[3].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button button-zindex" title="View offer">View offer</a></div>
          </div>
        </div>
      </div>
@@ -46,7 +46,7 @@
    <div class="row view-all-button-container ">
     <div class="transparant-button ">
 
-      <a href="/special-offers/" class="hover-transition">View all offers</a></div>
+      <a href="/special-offers/" class="hover-transition" title="View all offers">View all offers</a></div>
     </div>
     <div class="viewallspecials">
       {%region home-special-offers-couple-img %}
@@ -64,7 +64,7 @@
     <p class="brown-color">
       {%region home-activities-events-para %}
 
-      <div class="brown-button button-padding"><a href="/play/events/" class="hover-transition">discover more</a></div>
+      <div class="brown-button button-padding"><a href="/play/events/" class="hover-transition" title="Discover More ">discover more</a></div>
     </p>
   </div>
 </div>

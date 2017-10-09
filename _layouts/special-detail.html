@@ -7,14 +7,14 @@ layout: default
   <div class="row">
     <div class="col-md-12 sublinks">
       <ul>
-        <li ng-repeat="offering in offer.special_rates"><a ng-click="reloadPage"  ng-href="/special/?[[offering.rate_plan_name | formatNameForLink]]">[[offering.rate_plan_name | filterHtmlChars]]</a></li>
+        <li ng-repeat="offering in offer.special_rates"><a ng-click="reloadPage"  ng-href="/special/?[[offering.rate_plan_name | formatNameForLink]]" title="[[offering.rate_plan_name | formatNameForLink]]">[[offering.rate_plan_name | filterHtmlChars]]</a></li>
 
       </ul>
     </div>
   </div>
 </section>
 <section class="style-comfort-section dine-comfort-section">
-<img src="/assets/images/dine-flower.png" class="dine-flower" alt="">
+<img src="/assets/images/dine-flower.png" class="dine-flower" alt="Flower">
   <div class="global-container">
     <div class="container ">
       <div class="dine-stay-container row ">
@@ -27,7 +27,7 @@ layout: default
             <h3 class="text-cursive text-left">Feast for all senses</h3>
             <p> [[specialOffer.long_description | filterHtmlChars]] </p>
             <div class="transparant-button-brown  ">
-            <a ng-href="https://thepadrehotel.reztrip.com/en/special_offer?rate_code=[[specialOffer.rate_plan_code]]" class="hover-transition"  target="_blank">Book this offer</a>
+            <a ng-href="https://thepadrehotel.reztrip.com/en/special_offer?rate_code=[[specialOffer.rate_plan_code]]" class="hover-transition"  target="_blank" title="Book this offer">Book this offer</a>
             </div>
          <div class="dine-shadow"></div>
 
@@ -50,7 +50,7 @@ layout: default
         </div>
 
      <div class="dine-conent-img-palce pull-right">
-    <img ng-src="[[specialOffer.lead_photo_url.large]]" class="img-width" alt=""/></div>
+    <img ng-src="[[specialOffer.lead_photo_url.large]]" class="img-width" alt="[[specialOffer.rate_plan_name | filterHtmlChars]]"/></div>
 
       </div>
 
@@ -81,16 +81,16 @@ layout: default
             <div class="row ">
               <div class="col-md-4 ">
                <p data-id="First Name:p" >
-                <input  type="text" class="textbox ctct-form-required" size="10" placeholder="*Name" name="first_name"  data-id="First Name:input" required="required"></p>
+                <input  type="text" class="textbox ctct-form-required" size="10" placeholder="*Name" aria-label="First Name" name="first_name"  data-id="First Name:input" required="required"></p>
 
               </div>
               <div class="col-md-4 ">
                <p data-id="Email Address:p" >
-                <input type="email" class="textbox ctct-form-required" size="10" placeholder="*Email" name="email"  data-id="Email Address:input" required="required"></p>
+                <input type="email" class="textbox ctct-form-required" size="10" placeholder="*Email" name="email" aria-label="emailexcluse"  data-id="Email Address:input" required="required"></p>
               </div>
               <div class="col-md-4">
 
-                <button type="submit" class="form-btn"  data-enabled="enabled">SUBSCRIBE</button>
+                <button type="submit" class="form-btn" title="subscrribe" name="subscrribe" id="subscrribe" aria-label="subscrribe"  data-enabled="enabled">SUBSCRIBE</button>
               </div>
             </div>
           </div>
@@ -117,7 +117,7 @@ layout: default
         <div class="row discover-list-container " rt3-rooms-browser="browser" ng-cloak>
           <h3 class="text-bold ">discover more rooms</h3>
           <data-owl-carousel id ="owl-example" class="owl-carousel" data-options="{navigation: true,  pagination: true, rewindNav : false,  navigationText:				['&#8249;','&#8250;'], items : 3, itemsMobile:[479,1], itemsTablet:[800,2], itemsDesktop:[1220,3],	 responsive : true}">
-            <div owl-carousel-item="" ng-repeat="list in :: browser.roomsList" class="item" > <img  ng-src="[[list.photos[0].yankee_large]]" alt="[[list.name]]"> <a ng-href="/room/?[[list.name | formatNameForLink]]">[[list.name]] </a> </div>
+            <div owl-carousel-item="" ng-repeat="list in :: browser.roomsList" class="item" > <img  ng-src="[[list.photos[0].yankee_large]]" alt="[[list.name]]"> <a ng-href="/room/?[[list.name | formatNameForLink]]" title="[[list.name]] ">[[list.name]] </a> </div>
           </data-owl-carousel>
         </div>
         <hr class="hr-border">

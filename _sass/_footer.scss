@@ -18,7 +18,7 @@
 		}
    .logo-container {
         width: 22.3%;
-        background-color: #8f7d4f;
+        background-color: $Secondary;
         float: left;
         padding: 38px 0px;
         @media(max-width: $screen-sm-max) {
@@ -44,7 +44,7 @@
 			padding: 20px 0px 0px 0px;
 			}
 		P{	
-			color:#fff;
+			color:$White;
 			padding-left: 29px;
 			font-size: 13px;
 			letter-spacing: .066em;
@@ -55,12 +55,12 @@
 			}
 			
 			a{
-				color:#fff;
+				color:$White;
 				&.address-footer{
 				display:block;
 				}
 				&:hover{
-					color: #8f7d4f;
+					color: $Secondary;
 					}
 				}
 			@media(max-width: 800px) {
@@ -90,15 +90,15 @@
 		 }
         li {
             a {
-                font-family: 'Avenir LT W01_65 Medium1475532';
+                font-family: $Medium;
                 font-size: 13px;
                 padding: .3em 0px;
-                color: #8f7d4f;
+                color: $Primary;
                 display: block;
 				letter-spacing: .066em;
 				  
                 &:hover {
-                    color: #fff;
+                    color: $White;
                 }
             }
         }
@@ -111,8 +111,8 @@
         ul {
 			
             padding:0px 37px ;
-            border-left: 1px solid #8f7d4f;
-            border-right: 1px solid #8f7d4f;
+            border-left: 1px solid $Secondary;
+            border-right: 1px solid $Secondary;
            
             margin: 0px;
             
@@ -133,14 +133,14 @@
     .textbox-wrapper {
         height: 45px;
 		max-width: 263px;
-        border: solid 1px #fff;
+        border: solid 1px $White;
 		position:relative;
         @media(max-width: $screen-sm-max) {
             width: 260px;
 			margin-left: 16px ;
         }
 		.ctct-form-errorMessage{
-			color:#8f7d4f;
+			color:$Secondary;
 			position:absolute;
 			top: 47px;
 			font-size: 11px;
@@ -150,16 +150,16 @@
 		#success_message{
 			position:absolute;
 			font-size: 14px;
-			color:#fff;
+			color:$White;
 			top: 52px;
     		left: 0px;
 			}
         .textbox {
             width: 79%;
             background-color: transparent;
-            font-family: 'Avenir LT W01_65 Medium1475532';
+            font-family: $Medium;
             font-size: 13px;
-            color: #fff;
+            color: $White;
             letter-spacing: 1px;
             text-transform: uppercase;
             border: none;
@@ -173,34 +173,34 @@
                 outline: none;
             }
             &::-webkit-input-placeholder {
-                font-family: 'Avenir LT W01_65 Medium1475532';
+                font-family: $Medium;
                 letter-spacing: 1px;
-                color: #fff;
+                color: $White;
                 text-transform: uppercase;
                 font-size: 13px;
             }
             &:-moz-placeholder {
                 /* Firefox 18- */
                 
-                font-family: 'Avenir LT W01_65 Medium1475532';
+                font-family: $Medium;
                 letter-spacing: 1px;
-                color: #fff;
+                color: $White;
                 text-transform: uppercase;
                 font-size: 13px;
             }
             &::-moz-placeholder {
                 /* Firefox 19+ */
                 
-                font-family: 'Avenir LT W01_65 Medium1475532';
+                font-family: $Medium;
                 letter-spacing: 1px;
-                color: #fff;
+                color: $White;
                 text-transform: uppercase;
                 font-size: 13px;
             }
             &:-ms-input-placeholder {
-                font-family: 'Avenir LT W01_65 Medium1475532';
+                font-family: $Medium;
                 letter-spacing: 1px;
-                color: #fff;
+                color: $White;
                 text-transform: uppercase;
                 font-size: 13px;
             }
@@ -214,19 +214,19 @@
             background-position: center center;
             background-color: transparent;
             border: none;
-            border-left: solid 1px #fff;
+            border-left: solid 1px $White;
             display: block;
             float: right;
         }
     }
     label {
-        font-family: 'Avenir LT W01_65 Medium1475532';
+        font-family: $Medium;
 		width: 300px;
         font-size: 13px;
         font-weight: normal;
         padding: 24px 15px 7px 24px;
         text-transform: uppercase;
-        color: #8f7d4f;
+        color: $Primary;
         @media(max-width: $screen-sm-max) {
 			padding: 18px 15px 2px 20px;
            

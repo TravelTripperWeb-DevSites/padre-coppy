@@ -2,23 +2,18 @@
   <div   data-room-id="{{ page.roomCode }}" id="Carousel" class="carousel slide " data-ride="carousel">
     <!-- Carousel indicators -->
     <div class="title">The Padre Hotel</div>
-    <div class="social-icons"><ul>
-                 <li><a href="https://twitter.com/thepadrehotel" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://facebook.com/thepadrehotel"  target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li> <a href="https://instagram.com/thepadrehotel"  target="_blank"><i class="fa fa-instagram"></i></a></li>
-              </ul>
-     </div>
+      {% include social-links.html %}
     <ol class="carousel-indicators">
         <li ng-repeat="photo in details.photos" data-target="#Carousel" data-slide-to="[[$index]]" ng-class="{active:!$index}"></li>
     </ol>
     <!-- Wrapper for carousel items -->
     <div class="carousel-inner carousel-height" role="listbox">
         <div ng-repeat="photo in selectedRoom.photos"  class="item banner-color-overlay"  ng-class="{active:!$index}">
-            <img ng-src="[[photo.large]]" alt="banner room [[details.name]]">
+            <img ng-src="[[photo.large]]" alt=" [[selectedRoom.name]] ">
             <div class="room-carousel-caption">
            <h3>[[selectedRoom.name]]</h3>
            <h6>TONIGHT’S RATE: [[ selectedRoom.todayRate ]]</h6>
-          <div class="brown-button gold-button"><a href="https://thepadrehotel.reztrip.com/search?&selected_room=[[selectedRoom.code]]" target="_blank" class="hover-transition">Book this Room</a></div>
+          <div class="brown-button gold-button"><a href="https://thepadrehotel.reztrip.com/search?&selected_room=[[selectedRoom.code]]" target="_blank" class="hover-transition" title="Book This Room">Book this Room</a></div>
             </div>
         </div>
 

@@ -2,13 +2,13 @@
 		    padding-top: 32px;
 			
 			iframe{
-			 border-bottom:20px solid #8f7d4f !important;
+			 border-bottom:20px solid $Secondary !important;
 			}
 	
 		.title{
 			   font-size: 72px;
-			   font-family: 'Avenir LT W01_95 Black1475556';
-			   color: #8f7d4f;
+			   font-family: $Av-Black ;
+			   color: $Secondary;
 			  padding-left:38px;
 			   height: 96px;
 			  text-transform: uppercase;

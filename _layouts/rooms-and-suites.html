@@ -5,13 +5,7 @@ layout: default
 <section class="container banner-onscroll content-top-margin global-container room-container " >
   <div class="row">
     <div class="col-md-12 no-gutter specials-listing-banner banner-color-overlay">
-      <div class="social-icons">
-        <ul>
-          <li><a href="https://twitter.com/thepadrehotel" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://facebook.com/thepadrehotel"  target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li> <a href="https://instagram.com/thepadrehotel"  target="_blank"><i class="fa fa-instagram"></i></a></li>
-        </ul>
-      </div>
+        {% include social-links.html %}
       <div class="title">The Padre Hotel</div>
       {% region rooms-and-suites-header %}
 
@@ -21,7 +15,7 @@ layout: default
   <div class="row">
     <div class="col-md-12 sublinks">
      <ul>
-        <li ng-repeat="room in browser.roomsList"><a href='#[[room.code]]'>[[room.name]]</a> </li>
+        <li ng-repeat="room in browser.roomsList"><a href='#[[room.code]]' title='[[room.name]]'>[[room.name]]</a> </li>
 
       </ul>
 
@@ -43,7 +37,7 @@ layout: default
   <section class="container room-list-container" >
     <div class="rooms-list-top-margin " ng-repeat="room in browser.roomsList">
       <div ng-if="$even" class="row " id="[[room.code]]">
-        <div class="col-md-4  no-gutter  " style="background-image: url([[room.photos[0].yankee_large]])"> </div>
+        <div class="col-md-4  no-gutter  " style="background-image: url([[room.photos[0].yankee_large]])" title="[[room.name]]"> </div>
         <div class="col-md-8 no-gutter">
           <div class="rooms-description1 center-block" >
 
@@ -51,7 +45,7 @@ layout: default
             <h3 class="room-rate">TONIGHT’S RATE:[[room.todayRate]]</h3>
             <span class="dimond"> ◆</span>
             <p>[[room.description]]</p>
-            <div class="brown-button buttons-container"><a href="/room/?[[room.name | formatNameForLink]]" class="hover-transition">VIEW SUITE</a> <a ng-href="https://thepadrehotel.reztrip.com/search?&selected_room=[[room.code]]" target="_blank" class="hover-transition">BOOK SUITE</a></div>
+            <div class="brown-button buttons-container"><a href="/room/?[[room.name | formatNameForLink]]" class="hover-transition" title="View Suite">VIEW SUITE</a> <a ng-href="https://thepadrehotel.reztrip.com/search?&selected_room=[[room.code]]" target="_blank" class="hover-transition" title="Book Suite" >BOOK SUITE</a></div>
           </div>
         </div>
       </div>
@@ -63,10 +57,10 @@ layout: default
             <h3 class="room-rate">TONIGHT’S RATE:[[room.todayRate]]</h3>
             <span class="dimond"> ◆</span>
             <p>[[room.description]]</p>
-            <div class="brown-button buttons-container"><a href="/room/?[[room.name | formatNameForLink]]" class="hover-transition">VIEW ROOM</a> <a href="https://thepadrehotel.reztrip.com/search?&selected_room=[[room.code]]"  target="_blank"  class="hover-transition">BOOK ROOM</a></div>
+            <div class="brown-button buttons-container"><a href="/room/?[[room.name | formatNameForLink]]" class="hover-transition" title="View Room">VIEW ROOM</a> <a href="https://thepadrehotel.reztrip.com/search?&selected_room=[[room.code]]"  target="_blank"  class="hover-transition" title="Book Room">BOOK ROOM</a></div>
           </div>
         </div>
-        <div class=" col-md-8 no-gutter"> <img ng-src="[[room.photos[0].yankee_large]]"  class="img-reponsive img-width" alt=""/> </div>
+        <div class=" col-md-8 no-gutter"> <img ng-src="[[room.photos[0].yankee_large]]"  class="img-reponsive img-width" alt="[[room.name]]"/> </div>
       </div>
     </div>
 
@@ -78,7 +72,7 @@ layout: default
     <div class="row">
       <div class="header">
         <h3 class="text-bold">special offers</h3>
-        <span class="dimond"> ◆</span>
+        <span class="dimond dimond-white"> ◆</span>
         <p>Whether it's a romantic evening, a foodie retreat or an extended vacay you're looking for,
       	   let our unique hotel packages be the cherry on top of your Padre getaway.
           </p>
@@ -88,31 +82,31 @@ layout: default
           <div class="col-sm-4 col-md-4 ">
             <div class="item-padding">
              <div class="img-container">
-            <img ng-src="[[ specials.special_rates[1].lead_photo_url.large]]"  class="img-width"  alt=""/>
+            <img ng-src="[[ specials.special_rates[1].lead_photo_url.large]]"  class="img-width"  alt="[[ specials.special_rates[1].rate_plan_name | filterHtmlChars ]]"/>
             </div>
               <h5>[[ specials.special_rates[1].rate_plan_name | filterHtmlChars ]]</h5>
               <p>[[ specials.special_rates[1].short_description | filterHtmlChars ]]</p>
-              <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[1].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button">View offer</a></div>
+              <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[1].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button" title="view offer">View offer</a></div>
             </div>
           </div>
           <div class="col-sm-4 col-md-4 ">
             <div class="item-padding">
             <div class="img-container">
-            <img ng-src="[[ specials.special_rates[2].lead_photo_url.large]]"  class="img-width"  alt=""/>
+            <img ng-src="[[ specials.special_rates[2].lead_photo_url.large]]"  class="img-width"  alt="[[ specials.special_rates[2].rate_plan_name | filterHtmlChars ]]"/>
             </div>
               <h5>[[ specials.special_rates[2].rate_plan_name | filterHtmlChars ]]</h5>
               <p>[[ specials.special_rates[2].short_description | filterHtmlChars ]]</p>
-              <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[2].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button">View offer</a></div>
+              <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[2].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button" title="view offer">View offer</a></div>
             </div>
           </div>
           <div class="col-sm-4 col-md-4 ">
             <div class="item-padding">
              <div class="img-container">
-             <img ng-src="[[ specials.special_rates[3].lead_photo_url.large]]"  class="img-width"  alt=""/>
+             <img ng-src="[[ specials.special_rates[3].lead_photo_url.large]]"  class="img-width"  alt="[[ specials.special_rates[3].rate_plan_name | filterHtmlChars ]]"/>
              </div>
               <h5>[[ specials.special_rates[3].rate_plan_name | filterHtmlChars ]]</h5>
               <p>[[ specials.special_rates[3].short_description | filterHtmlChars ]]</p>
-              <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[3].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button">View offer</a></div>
+              <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[3].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button" title="view offer">View offer</a></div>
             </div>
           </div>
         </div>
@@ -124,7 +118,7 @@ layout: default
   </div>
 </div>
 <div class="row view-all-button-container">
-  <div class="transparant-button "><a href="/special-offers/" class="hover-transition">View all offers</a></div>
+  <div class="transparant-button "><a href="/special-offers/" class="hover-transition" title="View All Offers">View all offers</a></div>
 </div>
 
 <hr class=" hr-border">

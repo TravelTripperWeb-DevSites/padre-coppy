@@ -1,7 +1,7 @@
 [
   {
     "_template": "html",
-    "content": " <div class='item-padding'> <img src='/assets/images/events2.jpg' class='img-width' alt=''/> <h5>PARTY AT PROSPECT THIS HALLOWEEN</h5> <p>Get into the spirit with beats from DJ Kimble and drink specials all night. $10 cover after 10pm.</p><div class='brown-button '><a href='/play/events/#halloween' >View event</a></div></div>",
+    "content": " <div class='item-padding'> <img src='/assets/images/events2.jpg' class='img-width' alt='PARTY AT PROSPECT THIS HALLOWEEN'/> <h5>PARTY AT PROSPECT THIS HALLOWEEN</h5> <p>Get into the spirit with beats from DJ Kimble and drink specials all night. $10 cover after 10pm.</p><div class='brown-button '><a href='/play/events/#halloween' title='View Event' >View event</a></div></div>",
     "rendered_height": 500
   }
 ]

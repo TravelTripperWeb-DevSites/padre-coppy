@@ -1,6 +1,6 @@
 .home-events-wedding {
 	.header{
-		background-color:#8f7d4f;
+		background-color:$Secondary;
 		text-align:center;
 		padding-bottom:180px;
 		@media (max-width: 768px)
@@ -11,10 +11,10 @@
 	
 	 .bg-text{
 			margin-top:20px;
-			font-family:'Didot W01 Bold';
+			font-family:$Didot-Bold;
 			font-size:120px;
 			text-transform:uppercase;
-			color:#2b2a2a;
+			color:$Black;
 			position:relative;	
 			display: inline-block;
 			@media (max-width : 480px)
@@ -24,9 +24,9 @@
 			span{
 				position:absolute;
 				font-size:20px;	
-				font-family:'Avenir LT W01_95 Black1475556';
+				font-family:$Av-Black ;
 				text-align:center;
-				color: #ffffff;
+				color: $White;
 				letter-spacing:4px;
 				display: block;
 				top: 50%;
@@ -44,7 +44,7 @@
 		 max-width:896px;
 		 margin:0px auto;
 		 margin-top:-170px;
-		 border-bottom:20px solid #8f7d4f;
+		 border-bottom:20px solid $Secondary;
 		 .row{}
 		 @media (max-width: 768px)
 		 {
@@ -55,6 +55,8 @@
 		 .center-button{
 			position: absolute;
 			top: 50%;
+
+
 			left: 50%;
 			    z-index: 20;
 			transform: translate(-50%, -50%);

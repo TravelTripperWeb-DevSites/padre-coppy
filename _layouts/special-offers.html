@@ -5,12 +5,7 @@ layout: default
 <section class="container banner-onscroll content-top-margin global-container room-container "  rt3-special-rates="specials" >
 <div class="row">
  <div class="col-md-12 no-gutter specials-listing-banner banner-color-overlay">
- <div class="social-icons"><ul>
-                 <li><a href="https://twitter.com/thepadrehotel" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://facebook.com/thepadrehotel"  target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li> <a href="https://instagram.com/thepadrehotel"  target="_blank"><i class="fa fa-instagram"></i></a></li>
-              </ul>
-     </div>
+   {% include social-links.html %}
    <div class="title">The Padre Hotel </div>
      {% region special-offers-header %}
    </div>
@@ -19,7 +14,7 @@ layout: default
   <div class="row">
     <div class="col-md-12 sublinks">
       <ul>
-        <li ng-repeat="special in specials.special_rates"><a ng-href="#[[ special.rate_plan_code]]">[[ special.rate_plan_name | filterHtmlChars ]]</a> </li>
+        <li ng-repeat="special in specials.special_rates"><a ng-href="#[[ special.rate_plan_code]]" title="[[ special.rate_plan_name | filterHtmlChars ]]">[[ special.rate_plan_name | filterHtmlChars ]]</a> </li>
 
 
       </ul>
@@ -43,12 +38,12 @@ layout: default
 <section class="specials-listings-container"  rt3-special-rates="specials">
 
 <div class="specials-listings" ng-repeat="special in specials.special_rates" ng-class="$even ? '' : 'specials-listings-second'">
- <img src="/assets/images/special-list-flower1.png" class="specials-listing-flower" alt=""/>
+ <img src="/assets/images/special-list-flower1.png" class="specials-listing-flower" alt="Flower"/>
 
   <div class="global-container container" id="[[ special.rate_plan_code]]">
   <div class="specials-list row">
   <div class="col-md-12 specials-list-img  ">
-  <img ng-src="[[ special.lead_photo_url.large]]" class="img-width" alt=""/>
+  <img ng-src="[[ special.lead_photo_url.large]]" class="img-width" alt="[[ special.rate_plan_name | filterHtmlChars ]]"/>
    </div>
    <div class="col-md-12 specials-list-content-area">
    <div class="specials-list-content  ">
@@ -57,7 +52,7 @@ layout: default
           <p>[[ special.short_description | filterHtmlChars ]]</p>
   </div>
 <div class="transparant-button-brown  button-position">
-            <a ng-href="/special/?[[special.rate_plan_name | formatNameForLink]]" class="hover-transition">View Offer</a>
+            <a ng-href="/special/?[[special.rate_plan_name | formatNameForLink]]" class="hover-transition" title="View offer">View Offer</a>
             </div>
 
    </div>
@@ -124,7 +119,7 @@ layout: default
            <data-owl-carousel id ="owl-example" class="owl-carousel" data-options="{navigation: true,  pagination: true, rewindNav : false,  navigationText:				['&#8249;','&#8250;'], items : 3, itemsMobile:[479,1], itemsTablet:[800,2], itemsDesktop:[1220,3],	 responsive : true}">
       <div owl-carousel-item="" ng-repeat="list in :: browser.roomsList" class="item" >
        <img  ng-src="[[list.photos[0].yankee_large]]" alt="[[list.name]]">
-         <a ng-href="/room/?[[list.name | formatNameForLink]]">[[list.name]] </a>
+         <a ng-href="/room/?[[list.name | formatNameForLink]]" title="[[list.name]]">[[list.name]] </a>
       </div>
 
     </data-owl-carousel>

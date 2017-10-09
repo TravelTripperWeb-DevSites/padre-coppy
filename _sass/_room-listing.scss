@@ -53,7 +53,7 @@
 		}
 	.rooms-description1{
 		margin-top:36px;
-		border:1px solid #8f7d4f;
+		border:1px solid $Secondary;
 		max-width:562px;
 		text-align:center;
 		padding:42px 55px;
@@ -99,25 +99,26 @@
    			 right: -14px;
 			}
 		.dimond{
-			color:#8f7d4f;
+			color:$Secondary;
 			display:block;
 			padding:15px;
 			@media (max-width: 1024px){
 			padding:10px;
 		 }
+		
 			}
 		h4{
-			font-family:'Avenir LT W01_65 Medium1475532';
+			font-family: $Medium;
 			font-size:14px;
-			color:#8f7d4f;
+			color:$Secondary;
 			letter-spacing:.04em;
 			text-transform:uppercase;
 
 			}
 		h3{
-			font-family:'Avenir LT W01_95 Black1475556';
+			font-family:$Av-Black ;
 			font-size:18px;
-			color:#8f7d4f;
+			color:$Secondary;
 			letter-spacing:.2em;
 			position:relative;
 			text-transform:uppercase;

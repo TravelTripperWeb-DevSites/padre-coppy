@@ -44,9 +44,9 @@
 		
 	label{
 		
-    	font-family: 'Avenir LT W01_45 Book1475508';
+    	font-family: $Book ;
 		font-size:14px;
-		color:#8f7d4f;
+		color:$Secondary;
 		font-weight:600;
 		margin-top: 16px;
 		letter-spacing:.1em;
@@ -54,7 +54,7 @@
 		}
 	
 	.form-control{
-	    border-color: #8f7d4f;
+	    border-color: $Secondary;
 		border-radius: 0px;
 		box-shadow: none;
 		letter-spacing: 1px;
@@ -67,14 +67,14 @@
             height: 43px;
 			font-size: 13px;
            	position:relative;
-			font-family:'Avenir LT W01_65 Medium1475532';
-            background-color: #fff;
+			font-family:$Medium;
+            background-color: $White;
             border: none;
 			font-weight:normal;
 			letter-spacing:.1em;
-            border: solid 1px #8f7d4f;
+            border: solid 1px $Secondary;
             display: block;
-			color:#8f7d4f;
+			color:$Secondary;
 			padding-left:20px;
 			text-align: left;
 			border-radius: 0px;
@@ -82,14 +82,14 @@
 			margin-top: 35px;
 			&:hover{
 				
-					background: #8f7d4f; /* Old browsers */
-					background: -moz-linear-gradient(left,  #8f7d4f 68%, #ffffff 64%); /* FF3.6-15 */
-					background: -webkit-linear-gradient(left,  #8f7d4f 68%,#ffffff 64%); /* Chrome10-25,Safari5.1-6 */
-					background: linear-gradient(to right,  #8f7d4f 68%,#ffffff 64%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f7d4f', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+					background: $Secondary; /* Old browsers */
+					background: -moz-linear-gradient(left,  $Secondary 68%, $White 64%); /* FF3.6-15 */
+					background: -webkit-linear-gradient(left,  $Secondary 68%, $White 64%); /* Chrome10-25,Safari5.1-6 */
+					background: linear-gradient(to right,  $Secondary 68%, $White 64%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$Secondary', endColorstr='$White',GradientType=1 ); /* IE6-9 */
 
 
-				color:#fff;
+				color:$White;
 				}
 			span{
 				       position: absolute;
@@ -108,7 +108,7 @@ margin:0px;
 h6{
 	font-size:16px;
 	font-weight:600;
-	color:#9d8d64;
+	color:$Primary;
 	letter-spacing: .1em;
 	}
 .checkbox-holder{

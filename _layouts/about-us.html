@@ -36,7 +36,7 @@ layout: default
 				</div>
 				<div class="row">
 					<div class="col-sm-12">
-						<a href="/contact/" class="hover-transition">CONTACT US</a>
+						<a href="/contact/" class="hover-transition" title="Contact">CONTACT US</a>
 					</div>
 				</div>
 			</div>
@@ -57,31 +57,31 @@ layout: default
           <div class="col-sm-4 col-md-4 ">
             <div class="item-padding">
              <div class="img-container">
-            <img ng-src="[[ specials.special_rates[1].lead_photo_url.large]]"  class="img-width"  alt=""/>
+            <img ng-src="[[ specials.special_rates[1].lead_photo_url.large]]"  class="img-width"  alt="[[ specials.special_rates[1].rate_plan_name | filterHtmlChars ]]"/>
             </div>
-              <h5>[[ specials.special_rates[1].rate_plan_name | filterHtmlChars ]]</h5>
+              <h5>[[ specials.special_rates[1].rate_plan_name | filterHtmlChars ]]<span class="sr-only">title</span></h5>
               <p>[[ specials.special_rates[1].short_description | filterHtmlChars ]]</p>
-              <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[1].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button">View offer</a></div>
+              <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[1].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button" title="View Offer">View offer</a></div>
             </div>
           </div>
           <div class="col-sm-4 col-md-4 ">
             <div class="item-padding">
             <div class="img-container">
-            <img ng-src="[[ specials.special_rates[2].lead_photo_url.large]]"  class="img-width"  alt=""/>
+            <img ng-src="[[ specials.special_rates[2].lead_photo_url.large]]"  class="img-width"  alt="[[ specials.special_rates[2].rate_plan_name | filterHtmlChars ]]"/>
             </div>
-              <h5>[[ specials.special_rates[2].rate_plan_name | filterHtmlChars ]]</h5>
+              <h5>[[ specials.special_rates[2].rate_plan_name | filterHtmlChars ]] <span class="sr-only">title</span></h5>
               <p>[[ specials.special_rates[2].short_description | filterHtmlChars ]]</p>
-              <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[2].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button">View offer</a></div>
+              <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[2].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button" title="View Offer">View offer</a></div>
             </div>
           </div>
           <div class="col-sm-4 col-md-4 ">
             <div class="item-padding">
              <div class="img-container">
-             <img ng-src="[[ specials.special_rates[3].lead_photo_url.large]]"  class="img-width"  alt=""/>
+             <img ng-src="[[ specials.special_rates[3].lead_photo_url.large]]"  class="img-width"  alt="[[ specials.special_rates[3].rate_plan_name | filterHtmlChars ]]"/>
              </div>
-              <h5>[[ specials.special_rates[3].rate_plan_name | filterHtmlChars ]]</h5>
+              <h5>[[ specials.special_rates[3].rate_plan_name | filterHtmlChars ]]<span class="sr-only">title</span></h5>
               <p>[[ specials.special_rates[3].short_description | filterHtmlChars ]]</p>
-              <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[3].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button">View offer</a></div>
+              <div class="brown-button "><a  ng-href="/special/?[[specials.special_rates[3].rate_plan_name | formatNameForLink]]" class="hover-transition view-offer-button" title="View Offer">View offer</a></div>
             </div>
           </div>
         </div>
@@ -93,7 +93,7 @@ layout: default
   </div>
 </div>
 <div class="row view-all-button-container">
-  <div class="transparant-button "><a href="/special-offers/" class="hover-transition">View all offers</a></div>
+  <div class="transparant-button "><a href="/special-offers/" class="hover-transition" title="View  all offers">View all offers</a></div>
 </div>
 
 <hr class=" hr-border">

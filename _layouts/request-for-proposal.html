@@ -5,13 +5,7 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-md-12 no-gutter specials-listing-banner banner-color-overlay">
-        <div class="social-icons">
-          <ul>
-            <li><a href="https://twitter.com/thepadrehotel" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://facebook.com/thepadrehotel"  target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li> <a href="https://instagram.com/thepadrehotel"  target="_blank"><i class="fa fa-instagram"></i></a></li>
-          </ul>
-        </div>
+         {% include social-links.html %}
         <div class="title">The Padre Hotel</div>
         <img src="/assets/images/request-for-proposal.jpg" class="img-width" alt=""/>
         <h1>REQUEST FOR PROPOSAL</h1>
@@ -24,70 +18,70 @@ layout: default
             <div class="col-md-12">
               <h5>PLAN YOUR EVENT</h5>
             </div>
-            <form action="https://submit.jotform.me/submit/62523188483461/" method="post" name="form_62523188483461" id="62523188483461" accept-charset="utf-8" autocomplete="off">
+            <form action="https://submit.jotform.me/submit/62523188483461/" method="post" name="form_62523188483461" id="62523188483461" title="Request For Proposal" accept-charset="utf-8" autocomplete="off">
               <input type="hidden" name="formID" value="62523188483461" />
               <div class="col-md-6">
                 <div class="form-group ">
                 <label>Name*</label>
-                  <input type="text" class="form-control" id="input_3" name="q3_name"  placeholder="" required>
+                  <input type="text" class="form-control" aria-label="Name" id="input_3" name="q3_name"  placeholder="" required>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group ">
                 <label>Email*</label>
-                  <input type="email" class="form-control" id="input_4" name="q4_email"  placeholder="" required>
+                  <input type="email" class="form-control" id="input_4" name="q4_email"  placeholder="" aria-label="tt_email" required>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group ">
                  <label>Phone Number *</label>
-                  <input type="tel" class="form-control" id="input_5" name="q5_phoneNumber" placeholder="" required>
+                  <input type="tel" class="form-control" id="input_5" name="q5_phoneNumber" placeholder="" aria-label="tt_phonenumber" required>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group ">
                 <label>Organization</label>
-                  <input type="text" class="form-control" id="input_6" name="q6_organization" placeholder="">
+                  <input type="text" class="form-control" id="input_6" name="q6_organization" placeholder="" aria-label="tt_Organization">
                 </div>
               </div>
               <div class="col-md-12">
                 <h6>TYPE OF EVENT:</h6>
                 <div class="checkbox-holder">
                   <label class="checkbox-inline">
-                    <input type="checkbox" id="input_9_0" name="q9_typeOf[]" value="MEETING" />
+                    <input type="checkbox" id="input_9_0" aria-label="Meetings" name="q9_typeOf[]" value="MEETING" />
                     Meeting</label>
                   <label class="checkbox-inline">
-                    <input type="checkbox" id="input_9_1" name="q9_typeOf[]" value="BANQUET" />
+                    <input type="checkbox" id="input_9_1" aria-label="Banquet" name="q9_typeOf[]" value="BANQUET" />
                     Banquet </label>
                   <label class="checkbox-inline">
-                    <input type="checkbox" id="input_9_2" name="q9_typeOf[]" value="TEAM OUTING" />
+                    <input type="checkbox" aria-label="Team outing" id="input_9_2" name="q9_typeOf[]" value="TEAM OUTING" />
                     Team Outing </label>
                   <label class="checkbox-inline">
-                    <input type="checkbox" id="input_9_3" name="q9_typeOf[]" value="HOTEL" />
+                    <input type="checkbox" id="input_9_3" aria-label="Hotel" name="q9_typeOf[]" value="HOTEL" />
                     Hotel </label>
                   <label class="checkbox-inline">
-                    <input type="checkbox" id="input_9_4" name="q9_typeOf[]" value="WEDDING" />
+                    <input type="checkbox" id="input_9_4" aria-label="wedding" name="q9_typeOf[]" value="WEDDING" />
                     Wedding </label>
                  
                   <label class="checkbox-inline">
-                    <input type="checkbox" id="input_9_6" name="q9_typeOf[]" value="OTHER" />
+                    <input type="checkbox" id="input_9_6" aria-label="others" name="q9_typeOf[]" value="OTHER" />
                     Other </label>
                 </div>
               </div>
               <div class="col-md-12">
                 <div class="form-group ">
                 <label>Event Date</label>
-                   <input type="text" class="form-control main-date" id="input_8" name="q8_eventDate" placeholder="">
+                   <input type="text" class="form-control main-date" id="input_8" name="q8_eventDate" placeholder="" aria-label=""event-date>
                 </div>
               </div>
               <div class="col-md-12">
               <div class="form-group">
               <label>Tell Us About Your Event *</label>
-                <textarea class="form-control" cols="40" rows="5" id="input_7"  name="q7_tellUs" placeholder="" required></textarea>
+                <textarea class="form-control" cols="40" aria-label="tell us" rows="5" id="input_7"  name="q7_tellUs" placeholder="" required></textarea>
               </div>
               </div>
               <div class="col-md-12">
-               <button type="submit"  id="input_2" class="btn btn-default formbtn">SEND<span> <img src="/assets/images/button_arrow.png" width="24" height="24" alt=""/></span></button>
+               <button type="submit"  id="input_2" name="submit" aria-label="tt_submit" class="btn btn-default formbtn">SEND<span> <img src="/assets/images/button_arrow.png" width="24" height="24" alt=""/></span></button>
               </div>
                <input type="hidden" id="simple_spc" name="simple_spc" value="62523188483461" />
                <script type="text/javascript">
