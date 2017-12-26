@@ -42,7 +42,7 @@ layout: default
     <div class="col-md-8"><img src="../assets/images/location_map.jpg" class="img-width "  alt="attraction map"/></div>
   </div>
 </div>
-<div class="row home-offers ">
+<!-- <div class="row home-offers ">
   <div class="header">
     {% region location-events-title %}
     <span class="dimond dimond-white"> ◆</span>
@@ -62,11 +62,37 @@ layout: default
       
     </div>
   </div>
-</div>
-<div class="row view-all-button-container">
+</div> -->
+
+<section class="global-container ">
+<hr class="border-single-bottom">
+ <div class="row no-gutter home-offers">
+  <div class="header">
+    {% region location-events-title %}
+    <span class="dimond dimond-white"> ◆</span>
+    {% region location-events-para %}
+  </div>
+  {% assign eventitems = site.data._models.events | sort: 'sort_order' %}
+        <div class="col-sm-12">
+          <div class="row offers-list loc-eve-list">
+            <div class="events-list-loc">
+            {% for eventitem in eventitems %}
+            {% if eventitem.unpublish != true %}
+      <div class="item-padding">
+       <img src="{{ eventitem.banner_image.url }}" class="img-width" "{{ eventitem.title }}"/>
+       <h5>{{ eventitem.title }}</h5>
+       {{ eventitem.short_description | truncatewords: 20 '...' }}
+       <div class='brown-button '><a href="/play/events/#{{ eventitem.view_event_button_url }}"  title='View Event'>View event</a></div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+          </div>
+          <div class="row view-all-button-container">
   <div class="transparant-button "><a href="/play/events/" title="View All Events" class="hover-transition">View all events</a></div>
 </div>
-<div class="row">
-  <hr class=" hr-border">
-</div>
+          <hr class="hr-border">
+        </div>
+      </div>
+
 </section>

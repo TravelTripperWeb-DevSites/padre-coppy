@@ -20,7 +20,10 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/408_410_9082/media/2017-11-06-150939/xsmall_Padre_Thanksgiving_937x400.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/408_410_9082/media/2017-11-06-150939/thumb_Padre_Thanksgiving_937x400.jpg",
     "path": "//cdn.traveltripper.io/site-assets/408_410_9082/media/2017-11-06-150939/Padre-Thanksgiving-937x400.jpg",
-    "alt": "Thanksgiving Buffet at Belvedere Room in The Padre Hotel"
+    "alt": "Thanksgiving Buffet at Belvedere Room in The Padre Hotel",
+    "caption": ""
   },
-  "unpublish": true
+  "unpublish": true,
+  "short_description": "<p>Eat, drink and be thankful at Belvedere Room this Thanksgiving from 10am-4pm as you feast on a lavish buffet of all your favorite holiday trimmings.</p>",
+  "view_event_button_url": "thanksgiving-buffet"
 }

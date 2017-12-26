@@ -1,9 +1,14 @@
 {
   "title": "Wine Down Wednesdays",
+  "short_description": "<p>Uncork 1/2 priced bottles of wine every Wednesday at The Padre Hotel! We're offering 50% off bottles $80-$200 or buy any $200 bottle and get the second 1/2 off at all our venues</p>",
   "description": "<p>Uncork 1/2 priced bottles of wine every Wednesday at The Padre Hotel! We're offering 50% off bottles $80-$200 or buy any $200 bottle and get the second 1/2 off at all our venues - <a href=\"http://thepadrehotel.com/dine/belvedere-room/\" target=\"_blank\" rel=\"noopener noreferrer\">Belvedere Room</a>, <a href=\"http://thepadrehotel.com/dine/brimstone/\" target=\"_blank\" rel=\"noopener noreferrer\">Brimstone</a>, <a href=\"http://thepadrehotel.com/dine/prairie-fire/\" target=\"_blank\" rel=\"noopener noreferrer\">Prairie Fire</a> or <a href=\"http://thepadrehotel.com/dine/prospect/\" target=\"_blank\" rel=\"noopener noreferrer\">Propsect</a>!&nbsp;</p>",
   "button_text": "",
   "sort_order": 6,
   "banner_image": {
-    "url": "https://cdn.traveltripper.io/site-assets/408_410_2694/media/2017-05-10-152611/Padre-WineDown-937x400.jpg"
-  }
+    "url": "https://cdn.traveltripper.io/site-assets/408_410_2694/media/2017-05-10-152611/Padre-WineDown-937x400.jpg",
+    "alt": "Wine Down Wednesdays",
+    "caption": "",
+    "description": ""
+  },
+  "view_event_button_url": "wine-down-wednesdays"
 }

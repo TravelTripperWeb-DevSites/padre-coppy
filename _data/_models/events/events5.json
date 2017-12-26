@@ -8,5 +8,7 @@
     "alt": "Dueling Pianos",
     "caption": "",
     "description": ""
-  }
+  },
+  "short_description": "<p>Every Friday and Saturday, The Padre Hotel and 2 Grand Entertainment presents Dueling Pianos at Prospect Lounge!</p>",
+  "view_event_button_url": "dueling-piano-nights"
 }

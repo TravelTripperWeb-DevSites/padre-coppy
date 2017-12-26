@@ -25,6 +25,15 @@ $(window).on('load scroll resize', function () {
 
 //Responsive menu
 $(document).ready(function() {
+    $(".events-list-loc").owlCarousel({
+
+     autoPlay: false, //Set AutoPlay to 3 seconds
+     navigation: true,
+     items: 3,
+      itemsDesktop: [1199,3],
+      itemsDesktopSmall: [979,3],
+      navigationText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>']
+ });
 		$(".menu-icon-holder").click(function(){
 			$(".header-nav-bar").slideToggle(300);
 		});
@@ -100,4 +109,5 @@ $(window).load(function() {
        } 
         
 });
+
 

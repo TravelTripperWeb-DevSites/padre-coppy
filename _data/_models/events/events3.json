@@ -4,7 +4,11 @@
   "sort_order": 2,
   "banner_image": {
     "url": "https://cdn.traveltripper.io/site-assets/408_410_4101/media/2017-06-12-180410/Padre-ClassicRockNight-937x400.jpg",
-    "alt": "Classic Rock Night"
+    "alt": "Classic Rock Night",
+    "caption": "",
+    "description": ""
   },
-  "unpublish": true
+  "unpublish": true,
+  "short_description": "<p>Hit the Prairie Fire rooftop on Saturday, July 29th - we've got you covered!</p>",
+  "view_event_button_url": "classic-rock-cover-night"
 }

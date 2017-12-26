@@ -4,7 +4,12 @@
   "button_text": "<p>Make a Reservation - 661.427.4900</p>",
   "sort_order": 3,
   "banner_image": {
-    "url": "https://cdn.traveltripper.io/site-assets/408_410_4499/media/2017-06-23-172224/Padre-WalkaboutWineDinner-937x400.jpg"
+    "url": "https://cdn.traveltripper.io/site-assets/408_410_4499/media/2017-06-23-172224/Padre-WalkaboutWineDinner-937x400.jpg",
+    "alt": "Walkabout Wine Dinner",
+    "caption": "",
+    "description": ""
   },
-  "unpublish": true
+  "unpublish": true,
+  "short_description": "<p>oin us in the Belvedere Room on Friday, July 14th for this interactive wine dinner featuring Justin Winery.&nbsp;</p>",
+  "view_event_button_url": "walkabout-wine-dinner"
 }

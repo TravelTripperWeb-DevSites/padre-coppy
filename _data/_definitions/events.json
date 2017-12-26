@@ -6,6 +6,11 @@
     "type": "image",
     "required": true
   },
+  "short_description": 
+  {
+    "required": false,
+    "type": "richtext"
+  },
   "description": {
     "type": "richtext",
     "required": true
@@ -16,6 +21,9 @@
   "sort_order": {
     "type": "integer",
     "required": true
+  },
+  "view_event_button_url": {
+    "required": false
   },
   "unpublish": {
     "type": "boolean"

@@ -51,6 +51,21 @@
       "file": "events1.json"
     },
     {
+      "name": "NYE Around the World Dinner",
+      "title": "NYE Around the World Dinner",
+      "file": "events10.json"
+    },
+    {
+      "name": "Passport to 2018 NYE Party",
+      "title": "Passport to 2018 NYE Party",
+      "file": "events11.json"
+    },
+    {
+      "name": "Christmas Buffet",
+      "title": "Christmas Buffet",
+      "file": "events12.json"
+    },
+    {
       "name": "Prairie Fire Luau",
       "title": "Prairie Fire Luau",
       "file": "events2.json"
@@ -76,9 +91,19 @@
       "file": "events6.json"
     },
     {
-      "name": "Tablas Creek Wine Dinner",
-      "title": "Tablas Creek Wine Dinner",
+      "name": "Silver Oak Wine Dinner",
+      "title": "Silver Oak Wine Dinner",
       "file": "events7.json"
+    },
+    {
+      "name": "Gift Cards: Holiday Sale",
+      "title": "Gift Cards: Holiday Sale",
+      "file": "events8.json"
+    },
+    {
+      "name": "Thanksgiving Buffet",
+      "title": "Thanksgiving Buffet",
+      "file": "events9.json"
     }
   ],
   "gallery-dining": [

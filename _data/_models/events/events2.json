@@ -4,7 +4,12 @@
   "button_text": "<p><a href=\"https://www.eventbrite.com/e/prairie-fire-luau-tickets-34929611408\" target=\"_blank\" rel=\"noopener noreferrer\">Buy Tickets</a></p>",
   "sort_order": 5,
   "banner_image": {
-    "url": "https://cdn.traveltripper.io/site-assets/408_410_3625/media/2017-06-06-154431/PadreHotel-Events-LuauParty.jpg"
+    "url": "https://cdn.traveltripper.io/site-assets/408_410_3625/media/2017-06-06-154431/PadreHotel-Events-LuauParty.jpg",
+    "alt": "Prairie Fire Luau",
+    "caption": "",
+    "description": ""
   },
-  "unpublish": true
+  "unpublish": true,
+  "short_description": "<p>Aloha! Ready to hula? Join us on Saturday, July 8th for a traditional luau on the Prairie Fire rooftop&nbsp;as we host music from the Hawaiian Wonder and an authentic Polynesian dance show.</p>",
+  "view_event_button_url": "prairie-fire-luau"
 }

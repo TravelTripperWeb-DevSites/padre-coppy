@@ -4,7 +4,12 @@
   "button_text": "<p>Reservations Strongly Recommended - 661.427.4900</p>",
   "sort_order": 2,
   "banner_image": {
-    "url": "https://cdn.traveltripper.io/site-assets/408_410_369/media/2017-03-29-141217/Padre_MothersDay.jpg"
+    "url": "https://cdn.traveltripper.io/site-assets/408_410_369/media/2017-03-29-141217/Padre_MothersDay.jpg",
+    "alt": "Mother's Day",
+    "caption": "",
+    "description": ""
   },
-  "unpublish": true
+  "unpublish": true,
+  "short_description": "<p>This Mother's Day, treat mom to a champagne brunch at Belvedere Room in The Padre Hotel!</p>",
+  "view_event_button_url": "mothers-day"
 }
