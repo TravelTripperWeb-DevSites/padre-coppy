@@ -1,6 +1,6 @@
 {
   "title": "Silver Oak Wine Dinner",
-  "description": "<p>Take a seat this intimate wine dinner featuring a variety of Silver Oak wines perfectly paired with five decadent courses prepared by Chef Chris Saye. This evening in Prospect Lounge starts at 7pm on January 25th and is $135 per person.</p>\n<p>&nbsp;</p>\n<p><strong>MENU</strong><br /> <strong>1st</strong> <br />Patelin de Tablas Blanc, 2016, Paso Robles <br /> Taleggio Crostini<br /> orange-apricot jam, toasted pistachio, melba toast <br /><br /> <strong>2nd</strong><br /> Esprit de Tablas Blanc, 2015, Adelaida District, Paso Robles <br /> Alaskan Halibut Crudo<br /> kumquats, cucumber, pink peppercorn, cilantro, ponzu<br /><br /><strong> 3rd</strong><br /> Patelin de Tablas, 2015, Paso Robles<br /> Grilled Forest Mushrooms <br /> spiced duck confit, duck egg hollandaise, puff pastry, chervil<br /><br /> <strong>4th</strong><br /> Esprit de Tablas, 2015, Adelaida District, Paso Robles <br /> Grilled Prime Striploin <br /> braised oxtail, roasted root vegetables, moody blue mornay<br /><br /> <strong>5th</strong><br /> Vin de Paille &lsquo;Sacrerouge&rsquo; Mourvedre 2014 Adelaida District Paso Robles <br /> Maple Walnut Tart brown butter gelato</p>",
+  "description": "<p>Take a seat this intimate wine dinner featuring a variety of Silver Oak wines perfectly paired with five decadent courses prepared by Chef Chris Saye. This evening in Prospect Lounge starts at 7pm on January 25th and is $135 per person.</p>\n<p><a href=\"http://eatdrinkandsleep.net/EDS_Media/2017/Padre/Website/Padre_SilverOakDinner_WebMenu.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">View Menu &gt;</a></p>\n<p>&nbsp;</p>\n<p><strong>MENU</strong><br /> <strong>1st</strong> <br />Patelin de Tablas Blanc, 2016, Paso Robles <br /> Taleggio Crostini<br /> orange-apricot jam, toasted pistachio, melba toast <br /><br /> <strong>2nd</strong><br /> Esprit de Tablas Blanc, 2015, Adelaida District, Paso Robles <br /> Alaskan Halibut Crudo<br /> kumquats, cucumber, pink peppercorn, cilantro, ponzu<br /><br /><strong> 3rd</strong><br /> Patelin de Tablas, 2015, Paso Robles<br /> Grilled Forest Mushrooms <br /> spiced duck confit, duck egg hollandaise, puff pastry, chervil<br /><br /> <strong>4th</strong><br /> Esprit de Tablas, 2015, Adelaida District, Paso Robles <br /> Grilled Prime Striploin <br /> braised oxtail, roasted root vegetables, moody blue mornay<br /><br /> <strong>5th</strong><br /> Vin de Paille &lsquo;Sacrerouge&rsquo; Mourvedre 2014 Adelaida District Paso Robles <br /> Maple Walnut Tart brown butter gelato</p>",
   "sort_order": 1,
   "button_text": "<p><a title=\"Tickets\" href=\"https://www.eventbrite.com/e/the-padre-presents-silver-oak-wine-dinner-tickets-40045275497\" target=\"_blank\" rel=\"noopener noreferrer\">Tickets</a></p>",
   "banner_image": {
@@ -23,5 +23,6 @@
     "alt": "Silver Oak Wine Dinner",
     "caption": ""
   },
-  "unpublish": true
+  "unpublish": false,
+  "view_event_button_url": "winedinner"
 }

@@ -24,5 +24,6 @@
     "caption": ""
   },
   "short_description": "<p>Stuff your stockings with hotel stays and fine dining this holiday season! Mark your advent calendars for these exclusive online savings:</p>",
-  "view_event_button_url": "gift-cards-holiday-sale"
+  "view_event_button_url": "gift-cards-holiday-sale",
+  "unpublish": true
 }

@@ -24,5 +24,6 @@
   "description": "<p>Spend Christmas Day at The Padre with a lavish buffet!</p>\n<p>$39/adults, $15/children</p>\n<p><a href=\"http://www.eatdrinkandsleep.net/EDS_Media/2017/Padre/Padre_Christmas%20Buffet_MenuWEB.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">View Menu &gt;</a></p>\n<p>Reservations highly recommended</p>",
   "button_text": "<p><a href=\"https://www.opentable.com/r/the-belvedere-room-at-the-padre-hotel-bakersfield\" target=\"_blank\" rel=\"noopener noreferrer\">Make a Reso &gt;</a></p>",
   "short_description": "<p>Spend Christmas Day at The Padre with a lavish buffet! $39/adults, $15/children</p>",
-  "view_event_button_url": "christmas-buffet"
+  "view_event_button_url": "christmas-buffet",
+  "unpublish": true
 }
