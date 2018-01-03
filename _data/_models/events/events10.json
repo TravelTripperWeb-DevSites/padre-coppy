@@ -24,5 +24,6 @@
   "sort_order": 3,
   "button_text": "<p><a href=\"https://www.opentable.com/r/the-belvedere-room-at-the-padre-hotel-reservations-bakersfield?rid=95404&amp;restref=95404\" target=\"_blank\" rel=\"noopener noreferrer\">Make a Reso &gt;</a></p>",
   "short_description": "<p>Cheers to 2018! Join us for five&nbsp;sparkling courses as we pair sparkling wines from around the world with a deliciously&nbsp;curarted&nbsp;menu this New Year's Eve in the Belvedere Room at The Padre Hotel.</p>",
-  "view_event_button_url": "nye-around-the-world-dinner"
+  "view_event_button_url": "nye-around-the-world-dinner",
+  "unpublish": true
 }

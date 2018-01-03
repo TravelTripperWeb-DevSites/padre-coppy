@@ -24,5 +24,6 @@
   "sort_order": 1,
   "button_text": "<p><a href=\"https://www.eventbrite.com/e/new-years-at-the-padre-hotel-tickets-39888950926?ref=elink\" target=\"_blank\" rel=\"noopener noreferrer\">Buy NYE Party Tickets &gt;</a></p>",
   "short_description": "<p>Toast 2018 around the world with your hosts Julius and&nbsp;Schzelle&nbsp;as you dig into appetizers and enjoy champagne paired countdowns around the world throughout the night and</p>",
-  "view_event_button_url": "passport-to-2018-nye-party"
+  "view_event_button_url": "passport-to-2018-nye-party",
+  "unpublish": true
 }
