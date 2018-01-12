@@ -1,6 +1,6 @@
 {
-  "title": "Bakersfield Unplugged",
-  "description": "<p>Tune into live acoustics on the Prairie Fire rooftop every Thursday from 7pm - 10pm. Sip on drinks while you listen to your favorite local artists.</p>",
+  "title": "Bakersfield Unplugged Returns March 1st",
+  "description": "<p>Tune into live acoustics on the Prairie Fire rooftop every Thursday from 7pm - 10pm starting March 1st. Sip on drinks while you listen to your favorite local artists.</p>",
   "sort_order": 8,
   "banner_image": {
     "url": "https://cdn.traveltripper.io/site-assets/408_410_369/media/2017-02-14-181254/Padre_BakersfieldUnplugged_937x400.jpg",
@@ -8,7 +8,7 @@
     "caption": "",
     "description": ""
   },
-  "unpublish": true,
-  "short_description": "<p>Tune into live acoustics on the Prairie Fire rooftop every Thursday from 7pm - 10pm. Sip on drinks while you listen to your favorite local artists.</p>",
+  "unpublish": false,
+  "short_description": "<p>Tune into live acoustics on the Prairie Fire rooftop every Thursday from 7pm - 10pm starting March 1st. Sip on drinks while you listen to your favorite local artists.</p>",
   "view_event_button_url": "bakersfield-unplugged"
 }
