@@ -15,6 +15,11 @@ languages: ['en']
 
 port: 8080
 
+# File Handling
+
+include:
+  - _pages
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
