@@ -23,6 +23,6 @@
     "alt": "Silver Oak Wine Dinner",
     "caption": ""
   },
-  "unpublish": false,
+  "unpublish": true,
   "view_event_button_url": "winedinner"
 }
