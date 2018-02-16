@@ -23,5 +23,6 @@
     "alt": "Padre Hotel - Valentine's Day All Month Long at Belvedere Room",
     "caption": ""
   },
-  "sort_order": 2
+  "sort_order": 2,
+  "unpublish": true
 }
