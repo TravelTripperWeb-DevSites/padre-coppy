@@ -1,8 +1,8 @@
 {
   "events": [
     {
-      "name": "Bakersfield Unplugged",
-      "title": "Bakersfield Unplugged",
+      "name": "Bakersfield Unplugged Returns March 1st",
+      "title": "Bakersfield Unplugged Returns March 1st",
       "file": "event14.json"
     },
     {
@@ -64,6 +64,26 @@
       "name": "Christmas Buffet",
       "title": "Christmas Buffet",
       "file": "events12.json"
+    },
+    {
+      "name": "Valentine's Day Dinner at Prospect Lounge",
+      "title": "Valentine's Day Dinner at Prospect Lounge",
+      "file": "events13.json"
+    },
+    {
+      "name": "Celebrate Love All Month Long at Belvedere Room",
+      "title": "Celebrate Love All Month Long at Belvedere Room",
+      "file": "events14.json"
+    },
+    {
+      "name": "Say I Do at The Padre this February",
+      "title": "Say I Do at The Padre this February",
+      "file": "events15.json"
+    },
+    {
+      "name": "St. Patrick's Day",
+      "title": "St. Patrick's Day",
+      "file": "events16.json"
     },
     {
       "name": "Prairie Fire Luau",

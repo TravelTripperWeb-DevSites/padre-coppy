@@ -6,6 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ page.title }}</title>
 <meta name="description" content="{{ page.meta_description }}">
+{% if page.meta_tags !="" %}
+<meta name="robots" content="{{ page.meta_tags }}">
+{% endif %}
 <link href="/css/style.css" rel="stylesheet" />
 <link href="/css/lightgallery.css" rel="stylesheet" />
 <script src="/assets/js/jquery.min.js"  ></script>
