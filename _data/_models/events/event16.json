@@ -1,15 +1,29 @@
 {
   "title": "Easter Brunch",
-  "description": "<p>This Easter Sunday, hop into a festive day at The Padre full of brunch and photos with the Easter Bunny!</p>\n<p><strong>BRUNCH</strong><br /> Free Flowing Champagne Brunch 10am - 4pm Accompanied by Seafood, Carving &amp; Dessert Stations $39/adult $15/children<br /> <a href=\"https://cdn.traveltripper.io/site-assets/408_410_369/media/2017-03-07-193919/Padre_EasterSunday2017_Menu_WEB.pdf\" target=\"_blank\">VIEW THE MENU &gt;&gt;</a></p>\n<p><strong>PHOTOS WITH THE EASTER BUNNY</strong><br />12-2pm Included with Children's Buffet</p>\n<p><br /><br /></p>",
+  "description": "<p>This Easter Sunday, hop&nbsp;over&nbsp;a festive free flowing champagne brunch&nbsp;at Belvedere Room at The Padre Hotel from 10am-4pm.</p>\n<p>$39/adults, $15/children 12 &amp; under</p>\n<p><a href=\"http://www.eatdrinkandsleep.net/EDS_Media/2018/Padre/Website/Padre_Easter_2018_MenuWEB.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">View the Menu &gt;&gt;</a></p>\n<p><br /><br /></p>",
   "button_text": "<p>Reservations Strongly Recommended - 661.427.4900 &nbsp;</p>",
   "sort_order": 1,
   "banner_image": {
-    "url": "https://cdn.traveltripper.io/site-assets/408_410_369/media/2017-03-07-193918/Padre_EasterSunday2017_937x400.jpg",
-    "alt": "Easter Brunch",
-    "caption": "",
-    "description": ""
+    "name": "Padre_Easter_2018_937x400",
+    "file_name": "Padre_Easter_2018_937x400.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/408_410_12660/media/2018-02-23-150059/Padre-Easter-2018-937x400.jpg",
+    "tags": "",
+    "file_size": 143431,
+    "width": 937,
+    "height": 400,
+    "description": "",
+    "date_added": "2018-02-23-150059",
+    "url_large": "//cdn.traveltripper.io/site-assets/408_410_12660/media/2018-02-23-150059/large_Padre_Easter_2018_937x400.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/408_410_12660/media/2018-02-23-150059/medium_Padre_Easter_2018_937x400.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/408_410_12660/media/2018-02-23-150059/small_Padre_Easter_2018_937x400.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/408_410_12660/media/2018-02-23-150059/xsmall_Padre_Easter_2018_937x400.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/408_410_12660/media/2018-02-23-150059/thumb_Padre_Easter_2018_937x400.jpg",
+    "path": "//cdn.traveltripper.io/site-assets/408_410_12660/media/2018-02-23-150059/Padre-Easter-2018-937x400.jpg",
+    "alt": "Easter Brunch at the Padre Hotel",
+    "caption": ""
   },
-  "unpublish": true,
-  "short_description": "<p>This Easter Sunday, hop into a festive day at The Padre full of brunch and photos with the Easter Bunny!</p>",
+  "unpublish": false,
+  "short_description": "<p>This Easter Sunday, hop&nbsp;over&nbsp;a festive brunch at Belvedere Room at The Padre Hotel from 10am-4pm.</p>",
   "view_event_button_url": "easter-brunch"
 }
