@@ -18,6 +18,24 @@
     "git_file_name": "_assets/image_data/Padre_ChristmasBuffet_937x400.json"
   },
   {
+    "name": "Padre_Easter_2018_937x400",
+    "file_name": "Padre_Easter_2018_937x400.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/408_410_12660/media/2018-02-23-150059/Padre-Easter-2018-937x400.jpg",
+    "tags": "",
+    "file_size": 143431.0,
+    "width": 937,
+    "height": 400,
+    "description": "",
+    "date_added": "2018-02-23-150059",
+    "url_large": "//cdn.traveltripper.io/site-assets/408_410_12660/media/2018-02-23-150059/large_Padre_Easter_2018_937x400.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/408_410_12660/media/2018-02-23-150059/medium_Padre_Easter_2018_937x400.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/408_410_12660/media/2018-02-23-150059/small_Padre_Easter_2018_937x400.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/408_410_12660/media/2018-02-23-150059/xsmall_Padre_Easter_2018_937x400.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/408_410_12660/media/2018-02-23-150059/thumb_Padre_Easter_2018_937x400.jpg",
+    "git_file_name": "_assets/image_data/Padre_Easter_2018_937x400.json"
+  },
+  {
     "name": "Padre_Events_GiftCardSale",
     "file_name": "Padre_Events_GiftCardSale.jpg",
     "file_type": "image/jpeg",

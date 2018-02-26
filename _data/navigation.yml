@@ -1,0 +1,51 @@
+main:
+  - title: Stay
+    url: #
+    dropdown:
+      - title: Rooms
+        url: /rooms-and-suites/
+      - title: Specials
+        url: /special-offers/
+      - title: About us
+        url: /about-us/ 
+      - title: Location
+        url: /location/   
+      - title: Gallery
+        url: /gallery/
+  - title: Dine
+    url: #
+    dropdown:
+      - title: Belvedere Room
+        url: /dine/belvedere-room/
+      - title: BRIMSTONE
+        url: /dine/brimstone/
+      - title: Prospect
+        url: /dine/prospect/
+      - title: PRAIRIE FIRE
+        url: /dine/prairie-fire/ 
+      - title: FARMACY CAFE
+        url: /dine/farmacy-cafe/ 
+      - title: PRIVATE DINING
+        url: /dine/private-dining/            
+
+  - title: Play
+    url: #
+    dropdown:
+      - title: EVENTS
+        url: /play/events/
+      - title: SPA PACKAGES
+        url: /play/spa-packages/
+      - title: IN THE AREA
+        url: /play/in-the-area/
+     
+  - title: Gather
+    url: #
+    dropdown:
+      - title: CORPORATE MEETINGS & EVENTS
+        url: /gather/corporate-meetings-and-events/
+      - title: WEDDINGS
+        url: /gather/weddings/
+      - title: EVENT PROMOS
+        url: /gather/event-promos/        
+  - title: Contact
+    url: /contact/

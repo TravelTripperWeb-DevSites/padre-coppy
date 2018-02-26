@@ -1,6 +1,7 @@
 .header-wrapper {
     background-color: #1a1a1a;
     height: 98px;
+
     @media(max-width: 1154px) {
         position: fixed;
         height: 70px;
@@ -22,6 +23,7 @@
     .header-nav-bar {
         padding-top: 38px;
         display: block;
+
         @media(max-width: 1154px) {
             display: none;
             clear: both;
@@ -38,6 +40,8 @@
 		}
         ul {
             margin: 0px;
+              padding: 0px;
+
             @media(max-width: 1154px) {
                 padding: 0px;
             }

@@ -1,4 +1,4 @@
-   
+ {% assign links = site.data.navigation.main %}  
 <section class="nav-normal-scroll" >
 	<div class=" header-wrapper ">
 		<div class="pull-left logo">
@@ -8,106 +8,27 @@
 		</div>
 		<div class="pull-left header-nav-bar">
 			<ul>
-				<li>
-					<a href="#"  title="Stay">
-						<span>01</span>Stay
-					</a>
-					<ul>
-						<li>
-							<a href="/rooms-and-suites/" title="Rooms">Rooms</a>
-						</li>
-						<li>
-							<a href="/special-offers/"  title="Specials">Specials</a>
-						</li>
-                        <li>
-							<a href="/about-us/"  title="About us">About us</a>
-						</li>
-						<li>
-							<a href="/location/"  title="Location">Location</a>
-						</li>
-						<li>
-							<a href="/gallery/"  title="Gallery">Gallery</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a  href="#"  title="Dine">
-						<span>02</span>Dine
-					</a>
-					<ul>
-						<li>
-							<a href="/dine/belvedere-room/"  title="Delvedere Room">BELVEDERE ROOM</a>
-						</li>
-						<li>
-							<a href="/dine/brimstone/"  title="Brimstone">BRIMSTONE</a>
-						</li>
-                        <li>
-							<a href="/dine/prospect/"  title="Prospect">Prospect</a>
-						</li>
-						<li>
-							<a href="/dine/prairie-fire/"  title="Pririe Fire">PRAIRIE FIRE</a>
-						</li>
-						<li>
-							<a href="/dine/farmacy-cafe/"  title="Farmacy cafe">FARMACY CAFE</a>
-						</li>
-                        <li>
-							<a href="/dine/private-dining/"  title="Private Dining">PRIVATE DINING</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a  href="#" title="Play">
-						<span>03</span>Play
-					</a>
-                    <ul>
-						
-						<li>
-							<a href="/play/events/" title="Events">EVENTS</a>
-						</li>
-						<li>
-							<a href="/play/spa-packages/"  title="SPA Packages">SPA PACKAGES</a>
-						</li>
-						<li>
-							<a href="/play/in-the-area/"  title="In the area"> IN THE AREA</a>
-						</li>
-                        
-					</ul>
-				</li>
-				<li>
-					<a  href="#" title="Gather">
-						<span>04</span>Gather
-					</a>
-                      <ul>
-						<li>
-							<a href="/gather/corporate-meetings-and-events/"  title="corporate Meetings & Events">CORPORATE MEETINGS & EVENTS</a>
-						</li>
-						<li>
-							<a href="/gather/weddings/"  title="Weddings">WEDDINGS</a>
-						</li>
-                        <li>
-							<a href="/gather/event-promos/"  title="Event Promos">EVENT PROMOS</a>
-						</li>
-					
-                        
-					</ul>
-				</li>
-				<li>
-					<a  href="/contact/" title="Contact">
-						<span>05</span>Contact
-					</a>
-				</li>
-			</ul>
+			{% for link in links %}
+		      <li>
+		        <a  href="{{ link.url | absolute_url }}" {% if link.dropdown%}  aria-haspopup="true" aria-expanded="false" {%endif%}  title=" {{ link.title }}"> <span>{{forloop.index | prepend: '0'}} </span> {{ link.title }}</a>
+		        {% if link.dropdown%}
+		         <ul>
+		           {% for sublink in link.dropdown %}
+		            <li> <a  href="{{ sublink.url | absolute_url }}" title="{{ sublink.title }}">{{ sublink.title }}</a></li>
+		           {% endfor %}
+		         </ul>
+		         {% endif %}
+		      </li>
+		    {% endfor %}
+		    </ul>   
 		</div>
 		<div class="pull-right booknow-btn">
-			<a href="javascript:void(0);" title="Book Now"  class="hover-transition" show-booking-widget>book now</a>
+			<a href="javascript:void(0);" title="Book Now"  class="hover-transition" show-booking-widget>Book now</a>
 		</div>
 		<div class="menu-icon-holder">
 			<a class="menu-icon" title="Menu"><span class="sr-only">Menu</span></a>
 		</div>
 	</div>
-   
-
-
+ 
 </section>
  
-

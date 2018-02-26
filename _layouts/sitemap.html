@@ -16,44 +16,22 @@ layout: default
 <div class="row ">
  
       <div class="col-md-12">
-    <ul class="sitemap">
-       {% assign sorted = (site.pages | sort: 'Order') %}
-         {% for p in sorted %}
-             {% if p.url != '/css/style.css'  and  p.url !='/css/font-awesome.css'    %}
-             
-              {% if  p.url != '/sitemap/'  %}
-              {% if  p.url !='/404/' and  p.url !='/thankyou/' %}
-                {% if  p.url == '/'  %}
-                <li><a href="{{ p.url }}">Home</a></li>
-                {% else %} 
-                      {% if p.url contains '/room/' %}
-                      <li class="submenu"> - <a href="{{ p.url }}">{{ p.url  | remove: '/room/' | remove: '/' | replace: '-', ' ' | camelcase}}</a></li>
-                      {% elsif p.url contains '/special/' %}
-                      <li class="submenu"> - <a href="{{ p.url }}">{{ p.url  | remove: '/special/' | remove: '/' | replace: '-', ' ' | camelcase}}</a></li>
-                      {% elsif p.url contains '/dine/' %}
-                           {% if p.Order == 61 %}
-                            <li><a href="">Dine</a></li>
-                           {% endif %}
-                      <li class="submenu"> - <a href="{{ p.url }}">{{ p.url  | remove: '/dine/' | remove: '/' | replace: '-', ' ' | camelcase}}</a></li>
-                      {% elsif p.url contains '/play/' %}
-                           {% if p.Order == 71 %}
-                            <li><a href="">Play</a></li>
-                           {% endif %}
-                      <li class="submenu"> - <a href="{{ p.url }}">{{ p.url  | remove: '/play/' | remove: '/' | replace: '-', ' ' | camelcase}}</a></li>
-                      {% elsif p.url contains '/gather/' %}
-                           {% if p.Order == 81 %}
-                            <li><a href="">Gather</a></li>
-                           {% endif %}
-                      <li class="submenu"> - <a href="{{ p.url }}">{{ p.url  | remove: '/gather/' | remove: '/' | replace: '-', ' ' | camelcase}}</a></li>
-                      {% else %} 
-                      <li><a href="{{ p.url }}">{{ p.url  | remove: '/' | replace: '-', ' ' | camelcase}}</a></li>
-                      {% endif %}
-                  {% endif %}
-                 {% endif %}
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-            </ul>
+    
+          {% assign links = site.data.navigation.main %} 
+          <ul class="sitemap">
+          {% for link in links %}
+          <li>
+            <a  href="{{ link.url | absolute_url }}" {% if link.dropdown%}  aria-haspopup="true" aria-expanded="false" {%endif%} > <span>{{forloop.index | prepend: '0'}} </span> {{ link.title }}</a>
+            {% if link.dropdown%}
+             <ul>
+               {% for sublink in link.dropdown %}
+                <li class="submenu"> <a  href="{{ sublink.url | absolute_url }}">{{ sublink.title }}</a></li>
+               {% endfor %}
+             </ul>
+             {% endif %}
+          </li>
+        {% endfor %}
+        </ul> 
 
     
 </div>
