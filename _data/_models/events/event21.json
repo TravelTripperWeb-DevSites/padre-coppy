@@ -1,14 +1,28 @@
 {
   "title": "Cinco de Mayo",
-  "description": "<p>Fiesta, Fiesta! Come party at the Padre&nbsp;Hotel for Cinco de Mayo! Head up the Prairie Fire rooftop from 6pm to 12am and sip on $5 Coronas, margaritas and Herradura shots! Keep your tummy full will tradtional faves, we're serving up $1 tacos plus $5 nachos and churros! Ol&eacute;!</p>\n<p>&nbsp;</p>\n<div style=\"color: #222222; font-family: arial, sans-serif; font-size: 12.8px;\">&nbsp;</div>",
-  "sort_order": 4,
+  "description": "<p>Fiesta, Fiesta! Come party at the Padre&nbsp;Hotel for Cinco de Mayo! Head up the Prairie Fire rooftop for from&nbsp;7-10pm for live music from SV Magicko. Keep your tummy full - we'll be serving up festive food and drink faves all day. Ol&eacute;!</p>\n<p>&nbsp;</p>\n<div style=\"color: #222222; font-family: arial, sans-serif; font-size: 12.8px;\">&nbsp;</div>",
+  "sort_order": 2,
   "banner_image": {
-    "url": "https://cdn.traveltripper.io/site-assets/408_410_369/media/2017-04-12-131446/Padre_Events_Cinco.jpg",
+    "name": "Padre_CincoDeMayo_937x400",
+    "file_name": "Padre_CincoDeMayo_937x400.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/408_410_13942/media/2018-03-26-193354/Padre-CincoDeMayo-937x400.jpg",
+    "tags": "",
+    "file_size": 525666,
+    "width": 937,
+    "height": 400,
+    "description": "",
+    "date_added": "2018-03-26-193354",
+    "url_large": "//cdn.traveltripper.io/site-assets/408_410_13942/media/2018-03-26-193354/large_Padre_CincoDeMayo_937x400.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/408_410_13942/media/2018-03-26-193354/medium_Padre_CincoDeMayo_937x400.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/408_410_13942/media/2018-03-26-193354/small_Padre_CincoDeMayo_937x400.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/408_410_13942/media/2018-03-26-193354/xsmall_Padre_CincoDeMayo_937x400.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/408_410_13942/media/2018-03-26-193354/thumb_Padre_CincoDeMayo_937x400.jpg",
+    "path": "//cdn.traveltripper.io/site-assets/408_410_13942/media/2018-03-26-193354/Padre-CincoDeMayo-937x400.jpg",
     "alt": "Cinco de Mayo",
-    "caption": "",
-    "description": ""
+    "caption": ""
   },
-  "unpublish": true,
-  "short_description": "<p>Fiesta, Fiesta! Come party at the Padre&nbsp;Hotel for Cinco de Mayo! Head up the Prairie Fire rooftop from 6pm to 12am and sip on $5 Coronas, margaritas and Herradura shots!</p>",
+  "unpublish": false,
+  "short_description": "<p>Fiesta, Fiesta! Come party at the Padre&nbsp;Hotel for Cinco de Mayo! Festive food and drink specials all day! Head up the Prairie Fire rooftop for from 7-10pm for live music from SV Magicko.</p>",
   "view_event_button_url": "cinco-de-mayo"
 }
