@@ -3,96 +3,91 @@ layout: default
 ---
 <section class="global-container banner-onscroll content-top-margin  "> {% include location-carousel.html %} </section>
 <section class="container global-container location-container">
-<div class="row info-row-container" >
-  <div class="col-md-3 no-gutter logo-container " >
-    <div class="row no-gutter address">
-      {% region location-info %}
-    </div>
-    <div class="row no-gutter logo-container">
-
-      <div class="col-md-12" >
-       {% region location-info-logo %}
-     
-
+  <div class="row info-row-container">
+    <div class="col-md-3 no-gutter logo-container ">
+      <div class="row no-gutter address">
+        {% region location-info %}
+      </div>
+      <div class="row no-gutter logo-container">
+        <div class="col-md-12">
+          {% region location-info-logo %}
+        </div>
       </div>
     </div>
+    <div class="col-md-5  directions">
+      {% region location-directions %}
+    </div>
+    <div class="col-md-4  no-gutter location-images">
+      <div class="location-img1"></div>
+      <div class="location-img2"></div>
+      <div class="location-img3"></div>
+    </div>
   </div>
-  <div class="col-md-5  directions">
-    {% region location-directions %}
-  </div>
-  <div class="col-md-4  no-gutter location-images" >
-    <div class="location-img1"></div>
-    <div class="location-img2"></div>
-    <div class="location-img3"></div>
-  </div>
-</div>
 
-<div class="downtown-section row" style="">
-    <div class="col-sm-12 col-md-9 no-gutter"> <img src="/assets/images/location-img-belowaddress.jpg" class="img-width" alt="Hotel Night view with couples" /></div>
-    <div class="col-sm-12 col-md-3 content no-gutter" >
+  <div class="downtown-section row" style="">
+    <div class="col-sm-12 col-md-9 no-gutter">
+      <img src="/assets/images/location-img-belowaddress.jpg" class="img-width" alt="Hotel Night view with couples" /></div>
+    <div class="col-sm-12 col-md-3 content no-gutter">
       {% region location-downtown %}
     </div>
   </div>
 
-<div class="attractions">
-  <div class="row">
-    <div class="col-md-4">
-      {% region location-attractions %}
+  <div class="attractions">
+    <div class="row">
+      <div class="col-md-4">
+        {% region location-attractions %}
+      </div>
+      <div class="col-md-8">
+        <img src="../assets/images/location_map.jpg" class="img-width " alt="attraction map" /></div>
     </div>
-    <div class="col-md-8"><img src="../assets/images/location_map.jpg" class="img-width "  alt="attraction map"/></div>
   </div>
+  <!-- <div class="row home-offers ">
+<div class="header">
+{% region location-events-title %}
+<span class="dimond dimond-white"> ◆</span>
+{% region location-events-para %}
 </div>
-<!-- <div class="row home-offers ">
-  <div class="header">
-    {% region location-events-title %}
-    <span class="dimond dimond-white"> ◆</span>
-    {% region location-events-para %}
-  </div>
-  <div class="offers-list">
-    <div class="row no-gutter">
-      <div class="col-sm-4 col-md-4 ">
-        {% region location-events-list-1 %}
-      </div>
-      <div class="col-sm-4 col-md-4 ">
-        {% region location-events-list-2 %}
-      </div>
-      <div class="col-sm-4 col-md-4 ">
-        {% region location-events-list-3 %}
-      </div>
-      
-    </div>
-  </div>
+<div class="offers-list">
+<div class="row no-gutter">
+<div class="col-sm-4 col-md-4 ">
+{% region location-events-list-1 %}
+</div>
+<div class="col-sm-4 col-md-4 ">
+{% region location-events-list-2 %}
+</div>
+<div class="col-sm-4 col-md-4 ">
+{% region location-events-list-3 %}
+</div>
+
+</div>
+</div>
 </div> -->
 
-<section class="global-container ">
-<hr class="border-single-bottom">
- <div class="row no-gutter home-offers">
-  <div class="header">
-    {% region location-events-title %}
-    <span class="dimond dimond-white"> ◆</span>
-    {% region location-events-para %}
-  </div>
-  {% assign eventitems = site.data._models.events | sort: 'sort_order' %}
-        <div class="col-sm-12">
-          <div class="row offers-list loc-eve-list">
-            <div class="events-list-loc">
-            {% for eventitem in eventitems %}
-            {% if eventitem.unpublish != true %}
-      <div class="item-padding">
-       <img src="{{ eventitem.banner_image.url }}" class="img-width" "{{ eventitem.title }}"/>
-       <h5>{{ eventitem.title }}</h5>
-       {{ eventitem.short_description | truncatewords: 20 '...' }}
-       <div class='brown-button '><a href="/play/events/#{{ eventitem.view_event_button_url }}"  title='View Event'>View event</a></div>
+  <section class="global-container ">
+    <hr class="border-single-bottom">
+    <div class="row no-gutter home-offers">
+      <div class="header">
+        {% region location-events-title %}
+        <span class="dimond dimond-white"> ◆</span> {% region location-events-para %}
       </div>
-      {% endif %}
-      {% endfor %}
-    </div>
+      {% assign eventitems = site.data._models.events | sort: 'sort_order' %}
+      <div class="col-sm-12">
+        <div class="row offers-list loc-eve-list">
+          <div class="events-list-loc">
+            {% for eventitem in eventitems %} {% if eventitem.unpublish != true %}
+            <div class="item-padding">
+              <img src="{{ eventitem.banner_image.url }}" class="img-width" alt="{{ eventitem.title }}"/>
+              <h5>{{ eventitem.title }}</h5> {{ eventitem.short_description | truncatewords: 20 '...' }}
+              <div class='brown-button '><a href="/play/events/#{{ eventitem.view_event_button_url }}" title='View Event'>View event</a></div>
+            </div>
+            {% endif %} {% endfor %}
           </div>
-          <div class="row view-all-button-container">
-  <div class="transparant-button "><a href="/play/events/" title="View All Events" class="hover-transition">View all events</a></div>
-</div>
-          <hr class="hr-border">
         </div>
+        <div class="row view-all-button-container">
+          <div class="transparant-button "><a href="/play/events/" title="View All Events" class="hover-transition">View all events</a></div>
+        </div>
+        <hr class="hr-border">
       </div>
+    </div>
 
-</section>
+  </section>

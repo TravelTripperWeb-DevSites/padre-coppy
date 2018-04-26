@@ -1,502 +1,6 @@
 [
   {
-    "path": "aboutus-banner1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "aboutus_img1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "aboutus_img2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "bakersfield_img1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "bakersfield_img2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "banner1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "banner2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "banner3.jpg",
-    "sha": ""
-  },
-  {
-    "path": "banner4.jpg",
-    "sha": ""
-  },
-  {
-    "path": "belvedere_hotel.jpg",
-    "sha": ""
-  },
-  {
-    "path": "belvedere_img.jpg",
-    "sha": ""
-  },
-  {
-    "path": "booking-widget",
-    "sha": ""
-  },
-  {
-    "path": "brimstone_hotel.jpg",
-    "sha": ""
-  },
-  {
-    "path": "brimstone_img.jpg",
-    "sha": ""
-  },
-  {
-    "path": "btn-arrow.png",
-    "sha": ""
-  },
-  {
-    "path": "button_arrow.png",
-    "sha": ""
-  },
-  {
-    "path": "contact-banner.jpg",
-    "sha": ""
-  },
-  {
-    "path": "contact-img1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "contact-img2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "contact-img3.jpg",
-    "sha": ""
-  },
-  {
-    "path": "dine",
-    "sha": ""
-  },
-  {
-    "path": "dine-flower.png",
-    "sha": ""
-  },
-  {
-    "path": "dine-img.jpg",
-    "sha": ""
-  },
-  {
-    "path": "dining-gallery-1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "dining-gallery-2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "dining-gallery-3.jpg",
-    "sha": ""
-  },
-  {
-    "path": "dining-gallery-4.jpg",
-    "sha": ""
-  },
-  {
-    "path": "dining-gallery-5.jpg",
-    "sha": ""
-  },
-  {
-    "path": "dining-gallery-6.jpg",
-    "sha": ""
-  },
-  {
-    "path": "dining-gallery-7.jpg",
-    "sha": ""
-  },
-  {
-    "path": "dining-gallery-8.jpg",
-    "sha": ""
-  },
-  {
-    "path": "dining-gallery-9.jpg",
-    "sha": ""
-  },
-  {
-    "path": "discover-rooms1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "discover-rooms2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "discover-rooms3.jpg",
-    "sha": ""
-  },
-  {
-    "path": "events",
-    "sha": ""
-  },
-  {
-    "path": "events-gallery-1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "events-gallery-2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "events-gallery-3.jpg",
-    "sha": ""
-  },
-  {
-    "path": "events-gallery-4.jpg",
-    "sha": ""
-  },
-  {
-    "path": "events-gallery-5.jpg",
-    "sha": ""
-  },
-  {
-    "path": "events-gallery-6.jpg",
-    "sha": ""
-  },
-  {
-    "path": "events-gallery-7.jpg",
-    "sha": ""
-  },
-  {
-    "path": "events-gallery-8.jpg",
-    "sha": ""
-  },
-  {
-    "path": "events-gallery-9.jpg",
-    "sha": ""
-  },
-  {
-    "path": "events1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "events2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "events3.jpg",
-    "sha": ""
-  },
-  {
-    "path": "FallWine_WebCalendar.jpg",
-    "sha": ""
-  },
-  {
-    "path": "farmacy_hotel.jpg",
-    "sha": ""
-  },
-  {
-    "path": "farmacy_img.jpg",
-    "sha": ""
-  },
-  {
-    "path": "favicon.ico",
-    "sha": ""
-  },
-  {
-    "path": "flower-left-room-details.png",
-    "sha": ""
-  },
-  {
-    "path": "flower-left.png",
-    "sha": ""
-  },
-  {
-    "path": "footer-map.jpg",
-    "sha": ""
-  },
-  {
-    "path": "footer-padre-logo.jpg",
-    "sha": ""
-  },
-  {
-    "path": "gallery",
-    "sha": ""
-  },
-  {
-    "path": "gallery-icons.png",
-    "sha": ""
-  },
-  {
-    "path": "gather",
-    "sha": ""
-  },
-  {
-    "path": "home-activities-1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "home-couple.jpg",
-    "sha": ""
-  },
-  {
-    "path": "home-events1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "home-events2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "home-events3.jpg",
-    "sha": ""
-  },
-  {
-    "path": "home-events4.jpg",
-    "sha": ""
-  },
-  {
-    "path": "home-lady.jpg",
-    "sha": ""
-  },
-  {
-    "path": "home-offers.jpg",
-    "sha": ""
-  },
-  {
-    "path": "home-offers2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "home-offers3.jpg",
-    "sha": ""
-  },
-  {
-    "path": "hotel-gallery-1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "hotel-gallery-2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "hotel-gallery-3.jpg",
-    "sha": ""
-  },
-  {
-    "path": "hotel-gallery-4.jpg",
-    "sha": ""
-  },
-  {
-    "path": "hotel-gallery-5.jpg",
-    "sha": ""
-  },
-  {
-    "path": "hotel-gallery-6.jpg",
-    "sha": ""
-  },
-  {
-    "path": "hotel-gallery-7.jpg",
-    "sha": ""
-  },
-  {
-    "path": "hotel-gallery-8.jpg",
-    "sha": ""
-  },
-  {
-    "path": "hotel-gallery-9.jpg",
-    "sha": ""
-  },
-  {
-    "path": "hours-img.jpg",
-    "sha": ""
-  },
-  {
-    "path": "hours-img.png",
-    "sha": ""
-  },
-  {
-    "path": "location-banner1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "location-banner2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "location-banner3.jpg",
-    "sha": ""
-  },
-  {
-    "path": "location-hotel.jpg",
-    "sha": ""
-  },
-  {
-    "path": "location-img-belowaddress-img1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "location-img-belowaddress-img2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "location-img-belowaddress.jpg",
-    "sha": ""
-  },
-  {
-    "path": "location-img1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "location-img2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "location-img3.jpg",
-    "sha": ""
-  },
-  {
-    "path": "location-logo.jpg",
-    "sha": ""
-  },
-  {
-    "path": "location_map.jpg",
-    "sha": ""
-  },
-  {
-    "path": "Moonlight-Detail.jpg",
-    "sha": ""
-  },
-  {
-    "path": "offers-couple-img.jpg",
-    "sha": ""
-  },
-  {
-    "path": "padre-logo-header.jpg",
-    "sha": ""
-  },
-  {
-    "path": "PADRE_BeerDinner_WebCalendar.jpg",
-    "sha": ""
-  },
-  {
-    "path": "Padre_GiftCardSale.jpg",
-    "sha": ""
-  },
-  {
-    "path": "Padre_Holiday_BanquetMenus.pdf",
-    "sha": ""
-  },
-  {
-    "path": "Padre_NYE2017_Dinner_937x400.jpg",
-    "sha": ""
-  },
-  {
-    "path": "Padre_NYE2017_Party_937x400.jpg",
-    "sha": ""
-  },
-  {
-    "path": "Padre_Thanksgiving_ChkPresenter_Solo_Back.jpg",
-    "sha": ""
-  },
-  {
-    "path": "Padre_Thanksgiving_WebCalendar.jpg",
-    "sha": ""
-  },
-  {
-    "path": "PADRE_YappyHour_WebCalendar.jpg",
-    "sha": ""
-  },
-  {
-    "path": "party-at-prospect-this-Halloween.jpg",
-    "sha": ""
-  },
-  {
-    "path": "pets.png",
-    "sha": ""
-  },
-  {
-    "path": "play",
-    "sha": ""
-  },
-  {
-    "path": "prairie_hotel.jpg",
-    "sha": ""
-  },
-  {
-    "path": "prairie_img.jpg",
-    "sha": ""
-  },
-  {
-    "path": "preview-full-Padre_Brunch15_WebCalendar.jpg",
-    "sha": ""
-  },
-  {
-    "path": "prospect_hotel.jpg",
-    "sha": ""
-  },
-  {
-    "path": "prospect_img.jpg",
-    "sha": ""
-  },
-  {
-    "path": "request-for-proposal.jpg",
-    "sha": ""
-  },
-  {
-    "path": "room-details-banner1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "room-icon1.png",
-    "sha": ""
-  },
-  {
-    "path": "room-icon2.png",
-    "sha": ""
-  },
-  {
-    "path": "room-icon3.png",
-    "sha": ""
-  },
-  {
-    "path": "room-icon4.png",
-    "sha": ""
-  },
-  {
-    "path": "rooms-img.jpg",
-    "sha": ""
-  },
-  {
-    "path": "rooms-list1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "rooms-list2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "rooms-list3.jpg",
-    "sha": ""
-  },
-  {
-    "path": "rooms-list4.jpg",
-    "sha": ""
-  },
-  {
-    "path": "rooms-list5.jpg",
-    "sha": ""
-  },
-  {
-    "path": "rooms-list6.jpg",
-    "sha": ""
-  },
-  {
-    "path": "rooms-list7.jpg",
+    "path": "thumb-events-gallery-3.jpg",
     "sha": ""
   },
   {
@@ -504,87 +8,11 @@
     "sha": ""
   },
   {
-    "path": "rooms-listing-banner.jpg",
-    "sha": ""
-  },
-  {
-    "path": "rooms-suites-1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "rooms-suites-2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "rooms-suites-3.jpg",
-    "sha": ""
-  },
-  {
-    "path": "rooms-suites-4.jpg",
-    "sha": ""
-  },
-  {
-    "path": "rooms-suites-5.jpg",
-    "sha": ""
-  },
-  {
-    "path": "rooms-suites-6.jpg",
-    "sha": ""
-  },
-  {
-    "path": "rooms-suites-7.jpg",
-    "sha": ""
-  },
-  {
     "path": "rooms-suites-8.jpg",
     "sha": ""
   },
   {
-    "path": "rooms-suites-9.jpg",
-    "sha": ""
-  },
-  {
-    "path": "special-banner1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "special-list-flower1.png",
-    "sha": ""
-  },
-  {
-    "path": "special-list-img-1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "special-list-img-2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "special-list-img-3.jpg",
-    "sha": ""
-  },
-  {
-    "path": "specials-listing-banner.jpg",
-    "sha": ""
-  },
-  {
-    "path": "style-comfort-img1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-dining-gallery-1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-dining-gallery-2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-dining-gallery-3.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-dining-gallery-4.jpg",
+    "path": "location-img3.jpg",
     "sha": ""
   },
   {
@@ -592,123 +20,19 @@
     "sha": ""
   },
   {
-    "path": "thumb-dining-gallery-6.jpg",
+    "path": "dining-gallery-1.jpg",
     "sha": ""
   },
   {
-    "path": "thumb-dining-gallery-7.jpg",
+    "path": "button_arrow.png",
     "sha": ""
   },
   {
-    "path": "thumb-dining-gallery-8.jpg",
+    "path": "belvedere_img.jpg",
     "sha": ""
   },
   {
-    "path": "thumb-dining-gallery-9.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-events-gallery-1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-events-gallery-2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-events-gallery-3.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-events-gallery-4.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-events-gallery-5.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-events-gallery-6.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-events-gallery-7.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-events-gallery-8.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-events-gallery-9.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-hotel-gallery-1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-hotel-gallery-2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-hotel-gallery-3.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-hotel-gallery-4.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-hotel-gallery-5.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-hotel-gallery-6.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-hotel-gallery-7.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-hotel-gallery-8.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-hotel-gallery-9.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-rooms-suites-1.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-rooms-suites-2.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-rooms-suites-3.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-rooms-suites-4.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-rooms-suites-5.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-rooms-suites-6.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-rooms-suites-7.jpg",
-    "sha": ""
-  },
-  {
-    "path": "thumb-rooms-suites-8.jpg",
+    "path": "hotel-gallery-1.jpg",
     "sha": ""
   },
   {
@@ -716,11 +40,687 @@
     "sha": ""
   },
   {
+    "path": "events-gallery-2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "contact-img2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-rooms-suites-1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "flower-left-room-details.png",
+    "sha": ""
+  },
+  {
+    "path": "hours-img.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-hotel-gallery-6.jpg",
+    "sha": ""
+  },
+  {
+    "path": "dining-gallery-9.jpg",
+    "sha": ""
+  },
+  {
+    "path": "rooms-img.jpg",
+    "sha": ""
+  },
+  {
+    "path": "hotel-gallery-3.jpg",
+    "sha": ""
+  },
+  {
+    "path": "aboutus-banner1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "gallery",
+    "sha": ""
+  },
+  {
+    "path": "PADRE_BeerDinner_WebCalendar.jpg",
+    "sha": ""
+  },
+  {
+    "path": "location-img1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "Padre_Thanksgiving_WebCalendar.jpg",
+    "sha": ""
+  },
+  {
+    "path": "special-list-img-2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "rooms-suites-4.jpg",
+    "sha": ""
+  },
+  {
+    "path": "special-list-flower1.png",
+    "sha": ""
+  },
+  {
+    "path": "thumb-rooms-suites-8.jpg",
+    "sha": ""
+  },
+  {
+    "path": "offers-couple-img.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-rooms-suites-6.jpg",
+    "sha": ""
+  },
+  {
+    "path": "events-gallery-7.jpg",
+    "sha": ""
+  },
+  {
+    "path": "home-offers.jpg",
+    "sha": ""
+  },
+  {
+    "path": "padre-logo-header.jpg",
+    "sha": ""
+  },
+  {
+    "path": "rooms-list1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-events-gallery-9.jpg",
+    "sha": ""
+  },
+  {
+    "path": "Padre_NYE2017_Party_937x400.jpg",
+    "sha": ""
+  },
+  {
+    "path": "location-hotel.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-dining-gallery-8.jpg",
+    "sha": ""
+  },
+  {
+    "path": "home-offers3.jpg",
+    "sha": ""
+  },
+  {
+    "path": "banner2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "events-gallery-1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-events-gallery-1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-dining-gallery-9.jpg",
+    "sha": ""
+  },
+  {
+    "path": "rooms-listing-banner.jpg",
+    "sha": ""
+  },
+  {
+    "path": "events-gallery-8.jpg",
+    "sha": ""
+  },
+  {
+    "path": "room-icon3.png",
+    "sha": ""
+  },
+  {
+    "path": "thumb-events-gallery-5.jpg",
+    "sha": ""
+  },
+  {
+    "path": "events-gallery-4.jpg",
+    "sha": ""
+  },
+  {
+    "path": "location-banner2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-dining-gallery-1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "room-icon1.png",
+    "sha": ""
+  },
+  {
+    "path": "location-banner3.jpg",
+    "sha": ""
+  },
+  {
+    "path": "belvedere_hotel.jpg",
+    "sha": ""
+  },
+  {
+    "path": "specials-listing-banner.jpg",
+    "sha": ""
+  },
+  {
+    "path": "party-at-prospect-this-Halloween.jpg",
+    "sha": ""
+  },
+  {
+    "path": "dining-gallery-7.jpg",
+    "sha": ""
+  },
+  {
+    "path": "play",
+    "sha": ""
+  },
+  {
+    "path": "gallery-icons.png",
+    "sha": ""
+  },
+  {
+    "path": "Padre_Holiday_BanquetMenus.pdf",
+    "sha": ""
+  },
+  {
+    "path": "thumb-hotel-gallery-5.jpg",
+    "sha": ""
+  },
+  {
     "path": "unique_section.jpg",
     "sha": ""
   },
   {
+    "path": "special-list-img-1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "booking-widget",
+    "sha": ""
+  },
+  {
+    "path": "thumb-events-gallery-4.jpg",
+    "sha": ""
+  },
+  {
+    "path": "contact-img3.jpg",
+    "sha": ""
+  },
+  {
+    "path": "location-img-belowaddress-img2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "rooms-list2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "dine",
+    "sha": ""
+  },
+  {
+    "path": "room-details-banner1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "rooms-suites-1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "hotel-gallery-5.jpg",
+    "sha": ""
+  },
+  {
+    "path": "hotel-gallery-8.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-dining-gallery-3.jpg",
+    "sha": ""
+  },
+  {
+    "path": "dine-img.jpg",
+    "sha": ""
+  },
+  {
+    "path": "rooms-suites-5.jpg",
+    "sha": ""
+  },
+  {
+    "path": "events-gallery-6.jpg",
+    "sha": ""
+  },
+  {
+    "path": "Padre_Thanksgiving_ChkPresenter_Solo_Back.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-hotel-gallery-1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "dining-gallery-8.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-dining-gallery-6.jpg",
+    "sha": ""
+  },
+  {
+    "path": "prospect_img.jpg",
+    "sha": ""
+  },
+  {
+    "path": "brimstone_hotel.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-dining-gallery-7.jpg",
+    "sha": ""
+  },
+  {
+    "path": "rooms-suites-9.jpg",
+    "sha": ""
+  },
+  {
+    "path": "flower-left.png",
+    "sha": ""
+  },
+  {
+    "path": "rooms-list6.jpg",
+    "sha": ""
+  },
+  {
+    "path": "special-list-img-3.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-dining-gallery-4.jpg",
+    "sha": ""
+  },
+  {
+    "path": "home-offers2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "events3.jpg",
+    "sha": ""
+  },
+  {
+    "path": "style-comfort-img1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "home-events4.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-dining-gallery-2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "hotel-gallery-2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "location-img2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "dining-gallery-6.jpg",
+    "sha": ""
+  },
+  {
+    "path": "prairie_img.jpg",
+    "sha": ""
+  },
+  {
+    "path": "Moonlight-Detail.jpg",
+    "sha": ""
+  },
+  {
+    "path": "location-logo.jpg",
+    "sha": ""
+  },
+  {
+    "path": "special-banner1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "home-lady.jpg",
+    "sha": ""
+  },
+  {
+    "path": "events2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "events-gallery-3.jpg",
+    "sha": ""
+  },
+  {
+    "path": "dining-gallery-4.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-rooms-suites-5.jpg",
+    "sha": ""
+  },
+  {
+    "path": "hotel-gallery-4.jpg",
+    "sha": ""
+  },
+  {
+    "path": "gather",
+    "sha": ""
+  },
+  {
+    "path": "thumb-rooms-suites-4.jpg",
+    "sha": ""
+  },
+  {
+    "path": "home-events2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "dining-gallery-2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "location-img-belowaddress.jpg",
+    "sha": ""
+  },
+  {
+    "path": "discover-rooms2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "room-icon2.png",
+    "sha": ""
+  },
+  {
+    "path": "rooms-list5.jpg",
+    "sha": ""
+  },
+  {
+    "path": "banner3.jpg",
+    "sha": ""
+  },
+  {
     "path": "wedding-murder-mystery-dinner-tickets.jpg",
+    "sha": ""
+  },
+  {
+    "path": "hotel-gallery-7.jpg",
+    "sha": ""
+  },
+  {
+    "path": "home-events3.jpg",
+    "sha": ""
+  },
+  {
+    "path": "rooms-suites-7.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-hotel-gallery-4.jpg",
+    "sha": ""
+  },
+  {
+    "path": "banner1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "contact-banner.jpg",
+    "sha": ""
+  },
+  {
+    "path": "dine-flower.png",
+    "sha": ""
+  },
+  {
+    "path": "thumb-hotel-gallery-3.jpg",
+    "sha": ""
+  },
+  {
+    "path": "pets.png",
+    "sha": ""
+  },
+  {
+    "path": "favicon.ico",
+    "sha": ""
+  },
+  {
+    "path": "Padre_GiftCardSale.jpg",
+    "sha": ""
+  },
+  {
+    "path": "preview-full-Padre_Brunch15_WebCalendar.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-events-gallery-2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-hotel-gallery-8.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-rooms-suites-3.jpg",
+    "sha": ""
+  },
+  {
+    "path": "location_map.jpg",
+    "sha": ""
+  },
+  {
+    "path": "contact-img1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "aboutus_img2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "prospect_hotel.jpg",
+    "sha": ""
+  },
+  {
+    "path": "discover-rooms1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-events-gallery-7.jpg",
+    "sha": ""
+  },
+  {
+    "path": "PADRE_YappyHour_WebCalendar.jpg",
+    "sha": ""
+  },
+  {
+    "path": "dining-gallery-3.jpg",
+    "sha": ""
+  },
+  {
+    "path": "location-img-belowaddress-img1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "hotel-gallery-9.jpg",
+    "sha": ""
+  },
+  {
+    "path": "home-activities-1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "btn-arrow.png",
+    "sha": ""
+  },
+  {
+    "path": "events-gallery-5.jpg",
+    "sha": ""
+  },
+  {
+    "path": "bakersfield_img2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-rooms-suites-7.jpg",
+    "sha": ""
+  },
+  {
+    "path": "rooms-suites-2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "farmacy_img.jpg",
+    "sha": ""
+  },
+  {
+    "path": "brimstone_img.jpg",
+    "sha": ""
+  },
+  {
+    "path": "hotel-gallery-6.jpg",
+    "sha": ""
+  },
+  {
+    "path": "home-events1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "location-banner1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "bakersfield_img1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "prairie_hotel.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-events-gallery-6.jpg",
+    "sha": ""
+  },
+  {
+    "path": "dining-gallery-5.jpg",
+    "sha": ""
+  },
+  {
+    "path": "room-icon4.png",
+    "sha": ""
+  },
+  {
+    "path": "Padre_NYE2017_Dinner_937x400.jpg",
+    "sha": ""
+  },
+  {
+    "path": "events1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "request-for-proposal.jpg",
+    "sha": ""
+  },
+  {
+    "path": "events",
+    "sha": ""
+  },
+  {
+    "path": "rooms-list3.jpg",
+    "sha": ""
+  },
+  {
+    "path": "footer-map.jpg",
+    "sha": ""
+  },
+  {
+    "path": "home-couple.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-events-gallery-8.jpg",
+    "sha": ""
+  },
+  {
+    "path": "rooms-list7.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-hotel-gallery-7.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-rooms-suites-2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "rooms-list4.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-hotel-gallery-9.jpg",
+    "sha": ""
+  },
+  {
+    "path": "events-gallery-9.jpg",
+    "sha": ""
+  },
+  {
+    "path": "banner4.jpg",
+    "sha": ""
+  },
+  {
+    "path": "aboutus_img1.jpg",
+    "sha": ""
+  },
+  {
+    "path": "farmacy_hotel.jpg",
+    "sha": ""
+  },
+  {
+    "path": "footer-padre-logo.jpg",
+    "sha": ""
+  },
+  {
+    "path": "rooms-suites-6.jpg",
+    "sha": ""
+  },
+  {
+    "path": "discover-rooms3.jpg",
+    "sha": ""
+  },
+  {
+    "path": "hours-img.png",
+    "sha": ""
+  },
+  {
+    "path": "FallWine_WebCalendar.jpg",
+    "sha": ""
+  },
+  {
+    "path": "thumb-hotel-gallery-2.jpg",
+    "sha": ""
+  },
+  {
+    "path": "rooms-suites-3.jpg",
     "sha": ""
   }
 ]

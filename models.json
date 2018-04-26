@@ -1,44 +1,9 @@
 {
   "events": [
     {
-      "name": "Bakersfield Unplugged Returns March 1st",
-      "title": "Bakersfield Unplugged Returns March 1st",
-      "file": "event14.json"
-    },
-    {
-      "name": "Padre Picks",
-      "title": "Padre Picks",
-      "file": "event15.json"
-    },
-    {
-      "name": "Easter Brunch",
-      "title": "Easter Brunch",
-      "file": "event16.json"
-    },
-    {
-      "name": "Heating Up at Prairie Fire",
-      "title": "Heating Up at Prairie Fire",
-      "file": "event17.json"
-    },
-    {
-      "name": "Jazz Nights",
-      "title": "Jazz Nights",
-      "file": "event18.json"
-    },
-    {
-      "name": "Anderson Valley Brewing Beer Dinner",
-      "title": "Anderson Valley Brewing Beer Dinner",
-      "file": "event19.json"
-    },
-    {
-      "name": "Mother's Day",
-      "title": "Mother's Day",
-      "file": "event20.json"
-    },
-    {
-      "name": "Cinco de Mayo",
-      "title": "Cinco de Mayo",
-      "file": "event21.json"
+      "name": "Halloween",
+      "title": "Halloween",
+      "file": "events6.json"
     },
     {
       "name": "Brunch & Bubbles at Belvedere Room",
@@ -46,74 +11,14 @@
       "file": "event5.json"
     },
     {
-      "name": "Wine Down Wednesdays",
-      "title": "Wine Down Wednesdays",
-      "file": "events1.json"
-    },
-    {
-      "name": "NYE Around the World Dinner",
-      "title": "NYE Around the World Dinner",
-      "file": "events10.json"
-    },
-    {
-      "name": "Passport to 2018 NYE Party",
-      "title": "Passport to 2018 NYE Party",
-      "file": "events11.json"
-    },
-    {
-      "name": "Christmas Buffet",
-      "title": "Christmas Buffet",
-      "file": "events12.json"
-    },
-    {
-      "name": "Valentine's Day Dinner at Prospect Lounge",
-      "title": "Valentine's Day Dinner at Prospect Lounge",
-      "file": "events13.json"
-    },
-    {
-      "name": "Celebrate Love All Month Long at Belvedere Room",
-      "title": "Celebrate Love All Month Long at Belvedere Room",
-      "file": "events14.json"
-    },
-    {
-      "name": "Say I Do at The Padre this February",
-      "title": "Say I Do at The Padre this February",
-      "file": "events15.json"
-    },
-    {
       "name": "St. Patrick's Day",
       "title": "St. Patrick's Day",
       "file": "events16.json"
     },
     {
-      "name": "Prairie Fire Luau",
-      "title": "Prairie Fire Luau",
-      "file": "events2.json"
-    },
-    {
-      "name": "Classic Rock Cover Night",
-      "title": "Classic Rock Cover Night",
-      "file": "events3.json"
-    },
-    {
-      "name": "Walkabout Wine Dinner",
-      "title": "Walkabout Wine Dinner",
-      "file": "events4.json"
-    },
-    {
-      "name": "Dueling Piano Nights",
-      "title": "Dueling Piano Nights",
-      "file": "events5.json"
-    },
-    {
-      "name": "Halloween",
-      "title": "Halloween",
-      "file": "events6.json"
-    },
-    {
-      "name": "Silver Oak Wine Dinner",
-      "title": "Silver Oak Wine Dinner",
-      "file": "events7.json"
+      "name": "Cinco de Mayo",
+      "title": "Cinco de Mayo",
+      "file": "event21.json"
     },
     {
       "name": "Gift Cards: Holiday Sale",
@@ -124,78 +29,146 @@
       "name": "Thanksgiving Buffet",
       "title": "Thanksgiving Buffet",
       "file": "events9.json"
+    },
+    {
+      "name": "Anderson Valley Brewing Beer Dinner",
+      "title": "Anderson Valley Brewing Beer Dinner",
+      "file": "event19.json"
+    },
+    {
+      "name": "Christmas Buffet",
+      "title": "Christmas Buffet",
+      "file": "events12.json"
+    },
+    {
+      "name": "Prairie Fire Luau",
+      "title": "Prairie Fire Luau",
+      "file": "events2.json"
+    },
+    {
+      "name": "NYE Around the World Dinner",
+      "title": "NYE Around the World Dinner",
+      "file": "events10.json"
+    },
+    {
+      "name": "Walkabout Wine Dinner",
+      "title": "Walkabout Wine Dinner",
+      "file": "events4.json"
+    },
+    {
+      "name": "Valentine's Day Dinner at Prospect Lounge",
+      "title": "Valentine's Day Dinner at Prospect Lounge",
+      "file": "events13.json"
+    },
+    {
+      "name": "Tapas Tuesday",
+      "title": "Tapas Tuesday",
+      "file": "events17.json"
+    },
+    {
+      "name": "Bakersfield Unplugged",
+      "title": "Bakersfield Unplugged",
+      "file": "event14.json"
+    },
+    {
+      "name": "Wine Down Wednesdays",
+      "title": "Wine Down Wednesdays",
+      "file": "events1.json"
+    },
+    {
+      "name": "Padre Picks",
+      "title": "Padre Picks",
+      "file": "event15.json"
+    },
+    {
+      "name": "Classic Rock Cover Night",
+      "title": "Classic Rock Cover Night",
+      "file": "events3.json"
+    },
+    {
+      "name": "Celebrate Love All Month Long at Belvedere Room",
+      "title": "Celebrate Love All Month Long at Belvedere Room",
+      "file": "events14.json"
+    },
+    {
+      "name": "Silver Oak Wine Dinner",
+      "title": "Silver Oak Wine Dinner",
+      "file": "events7.json"
+    },
+    {
+      "name": "Mother's Day",
+      "title": "Mother's Day",
+      "file": "event20.json"
+    },
+    {
+      "name": "Jazz Nights",
+      "title": "Jazz Nights",
+      "file": "event18.json"
+    },
+    {
+      "name": "Say I Do at The Padre this February",
+      "title": "Say I Do at The Padre this February",
+      "file": "events15.json"
+    },
+    {
+      "name": "Dueling Piano Nights",
+      "title": "Dueling Piano Nights",
+      "file": "events5.json"
+    },
+    {
+      "name": "Passport to 2018 NYE Party",
+      "title": "Passport to 2018 NYE Party",
+      "file": "events11.json"
+    },
+    {
+      "name": "Easter Brunch",
+      "title": "Easter Brunch",
+      "file": "event16.json"
+    },
+    {
+      "name": "Heating Up at Prairie Fire",
+      "title": "Heating Up at Prairie Fire",
+      "file": "event17.json"
     }
   ],
-  "gallery-dining": [
+  "gallery-rooms": [
     {
-      "file": "gallery-dining1.json"
+      "file": "gallery-rooms3.json"
     },
     {
-      "file": "gallery-dining2.json"
+      "file": "gallery-rooms5.json"
     },
     {
-      "file": "gallery-dining3.json"
+      "file": "gallery-rooms8.json"
     },
     {
-      "file": "gallery-dining4.json"
+      "file": "gallery-rooms9.json"
     },
     {
-      "file": "gallery-dining5.json"
+      "file": "gallery-rooms1.json"
     },
     {
-      "file": "gallery-dining6.json"
+      "file": "gallery-rooms7.json"
     },
     {
-      "file": "gallery-dining7.json"
+      "file": "gallery-rooms2.json"
     },
     {
-      "file": "gallery-dining8.json"
+      "file": "gallery-rooms6.json"
     },
     {
-      "file": "gallery-dining9.json"
-    }
-  ],
-  "gallery-events": [
-    {
-      "file": "gallery-events1.json"
-    },
-    {
-      "file": "gallery-events2.json"
-    },
-    {
-      "file": "gallery-events3.json"
-    },
-    {
-      "file": "gallery-events4.json"
-    },
-    {
-      "file": "gallery-events5.json"
-    },
-    {
-      "file": "gallery-events6.json"
-    },
-    {
-      "file": "gallery-events7.json"
-    },
-    {
-      "file": "gallery-events8.json"
-    },
-    {
-      "file": "gallery-events9.json"
+      "file": "gallery-rooms4.json"
     }
   ],
   "gallery-hotel": [
     {
-      "file": "gallery-hotel1.json"
-    },
-    {
       "file": "gallery-hotel2.json"
     },
     {
-      "file": "gallery-hotel3.json"
+      "file": "gallery-hotel4.json"
     },
     {
-      "file": "gallery-hotel4.json"
+      "file": "gallery-hotel8.json"
     },
     {
       "file": "gallery-hotel5.json"
@@ -204,42 +177,74 @@
       "file": "gallery-hotel6.json"
     },
     {
-      "file": "gallery-hotel7.json"
-    },
-    {
-      "file": "gallery-hotel8.json"
-    },
-    {
       "file": "gallery-hotel9.json"
+    },
+    {
+      "file": "gallery-hotel1.json"
+    },
+    {
+      "file": "gallery-hotel3.json"
+    },
+    {
+      "file": "gallery-hotel7.json"
     }
   ],
-  "gallery-rooms": [
+  "gallery-events": [
     {
-      "file": "gallery-rooms1.json"
+      "file": "gallery-events8.json"
     },
     {
-      "file": "gallery-rooms2.json"
+      "file": "gallery-events3.json"
     },
     {
-      "file": "gallery-rooms3.json"
+      "file": "gallery-events6.json"
     },
     {
-      "file": "gallery-rooms4.json"
+      "file": "gallery-events4.json"
     },
     {
-      "file": "gallery-rooms5.json"
+      "file": "gallery-events9.json"
     },
     {
-      "file": "gallery-rooms6.json"
+      "file": "gallery-events5.json"
     },
     {
-      "file": "gallery-rooms7.json"
+      "file": "gallery-events2.json"
     },
     {
-      "file": "gallery-rooms8.json"
+      "file": "gallery-events7.json"
     },
     {
-      "file": "gallery-rooms9.json"
+      "file": "gallery-events1.json"
+    }
+  ],
+  "gallery-dining": [
+    {
+      "file": "gallery-dining4.json"
+    },
+    {
+      "file": "gallery-dining7.json"
+    },
+    {
+      "file": "gallery-dining1.json"
+    },
+    {
+      "file": "gallery-dining9.json"
+    },
+    {
+      "file": "gallery-dining3.json"
+    },
+    {
+      "file": "gallery-dining2.json"
+    },
+    {
+      "file": "gallery-dining6.json"
+    },
+    {
+      "file": "gallery-dining8.json"
+    },
+    {
+      "file": "gallery-dining5.json"
     }
   ]
 }
