@@ -1,290 +1,332 @@
 @import 'bootstrap.scss';
 @import 'variables';
+
 html {
-    width: 100%;
+  width: 100%;
 }
+
 body {
-	font-family: $Book ;
-    margin: 50px 0px;
-    background-color: #fcfbf9;
-    @media(max-width: 1154px) {
-        margin: 0px;
-    }
+  font-family: $Book;
+  margin: 50px 0;
+  background-color: #fcfbf9;
+  @media(max-width: 1154px) {
+    margin: 0;
+  }
 }
-a, a:hover, a:active, a:visited,a:link {
-    text-decoration:none;
-	color: $Secondary;
-   
-}
-a:hover{
-	color:#1a1a1a;
-	}
-hr{ border:none;}
+
 a,
+a:active,
 a:hover,
-a:visited,
-a:active {
-    text-decoration: none;
+a:link,
+a:visited {
+  text-decoration: none;
+  color: $Secondary;
 }
+
+a:hover {
+  color: #1a1a1a;
+}
+
+hr {
+  border: none;
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+
 .hover-transition {
-    transition: all 0.6s ease;
+  transition: all .6s ease;
 }
+
 .global-container {
-    max-width: 1220px;
-    background-color: $White;
-    margin: 0px auto;
+  max-width: 1220px;
+  background-color: $White;
+  margin: 0 auto;
 }
 @media (min-width: 992px) {
-    .container {
-        width: 100%;
-    }
-}
-.no-gutter {
-    padding: 0 !important;
-    margin: 0 !important;
-}
-.img-width {
+  .container {
     width: 100%;
+  }
 }
+
+.no-gutter {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.img-width {
+  width: 100%;
+}
+
 .section-margin {
-    margin-top: 65px;
-	@media (max-width:800px){
-	 margin-top: 0px;
-	}
+  margin-top: 65px;
+  @media (max-width:800px) {
+    margin-top: 0;
+  }
 }
+
 .section-padding {
-    padding-top: 65px;
-	@media (max-width:800px){
-	 padding-top: 0px;
-	}
+  padding-top: 65px;
+  @media (max-width:800px) {
+    padding-top: 0;
+  }
 }
+
 .img-top-border {
-    border-top: 21px solid $Secondary;
-	@media (max-width:768px){
-	     margin-bottom: 20px;
-	}
+  border-top: 21px solid $Secondary;
+  @media (max-width:768px) {
+    margin-bottom: 20px;
+  }
 }
+
 .common-description-block {
-	max-width:450px;
-    text-align: center;
-    h4 {
-        font-family: $Medium;
-        color: $Secondary;
-        font-size: 14px;
-        margin-bottom: 0px;
-    }
-   
-    .dimond {
-        font-size: 15px;
-        color: $Secondary;
-        display: block;
-        margin: 18px 0px;
-    }
-}
-.brown-button {
-    a {
-        font-family: $Book ;
-        letter-spacing: 0.3em;
-        font-size: 13px;
-         padding: 18px 29px;
-        color: $Secondary;
-        display: inline-block;
-        border: 1px solid $Secondary;
-        text-transform: uppercase;
-            transition: all 0.6s ease;
-        &:hover {
-            text-decoration: none;
-            background-color: $Secondary;
-            color: $White;
-                transition: all 0.6s ease;
-        }
-    }
-}
-.gold-button{
-	a{
-	 background-color: $Secondary;
-	 color:$White;
-	 border:none;
-         transition: all 0.6s ease;
-	 &:hover{
-		 background-color: #1a1a1a;
-             transition: all 0.6s ease;
-		 }
-	 }
-	}
-.white-button {
-    a {
-        font-family: $Book ;
-        letter-spacing:0.3em;
-        background-color: $White;
-        font-size: 13px;
-        padding: 18px 29px;
-        color: $Secondary;
-        display: inline-block;
-        text-align: center;
-        text-transform: uppercase;
-            transition: all 0.6s ease;
-        &:hover {
-            text-decoration: none;
-            background-color: #2b2a2a;
-            color: $White;
-                transition: all 0.6s ease;
-        }
-    }
-}
-.transparant-button {
-    a {
-        font-family: $Book ;
-        letter-spacing: 0.3em;
-        background-color:transparent;
-		border:1px solid $White;
-        font-size: 13px;
-		
-        padding: 19px  22px ;
-        color: $White;
-        display: inline-block;
-        text-align: center;
-        text-transform: uppercase;
-            transition: all 0.6s ease;
-        &:hover {
-            text-decoration: none;
-            background-color: #2b2a2a;
-            color: $White;
-                transition: all 0.6s ease;
-        }
-    }
-}
-.transparant-button-brown {
-    a {
-        font-family: $Book ;
-        letter-spacing: 0.3em;
-        background-color:transparent;
-		border:1px solid $Secondary;
-        font-size: 13px;
-        padding: 19px  22px ;
-		min-width:218px;
-        color: $Secondary;
-        display: inline-block;
-        text-align: center;
-        text-transform: uppercase;
-            transition: all 0.6s ease;
-        &:hover {
-            text-decoration: none;
-            background-color: $Secondary;
-            color: $White;
-                transition: all 0.6s ease;
-        }
-    }
-}
-.brown-color {
-    color: $Black !important;
-}
-.text-cursive {
-    font-size: 54px;
-    font-family: $Mono45;
-    text-align: center;
-    color: $Primary;
-@media (max-width:800px){
-	font-size: 22px;
-}
-}
-.text-bold {
-    font-size: 48px;
-    font-family: $Av-Black ;
-    color: $Primary;
-    text-transform: uppercase;
-	letter-spacing: 1.3px;
-@media (max-width:800px){
-	font-size: 22px;
-}
-}
-p {
-    font-family: $Book ;
-    color: $Black;
-    line-height: 25px;
+  max-width: 450px;
+  text-align: center;
+
+  h4 {
+    font-family: $Medium;
+    color: $Secondary;
     font-size: 14px;
-	
-	letter-spacing:0.5px;
-	
+    margin-bottom: 0;
+  }
+
+  .dimond {
+    font-size: 15px;
+    color: $Secondary;
+    display: block;
+    margin: 18px 0;
+  }
 }
+
+.brown-button {
+  a {
+    font-family: $Book;
+    letter-spacing: .3em;
+    font-size: 13px;
+    padding: 18px 29px;
+    color: $Secondary;
+    display: inline-block;
+    border: 1px solid $Secondary;
+    text-transform: uppercase;
+    transition: all .6s ease;
+
+    &:hover {
+      text-decoration: none;
+      background-color: $Secondary;
+      color: $White;
+      transition: all .6s ease;
+    }
+  }
+}
+
+.gold-button {
+  a {
+    background-color: $Secondary;
+    color: $White;
+    border: none;
+    transition: all .6s ease;
+
+    &:hover {
+      background-color: #1a1a1a;
+      transition: all .6s ease;
+    }
+  }
+}
+
+.white-button {
+  a {
+    font-family: $Book;
+    letter-spacing: .3em;
+    background-color: $White;
+    font-size: 13px;
+    padding: 18px 29px;
+    color: $Secondary;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .6s ease;
+
+    &:hover {
+      text-decoration: none;
+      background-color: #2b2a2a;
+      color: $White;
+      transition: all .6s ease;
+    }
+  }
+}
+
+.transparant-button {
+  a {
+    font-family: $Book;
+    letter-spacing: .3em;
+    background-color: transparent;
+    border: 1px solid $White;
+    font-size: 13px;
+    padding: 19px 22px;
+    color: $White;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .6s ease;
+
+    &:hover {
+      text-decoration: none;
+      background-color: #2b2a2a;
+      color: $White;
+      transition: all .6s ease;
+    }
+  }
+}
+
+.transparant-button-brown {
+  a {
+    font-family: $Book;
+    letter-spacing: .3em;
+    background-color: transparent;
+    border: 1px solid $White;
+    font-size: 13px;
+    padding: 19px 22px;
+    min-width: 218px;
+    color: $White;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .6s ease;
+
+    &:hover {
+      text-decoration: none;
+      background-color: $Secondary;
+      color: $White;
+      transition: all .6s ease;
+    }
+  }
+}
+
+.brown-color {
+  color: $Black !important;
+}
+
+.text-cursive {
+  font-size: 54px;
+  font-family: $Mono45;
+  text-align: center;
+  color: $Primary;
+  @media (max-width:800px) {
+    font-size: 22px;
+  }
+}
+
+.text-bold {
+  font-size: 48px;
+  font-family: $Av-Black;
+  color: $Primary;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  @media (max-width:800px) {
+    font-size: 22px;
+  }
+}
+
+p {
+  font-family: $Book;
+  color: $Black;
+  line-height: 25px;
+  font-size: 14px;
+  letter-spacing: .5px;
+}
+
 .main-menu {
   max-width: 1220px;
   background-color: $White;
-  margin: 0px auto; }
-  
-.showmenu {
-    position: fixed;
-    top:0 !important;
-    z-index: 1100;
-    min-width: 1220px;
+  margin: 0 auto;
 }
-.-banner-onscroll-padding {
-    padding-top: 98px;
-	@media (max-width: 1154px){
-		padding-top: 0px;	
-		}
-}
-.view-offer-button{
-	padding:18px 45px !important;
-	@media (max-width:768px){
-		padding:16px !important;
-	}
-	}
-.content-top-margin{
-@media (max-width: 1154px){
-		margin-top:70px;	
-		}
-}
-.thickborder-bottom{
-	
-	border-bottom:20px solid $Secondary;
-	}
-h5{
-	font-size: 22px;
-    font-family: $Av-Black ;
-    color: $Primary;
-    text-transform: uppercase;
-    letter-spacing: 1.3px;
-	
-}
-.common-container{
-		padding:50px 0px 0px 0px;
-		@media (max-width: 1154px){
-		padding:20px 0px 0px 0px;
-		}
-		
-	}
-.back-to-top {
-    cursor: pointer;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display:none;
-	background-color: $Secondary;
-	padding:11px 15px ;
-	border: 1px solid #1a1a1a;
-	color:$White !important;
-	z-index:100;	
-	&:hover{
-		background-color: #1a1a1a;
-		
-		}
-}
-.banner-color-overlay{
-	 position: relative;
-	 &::before{
-		 content: "";
-		 top: 0; right: 0; bottom: 0; left: 0;
-		 position: absolute;
-		 background-color: rgba(0,0,0,.3);
-		 width:100%;
-		 }
-	}
-.button-zindex{
-	position:relative;
-	z-index:1000;
-	}
 
+.showmenu {
+  position: fixed;
+  top: 0 !important;
+  z-index: 1100;
+  min-width: 1220px;
+}
+
+.-banner-onscroll-padding {
+  padding-top: 98px;
+  @media (max-width: 1154px) {
+    padding-top: 0;
+  }
+}
+
+.view-offer-button {
+  padding: 18px 45px !important;
+  @media (max-width:768px) {
+    padding: 16px !important;
+  }
+}
+
+.content-top-margin {
+  @media (max-width: 1154px) {
+    margin-top: 70px;
+  }
+}
+
+.thickborder-bottom {
+  border-bottom: 20px solid $Secondary;
+}
+
+h5 {
+  font-size: 22px;
+  font-family: $Av-Black;
+  color: $Primary;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+}
+
+.common-container {
+  padding: 50px 0 0;
+  @media (max-width: 1154px) {
+    padding: 20px 0 0;
+  }
+}
+
+.back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: $Secondary;
+  padding: 11px 15px;
+  border: 1px solid #1a1a1a;
+  color: $White !important;
+  z-index: 100;
+
+  &:hover {
+    background-color: #1a1a1a;
+  }
+}
+
+.banner-color-overlay {
+  position: relative;
+
+  &::before {
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0,0,0,.3);
+    width: 100%;
+  }
+}
+
+.button-zindex {
+  position: relative;
+  z-index: 1000;
+}
 @import 'jquery-ui';
 @import 'header';
 @import 'carousel';
@@ -309,7 +351,3 @@ h5{
 @import 'datepicker';
 @import 'dine';
 @import 'events';
-
-
-
-
