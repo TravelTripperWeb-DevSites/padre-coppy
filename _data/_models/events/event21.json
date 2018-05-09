@@ -22,7 +22,7 @@
     "alt": "Cinco de Mayo",
     "caption": ""
   },
-  "unpublish": false,
+  "unpublish": true,
   "short_description": "<p>Fiesta, Fiesta! Come party at the Padre&nbsp;Hotel for Cinco de Mayo! Festive food and drink specials all day! Head up the Prairie Fire rooftop for from 7-10pm for live music from SV Magicko.</p>",
   "view_event_button_url": "cinco-de-mayo"
 }
