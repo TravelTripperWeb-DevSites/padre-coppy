@@ -1,0 +1,11 @@
+{
+  "order": 5,
+  "title": "MOJITO",
+  "category": "menu_category15",
+  "detail": "<p>rum, simple syrup, mint, lemon</p>",
+  "item_price": [
+    {
+      "price": "20"
+    }
+  ]
+}

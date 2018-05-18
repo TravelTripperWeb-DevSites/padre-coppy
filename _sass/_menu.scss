@@ -1,0 +1,68 @@
+.dine-menu {
+  max-width: 1000px;
+  margin-top: 3em;
+
+  .panel {
+    margin-top: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  a {
+    display: block;
+    padding: 20px 15px;
+    font-size: 40px;
+    text-decoration: none;
+    border-top: 1px solid $gray;
+  }
+
+  .panel-body {
+    border: 0 !important;
+  }
+
+  .panel-heading {
+    padding: 0;
+    text-align: left;
+    border-radius: 0;
+  }
+
+  .accordion-toggle {
+    position: relative;
+
+    &:before {
+      font-family: 'FontAwesome';
+      content: '\f068';
+      margin-top: 12px;
+      font-size: 20px;
+      float: right;
+      color: $Secondary;
+      font-weight: lighter;
+      transition: all .2s ease-in;
+    }
+
+    &.collapsed {
+      position: relative;
+
+      &:before {
+        font-family: 'FontAwesome';
+        content: '\f067';
+        margin-top: 12px;
+        font-size: 20px;
+        float: right;
+        color: $Secondary;
+        font-weight: lighter;
+        transition: all .2s ease-in;
+      }
+    }
+  }
+
+  .item-name {
+    font-size: 35px;
+  }
+}

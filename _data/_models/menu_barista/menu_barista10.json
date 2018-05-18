@@ -1,0 +1,11 @@
+{
+  "order": 10,
+  "title": "Italian Soda",
+  "category": "menu_category6",
+  "item_price": [
+    {
+      "price": "5"
+    }
+  ],
+  "detail": "<p>A Refreshing Treat!</p>"
+}

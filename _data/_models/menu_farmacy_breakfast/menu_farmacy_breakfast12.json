@@ -1,0 +1,12 @@
+{
+  "order": 12,
+  "title": "Chorizo Scramble",
+  "category": "menu_category8",
+  "item_price": [
+    {
+      "price": "11",
+      "name": "GF"
+    }
+  ],
+  "detail": "<p>Scrambled Eggs, Chorizo, Roasted Red Pepper, Crispy Hash Browns, White Cheddar, Cotija, Side Pico de Gallo, Cilantro</p>"
+}

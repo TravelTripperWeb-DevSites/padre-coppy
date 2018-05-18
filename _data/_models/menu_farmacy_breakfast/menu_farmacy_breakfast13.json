@@ -1,0 +1,12 @@
+{
+  "order": 13,
+  "title": "Cali Protein Scramble",
+  "category": "menu_category8",
+  "item_price": [
+    {
+      "name": "GF",
+      "price": "12"
+    }
+  ],
+  "detail": "<p>Scrambled Egg Whites, Grilled Chicken Breast, Turkey Bacon, Avocado, Roasted Red Peppers, Onion, White Cheddar</p>"
+}
