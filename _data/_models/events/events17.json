@@ -23,5 +23,6 @@
   "short_description": "<p>Sharing is caring! Grab your crew and take a bite out of the new Spanish style small plates menu every Tapas Tuesday.</p>",
   "description": "<p>Sharing is caring! Grab your crew and take a bite out of the new Spanish style small plates menu every Tapas Tuesday. Each of these delicious dishes are $9.</p>",
   "sort_order": 4,
-  "button_text": "<p><a href=\"http://www.eatdrinkandsleep.net/EDS_Media/2018/Padre/Website/PrairieFire_Tapas.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">View Menu &gt;&gt;</a></p>"
+  "button_text": "<p><a href=\"http://www.eatdrinkandsleep.net/EDS_Media/2018/Padre/Website/PrairieFire_Tapas.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">View Menu &gt;&gt;</a></p>",
+  "unpublish": true
 }

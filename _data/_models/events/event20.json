@@ -23,7 +23,7 @@
     "alt": "Mother's Day",
     "caption": ""
   },
-  "unpublish": false,
+  "unpublish": true,
   "short_description": "<p>This Mother's Day, treat mom to a champagne brunch at Belvedere Room in The Padre Hotel!</p>",
   "view_event_button_url": "mothers-day"
 }
