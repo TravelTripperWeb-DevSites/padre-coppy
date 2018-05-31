@@ -29,4 +29,16 @@ angular.module('rezTrip')
         retString = retString.replace(/^--s*/, '').replace(/--*$/, ''); // replace leading and trailing hyphen
         return (!value) ? '' : retString;
     };
+})
+.filter('roomOrSuite', function () {
+    return function (value) {
+        var str = String(value).toLowerCase();
+        var retStr;
+        if(str.indexOf('suite') != -1){
+            retStr = 'Suite';
+        }else{
+            retStr = 'Room';
+        }
+        return (!value) ? '' : retStr;
+    };
 });

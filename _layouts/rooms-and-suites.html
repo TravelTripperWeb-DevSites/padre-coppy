@@ -45,7 +45,7 @@ layout: default
             <h3 class="room-rate">TONIGHT’S RATE:[[room.todayRate]]</h3>
             <span class="dimond"> ◆</span>
             <p>[[room.description]]</p>
-            <div class="brown-button buttons-container"><a href="/room/?[[room.name | formatNameForLink]]" class="hover-transition" title="View Suite">VIEW SUITE</a> <a ng-href="https://thepadrehotel.reztrip.com/search?&selected_room=[[room.code]]" target="_blank" class="hover-transition" title="Book Suite" >BOOK SUITE</a></div>
+            <div class="brown-button buttons-container"><a href="/room/?[[room.name | formatNameForLink]]" class="hover-transition" title="View Suite">VIEW [[room.name | roomOrSuite]]</a> <a ng-href="https://thepadrehotel.reztrip.com/search?&selected_room=[[room.code]]" target="_blank" class="hover-transition" title="Book Suite" >BOOK [[room.name | roomOrSuite]]</a></div>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@ layout: default
             <h3 class="room-rate">TONIGHT’S RATE:[[room.todayRate]]</h3>
             <span class="dimond"> ◆</span>
             <p>[[room.description]]</p>
-            <div class="brown-button buttons-container"><a href="/room/?[[room.name | formatNameForLink]]" class="hover-transition" title="View Room">VIEW ROOM</a> <a href="https://thepadrehotel.reztrip.com/search?&selected_room=[[room.code]]"  target="_blank"  class="hover-transition" title="Book Room">BOOK ROOM</a></div>
+            <div class="brown-button buttons-container"><a href="/room/?[[room.name | formatNameForLink]]" class="hover-transition" title="View Room">VIEW [[room.name | roomOrSuite]]</a> <a href="https://thepadrehotel.reztrip.com/search?&selected_room=[[room.code]]"  target="_blank"  class="hover-transition" title="Book Room">BOOK [[room.name | roomOrSuite]]</a></div>
           </div>
         </div>
         <div class=" col-md-8 no-gutter"> <img ng-src="[[room.photos[0].yankee_large]]"  class="img-reponsive img-width" alt="[[room.name]]"/> </div>
