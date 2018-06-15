@@ -1,11 +1,18 @@
 {
-  "order": 8,
-  "title": "CHEESE & CHARCUTERIE BOARD",
-  "category": "menu_category3",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "20"
+      "name": "LOBSTER TAIL | MP"
+    },
+    {
+      "name": "POACHED PRAWNS | 12"
+    },
+    {
+      "name": "OSCAR STYLE | 14"
+    },
+    {
+      "name": "FOIE GRAS | 17"
     }
   ],
-  "detail": "<p>Chef&rsquo;s Selection of Artisan Cheeses and Cured Meats, House Jams, Fruit, Nuts, Grilled Toast</p>"
+  "title": "ADD - ONS",
+  "sort_order": 8
 }

@@ -29,7 +29,6 @@ layout: default
           <div class="dine-menu container">
             <div id="accordion" class="panel-group">
               <div class="panel">
-
                 <div class="panel-heading">
                   <h3 class="panel-title">
                   <a href="#belvedere" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Belvedere Room</a>
@@ -39,22 +38,21 @@ layout: default
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign Belvedere = site.data._models.menu_belvedere | sort: "order" %} {% for belvedereitem in Belvedere %} {% unless loop_item_header == belvedereitem.category.name %} {% assign loop_item_header = belvedereitem.category.name
-                        %}
-                        <h3 class="item-name">{{belvedereitem.category.name}}</h3> {% endunless %}
-                        <h5>
-                          {{belvedereitem.title}} |
-                          {% for itemprice in belvedereitem.item_price %}
-                          {{itemprice.name}}  {{itemprice.price}}
-                          {% unless forloop.last %}:{% endunless %}
+                        {% assign belvedere = site.data._models.menu_belvedere | sort: "sort_order" %}
+                          {% for item in belvedere %}
+                          {% if item.title != "others" %}
+                          <h3 class="item-name">{{item.title}}</h3>
+                          {% endif %}
+                            {% for menu in item.menu_items %}
+                             <h5> {{menu.name}} </h5>
+                             <p>{{menu.detail}}</p>
+                              <br>
+                            {% endfor %}
                           {% endfor %}
-                        </h5> {{belvedereitem.detail}}
-                        <br> {% endfor %}
                       </div>
                     </div>
                   </div>
                 </div>
-
                 <div class="panel-heading">
                   <h3 class="panel-title">
                 <a href="#alldaymenu" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Brimstone All Day</a>
@@ -64,21 +62,22 @@ layout: default
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign Alldaymenu = site.data._models.menu_brimstone_allday | sort: "order" %} {% for alldayitem in Alldaymenu %} {% unless loop_item_header == alldayitem.category.name %} {% assign loop_item_header = alldayitem.category.name %}
-                        <h3 class="item-name">{{alldayitem.category.name}}</h3> {% endunless %}
-                        <h5>
-                          {{alldayitem.title}} |
-                          {% for itemprice in alldayitem.item_price %}
-                          {{itemprice.name}}  {{itemprice.price}}
-                          {% unless forloop.last %}:{% endunless %}
+
+                        {% assign alldaymenu = site.data._models.menu_brimstone_allday  | sort: "sort_order" %}
+                          {% for item in alldaymenu %}
+                          {% if item.title != "others" %}
+                          <h3 class="item-name">{{item.title}}</h3>
+                          {% endif %}
+                            {% for menu in item.menu_items %}
+                             <h5> {{menu.name}} </h5>
+                             <p>{{menu.detail}}</p>
+                              <br>
+                            {% endfor %}
                           {% endfor %}
-                        </h5> {{alldayitem.detail}}
-                        <br> {% endfor %}
                       </div>
                     </div>
                   </div>
                 </div>
-
                 <div class="panel-heading">
                   <h3 class="panel-title">
                     <a href="#brunch" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">BRUNCH</a>
@@ -88,21 +87,21 @@ layout: default
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign Brunch = site.data._models.menu_brunch | sort: "order" %} {% for brunchitem in Brunch %} {% unless loop_item_header == brunchitem.category.name %} {% assign loop_item_header = brunchitem.category.name %}
-                        <h3 class="item-name">{{brunchitem.category.name}}</h3> {% endunless %}
-                        <h5>
-                          {{brunchitem.title}} |
-                          {% for itemprice in brunchitem.item_price %}
-                          {{itemprice.name}}  {{itemprice.price}}
-                          {% unless forloop.last %}:{% endunless %}
+                         {% assign brunch = site.data._models.menu_brunch | sort: "sort_order"  %}
+                          {% for item in brunch %}
+                          {% if item.title != "others" %}
+                          <h3 class="item-name">{{item.title}}</h3>
+                          {% endif %}
+                            {% for menu in item.menu_items %}
+                             <h5> {{menu.name}} </h5>
+                             <p>{{menu.detail}}</p>
+                              <br>
+                            {% endfor %}
                           {% endfor %}
-                        </h5> {{brunchitem.detail}}
-                        <br> {% endfor %}
                       </div>
                     </div>
                   </div>
                 </div>
-
                 <div class="panel-heading">
                   <h3 class="panel-title">
                     <a href="#prairie" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Prairie Fire</a>
@@ -112,21 +111,21 @@ layout: default
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign Prairie = site.data._models.menu_prairie_fire| sort: "order" %} {% for prairieitem in Prairie %} {% unless loop_item_header == prairieitem.category.name %} {% assign loop_item_header = prairieitem.category.name %}
-                        <h3 class="item-name">{{prairieitem.category.name}}</h3> {% endunless %}
-                        <h5>
-                          {{prairieitem.title}} |
-                          {% for itemprice in prairieitem.item_price %}
-                          {{itemprice.name}}  {{itemprice.price}}
-                          {% unless forloop.last %}:{% endunless %}
-                          {% endfor %}
-                        </h5> {{prairieitem.detail}}
-                        <br> {% endfor %}
+                        {% assign prairie = site.data._models.menu_prairie_fire  | sort: "sort_order" %}
+                         {% for item in prairie %}
+                         {% if item.title != "others" %}
+                         <h3 class="item-name">{{item.title}}</h3>
+                         {% endif %}
+                           {% for menu in item.menu_items %}
+                            <h5> {{menu.name}} </h5>
+                            <p>{{menu.detail}}</p>
+                             <br>
+                           {% endfor %}
+                         {% endfor %}
                       </div>
                     </div>
                   </div>
                 </div>
-
                 <div class="panel-heading">
                   <h3 class="panel-title">
                     <a href="#breakfast" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Farmacy Breakfast</a>
@@ -136,22 +135,21 @@ layout: default
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign Breakfast = site.data._models.menu_farmacy_breakfast | sort: "order" %} {% for breakfastitem in Breakfast %} {% unless loop_item_header == breakfastitem.category.name %} {% assign loop_item_header = breakfastitem.category.name %}
-                        <h3 class="item-name">{{breakfastitem.category.name}}</h3> {% endunless %}
-                        <h5>
-                          {{breakfastitem.title}} |
-                          {% for itemprice in breakfastitem.item_price %}
-                          {{itemprice.name}}  {{itemprice.price}}
-                          {% unless forloop.last %}:{% endunless %}
-                          {% endfor %}
-                        </h5> {{breakfastitem.detail}}
-                        <br> {% endfor %}
+                        {% assign farmacy = site.data._models.menu_farmacy_breakfast | sort: "sort_order" %}
+                         {% for item in farmacy %}
+                         {% if item.title != "others" %}
+                         <h3 class="item-name">{{item.title}}</h3>
+                         {% endif %}
+                           {% for menu in item.menu_items %}
+                            <h5> {{menu.name}} </h5>
+                            <p>{{menu.detail}}</p>
+                             <br>
+                           {% endfor %}
+                         {% endfor %}
                       </div>
                     </div>
                   </div>
                 </div>
-
-
                 <div class="panel-heading">
                   <h3 class="panel-title">
                     <a href="#barista" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Barista</a>
@@ -161,16 +159,17 @@ layout: default
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign Barista = site.data._models.menu_barista | sort: "order" %} {% for baristaitem in Barista %} {% unless loop_item_header == baristaitem.category.name %} {% assign loop_item_header = baristaitem.category.name %}
-                        <h3 class="item-name">{{baristaitem.category.name}}</h3> {% endunless %}
-                        <h5>
-                          {{baristaitem.title}} |
-                          {% for itemprice in baristaitem.item_price %}
-                          {{itemprice.name}}  {{itemprice.price}}
-                          {% unless forloop.last %}:{% endunless %}
-                          {% endfor %}
-                        </h5> {{baristaitem.detail}}
-                        <br> {% endfor %}
+                        {% assign barista = site.data._models.menu_barista  | sort: "sort_order" %}
+                         {% for item in barista %}
+                         {% if item.title != "others" %}
+                         <h3 class="item-name">{{item.title}}</h3>
+                         {% endif %}
+                           {% for menu in item.menu_items %}
+                            <h5> {{menu.name}} </h5>
+                            <p>{{menu.detail}}</p>
+                             <br>
+                           {% endfor %}
+                         {% endfor %}
                       </div>
                     </div>
                   </div>

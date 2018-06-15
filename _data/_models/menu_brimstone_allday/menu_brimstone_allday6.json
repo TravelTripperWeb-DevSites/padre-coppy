@@ -1,11 +1,26 @@
 {
-  "order": 6,
-  "title": "GHOST BURGER",
-  "category": "menu_category22",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "12"
+      "name": "STRAWBERRIES & CREAM SHOOTER | 4",
+      "detail": "<p>strawberries, strawberry mousse, vanilla lace cookie</p>"
+    },
+    {
+      "name": "BUTTERSCOTCH SHOOTER | 4",
+      "detail": "<p>butterscotch pudding, toasted marshmallow fluff, fresh made toffee</p>"
+    },
+    {
+      "name": "CHOCOLATE LOVER SHOOTER | 4",
+      "detail": "<p>fresh baked chocolate cake, belgian dark chocolate mousse, raspberry coulis</p>"
+    },
+    {
+      "name": "VANILLA BOURBON SHOOTER | 4",
+      "detail": "<p>layered vanilla bourbon cake, chantilly cream, bourbon sauce</p>"
+    },
+    {
+      "name": "THE INSPIRED CHEF | 4",
+      "detail": "<p>please ask server for today's inspiration</p>"
     }
   ],
-  "detail": "<p>1&frasl;4 lb creek stone angus beef patty, ghost pepper cheese, crispy shishito peppers, fresh guacamole</p>"
+  "title": "SHOOTERS",
+  "sort_order": 6
 }

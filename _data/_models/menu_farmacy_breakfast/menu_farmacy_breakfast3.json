@@ -1,11 +1,18 @@
 {
-  "order": 3,
-  "title": "Everything Avocado",
-  "category": "menu_category6",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "8"
+      "name": "PADRE PESTO SCRAMBLE | GF 12",
+      "detail": "<p>Scrambled Egg Whites, Tomato, Mushrooms, Spinach, Broccoli, White Cheddar, House Made Basil Pesto, Side of Fresh Fruit Salad</p>"
+    },
+    {
+      "name": "CHORIZO SCRAMBLE | GF 11",
+      "detail": "<p>Scrambled Eggs, Chorizo, Roasted Red Pepper, Crispy Hash Browns, White Cheddar, Cotija, Side Pico de Gallo, Cilantro</p>"
+    },
+    {
+      "name": "CALI PROTEIN SCRAMBLE | GF 12",
+      "detail": "<p>Scrambled Egg Whites, Grilled Chicken Breast, Turkey Bacon, Avocado, Roasted Red Peppers, Onion, White Cheddar</p>"
     }
   ],
-  "detail": "<p>Toasted &ldquo;Everything&rdquo; Bagel, Avocado Smash, Heirloom Cherry Tomatoes, Cilantro, Cotija</p>"
+  "title": "BREAKFAST SCRAMBLES",
+  "sort_order": 3
 }

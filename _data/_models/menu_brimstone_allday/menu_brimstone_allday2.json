@@ -1,11 +1,30 @@
 {
-  "order": 2,
-  "title": "GRILLED SALMON B.L.T SALAD",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "16"
+      "name": "THE CLASSIC | 10",
+      "detail": "<p>1&frasl;4 lb creek stone angus beef patty, white cheddar, lettuce, tomato, onion, padre sauce</p>"
+    },
+    {
+      "name": "GHOST BURGER | 12",
+      "detail": "<p>1&frasl;4 lb creek stone angus beef patty, ghost pepper cheese, crispy shishito peppers, fresh guacamole</p>"
+    },
+    {
+      "name": "BBQ BACON BURGER | 12",
+      "detail": "<p>1&frasl;4 lb creek stone angus beef patty, white cheddar, applewood smoked bacon, lettuce, tomato, chipotle bbq sauce</p>"
+    },
+    {
+      "name": "GRILLED ATLANTIC SALMON BURGER | 14",
+      "detail": "<p>6 oz house made atlantic salmon patty, lettuce, tomato, onion, smoky tartar sauce</p>"
+    },
+    {
+      "name": "CRIMINI BURGER | 14",
+      "detail": "<p>1&frasl;4 lb creek stone angus beef patty, roasted crimini mushrooms, crispy pork belly, white cheddar, wild arugula, PH steak sauce</p>"
+    },
+    {
+      "name": "BISON BURGER | 16",
+      "detail": "<p>6 oz ground bison patty, bacon jam, gorgonzola cheese, lettuce, tomato</p>"
     }
   ],
-  "category": "menu_category35",
-  "detail": "<p>baby mixed greens, avocado, applewood smoked bacon, heirloom cherry tomatoes, rye croutons, lemon tarragon yogurt dressing</p>"
+  "title": "BURGERS",
+  "sort_order": 2
 }

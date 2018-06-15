@@ -1,11 +1,24 @@
 {
-  "order": 6,
-  "title": "PRIME BEEF TARTARE",
-  "category": "menu_category3",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "18"
+      "name": "8 OZ. BEEF TENDERLOIN | 42"
+    },
+    {
+      "name": "10 OZ. BEEF FLAT IRON | 32"
+    },
+    {
+      "name": "16 OZ. BEEF RIBEYE | 48"
+    },
+    {
+      "name": "18 OZ. BONE IN RIBEYE | 85"
+    },
+    {
+      "name": "14 OZ. BEEF STRIP LOIN | 30"
+    },
+    {
+      "name": "11 OZ. TOP SIRLOIN | 27"
     }
   ],
-  "detail": "<p>Truffle, Shallot, Capers, Lemon Zest, Farm Yolk, Grilled Toast</p>"
+  "title": "THE BELVEDERE ROOM USES HAND CUT ANGUS PRIME BEEF",
+  "sort_order": 6
 }

@@ -1,11 +1,22 @@
 {
-  "order": 4,
-  "category": "menu_category18",
-  "title": "Greek Yogurt & Berries",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "7"
+      "name": "CLASSIC BUTTERMILK PANCAKES | 9",
+      "detail": "<p>Classic Buttermilk Pancakes, Maple Syrup, Whipped Butter</p>"
+    },
+    {
+      "name": "BLUEBERRY LEMON COFFEE CAKES | 11",
+      "detail": "<p>Fresh Blueberries, Lemon Curd, Streusel, Maple Syrup, Whipped Butter</p>"
+    },
+    {
+      "name": "S’MORES PANCAKES | 12",
+      "detail": "<p>Chocolate Whipped Mousse, Marshmallow Fluff, Graham Cracker Streusel</p>"
+    },
+    {
+      "name": "GRANOLA WHEAT CAKES | 11",
+      "detail": "<p>House Made Almond Granola, Greek Yogurt, Fresh Seasonal Berries, Honey, Whipped Butter</p>"
     }
   ],
-  "detail": "<p>House Made Almond Granola, Fresh Seasonal Berries, Honey Drizzle</p>"
+  "title": "BRUNCHY CAKES",
+  "sort_order": 4
 }

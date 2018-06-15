@@ -1,11 +1,30 @@
 {
-  "order": 2,
-  "title": "Oats & Cream",
-  "category": "menu_category6",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "6"
+      "name": "RISE N’ SHINE | 9",
+      "detail": "<p>Choice 2 Eggs, Applewood Smoked Bacon, Sausage links, or Turkey Bacon, Hash Browns, Choice of Toast</p>"
+    },
+    {
+      "name": "BREAKFASTFIELD BURRITO | 10",
+      "detail": "<p>Braised Barbacoa Beef, Scrambled Eggs, Hash Browns, Cheddar, Rojo Sauce, Pico de Gallo, Cotija, Flour Tortilla</p>"
+    },
+    {
+      "name": "CHILAQUILES ROJO | 12",
+      "detail": "<p>Fresh Tortilla Chips, 2 Sunny Side Up Eggs, White Cheddar, Sour Cream, Pico de Gallo, Cotija, Cilantro, Rojo Sauce</p>"
+    },
+    {
+      "name": "CROISSANTWICH | 10",
+      "detail": "<p>Choice of Applewood Smoked Bacon, Turkey Bacon, Sausage Links or Black Forest Ham, Scrambled Eggs, White Cheddar, House Hash Browns</p>"
+    },
+    {
+      "name": "CAPRESE SMASH | 11",
+      "detail": "<p>2 Scrambled Eggs, Buffalo Mozzarella, Sliced Tomato, Fresh Basil, Pesto Spread, Balsamic Gastric, House Hash Browns</p>"
+    },
+    {
+      "name": "BAGEL & LOX | 15",
+      "detail": "<p>Smoked Salmon Lox, Herb Cream Cheese, Sliced Tomato, Arugula, Shaved Onion, Cucumber, Capers, Toasted &ldquo;Everything&rdquo; Bagel</p>"
     }
   ],
-  "detail": "<p>Candied Pecans, Fresh Seasonal Berries, Brown Sugar, Cream</p>"
+  "title": "THE PADRE WAY",
+  "sort_order": 2
 }

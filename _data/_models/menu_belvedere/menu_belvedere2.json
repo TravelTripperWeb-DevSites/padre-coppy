@@ -1,11 +1,10 @@
 {
-  "order": 2,
-  "title": "ARUGULA BACON SALAD",
-  "category": "menu_category36",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "11"
+      "name": "GRILLED HEIRLOOM CARROTS | 12",
+      "detail": "<p>Cumin Carrot Pur&eacute;e, Chipotle Spiced Peanuts, Mascarpone, Adee Farms Guajillo Orange Honey</p>"
     }
   ],
-  "detail": "<p>Wild Arugula, Avocado, Heirloom Tomato, Bacon, Stella Blue Cheese, Rye Croutons, Applewood Bacon Vinaigrette</p>"
+  "title": "STARTERS | GARDEN",
+  "sort_order": 2
 }

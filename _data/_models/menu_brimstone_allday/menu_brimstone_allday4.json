@@ -1,11 +1,34 @@
 {
-  "order": 4,
-  "title": "STEAK HOUSE SALAD",
-  "category": "menu_category35",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "16"
+      "name": "THE PERFECT GRILLED CHEESE | 12",
+      "detail": "<p>parmesan crusted rustic sourdough, sharp white cheddar, classic tomato bisque</p>"
+    },
+    {
+      "name": "PB.L.A.T | 14",
+      "detail": "<p>crispy pork belly, avocado, toasted whole grain wheat, lettuce, tomato, jalapeno bacon aioli</p>"
+    },
+    {
+      "name": "GRILLED AHI TUNA CLUB | 15",
+      "detail": "<p>grilled rare ahi tuna, avocado, applewood smoked bacon, green leaf lettuce, tomato, ginger soy aioli, toasted sourdough</p>"
+    },
+    {
+      "name": "BAKO'S BEST CHEESESTEAK | 16",
+      "detail": "<p>shaved prime rib, white cheddar, caramelized onion, sweet bell peppers, sriacha aioli</p>"
+    },
+    {
+      "name": "TURKEY FOCACCIA CLUB | 14",
+      "detail": "<p>roasted carved natural turkey breast, crispy turkey bacon, avocado, lettuce, tomato, green goddess aioli</p>"
+    },
+    {
+      "name": "SPICY CHICKEN SANDWICH | 13",
+      "detail": "<p>grilled or crispy buttermilk chicken, applewood smoked bacon, white cheddar, lettuce, tomato, sriracha aioli, brioche bun</p>"
+    },
+    {
+      "name": "PESTO CHICKEN PANINNI | 14",
+      "detail": "<p>grilled chicken breast, roasted sweet bell peppers,mozzarella cheese, artichoke parmesan aioli, house baked french roll</p>"
     }
   ],
-  "detail": "<p>8 oz grilled prime flat iron steak, wedge lettuce, applewood smoked bacon, danish blue crumbles, heirloom tomatoes, shaved red onion, gorgonzola dressing</p>"
+  "title": "HAND HELDS",
+  "sort_order": 4
 }

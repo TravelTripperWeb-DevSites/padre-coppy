@@ -1,11 +1,24 @@
 {
-  "order": 9,
-  "title": "SIGNATURE LOBSTER BISQUE",
-  "category": "menu_category4",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "14"
+      "name": "PH STEAK SAUCE |"
+    },
+    {
+      "name": "CHIMICHURRI |"
+    },
+    {
+      "name": "RED WINE DEMI |"
+    },
+    {
+      "name": "AU POIVRE |"
+    },
+    {
+      "name": "CREAMY HORSERADISH |"
+    },
+    {
+      "name": "LEMON BEURRE BLANC |"
     }
   ],
-  "detail": "<p>Butter Poached Maine Lobster, Sherry Cr&egrave;me, House Baked Lavash</p>"
+  "title": "SAUCES",
+  "sort_order": 9
 }

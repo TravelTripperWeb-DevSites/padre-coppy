@@ -1,11 +1,18 @@
 {
-  "order": 8,
-  "category": "menu_category7",
-  "title": "Croissantwich",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "10"
+      "name": "IRISH COFFEE | 8"
+    },
+    {
+      "name": "MEXICAN COFFEE | 8"
+    },
+    {
+      "name": "KEOKE COFFEE | 8"
+    },
+    {
+      "name": "B52 COFFEE | 8"
     }
   ],
-  "detail": "<p>Choice of Applewood Smoked Bacon, Turkey Bacon, Sausage Links or Black Forest Ham, Scrambled Eggs, White Cheddar, House Hash Browns</p>"
+  "title": "SPIKED",
+  "sort_order": 8
 }

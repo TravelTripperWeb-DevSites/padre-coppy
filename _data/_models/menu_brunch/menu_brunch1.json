@@ -1,11 +1,18 @@
 {
-  "order": 1,
-  "category": "menu_category17",
-  "title": "House Baked Banana Bread",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "3"
+      "name": "HOUSE BAKED BANANA BREAD | 3",
+      "detail": "<p>Warm House Made Banana Bread, Whipped Butter</p>"
+    },
+    {
+      "name": "JUMBO CINNAMON ROLL | 3",
+      "detail": "<p>Whipped Cream Cheese Frosting</p>"
+    },
+    {
+      "name": "FRESH BAKED SEASONAL SCONES | 3",
+      "detail": "<p>Ask Your Server For Today&rsquo;s Selection</p>"
     }
   ],
-  "detail": "<p>Warm House Made Banana Bread, Whipped Butter</p>"
+  "title": "FROM THE BAKERY",
+  "sort_order": 1
 }

@@ -1,11 +1,30 @@
 {
-  "order": 3,
-  "category": "menu_category17",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "3"
+      "name": "BREAKFAST “CORN DOGS” | 11",
+      "detail": "<p>4 Breakfast Sausage Links Dipped In Pancake Batter, 2 Eggs, Hash Browns, Maple Syrup, Powdered Sugar</p>"
+    },
+    {
+      "name": "BRIMSTONE CHICKEN N’ WAFFLES | 14",
+      "detail": "<p>Crispy Buttermilk Fried Chicken, Belgian Waffle, Sausage Country Gravy, Frank&rsquo;s Red Hot Maple Syrup, Whipped Butter</p>"
+    },
+    {
+      "name": "CHICKEN FRIED STEAK | 15",
+      "detail": "<p>Chicken Fried Angus Flat Iron Steak, 2 Eggs, Sausage Country Gravy, Hash Browns</p>"
+    },
+    {
+      "name": "WHITE CHEDDAR BISCUITS & GRAVY | 12",
+      "detail": "<p>2 Eggs, 2 White Cheddar Biscuits, Sausage Country Gravy, Chives, Hash Browns</p>"
+    },
+    {
+      "name": "CHILAQUILES ROJO | GF 12",
+      "detail": "<p>2 Sunny Side Up Eggs, Fresh Tortilla Chips, White Cheddar, Sour Cream, Pico de Gallo, Cotija, Cilantro, Rojo Sauce</p>"
+    },
+    {
+      "name": "CREME BRÛLÉE FRENCH TOAST | 10",
+      "detail": "<p>Creme Br&ucirc;l&eacute;e Battered Texas Toast, Fresh Seasonal Berries, Maple Syrup, Whipped Butter</p>"
     }
   ],
-  "title": "Fresh Baked Seasonal Scones",
-  "detail": "<p>Ask Your Server For Today&rsquo;s Selection</p>"
+  "title": "CHEF INSPIRED BEGINNINGS",
+  "sort_order": 3
 }

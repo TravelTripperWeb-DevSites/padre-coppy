@@ -1,11 +1,22 @@
 {
-  "order": 1,
-  "title": "Greek Yogurt & Berries",
-  "category": "menu_category6",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "7"
+      "name": "GREEK YOGURT & BERRIES | 7",
+      "detail": "<p>House Made Almond Granola, Fresh Seasonal Berries, Honey Drizzle</p>"
+    },
+    {
+      "name": "OATS & CREAM | 6",
+      "detail": "<p>Candied Pecans, Fresh Seasonal Berries, Brown Sugar, Cream</p>"
+    },
+    {
+      "name": "EVERYTHING AVOCADO | 8",
+      "detail": "<p>Toasted &ldquo;Everything&rdquo; Bagel, Avocado Smash, Heirloom Cherry Tomatoes, Cilantro, Cotija</p>"
+    },
+    {
+      "name": "PROTEIN POWER WRAP | 9",
+      "detail": "<p>Scrambled Egg Whites, Turkey Bacon, White Cheddar, Tomato, Mushroom, Spinach, Whole Wheat Tortilla, Side Fresh Seasonal Fruit</p>"
     }
   ],
-  "detail": "<p>House Made Almond Granola, Fresh Seasonal Berries, Honey Drizzle</p>"
+  "title": "GOOD MORNING",
+  "sort_order": 1
 }

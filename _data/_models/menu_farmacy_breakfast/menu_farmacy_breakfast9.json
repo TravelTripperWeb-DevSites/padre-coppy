@@ -1,11 +1,9 @@
 {
-  "order": 9,
-  "category": "menu_category7",
-  "title": "Caprese Smash",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "11"
+      "name": "VANILLA, SF VANILLA, HAZELNUT, SF HAZELNUT, TOFFEE NUT, IRISH CREAM, CARAMEL, CARAMEL SAUCE, WHITE MOCHA, PEPPERMINT, STRAWBERRY | .50"
     }
   ],
-  "detail": "<p>2 Scrambled Eggs, Buffalo Mozzarella, Sliced Tomato, Fresh Basil, Pesto Spread, Balsamic Gastric, House Hash Browns</p>"
+  "title": "SYRUPS",
+  "sort_order": 9
 }

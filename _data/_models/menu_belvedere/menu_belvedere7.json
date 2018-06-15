@@ -1,11 +1,18 @@
 {
-  "order": 7,
-  "title": "CRISPY LAMB BELLY",
-  "category": "menu_category3",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "16"
+      "name": "TRUFFLE BUTTER |"
+    },
+    {
+      "name": "PEPPERCORN BUTTER |"
+    },
+    {
+      "name": "FOIE GRAS BUTTER |"
+    },
+    {
+      "name": "MOODY BLUES BUTTER |"
     }
   ],
-  "detail": "<p>Orange Apricot Glaze, Grilled Apricot, Goat Cheese, Toasted Pistachio</p>"
+  "title": "BUTTERS",
+  "sort_order": 7
 }

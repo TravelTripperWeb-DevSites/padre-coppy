@@ -1,11 +1,38 @@
 {
-  "order": 1,
-  "title": "PRAIRIE FIRE MARGARITA",
-  "category": "menu_category15",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "20"
+      "name": "PRAIRIE FIRE MARGARITA | 20",
+      "detail": "<p>silver tequila, triple sec, sweet &amp; sour</p>"
+    },
+    {
+      "name": "STRAWBERRY FIRE MARGARITA | 25",
+      "detail": "<p>silver tequila, triple sec, sriracha, sweet &amp; sour</p>"
+    },
+    {
+      "name": "BLACKBERRY SAGE TEQUILA SMASH | 25",
+      "detail": "<p>silver tequila, simple syrup, grapefruit juice</p>"
+    },
+    {
+      "name": "MAI TAI | 20",
+      "detail": "<p>rum, simple syrup, lemon juice</p>"
+    },
+    {
+      "name": "MOJITO | 20",
+      "detail": "<p>rum, simple syrup, mint, lemon</p>"
+    },
+    {
+      "name": "CRAFT MOJITO BLACKBERRY | 25",
+      "detail": "<p>rum, simple syrup, mint, lemon</p>"
+    },
+    {
+      "name": "RED SANGRIA | 20",
+      "detail": "<p>red wine, simple syrup, fruit, brandy</p>"
+    },
+    {
+      "name": "SANGRIA WHITE | 20",
+      "detail": "<p>white wine, simple syrup, fruit, rum</p>"
     }
   ],
-  "detail": "<p>silver tequila, triple sec, sweet &amp; sour</p>"
+  "title": "COCKTAIL CARAFES",
+  "sort_order": 1
 }

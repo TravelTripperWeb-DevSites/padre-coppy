@@ -1,27 +1,25 @@
 {
+
   "title": {
-    "label": "Title",
-    "required": true
+    "required": true,
+    "hint": "Enter sub category Name, if there is no sub category name then enter text 'others'"
   },
-  "category": {
-    "type": "model",
-    "model_name": "menu_category",
-    "display_field": "name"
+  "sort_order": {
+    "type": "integer",
+    "required": true,
+    "hint": "Enter sort order for sub categories"
   },
-  "item_price": {
-     "type": "nested",
-     "multiple": true,
-     "fields": {
-        "name": {
-        },
-        "price": {
-        }
+  "menu_items": {
+    "type": "nested",
+    "multiple": true,
+    "hint": "Enter Menu items. Click on 'Add New Menu Items' below to add more Menu items.",
+    "fields": {
+      "name": {},
+      "detail": {
+        "type": "richtext",
+        "hint": "Please add plain text with out any stylings"
       }
-   },
-   "detail":{
-     "type": "richtext"
-   },
-   "order":{
-     "type":"integer"
-   }
+    }
+  }
+
 }

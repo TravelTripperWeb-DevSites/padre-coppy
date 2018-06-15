@@ -1,11 +1,18 @@
 {
-  "order": 3,
-  "title": "APRICOT KALE SALAD",
-  "category": "menu_category36",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "12"
+      "name": "PRIME BEEF TARTARE | 18",
+      "detail": "<p>Truffle, Shallot, Capers, Lemon Zest, Farm Yolk, Grilled Toast</p>"
+    },
+    {
+      "name": "CRISPY LAMB BELLY | 16",
+      "detail": "<p>Orange Apricot Glaze, Grilled Apricot, Goat Cheese, Toasted Pistachio</p>"
+    },
+    {
+      "name": "CHEESE & CHARCUTERIE BOARD | 20",
+      "detail": "<p>Chef&rsquo;s Selection of Artisan Cheeses and Cured Meats, House Jams, Fruit, Nuts, Grilled Toast</p>"
     }
   ],
-  "detail": "<p>Baby Kale, Grilled Apricots, Candied Walnuts, Goat Cheese, Honey Thyme Vinaigrette</p>"
+  "title": "STARTERS | LAND",
+  "sort_order": 3
 }

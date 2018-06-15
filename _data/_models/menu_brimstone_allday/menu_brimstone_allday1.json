@@ -1,11 +1,22 @@
 {
-  "order": 1,
-  "title": "HERB ROASTED CHICKEN SALAD",
-  "category": "menu_category35",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "15"
+      "name": "HERB ROASTED CHICKEN SALAD | 15",
+      "detail": "<p>all natural chicken breast, baby kale, roasted butternut squash, apple, candied walnuts, golden raisins, pomegranate, honey blue vinaigrette</p>"
+    },
+    {
+      "name": "GRILLED SALMON B.L.T SALAD | 16",
+      "detail": "<p>baby mixed greens, avocado, applewood smoked bacon, heirloom cherry tomatoes, rye croutons, lemon tarragon yogurt dressing</p>"
+    },
+    {
+      "name": "KALE COBB SALAD | 14",
+      "detail": "<p>baby kale, all natural chicken breast, avocado, applewood bacon, egg, blue cheese crumbles, house baked croutons, heirloom cherry tomato, shaved onion, buttermilk ranch dressing</p>"
+    },
+    {
+      "name": "STEAK HOUSE SALAD | 16",
+      "detail": "<p>8 oz grilled prime flat iron steak, wedge lettuce, applewood smoked bacon, danish blue crumbles, heirloom tomatoes, shaved red onion, gorgonzola dressing</p>"
     }
   ],
-  "detail": "<p>all natural chicken breast, baby kale, roasted butternut squash, apple, candied walnuts, golden raisins, pomegranate, honey blue vinaigrette</p>"
+  "title": "GREENS",
+  "sort_order": 1
 }

@@ -1,11 +1,34 @@
 {
-  "order": 2,
-  "category": "menu_category17",
-  "title": "Jumbo Cinnamon Roll",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "3"
+      "name": "GREEK YOGURT & BERRIES | 7",
+      "detail": "<p>House Made Almond Granola, Fresh Seasonal Berries, Honey Drizzle</p>"
+    },
+    {
+      "name": "EVERYTHING AVOCADO | 8",
+      "detail": "<p>Toasted Everything Bagel, Avocado Smash, Heirloom Cherry Tomatoes, Cilantro, Cotija</p>"
+    },
+    {
+      "name": "BAGEL & LOX | 15",
+      "detail": "<p>Smoked Salmon Lox, Herb Cream Cheese, Sliced Tomato, Arugula, Shaved Onion, Cucumber, Capers, Toasted Everything Bagel</p>"
+    },
+    {
+      "name": "RISE N’ SHINE | 9",
+      "detail": "<p>2 Eggs, Applewood Smoked Bacon, Turkey Bacon or Sausage Links, Hash Browns, Choice of Toast</p>"
+    },
+    {
+      "name": "CROISSANTWICH | 10",
+      "detail": "<p>Scrambled Eggs, Applewood Smoked Bacon, Turkey Bacon, Sausage Links or Black Forest Ham, White Cheddar, Hash Browns</p>"
+    },
+    {
+      "name": "BREAKFASTFIELD BURRITO | 10",
+      "detail": "<p>Braised Barbacoa Beef, Scrambled Eggs, Crispy Potato Hash, Cheddar, Rojo Sauce, Pico de Gallo, Cotija, Flour Tortilla</p>"
+    },
+    {
+      "name": "CAPRESE SMASH | 11",
+      "detail": "<p>2 Scrambled Eggs, Buffalo Mozzarella, Sliced Tomato, Fresh Basil, Pesto Spread, Balsamic Gastrique, Hash Browns</p>"
     }
   ],
-  "detail": "<p>Whipped Cream Cheese Frosting</p>"
+  "title": "TRADITIONAL BEGINNINGS",
+  "sort_order": 2
 }

@@ -1,11 +1,22 @@
 {
-  "order": 4,
-  "title": "Protein Power Wrap",
-  "category": "menu_category6",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "9"
+      "name": "BUTTERMILK PANCAKES | 9",
+      "detail": "<p>Classic House Made Buttermilk Pancakes, Maple Syrup, Butter</p>"
+    },
+    {
+      "name": "BLUEBERRY LEMON COFFEE CAKES | 10",
+      "detail": "<p>Fresh Blueberries, House Made Lemon Curd, Streusel, Maple Syrup, Butter</p>"
+    },
+    {
+      "name": "GRANOLA WHEAT CAKES | 11",
+      "detail": "<p>Fresh House Made Almond Granola, Greek Yogurt, Fresh Seasonal Berries, Honey, Butter</p>"
+    },
+    {
+      "name": "CRÉME BRÛLÉE FRENCH TOAST | 10",
+      "detail": "<p>Cr&eacute;me Br&ucirc;l&eacute;e Battered Texas Toast, Fresh Berries, Maple Syrup, Butter</p>"
     }
   ],
-  "detail": "<p>Scrambled Egg Whites, Turkey Bacon, White Cheddar, Tomato, Mushroom, Spinach, Whole Wheat Tortilla, Side Fresh Seasonal Fruit</p>"
+  "title": "GRIDDLE UP",
+  "sort_order": 4
 }

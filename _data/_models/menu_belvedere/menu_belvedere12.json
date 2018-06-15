@@ -1,12 +1,14 @@
 {
-  "order": 12,
-  "item_price": [
+  "menu_items": [
     {
-      "name": "",
-      "price": "28"
+      "name": "MARY’S FARM ROASTED CHICKEN | 22",
+      "detail": "<p>Thyme, Grilled Lemon, Jus</p>"
+    },
+    {
+      "name": "MAPLE LEAF FARMS DUCK | 26",
+      "detail": "<p>Cast Iron Roasted Duck Breast, Duck Leg Confit, Duck Jus, Watercress</p>"
     }
   ],
-  "detail": "<p>Thyme Roasted Foie Gras, Scratch Made Buttermilk Biscuit, Local Orange Blossom Jam, Candied Walnuts</p>",
-  "title": "ORANGE BLOSSOM FOIE GRAS",
-  "category": "menu_category5"
+  "title": "ENTRÉES | SKY",
+  "sort_order": 12
 }

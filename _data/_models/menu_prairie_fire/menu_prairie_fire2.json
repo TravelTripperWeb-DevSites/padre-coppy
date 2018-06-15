@@ -1,11 +1,10 @@
 {
-  "order": 2,
-  "title": "STRAWBERRY FIRE MARGARITA",
-  "category": "menu_category15",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "25"
+      "name": "WHAT’S BETTER THAN A FREE BEER? | BUY 3 GET 1 FREE",
+      "detail": "<p>Purchase any 3 of our 12oz bottled or canned beers in a bucket and receive the fourth beer free. Must be ordered as buckets, please no substitutions.</p>"
     }
   ],
-  "detail": "<p>silver tequila, triple sec, sriracha, sweet &amp; sour</p>"
+  "title": "BEER BUCKETS",
+  "sort_order": 2
 }

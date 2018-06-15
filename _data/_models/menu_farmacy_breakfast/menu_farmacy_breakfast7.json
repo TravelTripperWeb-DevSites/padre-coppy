@@ -1,11 +1,27 @@
 {
-  "order": 7,
-  "category": "menu_category7",
-  "title": "Chilaquiles Rojo",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "12"
+      "name": "LATTE | 16OZ 4 : 20OZ 5"
+    },
+    {
+      "name": "MOCHA | 16OZ 4 : 20OZ 5"
+    },
+    {
+      "name": "WHITE MOCHA | 16OZ 4 : 20OZ 5"
+    },
+    {
+      "name": "AMERICANO | 16OZ 4 : 20OZ 5"
+    },
+    {
+      "name": "TEA | 16OZ 3 : 20OZ 4"
+    },
+    {
+      "name": "MATCHA | 16OZ 4 : 20OZ 4.50"
+    },
+    {
+      "name": "CHAI | 16OZ 4 : 20OZ 4.50"
     }
   ],
-  "detail": "<p>Fresh Tortilla Chips, 2 Sunny Side Up Eggs, White Cheddar, Sour Cream, Pico de Gallo, Cotija, Cilantro, Rojo Sauce&nbsp;</p>"
+  "title": "ICED",
+  "sort_order": 7
 }

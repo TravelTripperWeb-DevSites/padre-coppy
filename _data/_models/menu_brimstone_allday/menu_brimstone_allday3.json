@@ -1,11 +1,26 @@
 {
-  "order": 3,
-  "title": "KALE COBB SALAD",
-  "category": "menu_category35",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "14"
+      "name": "MARGHERITA | 11",
+      "detail": "<p>house made red sauce, mozzarella cheese, tomato, fresh basil pesto drizzle</p>"
+    },
+    {
+      "name": "PRAIRIE FIRE PEPPERONI | 12",
+      "detail": "<p>house made red sauce, mozzarella cheese, fresh sliced pepperoni</p>"
+    },
+    {
+      "name": "BBQ RANCH CHICKEN | 14",
+      "detail": "<p>bbq ranch dressing, mozzarella cheese, chicken, applewood smoked bacon, tomato, avocado, caramelized onion, cilantro, buttermilk ranch drizzle</p>"
+    },
+    {
+      "name": "BUFFALO CHICKEN | 14",
+      "detail": "<p>crispy buffalo chicken, mozzarella cheese, house made white sauce, diced carrot &amp; celery, blue cheese crumbles</p>"
+    },
+    {
+      "name": "PADRE SUPREME | 15",
+      "detail": "<p>sliced pepperoni, salami, applewood smoked bacon, bell peppers, caramelized onion, house made red sauce, parmesan cheese, chili flakes</p>"
     }
   ],
-  "detail": "<p>baby kale, all natural chicken breast, avocado, applewood bacon, egg, blue cheese crumbles, house baked croutons, heirloom cherry tomato, shaved onion, buttermilk ranch dressing</p>"
+  "title": "FIRE OVEN PIZZAS",
+  "sort_order": 3
 }

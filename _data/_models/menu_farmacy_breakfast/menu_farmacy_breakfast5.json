@@ -1,11 +1,18 @@
 {
-  "order": 5,
-  "title": "Rise N’ Shine",
-  "category": "menu_category7",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "9"
+      "name": "COFFEE | 16OZ 3 : 20OZ 4"
+    },
+    {
+      "name": "DECAF | 16OZ 3 : 20OZ 4"
+    },
+    {
+      "name": "HOT CHOCOLATE | 16OZ 3 : 20OZ 4"
+    },
+    {
+      "name": "HOT TEA | 20OZ 4"
     }
   ],
-  "detail": "<p>Choice 2 Eggs, Applewood Smoked Bacon, Sausage links, or Turkey Bacon, Hash Browns, Choice of Toast</p>"
+  "title": "BEVERAGES",
+  "sort_order": 5
 }

@@ -1,11 +1,54 @@
 {
-  "order": 1,
-  "title": "The Morning Spice Shot",
-  "category": "menu_category6",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "4"
+      "name": "THE MORNING SPICE SHOT | 4",
+      "detail": "<p>A Spicy Twist on a Classic Espresso Shot (Double)</p>"
+    },
+    {
+      "name": "UNICORN HOT CHOCOLATE | 5",
+      "detail": "<p>Warm Rainbows in a Cup</p>"
+    },
+    {
+      "name": "CARAMELY-COCONUTTY LATTE | 5",
+      "detail": "<p>A Delicious Island Getaway Anytime</p>"
+    },
+    {
+      "name": "ANYTIME HARVEST LATTE | 5",
+      "detail": "<p>Enjoy the Warm Taste of Fall Year Round</p>"
+    },
+    {
+      "name": "GREEN TEA MATCHA LATTE | 5",
+      "detail": "<p>A Tea-Lightful Way to Start Your Day</p>"
+    },
+    {
+      "name": "HONEY POT LATTE | 5",
+      "detail": "<p>A Honey Bee&rsquo;s Favorite Comfort Drink</p>"
+    },
+    {
+      "name": "CHOCOLATEY CHERRY MOCHA | 5",
+      "detail": "<p>A Sweet Cordial Way to Start Your Day</p>"
+    },
+    {
+      "name": "CAPN’S WAKE-UP | 5",
+      "detail": "<p>Our Twist on a Favorite Breakfast Cereal</p>"
+    },
+    {
+      "name": "HORCHATA LATTE | 5",
+      "detail": "<p>Our Take on a Classic Drink Plus Espresso</p>"
+    },
+    {
+      "name": "ITALIAN SODA | 5",
+      "detail": "<p>A Refreshing Treat!</p>"
+    },
+    {
+      "name": "ICED COFFEE SODA | 5",
+      "detail": "<p>Dark or White Chocolate Sauce, Coffee or Espresso, Coca-Cola</p>"
+    },
+    {
+      "name": "FLOATS | 5",
+      "detail": "<p>Choice of Fountain Soda or Coffee Poured Over our House-Made Ice Cream</p>"
     }
   ],
-  "detail": "<p>A Spicy Twist on a Classic Espresso Shot (Double)</p>"
+  "title": "GOOD MORNING",
+  "sort_order": 1
 }

@@ -1,11 +1,22 @@
 {
-  "order": 11,
-  "category": "menu_category4",
-  "title": "SPICY MANILA CLAMS",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "16"
+      "name": "CAST IRON ROASTED SCOTTISH SALMON | 24",
+      "detail": "<p>Confit Tomato, Baby Spinach, Grilled Lemon, Beurre Blanc</p>"
+    },
+    {
+      "name": "BUTTER POACHED MAINE LOBSTER TAIL | 56",
+      "detail": "<p>Confit Tomato, Baby Spinach, Grilled Lemon, Drawn Butter</p>"
+    },
+    {
+      "name": "ROASTED DIVER SCALLOPS | 28",
+      "detail": "<p>Celery Root Pur&eacute;e, White Asparagus, Citrus Beurre Blanc</p>"
+    },
+    {
+      "name": "BEST DAMN LOBSTER MAC N’ CHEESE | 24",
+      "detail": "<p>Serves 2 Happy People</p>\n<p>Conchigliette Pasta, Butter Poached Maine Lobster, White Cheddar-Gruy&egrave;re Cheese Sauce, Candied Pancetta, English Peas, Truffled Parmesan Panko Crust</p>"
     }
   ],
-  "detail": "<p>Spicy Tomato Fennel Broth, Chorizo, Herbs, Grilled Toast</p>"
+  "title": "ENTRÉES | SEA",
+  "sort_order": 11
 }

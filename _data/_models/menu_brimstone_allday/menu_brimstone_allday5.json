@@ -1,11 +1,18 @@
 {
-  "order": 5,
-  "title": "THE CLASSIC",
-  "category": "menu_category22",
-  "item_price": [
+  "menu_items": [
     {
-      "price": "10"
+      "name": "THE OOEY GOOEY JUMBO CINNAMON ROLL | 8",
+      "detail": "<p>ream cheese icing, cinnamon toast crunch ice cream, cinnamon-caramel drizzle</p>"
+    },
+    {
+      "name": "PEACHES & OATS | 8",
+      "detail": "<p>fresh grilled caramelized peaches, toasted oatmeal ice cream, brown butter caramel, oat streusel crumble</p>"
+    },
+    {
+      "name": "COOKIES & CREAM CHEESECAKE | 8",
+      "detail": "<p>house made cookies &amp; cream cheesecake, belgian dark chocolate mousse, oreo cookie crumble</p>"
     }
   ],
-  "detail": "<p>1&frasl;4 lb creek stone angus beef patty, white cheddar, lettuce, tomato, onion, padre sauce</p>"
+  "title": "DESSERTS",
+  "sort_order": 5
 }
