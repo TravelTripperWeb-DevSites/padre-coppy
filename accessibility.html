@@ -15,31 +15,39 @@ meta_description_localized:
     <div class="container">
         <div class="row">
             <div class="col-md-12 no-gutter specials-listing-banner banner-color-overlay">
-                {% include social-links.html %}    
+                {% include social-links.html %}
                 <div class="title">The Padre Hotel</div>
                 <img src='/assets/images/specials-listing-banner.jpg' class='img-width ' alt='bedroom'>
-                <h1>ACCESSIBILITY</h1>
+                <h1>{% regionblock accessibility_head1, type:header %}
+                  ACCESSIBILITY
+                {% endregionblock %}
+              </h1>
             </div>
         </div>
         <div class="gallery-container container">
             <div class="row">
                 <br><br>
-                <h2>Accessibility of Website</h2>
-                <p>At Padre Hotel we are committed to making our website accessible to everyone, which is why we are working diligently to ensure it meets ADA standards, including a level AA conformance to the Web Content Accessibility Guidelines (WCAG) 2.0. We expect to meet these standards by October 2017.</p>
+                {% regionblock accessibility_header1, type:header %}
+                  <h2>Accessibility of Website</h2>
+                {% endregionblock %}
 
-                <p>While we understand that the current site has its limitations, be assured that we are working to fix them as soon as possible. That said, if you have have come to this page because of a problem you encountered on the site, please do not hesitate in reporting it to us at:</p>
+                {% regionblock accessibility_text1, type:text %}
+                  <p>At Padre Hotel we are committed to making our website accessible to everyone, which is why we are working diligently to ensure it meets ADA standards, including a level AA conformance to the Web Content Accessibility Guidelines (WCAG) 2.0. We expect to meet these standards by October 2017.</p>
+                  <p>While we understand that the current site has its limitations, be assured that we are working to fix them as soon as possible. That said, if you have have come to this page because of a problem you encountered on the site, please do not hesitate in reporting it to us at:</p>
+                {% endregionblock %}
 
-                <br>
-                <p>The Padre Hotel<br>
-                1702 18th Street<br>
-                Bakersfield, CA 93301<br>
-                Phone - <a href="tel:661-427-4900" role="link">661-427-4900</a><br>
-                Email - <a href="mailto:team@thepadrehotel.com" role="link">team@thepadrehotel.com</a></p>
-                <br>
+                {% regionblock accessibility_text2, type:text %}
+                  <p>The Padre Hotel<br>
+                  1702 18th Street<br>
+                  Bakersfield, CA 93301<br>
+                  Phone - <a href="tel:661-427-4900" role="link">661-427-4900</a><br>
+                  Email - <a href="mailto:team@thepadrehotel.com" role="link">team@thepadrehotel.com</a></p>
+                {% endregionblock %}
 
-                <p>In addition, if you have any suggestions on how to improve this site’s accessibility, we are listening. Your user experience matters to us, and we want to ensure it is as good as it can be.</p>
-
-                <p>This accessibility statement applies to all content on <a href="https://www.thepadrehotel.com">www.thepadrehotel.com</a> and all content provided internally at <a href="https://www.thepadrehotel.com">www.thepadrehotel.com</a>. Padre Hotel is not responsible for any third-party content on <a href="https://www.thepadrehotel.com">www.thepadrehotel.com</a>.</p>
+                {% regionblock accessibility_text3, type:text %}
+                  <p>In addition, if you have any suggestions on how to improve this site’s accessibility, we are listening. Your user experience matters to us, and we want to ensure it is as good as it can be.</p>
+                  <p>This accessibility statement applies to all content on <a href="https://www.thepadrehotel.com">www.thepadrehotel.com</a> and all content provided internally at <a href="https://www.thepadrehotel.com">www.thepadrehotel.com</a>. Padre Hotel is not responsible for any third-party content on <a href="https://www.thepadrehotel.com">www.thepadrehotel.com</a>.</p>
+                {% endregionblock %}
             </div>
         </div>
     </div>
