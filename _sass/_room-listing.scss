@@ -29,7 +29,7 @@
           float: none;
           clear:both;
         }
-        @media (min-width: $screen-xs-min){
+        @media (min-width: 320px){
             min-height: 300px;
         }
 		}
@@ -49,6 +49,7 @@
      .row {
        display: table;
        width: 100%;
+       margin: 0;
      }
 		}
 	.rooms-description1{
@@ -105,7 +106,7 @@
 			@media (max-width: 1024px){
 			padding:10px;
 		 }
-		
+
 			}
 		h4{
 			font-family: $Medium;
