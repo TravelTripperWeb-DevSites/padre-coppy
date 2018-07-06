@@ -5,12 +5,8 @@
       "detail": "<p>parmesan crusted rustic sourdough, sharp white cheddar, classic tomato bisque</p>"
     },
     {
-      "name": "PB.L.A.T | 14",
-      "detail": "<p>crispy pork belly, avocado, toasted whole grain wheat, lettuce, tomato, jalapeno bacon aioli</p>"
-    },
-    {
-      "name": "GRILLED AHI TUNA CLUB | 15",
-      "detail": "<p>grilled rare ahi tuna, avocado, applewood smoked bacon, green leaf lettuce, tomato, ginger soy aioli, toasted sourdough</p>"
+      "name": "THE POKE CLUB | 15",
+      "detail": "<p>grilled rare ahi tuna, avocado, applewood smoked bacon, green leaf lettuce, tomato, ginger soy aioli, wonton crisp, toasted brioche bun</p>"
     },
     {
       "name": "BAKO'S BEST CHEESESTEAK | 16",
@@ -27,6 +23,14 @@
     {
       "name": "PESTO CHICKEN PANINNI | 14",
       "detail": "<p>grilled chicken breast, roasted sweet bell peppers,mozzarella cheese, artichoke parmesan aioli, house baked french roll</p>"
+    },
+    {
+      "name": "GRILLED SALMON B.L.T. | 15",
+      "detail": "<p>grilled Atlantic salmon, applewood smoked bacon, avocado, lettuce, tomato, cajun cream cheese spread, toasted wheat</p>"
+    },
+    {
+      "name": "ROASTED TURKEY CAPRESE | 14",
+      "detail": "<p>shaved natural turkey breast, buffalo mozzarella, fresh basil, tomato, sun dried tomato pesto, balsamic gastric, house baked herb focasccia bread</p>"
     }
   ],
   "title": "HAND HELDS",

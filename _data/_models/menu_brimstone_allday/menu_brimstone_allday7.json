@@ -5,7 +5,7 @@
       "detail": "<p>house made chipotle white cheddar sauce, mustard, sea salt</p>"
     },
     {
-      "name": "SPICY PADRE POKE | 12",
+      "name": "AHI POKE NACHOS | 12",
       "detail": "<p>ahi, avocado, mango, fresno chili, chives, cilantro, crispy wonton chips, sriracha aioli, sesame seeds</p>"
     },
     {
@@ -17,20 +17,20 @@
       "detail": "<p>brimstone buffalo sauce, blue cheese crumbles, buttermilk ranch dressing</p>"
     },
     {
-      "name": "SMOKED CHIPOTLE HUMMUS | 9",
-      "detail": "<p>slow roasted garlic, crispy chickpeas, grilled pita bread</p>"
+      "name": "SPICY SAMBAL HUMMUS | 9",
+      "detail": "<p>confit tomato, gremolata, crispy chickpeas, grilled pita bread</p>"
     },
     {
-      "name": "BARBACOA BEEF NACHOS | 13",
+      "name": "BARBACOA BEEF NACHOS | 14",
       "detail": "<p>house cut tortilla chips, chipotle cheddar cheese sauce, guacamole, sour cream, pickled jalape&ntilde;o, cotija, pico de gallo</p>"
     },
     {
-      "name": "JALAPEÑO & BACON ARTICHOKE DIP | 12",
+      "name": "JALAPEÑO & BACON SPINACH DIP | 12",
       "detail": "<p>fresh corn tortillas, toasted baguette, shaved parmesan cheese</p>"
     },
     {
-      "name": "PADRE SLIDERS | 10",
-      "detail": "<p>100% angus beef, white cheddar, caramelized onion, ph steak sauce</p>"
+      "name": "KOBE BEEF SLIDERS | 12",
+      "detail": "<p>white cheddar,&nbsp;bread &amp; butter pickle chips, Padre Sauce</p>"
     },
     {
       "name": "CRISPY CITRUS CHILI CALAMARI | 13",
@@ -39,6 +39,14 @@
     {
       "name": "CHEESE & CHARCUTERIE | 16",
       "detail": "<p>3 chef's choice artisan meats, 3 artisan cheeses, seasonal jams, nuts, fruit, toasted baguette</p>"
+    },
+    {
+      "name": "BRIMSTONE WINGS | 14",
+      "detail": "<p>10 Wings Tossed in Your Choice of Sauce</p>\n<p>Flavor Options: Spicy Buffalo, Chipotle BBQ, Citrus Chili, Teriyaki, Lemon Pepper. Served With Carro &amp; Celery Sticks</p>"
+    },
+    {
+      "name": "TOMATO & BURRATA | 12",
+      "detail": "<p>heirloom tomato, burrata cheese, fresh basil pesto, sun dried tomato pesto, grilled toast</p>"
     }
   ],
   "title": "SMALL BITES",

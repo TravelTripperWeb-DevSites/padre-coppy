@@ -1,10 +1,6 @@
 {
   "menu_items": [
     {
-      "name": "HERB ROASTED CHICKEN SALAD | 15",
-      "detail": "<p>all natural chicken breast, baby kale, roasted butternut squash, apple, candied walnuts, golden raisins, pomegranate, honey blue vinaigrette</p>"
-    },
-    {
       "name": "GRILLED SALMON B.L.T SALAD | 16",
       "detail": "<p>baby mixed greens, avocado, applewood smoked bacon, heirloom cherry tomatoes, rye croutons, lemon tarragon yogurt dressing</p>"
     },
@@ -13,8 +9,12 @@
       "detail": "<p>baby kale, all natural chicken breast, avocado, applewood bacon, egg, blue cheese crumbles, house baked croutons, heirloom cherry tomato, shaved onion, buttermilk ranch dressing</p>"
     },
     {
-      "name": "STEAK HOUSE SALAD | 16",
+      "name": "STEAK HOUSE WEDGE SALAD | 16",
       "detail": "<p>8 oz grilled prime flat iron steak, wedge lettuce, applewood smoked bacon, danish blue crumbles, heirloom tomatoes, shaved red onion, gorgonzola dressing</p>"
+    },
+    {
+      "name": "QUINOA CHICKEN SALAD | 15",
+      "detail": "<p>red quinoa, baby kale, all natural herb chicken breast, cucumber, heirloom tomato, avocado, feta cheese, pita crouton, lemon sumac vinaigrette</p>"
     }
   ],
   "title": "GREENS",
