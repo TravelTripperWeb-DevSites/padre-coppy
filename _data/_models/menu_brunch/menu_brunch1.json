@@ -1,16 +1,12 @@
 {
   "menu_items": [
     {
-      "name": "HOUSE BAKED BANANA BREAD | 3",
-      "detail": "<p>Warm House Made Banana Bread, Whipped Butter</p>"
+      "name": "BRIOCHE PECAN STICKY BUN | 3",
+      "detail": "<p>coconut caramel</p>"
     },
     {
-      "name": "JUMBO CINNAMON ROLL | 3",
-      "detail": "<p>Whipped Cream Cheese Frosting</p>"
-    },
-    {
-      "name": "FRESH BAKED SEASONAL SCONES | 3",
-      "detail": "<p>Ask Your Server For Today&rsquo;s Selection</p>"
+      "name": "BLUEBERRY BUCKLE COFFEE CAKE | 3",
+      "detail": "<p>fresh blueberries, brown butter streusel</p>"
     }
   ],
   "title": "FROM THE BAKERY",

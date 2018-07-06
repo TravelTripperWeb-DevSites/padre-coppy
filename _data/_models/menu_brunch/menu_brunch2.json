@@ -1,15 +1,15 @@
 {
   "menu_items": [
     {
-      "name": "GREEK YOGURT & BERRIES | 7",
-      "detail": "<p>House Made Almond Granola, Fresh Seasonal Berries, Honey Drizzle</p>"
+      "name": "BREAKFAST BOWL | 7",
+      "detail": "<p>House Made Almond Granola, Fresh Seasonal Berries, Honey Drizzle. Sub Acai +2</p>"
     },
     {
       "name": "EVERYTHING AVOCADO | 8",
       "detail": "<p>Toasted Everything Bagel, Avocado Smash, Heirloom Cherry Tomatoes, Cilantro, Cotija</p>"
     },
     {
-      "name": "BAGEL & LOX | 15",
+      "name": "OAT SMOKED SALMON LOX | 16",
       "detail": "<p>Smoked Salmon Lox, Herb Cream Cheese, Sliced Tomato, Arugula, Shaved Onion, Cucumber, Capers, Toasted Everything Bagel</p>"
     },
     {
@@ -25,8 +25,8 @@
       "detail": "<p>Braised Barbacoa Beef, Scrambled Eggs, Crispy Potato Hash, Cheddar, Rojo Sauce, Pico de Gallo, Cotija, Flour Tortilla</p>"
     },
     {
-      "name": "CAPRESE SMASH | 11",
-      "detail": "<p>2 Scrambled Eggs, Buffalo Mozzarella, Sliced Tomato, Fresh Basil, Pesto Spread, Balsamic Gastrique, Hash Browns</p>"
+      "name": "BASIL BRUSCHETTA SANDWICH | 11",
+      "detail": "<p>2 Scrambled Eggs, Mozzarella, Tomato Bruschetta, Fresh Basil, Pesto Spread, Hash Browns</p>"
     }
   ],
   "title": "TRADITIONAL BEGINNINGS",
