@@ -23,5 +23,6 @@
   "description": "<p>Make a night of it! Catch a movie at <a href=\"http://bit.ly/foxpadre\" target=\"_blank\" rel=\"noopener noreferrer\">Fox Theatre</a> then dine at the Padre. <a href=\"https://www.thepadrehotel.com/dine/brimstone/\" target=\"_blank\" rel=\"noopener noreferrer\">Brimstone</a> offers a free app with purchase to movie goers or enjoy a special 3 course meal at <a href=\"https://www.thepadrehotel.com/dine/belvedere-room/\" target=\"_blank\" rel=\"noopener noreferrer\">Belvedere Room</a> on movie nights.</p>",
   "short_description": "<p>Make a night of it! Catch a movie at <a href=\"http://bit.ly/foxpadre\" target=\"_blank\" rel=\"noopener noreferrer\">Fox Theatre</a> then dine at the Padre. <a href=\"https://www.thepadrehotel.com/dine/brimstone/\" target=\"_blank\" rel=\"noopener noreferrer\">Brimstone</a> offers a free app with purchase to movie goers or enjoy a special 3 course meal at <a href=\"https://www.thepadrehotel.com/dine/belvedere-room/\" target=\"_blank\" rel=\"noopener noreferrer\">Belvedere Room</a> on movie nights.</p>",
   "sort_order": 2,
-  "view_event_button_url": "dinner-show"
+  "view_event_button_url": "dinner-show",
+  "button_text": "<p><a href=\"http://bit.ly/foxpadre\" target=\"_blank\" rel=\"noopener noreferrer\">Movie Tickets</a></p>"
 }
