@@ -1,8 +1,12 @@
 {
   "menu_items": [
     {
-      "name": "GRILLED HEIRLOOM CARROTS | 12",
-      "detail": "<p>Cumin Carrot Pur&eacute;e, Chipotle Spiced Peanuts, Mascarpone, Adee Farms Guajillo Orange Honey</p>"
+      "name": "PADRE BEET SALAD | 12",
+      "detail": "<p>Assorted Slow Braised Beets, Beet Chips, Goat Cheese, Bee Pollen, Local Honey, Baby Greens, Spiced Candied Walnuts, Sea Salt</p>"
+    },
+    {
+      "name": "HERLOOM TOMATOES | 10",
+      "detail": "<p>Grilled Toast, Basque Vinaigrette, Shaved Shallot, Fresh Herbs, Sea Salt</p>"
     }
   ],
   "title": "STARTERS | GARDEN",

@@ -5,16 +5,16 @@
       "detail": "<p>Romaine, Herb Croutons, Parmesan, House Caesar Dressing</p>"
     },
     {
-      "name": "ARUGULA BACON SALAD | 11",
-      "detail": "<p>Wild Arugula, Avocado, Heirloom Tomato, Bacon, Stella Blue Cheese, Rye Croutons, Applewood Bacon Vinaigrette</p>"
-    },
-    {
-      "name": "APRICOT KALE SALAD | 12",
-      "detail": "<p>Baby Kale, Grilled Apricots, Candied Walnuts, Goat Cheese, Honey Thyme Vinaigrette</p>"
-    },
-    {
       "name": "BELVEDERE WEDGE | 12",
       "detail": "<p>Baby Iceberg Lettuce, Heirloom Tomato, Bacon, Stella Blue Cheese, Shaved Onion, Egg, Stella Blue Cheese Dressing</p>"
+    },
+    {
+      "name": "GARDEN HOUSE SALAD | 11",
+      "detail": "<p>Baby Spring Mix, Cucumber, Shaved Carrot, Heirloom Tomato, Avocado, Shaved Onion, Rye Croutons, Lemon Tarragon Ranch Dressing</p>"
+    },
+    {
+      "name": "BORDEAUX CHERRY WALNUT SALAD | 12",
+      "detail": "<p>Baby Kale, Shaved Fennel, Figs, Toasted Candied Walnuts, Stella Gorgonzola Cheese, Honey Herb Vinaigrette</p>"
     }
   ],
   "title": "STARTERS | GREENS",
