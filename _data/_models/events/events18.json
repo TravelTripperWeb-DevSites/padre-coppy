@@ -24,5 +24,6 @@
   "description": "<p>Sip and savor the summer as&nbsp;The Padre Hotel pours out five selections of bubbly during our Au Revoir to Summer Champagne Tasting. Enjoy live music and tray passed appetizers on the Prairie Fire rooftop as you toast the summer.</p>\n<p>Champagne Selections include: Veuve Clicquot, Champagne Deutz, G.H. Mumm, Drappier, and Lanson</p>\n<p>Thursday, August 30th 6:30-9:30pm<br /> $65 per person</p>",
   "sort_order": 1,
   "view_event_button_url": "champagnetasting",
-  "button_text": "<p><a href=\"https://www.eventbrite.com/e/au-revoir-to-summer-champagne-tasting-tickets-47823890544?ref=elink\" target=\"_blank\" rel=\"noopener noreferrer\">Buy Tickets</a></p>"
+  "button_text": "<p><a href=\"https://www.eventbrite.com/e/au-revoir-to-summer-champagne-tasting-tickets-47823890544?ref=elink\" target=\"_blank\" rel=\"noopener noreferrer\">Buy Tickets</a></p>",
+  "unpublish": true
 }
