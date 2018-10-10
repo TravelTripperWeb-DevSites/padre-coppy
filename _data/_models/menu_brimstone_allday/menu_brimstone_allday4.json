@@ -1,36 +1,28 @@
 {
   "menu_items": [
     {
-      "name": "THE PERFECT GRILLED CHEESE | 12",
-      "detail": "<p>parmesan crusted rustic sourdough, sharp white cheddar, classic tomato bisque</p>"
-    },
-    {
-      "name": "THE POKE CLUB | 15",
-      "detail": "<p>grilled rare ahi tuna, avocado, applewood smoked bacon, green leaf lettuce, tomato, ginger soy aioli, wonton crisp, toasted brioche bun</p>"
-    },
-    {
-      "name": "BAKO'S BEST CHEESESTEAK | 16",
-      "detail": "<p>shaved prime rib, white cheddar, caramelized onion, sweet bell peppers, sriacha aioli</p>"
+      "name": "BEST DAMN GRILLED CHEESE | 14",
+      "detail": "<p>boschetto tartufo truffle cheese, white cheddar, san marzano tomato bisque</p>"
     },
     {
       "name": "TURKEY FOCACCIA CLUB | 14",
       "detail": "<p>roasted carved natural turkey breast, crispy turkey bacon, avocado, lettuce, tomato, green goddess aioli</p>"
     },
     {
-      "name": "SPICY CHICKEN SANDWICH | 13",
-      "detail": "<p>grilled or crispy buttermilk chicken, applewood smoked bacon, white cheddar, lettuce, tomato, sriracha aioli, brioche bun</p>"
+      "name": "SALMON B.L.T. | 15",
+      "detail": "<p>bacon, avocado, spinach, tomato, sprouts, chipotle cream cheese</p>"
     },
     {
-      "name": "PESTO CHICKEN PANINNI | 14",
-      "detail": "<p>grilled chicken breast, roasted sweet bell peppers,mozzarella cheese, artichoke parmesan aioli, house baked french roll</p>"
+      "name": "HOT CHICKEN SANDWICH | 12",
+      "detail": "<p>Kern hot sauce, pickle chips, brussel slaw</p>"
     },
     {
-      "name": "GRILLED SALMON B.L.T. | 15",
-      "detail": "<p>grilled Atlantic salmon, applewood smoked bacon, avocado, lettuce, tomato, cajun cream cheese spread, toasted wheat</p>"
+      "name": "CHIMICHURRI STEAK | 16",
+      "detail": "<p>bell peppers, fontina, caramelized onions, arugula, chimmichuri aioli</p>"
     },
     {
-      "name": "ROASTED TURKEY CAPRESE | 14",
-      "detail": "<p>shaved natural turkey breast, buffalo mozzarella, fresh basil, tomato, sun dried tomato pesto, balsamic gastric, house baked herb focasccia bread</p>"
+      "name": "PORTOBELLO | 14",
+      "detail": "<p>spinach, bell peppers, caramelized onion, garlic aioli, balsamic, mozzarella</p>"
     }
   ],
   "title": "HAND HELDS",

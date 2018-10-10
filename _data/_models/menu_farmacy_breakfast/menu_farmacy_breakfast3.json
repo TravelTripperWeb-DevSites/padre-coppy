@@ -1,22 +1,22 @@
 {
   "menu_items": [
     {
-      "name": "PADRE BREAKFAST SCRAMBLE |  GF 11",
-      "detail": "<p>Scrambled Eggs,&nbsp;Applewood smoked bacon, Breakfast Sausage, White Cheddar, Crispy Hash Browns</p>"
+      "name": "THE CROISSANTWICH ",
+      "detail": "<p>Scrambled eggs, white cheddar, choice of applewood smoked bacon, turkey bacon, sausage, or country ham</p>"
     },
     {
-      "name": "CHORIZO SCRAMBLE | GF 11",
-      "detail": "<p>Scrambled Eggs, Chorizo, Roasted Red Pepper, Crispy Hash Browns, White Cheddar, Cotija, Side Pico de Gallo, Cilantro</p>"
+      "name": "GREEN EGGS & HAM  | 14",
+      "detail": "<p>pesto scrambled eggs, prosciutto cotto, heirloom tomato, arugula, toast</p>"
     },
     {
-      "name": "SMOKED SALMON SCRAMBLE SCRAMBLE | GF 12",
-      "detail": "<p>Scrambled Eggs, Oak Smoked Salmon, Cheery Heirloom Tomato, Red Onion, Dill Cream Cheese, Crispy Hash Browns</p>"
+      "name": "CHICKEN COOP MADAME  | 12",
+      "detail": "<p>bacon, fontina, fried egg, arugula, smoked maple&nbsp;syrup</p>"
     },
     {
-      "name": "VERY VEGGIE SCRAMBLE | GF 12",
-      "detail": "<p>Scrambled Egg Whites, Broccoli, Tomato, Baby Spinach, Mushrooms, Sun Dried Tomato Pesto, Shaved Parmesan, Crispy Hash Browns</p>"
+      "name": "BAGEL & LOXWICH | 12",
+      "detail": "<p>smoked salmon, tomato, shaved onion, arugula, dill cream cheese, everything bagel</p>"
     }
   ],
-  "title": "BREAKFAST SCRAMBLES",
+  "title": "BREAKFAST SAMMIES",
   "sort_order": 3
 }

@@ -1,20 +1,12 @@
 {
   "menu_items": [
     {
-      "name": "BERRY BREAKFAST BOWL  | 7",
-      "detail": "<p>House Made Almond Granola, Fresh Seasonal Berries, Honey Drizzle</p>"
+      "name": "GRANOLA & YOGURT | 6  ADD ACAI | 2",
+      "detail": "<p>greek yogurt, house made almond granola, strawberries, bee pollen, honey drizzle</p>"
     },
     {
-      "name": "OATS & CREAM | 7",
-      "detail": "<p>Candied Pecans, Fresh Seasonal Berries, Brown Sugar, Cream</p>"
-    },
-    {
-      "name": "EVERYTHING AVOCADO | 8",
-      "detail": "<p>Toasted &ldquo;Everything&rdquo; Bagel, Avocado Smash, Heirloom Cherry Tomatoes, Cilantro, Cotija</p>"
-    },
-    {
-      "name": "PROTEIN POWER WRAP | 9",
-      "detail": "<p>Scrambled Egg Whites, Turkey Bacon, White Cheddar, Tomato, Mushroom, Spinach, Whole Wheat Tortilla, Side Fresh Seasonal Fruit</p>"
+      "name": "BUCKEYE ROLLED OATS | 6",
+      "detail": "<p>brown sugar, candied pecans, strawberries</p>"
     }
   ],
   "title": "GOOD MORNING",

@@ -5,18 +5,14 @@
       "detail": "<p>Classic Buttermilk Pancakes, Maple Syrup, Whipped Butter</p>"
     },
     {
-      "name": "TRIPLE BERRY CAKES | 11",
-      "detail": "<p>blueberries, raspberries, blackberries, lemon curd</p>"
+      "name": "MELTED ICE CREAM FRENCH TOAST | 9",
+      "detail": "<p>strawberries, whipped butter, maple syrup</p>"
     },
     {
-      "name": "NUTELLA CAKES | 11",
-      "detail": "<p>candy pecans, chocolate hazelnut spread</p>"
-    },
-    {
-      "name": "STRAWBERRY SHORTCAKES | 11",
-      "detail": "<p>strawberry compote, sweet cream, biscuit scrumble</p>"
+      "name": "JOHNNY CAKE SKILLET  | 12",
+      "detail": "<p>Duroc pork belly, 2 eggs any style, country potatoes, Margos&rsquo; smoked maple syrup, whipped butter</p>"
     }
   ],
-  "title": "BRUNCHY CAKES",
+  "title": "GRIDDLE UP",
   "sort_order": 4
 }

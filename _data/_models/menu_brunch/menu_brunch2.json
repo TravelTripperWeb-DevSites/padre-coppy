@@ -1,34 +1,22 @@
 {
   "menu_items": [
     {
-      "name": "BREAKFAST BOWL | 7",
-      "detail": "<p>House Made Almond Granola, Fresh Seasonal Berries, Honey Drizzle. Sub Acai +2</p>"
-    },
-    {
-      "name": "EVERYTHING AVOCADO | 8",
-      "detail": "<p>Toasted Everything Bagel, Avocado Smash, Heirloom Cherry Tomatoes, Cilantro, Cotija</p>"
-    },
-    {
-      "name": "OAT SMOKED SALMON LOX | 16",
-      "detail": "<p>Smoked Salmon Lox, Herb Cream Cheese, Sliced Tomato, Arugula, Shaved Onion, Cucumber, Capers, Toasted Everything Bagel</p>"
-    },
-    {
-      "name": "RISE N’ SHINE | 9",
-      "detail": "<p>2 Eggs, Applewood Smoked Bacon, Turkey Bacon or Sausage Links, Hash Browns, Choice of Toast</p>"
-    },
-    {
       "name": "CROISSANTWICH | 10",
-      "detail": "<p>Scrambled Eggs, Applewood Smoked Bacon, Turkey Bacon, Sausage Links or Black Forest Ham, White Cheddar, Hash Browns</p>"
+      "detail": "<p>Scrambled eggs, white cheddar, choice of applewood smoked bacon, turkey bacon, sausage, or country ham</p>"
     },
     {
-      "name": "BREAKFASTFIELD BURRITO | 10",
-      "detail": "<p>Braised Barbacoa Beef, Scrambled Eggs, Crispy Potato Hash, Cheddar, Rojo Sauce, Pico de Gallo, Cotija, Flour Tortilla</p>"
+      "name": "BRUNCHY GRILLED CHEESE | 12",
+      "detail": "<p>fried egg, applewood smoked bacon, fontina cheese</p>"
     },
     {
-      "name": "BASIL BRUSCHETTA SANDWICH | 11",
-      "detail": "<p>2 Scrambled Eggs, Mozzarella, Tomato Bruschetta, Fresh Basil, Pesto Spread, Hash Browns</p>"
+      "name": "CHICKEN COOP MADAME  | 12",
+      "detail": "<p>applewood smoked bacon, fontina, fried egg, smoked maple syrup</p>"
+    },
+    {
+      "name": "BAGEL & LOXWICH | 12",
+      "detail": "<p>smoked salmon, tomato, shaved onion, arugula, dill cream cheese, everything bagel</p>"
     }
   ],
-  "title": "TRADITIONAL BEGINNINGS",
+  "title": "BREAKFAST SAMMIES",
   "sort_order": 2
 }

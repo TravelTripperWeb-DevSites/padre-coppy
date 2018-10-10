@@ -1,0 +1,18 @@
+{
+  "menu_items": [
+    {
+      "name": "AVOCADO SMASH | 9",
+      "detail": "<p>heirloom tomatoes, feta, flaxseeds, sunflower seeds, flaxseed oil</p>"
+    },
+    {
+      "name": "BURRATTA CAPRESE | 9",
+      "detail": "<p>heirloom tomato, basil, balsamic, sea salt, olive oil, almond pesto</p>"
+    },
+    {
+      "name": "STRAWBERRIES & HONEY | 8",
+      "detail": "<p>mascarpone, sliced strawberries, honey drizzle, bee pollen</p>"
+    }
+  ],
+  "title": "TOASTS",
+  "sort_order": 1
+}

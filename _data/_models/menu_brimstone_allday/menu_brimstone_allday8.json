@@ -1,0 +1,26 @@
+{
+  "menu_items": [
+    {
+      "name": "MISO SALMON | 24",
+      "detail": "<p>heirloom kokuho rice, miso butter boc choy, enoki mushrooms, rice noodle, ginger-soy broth</p>"
+    },
+    {
+      "name": "AUTONOMY FARMS FRIED CHICKEN | 22",
+      "detail": "<p>cast iron corn bread, brussel sprout slaw, fried thyme</p>"
+    },
+    {
+      "name": "ALASKAN COD & CHIPS | 18",
+      "detail": "<p>vinegar fries, brussel sprout slaw, tartar sauce, sriracha-lime cocktail sauce</p>"
+    },
+    {
+      "name": "CHICKEN CARBONARA | 16",
+      "detail": "<p>bacon, english peas, garlic parmesan toast</p>"
+    },
+    {
+      "name": "PRIME BEEF MEATLOAF | 26",
+      "detail": "<p>yukon gold potatoes, blue cheese, brussel sprouts, tomato jam, crispy leeks, worcestershire jus</p>"
+    }
+  ],
+  "title": "DINNER",
+  "sort_order": 8
+}

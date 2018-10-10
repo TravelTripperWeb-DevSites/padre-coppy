@@ -2,27 +2,31 @@
   "menu_items": [
     {
       "name": "RISE N’ SHINE | 9",
-      "detail": "<p>Choice 2 Eggs, Applewood Smoked Bacon, Sausage links, or Turkey Bacon, Hash Browns, Choice of Toast</p>"
+      "detail": "<p>2 eggs any style, choice of applewood smoked bacon, turkey bacon or sausage links,&nbsp;country potatoes, Bakers Outpost toast</p>"
     },
     {
-      "name": "BREAKFASTFIELD BURRITO | 10",
-      "detail": "<p>Braised Barbacoa Beef, Scrambled Eggs, Hash Browns, Cheddar, Rojo Sauce, Pico de Gallo, Cotija, Flour Tortilla</p>"
+      "name": "CHILI VERDE BREAKFAST BURRITO | 10",
+      "detail": "<p>Duroc pork, scrambled eggs, roasted bell peppers, cheddar, potatoes, cotija</p>"
     },
     {
-      "name": "CHILAQUILES ROJO | 12",
-      "detail": "<p>Fresh Tortilla Chips, 2 Sunny Side Up Eggs, White Cheddar, Sour Cream, Pico de Gallo, Cotija, Cilantro, Rojo Sauce</p>"
+      "name": "GREEN CHILAQUILES | 12",
+      "detail": "<p>2 eggs any style, tomatillo salsa, white cheddar, sour cream, pico, cotija, cilantro</p>"
     },
     {
-      "name": "CROISSANTWICH | 10",
-      "detail": "<p>Choice of Applewood Smoked Bacon, Turkey Bacon, Sausage Links or Black Forest Ham, Scrambled Eggs, White Cheddar, House Hash Browns</p>"
+      "name": "CHORIZO & AVOCADO SCRAMBLE  | 11",
+      "detail": "<p>scrambled eggs, avocado, bell peppers, pico, cilantro, cotija, corn tortillas,&nbsp;country potatoes</p>"
     },
     {
-      "name": "BASIL BRUSCHETTA SANDWICH | 11",
-      "detail": "<p>2 Scrambled Eggs, Mozzarella, Tomato Bruschetta, Fresh Basil, Pesto Spread, House Hash Browns</p>"
+      "name": "MELTED ICE CREAM FRENCH TOAST | 9",
+      "detail": "<p>strawberries, whipped butter, maple syrup</p>"
     },
     {
-      "name": "OAT SMOKED SALMON LOX | 16",
-      "detail": "<p>Herb Cream Cheese, Sliced Tomato, Arugula, Shaved Onion, Cucumber, Capers, Toasted &ldquo;Everything&rdquo; Bagel</p>"
+      "name": "BUTTERMILK PANCAKES | 9",
+      "detail": "<p>whipped butter, maple syrup</p>"
+    },
+    {
+      "name": " PROTEIN POWER WRAP | 9",
+      "detail": "<p>egg whites, turkey bacon, white cheddar, tomato, mushrooms, spinach, wheat tortilla, seasonal fruit</p>"
     }
   ],
   "title": "THE PADRE WAY",

@@ -1,54 +1,54 @@
 {
   "menu_items": [
     {
-      "name": "PADRE PRETZEL BITES | 9",
-      "detail": "<p>house made chipotle white cheddar sauce, mustard, sea salt</p>"
-    },
-    {
-      "name": "AHI POKE NACHOS | 12",
-      "detail": "<p>ahi, avocado, mango, fresno chili, chives, cilantro, crispy wonton chips, sriracha aioli, sesame seeds</p>"
+      "name": "POKE TOSTADAS | 14",
+      "detail": "<p>tuna, avocado, scallions, cilantro, Sriracha aioli, sesame seeds</p>"
     },
     {
       "name": "BURRATA JAR | 12",
       "detail": "<p>heirloom tomato, burrata cheese, fresh basil pesto, sundried tomato pesto, grilled toast</p>"
     },
     {
-      "name": "BRIMSTONE BUFFALO WINGS | 14",
-      "detail": "<p>brimstone buffalo sauce, blue cheese crumbles, buttermilk ranch dressing</p>"
+      "name": "BRIMSTONE WINGS | 14",
+      "detail": "<p>10 Wings Tossed in Your Choice of Sauce Flavor Options: Spicy Buffalo, Chipotle BBQ, Citrus Chili, Teriyaki, Lemon Pepper. Served With Carro &amp; Celery Sticks</p>"
     },
     {
-      "name": "SPICY SAMBAL HUMMUS | 9",
-      "detail": "<p>confit tomato, gremolata, crispy chickpeas, grilled pita bread</p>"
+      "name": "CHICKPEA HUMMUS | 9",
+      "detail": "<p>garlic confit, chickpeas, arugula, lemon, olive oil</p>"
     },
     {
-      "name": "BARBACOA BEEF NACHOS | 14",
-      "detail": "<p>house cut tortilla chips, chipotle cheddar cheese sauce, guacamole, sour cream, pickled jalape&ntilde;o, cotija, pico de gallo</p>"
-    },
-    {
-      "name": "JALAPEÑO & BACON SPINACH DIP | 12",
-      "detail": "<p>fresh corn tortillas, toasted baguette, shaved parmesan cheese</p>"
+      "name": "PORK VERDE NACHOS | 14",
+      "detail": "<p>heritage Duroc pork, fontina cheese, pickled red onion, cilantro, cotija</p>"
     },
     {
       "name": "KOBE BEEF SLIDERS | 12",
-      "detail": "<p>white cheddar,&nbsp;bread &amp; butter pickle chips, Padre Sauce</p>"
+      "detail": "<p>white cheddar, pickle chips,&nbsp;kimchi thousand island</p>"
     },
     {
-      "name": "CRISPY CITRUS CHILI CALAMARI | 13",
-      "detail": "<p>lightly dusted calamari, cherry peppers, lemon, mint, cilantro, citrus chili sauce, sriracha aioli</p>"
+      "name": "THAI CHILI CALAMARI | 14",
+      "detail": "<p>crushed peanuts, cilantro, mint, sriacha aioli, lime</p>"
     },
     {
-      "name": "CHEESE & CHARCUTERIE | 16",
-      "detail": "<p>3 chef's choice artisan meats, 3 artisan cheeses, seasonal jams, nuts, fruit, toasted baguette</p>"
+      "name": "PROSCIUTTO & CHEESE | 16",
+      "detail": "<p>prosciutto cotto, Barley Buzzed Cheddar, almonds, grapes, dijon, Bakers Outpost toast</p>"
     },
     {
-      "name": "BRIMSTONE WINGS | 14",
-      "detail": "<p>10 Wings Tossed in Your Choice of Sauce</p>\n<p>Flavor Options: Spicy Buffalo, Chipotle BBQ, Citrus Chili, Teriyaki, Lemon Pepper. Served With Carro &amp; Celery Sticks</p>"
+      "name": "BURRATA TOAST | 9",
+      "detail": "<p>tomato, basil, almond basil pesto</p>"
     },
     {
-      "name": "TOMATO & BURRATA | 12",
-      "detail": "<p>heirloom tomato, burrata cheese, fresh basil pesto, sun dried tomato pesto, grilled toast</p>"
+      "name": "PADRE JACKS | $5",
+      "detail": "<p>bacon, caramel pecans, Dr Angell&rsquo;s chipotle salt</p>"
+    },
+    {
+      "name": "CRISPY MISO BRUSSELS | $9",
+      "detail": "<p>almonds, cilantro, pickled fresno chilis, stella blu cheese</p>"
+    },
+    {
+      "name": "BAKERSFIELD HOT CHICKEN | $12",
+      "detail": "<p>Kern hot sauce, pickle carrots &amp; celery, honey, buttermilk ranch</p>"
     }
   ],
-  "title": "SMALL BITES",
+  "title": "SHARED BITES",
   "sort_order": 7
 }

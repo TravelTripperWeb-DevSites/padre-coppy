@@ -1,20 +1,20 @@
 {
   "menu_items": [
     {
-      "name": "GRILLED SALMON B.L.T SALAD | 16",
-      "detail": "<p>baby mixed greens, avocado, applewood smoked bacon, heirloom cherry tomatoes, rye croutons, lemon tarragon yogurt dressing</p>"
+      "name": "GREEN & GRAINS | $14",
+      "detail": "<p>organic kale, shaved Brussels sprouts, qu&iacute;noa, chickpeas, yams, almonds, feta cheese, honey sumac vinaigrette</p>"
     },
     {
-      "name": "KALE COBB SALAD | 14",
-      "detail": "<p>baby kale, all natural chicken breast, avocado, applewood bacon, egg, blue cheese crumbles, house baked croutons, heirloom cherry tomato, shaved onion, buttermilk ranch dressing</p>"
+      "name": "CHICKEN KATSU | $14",
+      "detail": "<p>Napa cabbage, edamame, carrots, dykon, cilantro, spiced peanuts, mandarins, rice vinegar Fresno chilis, hoisin ginger vinaigrette</p>"
     },
     {
-      "name": "STEAK HOUSE WEDGE SALAD | 16",
-      "detail": "<p>8 oz grilled prime flat iron steak, wedge lettuce, applewood smoked bacon, danish blue crumbles, heirloom tomatoes, shaved red onion, gorgonzola dressing</p>"
+      "name": "OAK ROASTED SALMON | $16",
+      "detail": "<p>napa cabbage, crispy prosciutto, avocado, heirloom tomato, cucumber, shaved onion, Bakers Outpost croutons, greek yogurt dressing</p>"
     },
     {
-      "name": "QUINOA CHICKEN SALAD | 15",
-      "detail": "<p>red quinoa, baby kale, all natural herb chicken breast, cucumber, heirloom tomato, avocado, feta cheese, pita crouton, lemon sumac vinaigrette</p>"
+      "name": "MOODY BLU STEAK | $16",
+      "detail": "<p>8oz bistro tender, romaine, bacon, smoked gorgonzola, tomatoes, egg, onion, Worcestershire vinaigrette</p>"
     }
   ],
   "title": "GREENS",

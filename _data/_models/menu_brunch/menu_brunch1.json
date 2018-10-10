@@ -1,12 +1,12 @@
 {
   "menu_items": [
     {
-      "name": "BRIOCHE PECAN STICKY BUN | 3",
-      "detail": "<p>coconut caramel</p>"
-    },
-    {
       "name": "BLUEBERRY BUCKLE COFFEE CAKE | 3",
       "detail": "<p>fresh blueberries, brown butter streusel</p>"
+    },
+    {
+      "name": "CANDIED WALNUT BANANA BREAD | 3",
+      "detail": "<p>whipped honey butter</p>"
     }
   ],
   "title": "FROM THE BAKERY",

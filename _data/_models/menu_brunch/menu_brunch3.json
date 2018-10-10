@@ -1,34 +1,34 @@
 {
   "menu_items": [
     {
-      "name": "BREAKFAST “CORN DOGS” | 11",
-      "detail": "<p>4 Breakfast Sausage Links Dipped In Pancake Batter, 2 Eggs, Hash Browns, Maple Syrup, Powdered Sugar</p>"
+      "name": "BREAKFAST CORN DOGS | 12",
+      "detail": "<p>2 eggs any style, country potatoes, maple syrup</p>"
     },
     {
-      "name": "BRIMSTONE CHICKEN N’ WAFFLES | 14",
-      "detail": "<p>Crispy Buttermilk Fried Chicken, Belgian Waffle, Sausage Country Gravy, Frank&rsquo;s Red Hot Maple Syrup, Whipped Butter</p>"
+      "name": "AUTONOMY FARMS CHICKEN N’ WAFFLES | 14",
+      "detail": "<p>Belgian waffle, sausage country gravy, Margo&rsquo;s smoked maple syrup, whipped butter</p>"
     },
     {
-      "name": "CHICKEN FRIED STEAK | 15",
-      "detail": "<p>Chicken Fried Angus Flat Iron Steak, 2 Eggs, Sausage Country Gravy, Hash Browns</p>"
+      "name": "GREEN CHILAQUILES | 12",
+      "detail": "<p>2 eggs any style, white cheddar, sour cream, tomatillo salsa, pico, cotija, cilantro</p>"
     },
     {
-      "name": "WHITE CHEDDAR BISCUITS & GRAVY | 12",
-      "detail": "<p>2 Eggs, 2 White Cheddar Biscuits, Sausage Country Gravy, Chives, Hash Browns</p>"
+      "name": "GRANOLA & STRAWBERRIES | 6  ADD ACAI | 2",
+      "detail": "<p>greek yogurt, almond granola, strawberries, bee pollen, honey drizzle</p>"
     },
     {
-      "name": "CHILAQUILES ROJO | GF 12",
-      "detail": "<p>2 Sunny Side Up Eggs, Fresh Tortilla Chips, White Cheddar, Sour Cream, Pico de Gallo, Cotija, Cilantro, Rojo Sauce</p>"
+      "name": "RISE N’ SHINE | 9",
+      "detail": "<p>2 eggs any style, choice of applewood smoked bacon, turkey bacon or sausage links, country potatoes, Bakers Outpost toast</p>"
     },
     {
-      "name": "CREME BRÛLÉE FRENCH TOAST | 10",
-      "detail": "<p>Creme Br&ucirc;l&eacute;e Battered Texas Toast, Fresh Seasonal Berries, Maple Syrup, Whipped Butter</p>"
+      "name": "CHILI VERDE BREAKFAST BURRITO | 10",
+      "detail": "<p>Duroc pork, scrambled eggs, roasted bell peppers, cheddar, potatoes, chili verde, cotija</p>"
     },
     {
-      "name": "BRUNCHY GRILLED CHEESE | 12",
-      "detail": "<p>texas toast, sharp white cheddar cheese, fried egg, applewood smoked bacon</p>"
+      "name": "CHORIZO BISQUITS AND GRAVY | 12",
+      "detail": "<p>2 eggs any style, spicy chorizo gravy, buttermilk cheddar biscuits, country potatoes</p>"
     }
   ],
-  "title": "CHEF INSPIRED BEGINNINGS",
+  "title": "BRUNCH THE PADRE WAY",
   "sort_order": 3
 }

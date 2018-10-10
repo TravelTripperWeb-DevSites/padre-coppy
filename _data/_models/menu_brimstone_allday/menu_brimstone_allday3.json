@@ -1,22 +1,22 @@
 {
   "menu_items": [
     {
-      "name": "MARGHERITA | 11",
-      "detail": "<p>house made red sauce, mozzarella cheese, tomato, fresh basil pesto drizzle</p>"
+      "name": "HEIRLOOM TOMATOES | 12",
+      "detail": "<p>heirloom tomatoes, basil, mozzarella, Temecula olive oil, balsamic, red sauce</p>"
     },
     {
-      "name": "PRAIRIE FIRE PEPPERONI | 12",
-      "detail": "<p>house made red sauce, mozzarella cheese, fresh sliced pepperoni</p>"
+      "name": "SPICY SOPRESSATA | 12 ",
+      "detail": "<p>spicy sopressata, mozzarella, almond basil pesto, red sauce</p>"
     },
     {
-      "name": "BBQ RANCH CHICKEN | 14",
-      "detail": "<p>bbq ranch dressing, mozzarella cheese, chicken, applewood smoked bacon, tomato, avocado, caramelized onion, cilantro, buttermilk ranch drizzle</p>"
+      "name": "CHICKEN BIANCO | 14",
+      "detail": "<p>garlic confit, white asparagus, fried egg, mozzarella,parmesan, caesar sauce</p>"
     },
     {
-      "name": "THE HAWAIIAN | 12",
-      "detail": "<p>crispy pork belly, grilled pineapple, carmelized onion, mozzarella cheese, red sauce, cilantro, teriyaki drizzle</p>"
+      "name": "PORK & PINEAPPLE | 15",
+      "detail": "<p>duroc pork, pineapple fresno chili jam, caramelized onion, mozzarella, cilantro</p>"
     }
   ],
-  "title": "FIRE OVEN PIZZAS",
+  "title": "FLATBREADS",
   "sort_order": 3
 }

@@ -1,28 +1,24 @@
 {
   "menu_items": [
     {
-      "name": "THE CLASSIC | 10",
-      "detail": "<p>1&frasl;4 lb creek stone angus beef patty, white cheddar, lettuce, tomato, onion, padre sauce</p>"
+      "name": "THE CLASSIC | 10 or DOUBLE CLASSIC | 12",
+      "detail": "<p>lettuce, tomato, white cheddar, padre sauce</p>"
     },
     {
-      "name": "GHOST BURGER | 12",
-      "detail": "<p>1&frasl;4 lb creek stone angus beef patty, ghost pepper cheese, crispy shishito peppers, fresh guacamole</p>"
+      "name": "CHIPOTLE BISON  | 16",
+      "detail": "<p>applewood smoked bacon, white cheddar, buttermilk onion rings, lettuce, tomato, chipotle bbq sauce</p>"
     },
     {
-      "name": "CHIPOTLE BBQ BACON BURGER | 12",
-      "detail": "<p>1&frasl;4 lb creek stone angus beef patty, white cheddar, applewood smoked bacon, lettuce, tomato, chipotle bbq sauce</p>"
+      "name": "TURKEY BAHN MI | 13",
+      "detail": "<p>avocado, cilantro, pickled carrots, dykon, Fresno chilis, kimchi thousand island</p>"
     },
     {
-      "name": "BLACKENED SALMON BURGER | 15",
-      "detail": "<p>6 oz house made atlantic salmon patty, avocado, applewood smoked bacon, lettuce, tomato, smoky tartar sauce</p>"
+      "name": "SPICY FALAFEL | 12",
+      "detail": "<p>house made falafel patty, cucumber tomato relish, feta, parsley, chipotle tzatziki</p>"
     },
     {
-      "name": "BRIMSTONE BISON BURGER | 16",
-      "detail": "<p>6 oz ground bison patty, bacon jam, gorgonzola cheese, lettuce, tomato</p>"
-    },
-    {
-      "name": "AVOCADO TURKEY BURGER | 14",
-      "detail": "<p>1/3 lb turkey patty, lettuce, tomato, avocado, turkey bacon, ghost pepper cheese, mango chili marmalade</p>"
+      "name": "PRIME PATTY MELT  | 18",
+      "detail": "<p>caramelized onion, cremini mushrooms, fontina cheese, Padre sauce</p>"
     }
   ],
   "title": "BURGERS",
