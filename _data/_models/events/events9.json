@@ -1,6 +1,6 @@
 {
-  "title": "Thanksgiving Buffet",
-  "description": "<p>Eat, drink and be thankful this Thanksgiving from 10am-4pm as you feast on a lavish buffet feast of all your favorite&nbsp;festive trimmings.</p>\n<p>$39/adults, $15/children (12 and under)</p>\n<p>Belvedere Room &amp; Brimstone</p>\n<p>Thursday, November 22nd 10am-4pm</p>\n<p>Reservations recommended</p>\n<div style=\"color: #222222; font-family: arial, sans-serif; font-size: 12.8px;\">&nbsp;</div>",
+  "title": "Thanksgiving",
+  "description": "<p>Buffet<br /> Eat, drink and be thankful this Thanksgiving from 10am-4pm as you enjoy on a&nbsp;bountiful&nbsp;feast of all your favorite&nbsp;festive trimmings.</p>\n<p><strong>Buffet</strong><br /> $39/adults, $15/children (12 and under) Belvedere Room &amp; Brimstone<br /> Thursday, November 22nd 10am-4pm<br /> Reservations recommended<br /><br /> <strong>Dinner Special</strong> $28<br /> Sliced turkey breast, turkey leg roulade, PH stuffing, whipped yukon gold potatoes, green bean almondine, roasted turkey gravy, orange cranberry sauce</p>\n<div style=\"color: #222222; font-family: arial, sans-serif; font-size: 12.8px;\">&nbsp;</div>",
   "button_text": "<p><a href=\"https://www.opentable.com/r/the-belvedere-room-at-the-padre-hotel-reservations-bakersfield?rid=95404&amp;restref=95404\" target=\"_blank\" rel=\"noopener noreferrer\">Make a Reso</a></p>",
   "sort_order": 1,
   "banner_image": {
@@ -23,7 +23,7 @@
     "alt": "Padre: pumpkins and squash with text that reads Thanksgiving Feast",
     "caption": ""
   },
-  "unpublish": true,
-  "short_description": "<p>Eat, drink and be thankful this Thanksgiving from 10am-4pm as you feast on a lavish buffet feast of all your favorite&nbsp;festive trimmings.</p>",
-  "view_event_button_url": "thanksgiving-buffet"
+  "unpublish": false,
+  "short_description": "<p>Eat, drink and be thankful this Thanksgiving as you&nbsp;enjoy a bountiful&nbsp;feast of all your favorite&nbsp;festive trimmings.</p>",
+  "view_event_button_url": "thanksgiving"
 }
