@@ -24,5 +24,6 @@
   "short_description": "<p>Sip and savor 4 decadent courses prepared by Chef Chris Sayre and perfectly paired by&nbsp;<a href=\"https://www.rombauer.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Rombauer Winery</a>.</p>",
   "button_text": "<p><a href=\"https://www.eventbrite.com/e/the-padre-hotel-presents-rombauer-wine-dinner-tickets-49873321447\" target=\"_blank\" rel=\"noopener noreferrer\">MENU + TICKETS</a></p>",
   "sort_order": 2,
-  "view_event_button_url": "https://www.eventbrite.com/e/the-padre-hotel-presents-rombauer-wine-dinner-tickets-49873321447"
+  "view_event_button_url": "https://www.eventbrite.com/e/the-padre-hotel-presents-rombauer-wine-dinner-tickets-49873321447",
+  "unpublish": true
 }
