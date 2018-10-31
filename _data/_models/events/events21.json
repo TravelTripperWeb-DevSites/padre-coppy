@@ -22,5 +22,6 @@
   },
   "description": "<p>The Padre Hotel welcomes the band Good Morning Bedlam to the Prairie Fire&nbsp;patio on October 30th for a free show. Enjoy drinks and tunes on the patio from 7:30-9:30pm.</p>\n<p>About the Band:<br /><a href=\"http://www.goodmorningbedlam.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Good Morning Bedlam</a> has become an innovative force in the midwest folk scene and beyond with 8 national tours in over 27 states. Their shows are known for their contagious energy, with members careening about the stage, jumping and dancing with a wild playfulness. With tight soaring three part harmonies, and thumping kick-drum, they captivate their audience night after night with no intention of slowing down. Every song is a unique twist on what is generally dubbed as folk music.</p>",
   "sort_order": 3,
-  "short_description": "<p>The Padre Hotel welcomes the band Good Morning Bedlam to the Prairie Fire patio on October 30th for a free show. Enjoy drinks and tunes on the patio from 7:30-9:30pm.</p>"
+  "short_description": "<p>The Padre Hotel welcomes the band Good Morning Bedlam to the Prairie Fire patio on October 30th for a free show. Enjoy drinks and tunes on the patio from 7:30-9:30pm.</p>",
+  "unpublish": true
 }
