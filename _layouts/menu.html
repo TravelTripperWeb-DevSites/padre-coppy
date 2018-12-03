@@ -174,6 +174,78 @@ layout: default
                     </div>
                   </div>
                 </div>
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <a href="#christmas" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Christmas </a>
+                  </h3>
+                </div>
+                <div id="christmas" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class=" col-md-8 col-md-push-3 no-gutter ">
+                        {% assign christmas  = site.data._models.menu_christmas   | sort: "sort_order" %}
+                         {% for item in christmas  %}
+                         {% if item.title != "others" %}
+                         <h3 class="item-name">{{item.title}}</h3>
+                         {% endif %}
+                           {% for menu in item.menu_items %}
+                            <h5> {{menu.name}} </h5>
+                            <p>{{menu.detail}}</p>
+                             <br>
+                           {% endfor %}
+                         {% endfor %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <a href="#wine" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Wine Dinner</a>
+                  </h3>
+                </div>
+                <div id="wine" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class="col-md-8 col-md-push-3 no-gutter">
+                        {% assign wine  = site.data._models.menu_wine   | sort: "sort_order" %}
+                         {% for item in wine  %}
+                         {% if item.title != "others" %}
+                         <h3 class="item-name">{{item.title}}</h3>
+                         {% endif %}
+                           {% for menu in item.menu_items %}
+                            <h5> {{menu.name}} </h5>
+                            <p>{{menu.detail}}</p>
+                             <br>
+                           {% endfor %}
+                         {% endfor %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <a href="#nye" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">NYE Dinner</a>
+                  </h3>
+                </div>
+                <div id="nye" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class=" col-md-8 col-md-push-3 no-gutter ">
+                        {% assign nye  = site.data._models.menu_nye   | sort: "sort_order" %}
+                         {% for item in nye  %}
+                         {% if item.title != "others" %}
+                         <h3 class="item-name">{{item.title}}</h3>
+                         {% endif %}
+                           {% for menu in item.menu_items %}
+                            <h5> {{menu.name}} </h5>
+                            <p>{{menu.detail}}</p>
+                             <br>
+                           {% endfor %}
+                         {% endfor %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
               </div>
             </div>
