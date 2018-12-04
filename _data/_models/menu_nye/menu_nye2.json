@@ -1,0 +1,30 @@
+{
+  "menu_items": [
+    {
+      "name": "AMUSE BOUCHE",
+      "detail": "<p>Pomegranate Cured Yellowfin Loin, Pistachio Aillade<br /> <em>Featuring pistachios from The Wonderful Company</em></p>\n<p><strong>Recommended Pairings</strong>: Peach Pomegranate Holiday Martini + $8</p>"
+    },
+    {
+      "name": "SECOND ",
+      "detail": "<p>Red Beet Ravioli, Chevre Goat Cheese, Beet Green Pesto<br /> <em>Featuring&nbsp;beets from Cal Organic</em><br /><strong>Recommended Pairings</strong>:&nbsp;Rutherford Ranch, Sauvignon Blanc, Napa Valley + $8</p>"
+    },
+    {
+      "name": "THIRD",
+      "detail": "<p><strong>CHOICE OF</strong>:</p>\n<p>Broiled Oyster on the Half Shell, Creamed Leeks, Champagne Hollandaise<br /> <em>Featuring&nbsp;leeks from Cal Organic</em><br /><strong>Recommended Pairings</strong>:&nbsp;Grey Wolf, White Rhone Blend, Paso Robles + $8</p>\n<p>Dandelion Greens, Honey Vinaigrette, Candied Carrots, Spiced Marcona Almonds, Smoked Moody Blue Cheese<br /> <em>Featuring&nbsp;Kern honey and Grimmway Farms carrots</em><br /><strong>Recommended Pairings</strong>: Grey Wolf, White Rhone Blend, Paso Robles + $8</p>"
+    },
+    {
+      "name": "INTERMEZZO",
+      "detail": "<p>Carrot Giner Sorbet</p>"
+    },
+    {
+      "name": "FOURTH",
+      "detail": "<p>CHOICE OF:</p>\n<p>Potato Gnocchi, Butter Poached Lobster, Roasted Yellow Tomato Vodka Sauce, House Cured Pancetta, Ricotta Salata<br /> <em>Featuring&nbsp;potatoes from Kirschemann Farms</em><br /><strong>Recommended Pairings</strong>:&nbsp;Scott Family, Chardonnay, Carneros + $12</p>\n<p>Braised Short Rib, Rutabaga, Heirloom Carrots, Wild Mushroom Demi Glace<br /> <em>Featuring&nbsp;Grimmway Farms carrots and Cal Organic Rutabaga</em><br /><strong>Recommended Pairings</strong>:&nbsp;Meyer Family, Fluffy Billows, Cabernet Sauvignon, Oakville + $18</p>\n<p>Pan Roasted Chicken Breast, Confit Chicken Leg Croquettes, Haricot Verts, Potato Puree, Chesnute Sherry Cream<br /> <em>Featuring chicken from Autonomy Farms</em><br /><strong>Recommended Pairings</strong>:&nbsp;Martin Ray, Pinot Noir, Russian River Valley + $12</p>"
+    },
+    {
+      "name": "FIFTH",
+      "detail": "<p>CHOICE OF:</p>\n<p>Bakers Outpost Chocolate Hazelnut Bread Pudding, Nutella Ice Cream, Salted Hazelnut Caramel<br /> <em>Featuring bread from Bakers' Outpost</em><br /><strong>Recommended Pairings</strong>:&nbsp;Lengthwise, Coffee Stout + $8</p>\n<p>Grand Marnier Soaked Olive Oil Cake, Almond Chantilly, Almond Tuille, Blood Orange Marmalade<br /> <em>Featuring&nbsp;Olive Oil from Rio Bravo Farms and almonds from The Wonderful Company</em><br /><strong>Recommended Pairings</strong>:&nbsp;Orange Blossom Cocktail + $8</p>"
+    }
+  ],
+  "sort_order": 1,
+  "title": "5 Courses"
+}
