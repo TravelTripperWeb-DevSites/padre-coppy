@@ -1,10 +1,10 @@
 {
   "menu_items": [
     {
-      "name": "test",
-      "detail": "<p>test</p>"
+      "name": "DINNER SPECIAL",
+      "detail": "<p><strong>Peppercorn Crusted Prime Rib</strong><br /> 14oz $34, 18oz $42<br /> Horseradish Whipped Yukon Gold Potatoes, Grilled Asparagus, Horseradish Cream, Beef Au Jus</p>\n<p><strong>Garlic Herb Lamb Leg Roulade</strong><br /> $32<br /> Almond Cranberry Quinoa, Roasted Carrots, Harb Pan Sauce</p>"
     }
   ],
-  "title": "test",
-  "sort_order": 8
+  "title": "Dinner Special",
+  "sort_order": 2
 }
