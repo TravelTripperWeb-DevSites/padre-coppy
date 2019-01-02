@@ -1,16 +1,12 @@
 {
   "menu_items": [
     {
-      "name": "SIGNATURE LOBSTER BISQUE | 14",
-      "detail": "<p>Butter Poached Maine Lobster, Sherry Cr&egrave;me, House Baked Lavash</p>"
+      "name": "JUMBO LUMP CRAB CAKE | 22",
+      "detail": "<p>Grilled Lemon, Remoulade, Petite Salad</p>"
     },
     {
-      "name": "JUMBO LUMP CRAB CAKE | 26",
-      "detail": "<p>Remoulade, Petite Fris&eacute;e Salad</p>"
-    },
-    {
-      "name": "SCOTTISH SALMON TARTARE | 14",
-      "detail": "<p>Olive Tapenade, Shallot, Capers, Fresh Herbs, Farm Egg, Saffron Aioli, House Baked Lavash</p>"
+      "name": "BELVEDERE CHOWDER | 14",
+      "detail": "<p>Lobster, Alaskan Halibut, Scottish Salmon, Red Potato, Applewood Smoked Bacon, Chives</p>"
     }
   ],
   "title": "STARTERS | SEA",
