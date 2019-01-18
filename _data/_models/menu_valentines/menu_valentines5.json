@@ -1,7 +1,8 @@
 {
   "menu_items": [
     {
-      "name": "CHOICE OF:"
+      "name": "CHOICE OF:",
+      "detail": "<p><strong>CHATEAUBRIAND AU POIVRE</strong><br />roquefort potatoes, asparagus, leeks, cherry tomatoes<br /> +&nbsp;<em>Merlot, Rombauer, Napa Valley 2015</em></p>\n<p><strong>AUTONOMY FARMS COQ AU VIN</strong><br />mushroom duxelle, lentils, pearl onions, red wine jus<br />+&nbsp;<em>Pinot Noir, Delmore Wines, Santa Rita Hills 2017</em></p>\n<p><strong>YELLOWFIN</strong><br />baby squash, eggplant, paquillo pepper, saffron<br />+&nbsp;<em>White Blend, Grey Wolf, Paso Robles 2017</em></p>"
     }
   ],
   "title": "ENTREES",
