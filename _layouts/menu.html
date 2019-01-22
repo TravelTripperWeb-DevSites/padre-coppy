@@ -226,15 +226,15 @@ layout: default
                 </div>
                 <div class="panel-heading">
                   <h3 class="panel-title">
-                    <a href="#valentine" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">NYE Dinner</a>
+                    <a href="#val" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Valentine's Menu</a>
                   </h3>
                 </div>
-                <div id="valentine" class="panel-collapse collapse">
+                <div id="val" class="panel-collapse collapse">
                   <div class="panel-body">
                     <div class="row">
-                      <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign val  = site.data._models.menu_valentine   | sort: "sort_order" %}
-                         {% for item in val  %}
+                      <div class="col-md-8 col-md-push-3 no-gutter">
+                        {% assign val  = site.data._models.menu_valentines | sort: "sort_order" %}
+                         {% for item in val %}
                          {% if item.title != "others" %}
                          <h3 class="item-name">{{item.title}}</h3>
                          {% endif %}
