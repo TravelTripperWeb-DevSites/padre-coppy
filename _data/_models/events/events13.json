@@ -1,7 +1,7 @@
 {
   "title": "Valentine's Day Dinner at Prospect Lounge",
   "button_text": "<p>Reservations Required - call 661.427.4900</p>",
-  "description": "<p>Dine at The Prospect Lounge at The Padre Hotel on February 14 and enjoy 5 decadent courses highlighting the most romantic meals from around the world.&nbsp;</p>\n<p>Enjoy a candlelit, romantic Valentine's Day dinner, live music and a complimentary gift.&nbsp;</p>\n<p>$75/person, add a wine pairing for $40/person. Reservations are required.</p>\n<p><strong>Stay the Night</strong><br /> Ignite the passion with Sweet Romance <a href=\"https://thepadrehotel.com/special/?sweet-romance\">packages</a>&nbsp;available for every room type all month long. Includes rose petal turndown service, chocolate covered strawberries, and sparkling wine.&nbsp;</p>",
+  "description": "<p>Dine at The Prospect Lounge at The Padre Hotel on February 14 and enjoy 5 decadent courses highlighting the most romantic meals from around the world.&nbsp;</p>\n<p>Enjoy a candlelit, romantic Valentine's Day dinner, live music and a complimentary gift.&nbsp;</p>\n<p><a href=\"https://www.thepadrehotel.com/menu/#val\" target=\"_blank\" rel=\"noopener noreferrer\">VIEW MENU &gt;</a></p>\n<p>$75/person, add a wine pairing for $40/person. Reservations are required.</p>\n<p><strong>Stay the Night</strong><br /> Ignite the passion with Sweet Romance <a href=\"https://thepadrehotel.com/special/?sweet-romance\">packages</a>&nbsp;available for every room type all month long. Includes rose petal turndown service, chocolate covered strawberries, and sparkling wine.&nbsp;</p>",
   "short_description": "<p>Share 5 romantic courses at The Prospect Lounge this Valentine's Day as we pair this evening of love with live music.</p>",
   "banner_image": {
     "name": "Padre_ValentinesDay_937x400",
@@ -23,6 +23,5 @@
     "alt": "Light Pink Background with bouquet of paper flowers. Reads \"Love. Padre Valentine's Day Dinner '19. Candlelit Five Course Dinner\"",
     "caption": ""
   },
-  "sort_order": 1,
-  "unpublish": false
+  "sort_order": 1
 }
