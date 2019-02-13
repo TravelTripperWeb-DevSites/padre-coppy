@@ -1,24 +1,28 @@
 {
   "menu_items": [
     {
-      "name": "BEST DAMN GRILLED CHEESE | 14",
-      "detail": "<p>boschetto tartufo truffle cheese, white cheddar, san marzano tomato bisque</p>"
+      "name": "SANTA CAROTA BBQ BRISKET | 16",
+      "detail": "<p>brussels slaw, crispy leeks, chipotle bbq, house baked brioche</p>"
     },
     {
-      "name": "SALMON B.L.T. | 15",
-      "detail": "<p>bacon, avocado, spinach, tomato, sprouts, chipotle cream cheese</p>"
+      "detail": "<p>brussel slaw, pickle chips, kern hot sauce, house baked brioche</p>",
+      "name": "KERN HOT CHICKEN | 14 "
     },
     {
-      "name": "HOT CHICKEN SANDWICH | 12",
-      "detail": "<p>Kern hot sauce, pickle chips, brussel slaw</p>"
+      "detail": "<p>caramelized onion, pear, wild arugula, kern honey, apple jam, bakers outpost sourdough</p>",
+      "name": "TURKEY + ST. ANDRE BRIE | 12"
     },
     {
-      "name": "CHIMICHURRI STEAK | 16",
-      "detail": "<p>bell peppers, fontina, caramelized onions, arugula, chimmichuri aioli</p>"
+      "detail": "<p>local beer batter, brussel slaw, remoulade, house baked brioche</p>",
+      "name": "CRISPY ALASKAN COD | 14"
     },
     {
-      "name": "PORTOBELLO | 14",
-      "detail": "<p>spinach, bell peppers, caramelized onion, garlic aioli, balsamic, mozzarella</p>"
+      "detail": "<p>scottish salmon, applewood bacon, lettuce, avocado, tomato, sprouts, chipotle cream cheese, on toasted bakers outpost bread</p>",
+      "name": "SALMON B.L.A.T. | 15 "
+    },
+    {
+      "detail": "<p>boschetto truffle cheese, fontina cheese, san marzano tomato bisque, toasted bakers outpost bread</p>",
+      "name": "BEST DAMN GRILLED CHEESE 14"
     }
   ],
   "title": "HAND HELDS",
