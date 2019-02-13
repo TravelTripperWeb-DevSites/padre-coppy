@@ -1,20 +1,20 @@
 {
   "menu_items": [
     {
-      "name": "GREEN & GRAINS | $14",
-      "detail": "<p>organic kale, shaved Brussels sprouts, qu&iacute;noa, chickpeas, yams, almonds, feta cheese, honey sumac vinaigrette</p>"
+      "name": "PADRE CAESAR | 10",
+      "detail": "<p>baby romaine lettuce, bakers outpost croutons, parmigiano reggiano, padre caesar dressing</p>"
     },
     {
-      "name": "CHICKEN KATSU | $14",
-      "detail": "<p>Napa cabbage, edamame, carrots, dykon, cilantro, spiced peanuts, mandarins, rice vinegar Fresno chilis, hoisin ginger vinaigrette</p>"
+      "detail": "<p>farm drops off daily, please ask about todays&rsquo; crop, bolthouse farms vinaigrette</p>",
+      "name": "BROADFORK FARMS | 13"
     },
     {
-      "name": "OAK ROASTED SALMON | $16",
-      "detail": "<p>napa cabbage, crispy prosciutto, avocado, heirloom tomato, cucumber, shaved onion, Bakers Outpost croutons, greek yogurt dressing</p>"
+      "detail": "<p>ruby grapefruit, dill, fennel, wild arugula, goat cheese, pecans, bee pollen, kern honey vinaigrette, bakers outpost croutons</p>",
+      "name": "BEET PANZANELLA | 12"
     },
     {
-      "name": "MOODY BLU STEAK | $16",
-      "detail": "<p>8oz bistro tender, romaine, bacon, smoked gorgonzola, tomatoes, egg, onion, Worcestershire vinaigrette</p>"
+      "detail": "<p>baby iceberg, applewood bacon, heirloom tomato, onion, moody blues smoked blue cheese dressing</p>",
+      "name": "MOODY BLUE WEDGE | 12"
     }
   ],
   "title": "GREENS",
