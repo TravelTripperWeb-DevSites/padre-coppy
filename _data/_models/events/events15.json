@@ -25,5 +25,5 @@
   "button_text": "<p>Book today through <a href=\"https://www.simplyshabbychicrentals.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Simply Chic Events</a>&nbsp;or 661.205.2978</p>",
   "sort_order": 2,
   "view_event_button_url": "",
-  "unpublish": false
+  "unpublish": true
 }
