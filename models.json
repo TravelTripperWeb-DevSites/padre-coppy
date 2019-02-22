@@ -25,8 +25,8 @@
       "file": "events10.json"
     },
     {
-      "name": "Bakersfield Unplugged",
-      "title": "Bakersfield Unplugged",
+      "name": "The Unplugged Forum",
+      "title": "The Unplugged Forum",
       "file": "event14.json"
     },
     {
@@ -40,6 +40,11 @@
       "file": "event18.json"
     },
     {
+      "name": "Spring Bloom & Bubbles Brunch",
+      "title": "Spring Bloom & Bubbles Brunch",
+      "file": "events26.json"
+    },
+    {
       "name": "Dueling Piano Nights",
       "title": "Dueling Piano Nights",
       "file": "events5.json"
@@ -48,6 +53,11 @@
       "name": "Walkabout Wine Dinner",
       "title": "Walkabout Wine Dinner",
       "file": "events4.json"
+    },
+    {
+      "name": "Noches de Fuego",
+      "title": "Noches de Fuego",
+      "file": "events27.json"
     },
     {
       "name": "Anderson Valley Brewing Beer Dinner",
@@ -138,6 +148,11 @@
       "name": "Dutton Goldfield Wine Dinner",
       "title": "Dutton Goldfield Wine Dinner",
       "file": "events23.json"
+    },
+    {
+      "name": "Hot Ticket: Stay & Show",
+      "title": "Hot Ticket: Stay & Show",
+      "file": "events28.json"
     },
     {
       "name": "Christmas",
@@ -361,6 +376,13 @@
       "name": "TBD",
       "title": "TBD",
       "file": "menu_wine1.json"
+    }
+  ],
+  "menu_bubbles_brunch": [
+    {
+      "name": "Test",
+      "title": "Test",
+      "file": "menu_bubbles_brunch1.json"
     }
   ],
   "gallery-rooms": [
