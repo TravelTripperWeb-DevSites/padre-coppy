@@ -1,10 +1,12 @@
 {
   "menu_items": [
     {
-      "name": "test",
-      "detail": "<p>test</p>"
+      "name": "Breakfast",
+      "detail": "<p>Cheddar Herb Scrambled Eggs, Blueberry Lemon Crepes, Fruity Pebble French Toast, Chilaquiles Verde, Breakfast Sausage Links, Applewood Bacon, Herb Potatoes, Carrot Cake Bread Pudding, Cheddar Biscuits &amp; Country Sausage Gravy, and a Live Chef Omelet Station</p>"
+    },
+    {
     }
   ],
-  "title": "tes",
+  "title": "Easter Buffet",
   "sort_order": 1
 }
