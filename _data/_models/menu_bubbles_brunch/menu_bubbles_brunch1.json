@@ -1,10 +1,34 @@
 {
   "menu_items": [
     {
-      "name": "test",
-      "detail": "<p>test</p>"
+      "name": "Henriot Champagne Brunch",
+      "detail": "<p>March 24, 2019</p>"
+    },
+    {
+      "name": "Stationary Appetizers",
+      "detail": "<p>Maine Lobster Deviled Eggs with Chive and Chervil House Cured Scottish Salmon Lox Cr&egrave;me Fraiche, Flame &amp; Flour Bagel Crostini</p>"
+    },
+    {
+      "name": "Tray Passed Appetizers",
+      "detail": "<p>Smoked Trout Blini with Boursin and Pickled Fennel Wild Mushroom Quiche with Feta</p>"
+    },
+    {
+      "name": "Second Course (seated)",
+      "detail": "<p>Eggs Benedict on Scratch-Made English Muffin, House Cured Crispy Duroc Pork Belly with Pink Pepper and Lemon Hollandaise</p>"
+    },
+    {
+      "name": "Third Course (seated)",
+      "detail": "<p>Fried Quail on an Herb de Provence Waffle Quail Velout&eacute;, Ginger Lemongrass Syrup</p>"
+    },
+    {
+      "name": "Fourth Course (seated) ",
+      "detail": "<p>Milk Braised Duroc Pork Tenderloin Toasted Hazelnuts, Strawberry Rhubarb Jam and Salad of Compressed Rhubarb, Curly Endive, Chicory and Escarole</p>"
+    },
+    {
+      "name": "Dessert",
+      "detail": "<p>Assorted House Made Macaroons Lemon Pound Cake with Stone Fruit Jam Assorted Bakers Outpost Sourdough Donuts Soft Ripened Cheese Board with Seasonal Jam Pistachio Baklava Strawberry Almond Cr&egrave;me Puffs</p>"
     }
   ],
-  "title": "Test",
+  "title": "Bloom + Bubbles Brunch",
   "sort_order": 1
 }
