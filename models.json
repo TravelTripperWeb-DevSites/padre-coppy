@@ -380,8 +380,8 @@
   ],
   "menu_bubbles_brunch": [
     {
-      "name": "Test",
-      "title": "Test",
+      "name": "Bloom + Bubbles Brunch",
+      "title": "Bloom + Bubbles Brunch",
       "file": "menu_bubbles_brunch1.json"
     }
   ],
@@ -412,6 +412,13 @@
     },
     {
       "file": "gallery-rooms3.json"
+    }
+  ],
+  "menu_easter": [
+    {
+      "name": "Easter Buffet",
+      "title": "Easter Buffet",
+      "file": "menu_easter1.json"
     }
   ],
   "gallery-dining": [
