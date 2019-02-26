@@ -224,6 +224,32 @@ layout: default
                     </div>
                   </div>
                 </div>
+
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <a href="#easter" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Easter Menu</a>
+                  </h3>
+                </div>
+                <div id="easter" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class="col-md-8 col-md-push-3 no-gutter">
+                        {% assign easter = site.data._models.menu_easter | sort: "sort_order" %}
+                         {% for item in easter  %}
+                         {% if item.title != "others" %}
+                         <h3 class="item-name">{{item.title}}</h3>
+                         {% endif %}
+                           {% for menu in item.menu_items %}
+                            <h5>{{menu.name}} </h5>
+                            <p>{{menu.detail}}</p>
+                             <br>
+                           {% endfor %}
+                         {% endfor %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 <div class="panel-heading">
                   <h3 class="panel-title">
                     <a href="#val" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Valentine's Menu</a>
