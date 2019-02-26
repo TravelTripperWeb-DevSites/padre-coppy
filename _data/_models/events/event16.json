@@ -1,6 +1,6 @@
 {
   "title": "Easter Brunch",
-  "description": "<p>This Easter Sunday, hop&nbsp;over to a festive free flowing champagne brunch&nbsp;at the Belvedere Room at The Padre Hotel from 10am-4pm.</p>\n<p>$39/adults, $15/children 12 &amp; under<br /><br /></p>",
+  "description": "<p>This Easter Sunday, hop&nbsp;over to a festive free flowing champagne brunch&nbsp;at the Belvedere Room at The Padre Hotel from 10am-4pm.</p>\n<p>$39/adults, $15/children 12 &amp; under<br /><br /><a href=\"https://www.thepadrehotel.com/menu/#easter\" target=\"_blank\" rel=\"noopener noreferrer\">VIEW MENU &gt;</a></p>",
   "button_text": "<p>Reservations&nbsp;Required&nbsp;- 661.427.4900 &nbsp;</p>",
   "sort_order": 1,
   "banner_image": {
@@ -24,7 +24,6 @@
     "caption": "",
     "description": ""
   },
-  "unpublish": false,
   "short_description": "<p>This Easter Sunday, hop&nbsp;over&nbsp;a festive brunch at Belvedere Room at The Padre Hotel from 10am-4pm.</p>",
   "view_event_button_url": "easter-brunch"
 }
