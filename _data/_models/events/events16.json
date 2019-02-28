@@ -1,6 +1,6 @@
 {
   "title": "St. Patrick's Day",
-  "description": "<p>Go green at The Padre Hotel this St. Patrick's Day as we celebrate this holiday the Irish way!</p>\n<p><strong>Sham-ROCK</strong>&nbsp;DJ at the Prairie Fire from 12pm-6pm</p>\n<p><strong>GET LUCKY</strong> Irish beer, slane whiskey &amp; festive food specials all day</p>",
+  "description": "<p>Go green at The Padre Hotel this St. Patrick's Day as we celebrate this holiday the Irish way!</p>\n<p><strong>Sham-ROCK</strong>&nbsp;DJ at the Prairie Fire from 12pm-6pm</p>\n<p><strong>GET LUCKY</strong>&nbsp;<a href=\"https://www.slaneirishwhiskey.com/\">Slane Whiskey</a>&nbsp;&amp; festive food specials all day</p>\n<p><strong>Breakfast Specials</strong></p>\n<p>Santa Carota Corn Beef Benedict</p>\n<p>Slow braised corn beef, Irish cheddar biscuit, green goddess hollandaise sauce, 16</p>\n<p>Green Eggs and Ham</p>\n<p>Basil pesto eggs, Irish cheddar, Irish whisky glazed ham 14</p>\n<p><strong>Lunch Specials</strong></p>\n<p>Prime Beef Shepards Pie</p>\n<p>Fresh ground prime beef, carrots, english peas, whipped yukon gold potato, Guinness gravy 18</p>\n<p>Santa Carota Corn Beef Ruben</p>\n<p>House pickled corn beef, caraway sauerkraut, fontina, thousand island 16</p>\n<p>Guinness Brownie al a Mode 8</p>\n<p><strong>Dinner Specials</strong></p>\n<p>St Patrick&rsquo;s Holiday Plate&nbsp;</p>\n<p>Slow braised corn beef, braised cabbage, pickled red bliss potatoes, au jus, grain mustard 26</p>",
   "banner_image": {
     "name": "Padre_StPatricksDay_937x400 (1)",
     "content_type": "image/jpeg",
@@ -24,6 +24,5 @@
   },
   "sort_order": 1,
   "short_description": "<p>Go green at The Padre Hotel this St. Patrick's Day as we celebrate this holiday the Irish way!</p>",
-  "unpublish": false,
   "view_event_button_url": "st-patricks-day"
 }
