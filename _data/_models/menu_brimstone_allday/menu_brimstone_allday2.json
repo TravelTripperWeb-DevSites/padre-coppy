@@ -1,24 +1,28 @@
 {
   "menu_items": [
     {
-      "name": "THE CLASSIC | 10 or DOUBLE CLASSIC | 12",
-      "detail": "<p>lettuce, tomato, white cheddar, padre sauce</p>"
+      "name": "PADRE CLASSIC | 10 or DOUBLE CLASSIC | 12",
+      "detail": "<p>lettuce, tomato, onion, white cheddar, padre sauce</p>"
     },
     {
-      "name": "CHIPOTLE BISON  | 16",
-      "detail": "<p>applewood smoked bacon, white cheddar, buttermilk onion rings, lettuce, tomato, chipotle bbq sauce</p>"
+      "detail": "<p>crispy pork belly, fried egg, white cheddar, padre sauce</p>",
+      "name": " BRIMSTONE BURGER | 14"
     },
     {
-      "name": "TURKEY BAHN MI | 13",
-      "detail": "<p>avocado, cilantro, pickled carrots, dykon, Fresno chilis, kimchi thousand island</p>"
+      "detail": "<p>pasilla peppers, charred onion, smoked gouda, roasted paquillo pepper aioli</p>",
+      "name": "SANTA CAROTA BURGER | 16"
     },
     {
-      "name": "SPICY FALAFEL | 12",
-      "detail": "<p>house made falafel patty, cucumber tomato relish, feta, parsley, chipotle tzatziki</p>"
+      "detail": "<p>cremini mushrooms, moody blue cheese, wild arugula, steak sauce</p>",
+      "name": "MOODY BLUES BURGER | 14"
     },
     {
-      "name": "PRIME PATTY MELT  | 18",
-      "detail": "<p>caramelized onion, cremini mushrooms, fontina cheese, Padre sauce</p>"
+      "detail": "<p>applewood bacon, white cheddar, pork cracklings, lettuce, tomato, chipotle bbq sauce</p>",
+      "name": "BISON CRUNCH BURGER | 16"
+    },
+    {
+      "detail": "<p>caramelized onion, cremini mushrooms, fontina cheese, padre sauce</p>",
+      "name": "PRIME BEEF PATTY MELT | 18"
     }
   ],
   "title": "BURGERS",
