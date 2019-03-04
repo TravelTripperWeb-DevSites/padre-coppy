@@ -1,20 +1,16 @@
 {
   "menu_items": [
     {
-      "name": "HEIRLOOM TOMATOES | 12",
-      "detail": "<p>heirloom tomatoes, basil, mozzarella, Temecula olive oil, balsamic, red sauce</p>"
+      "name": "BBQ RANCH CHICKEN | 14",
+      "detail": "<p>applewood bacon, avocado, cilantro, bbq ranch, caramelized onion</p>"
     },
     {
-      "name": "SPICY SOPRESSATA | 12 ",
-      "detail": "<p>spicy sopressata, mozzarella, almond basil pesto, red sauce</p>"
+      "detail": "<p>parmigiano reggiano, mozzarella, red sauce + pepperoni $2</p>",
+      "name": "TOMATO + PESTO  | 10"
     },
     {
-      "name": "CHICKEN BIANCO | 14",
-      "detail": "<p>garlic confit, white asparagus, fried egg, mozzarella,parmesan, caesar sauce</p>"
-    },
-    {
-      "name": "PORK & PINEAPPLE | 15",
-      "detail": "<p>duroc pork, pineapple fresno chili jam, caramelized onion, mozzarella, cilantro</p>"
+      "detail": "<p>parmigiano reggiano, mozzarella, red sauce</p>",
+      "name": "SPICY CAPICOLA + PINEAPPLE | 12"
     }
   ],
   "title": "FLATBREADS",
