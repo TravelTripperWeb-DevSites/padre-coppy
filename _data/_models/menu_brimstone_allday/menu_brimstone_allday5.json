@@ -1,16 +1,20 @@
 {
   "menu_items": [
     {
-      "name": "SOPAPILLA CHEESECAKE | 9",
-      "detail": "<p>salted coconut caramel</p>"
+      "name": "BOLTHOUSE BREAD PUDDING | 8",
+      "detail": "<p>chocolate soaked bakers outpost bread, bolthouse banana &amp; almond butter ice cream, banana chip</p>"
     },
     {
-      "detail": "<p>chard marshmallow ice cream, salted caramel pecan praline</p>",
-      "name": "SPICED SWEET POTATO PIE | 8"
+      "detail": "<p>brown butter streusel, maple pecan ice cream</p>",
+      "name": "BOURBON PEACH COBBLER | 8"
     },
     {
-      "detail": "<p>smoked maple walnut ice cream</p>",
-      "name": "PADRE APPLE CRISP | 8"
+      "detail": "<p>coconut rum caramel, cinnamon sugar tortilla crisps</p>",
+      "name": "FLAN CHEESECAKE | 8"
+    },
+    {
+      "name": "SHOOTERS",
+      "detail": "<p>$4 each or choose a flight of 3 for $10</p>\n<p><strong>Key Lime Pie</strong><br /> key lime curd, lime mousse, wafer cookie</p>\n<p><strong>Fluffernutter</strong><br /> peanut butter cheesecake, marshmallow whip</p>\n<p><strong>Cherry Black Forest</strong><br /> cherry mousse, oreo crumble</p>"
     }
   ],
   "title": "DESSERTS",
