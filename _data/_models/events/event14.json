@@ -1,6 +1,6 @@
 {
   "title": "The Unplugged Forum",
-  "description": "<p>The Unplugged Forum presents live music every Wednesday night from 7pm - 10pm starting March 6th. Enjoy dinner, drinks and music under the stars on the Prairie Fire rooftop.</p>",
+  "description": "<p>The Unplugged Forum presents live music every Wednesday night from 7pm - 10pm starting March 6th. Enjoy dinner, drinks and music under the stars on the Prairie Fire rooftop.<br /><br />3/13/2019 | Deep Blue Dream<br />3/20/2019 | August Young<br />3/27/2019 | Los Gatos <br />4/3/2019 | August Young<br />4/10/2019 | Crimson Skye<br />4/24/2019 | Joshua Wade Aginer</p>",
   "sort_order": 8,
   "banner_image": {
     "name": "Artwork with greenish blue letters that say Every Wednesday 7-10pm Live Music",
@@ -23,7 +23,6 @@
     "caption": "",
     "description": ""
   },
-  "unpublish": false,
   "short_description": "<p>The Unplugged Forum presents live music every Wednesday night from 7pm - 10pm starting March 6th.&nbsp;Enjoy dinner, drinks and&nbsp;music under the stars on the Prairie Fire rooftop.</p>",
   "view_event_button_url": "unplugged-forum"
 }
