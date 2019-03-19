@@ -24,5 +24,6 @@
   },
   "sort_order": 1,
   "short_description": "<p>Go green at The Padre Hotel this St. Patrick's Day as we celebrate this holiday the Irish way!</p>",
-  "view_event_button_url": "st-patricks-day"
+  "view_event_button_url": "st-patricks-day",
+  "unpublish": true
 }
