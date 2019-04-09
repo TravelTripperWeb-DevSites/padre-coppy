@@ -24,5 +24,6 @@
   "short_description": "<p>The weather is warming up, the flowers are blooming, and it's the perfect time for a brunch pairing with&nbsp;<a href=\"https://www.champagne-henriot.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Champagne Henriot</a>! Join us on the Prairie Fire patio to sip and savor five delicious brunch plates and sparkling pours.</p>",
   "button_text": "<p><a href=\"https://www.eventbrite.com/e/spring-bloom-brunch-pairing-with-champagne-henriot-tickets-55248021319\" target=\"_blank\" rel=\"noopener noreferrer\">Tickets</a></p>",
   "sort_order": 3,
-  "view_event_button_url": "https://www.eventbrite.com/e/spring-bloom-brunch-pairing-with-champagne-henriot-tickets-55248021319"
+  "view_event_button_url": "https://www.eventbrite.com/e/spring-bloom-brunch-pairing-with-champagne-henriot-tickets-55248021319",
+  "unpublish": true
 }
