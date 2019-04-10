@@ -1,14 +1,22 @@
 {
   "menu_items": [
     {
-      "name": "PRIME BEEF TARTARE : 15",
-      "detail": "<p>Shallot, Capers, Lemon Zest, Gremolata, Truffle Aioli, Radish, Bakers Outpost Grilled Toast</p>"
+      "name": "BOSCHETTO AL TARTUFO FRITES | 9",
+      "detail": "<p>Roasted Garlic &amp; Parmesan Aioli</p>"
     },
     {
-      "name": "POMEGRANTE GLAZED LAMB BELLY | 16",
-      "detail": "<p>Toasted Pistachio, Goat Cheese, Pomegranate Seeds, Parsley</p>"
+      "name": "LOADED YUKON FINGERLINGS | 12",
+      "detail": "<p>Welsh 20 Month Aged White Cheddar, Applewood Bacon, Sour Cream, Chives</p>"
+    },
+    {
+      "name": "BONE MARROW & TOAST | 16",
+      "detail": "<p>Rosemary Roasted Bone Marrow, Bakers Outpost Grilled Toast, Chimichurri Sauce, Pickled Onion</p>"
+    },
+    {
+      "detail": "<p>Basque Pickled Beef Tongue, Marinated Heirloom Tomatoes, Bakers Outpost Grilled Toast</p>",
+      "name": "SALUTE TO BASQUE | 12"
     }
   ],
-  "title": "ENTRÉES | LAND",
-  "sort_order": 10
+  "title": "ENTRÉES | FOR THE TABLE",
+  "sort_order": 8
 }
