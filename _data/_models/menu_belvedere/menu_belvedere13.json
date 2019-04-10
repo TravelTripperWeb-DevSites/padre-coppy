@@ -1,0 +1,23 @@
+{
+  "menu_items": [
+    {
+      "name": "SAMPLE ARTISAN CHEESES FROM AROUND THE WORLD",
+      "detail": "<p>Priced Per Person</p>\n<p>&nbsp;</p>"
+    },
+    {
+      "name": "SINGLE | 14"
+    },
+    {
+      "name": "DOUBLE | 18"
+    },
+    {
+      "name": "TRIPLE | 22"
+    },
+    {
+      "name": "CHEESE LOVER : 28",
+      "detail": "<p>Bakers Outpost Toast, House Made Lavash, Seasonal Jam, Pickled Garden Vegetables, Kern Honey</p>"
+    }
+  ],
+  "title": "BELVEDERE CHEESE TROLLY",
+  "sort_order": 6
+}
