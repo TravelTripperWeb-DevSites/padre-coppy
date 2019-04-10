@@ -1,7 +1,8 @@
 {
   "menu_items": [
     {
-      "name": "8 OZ. BEEF TENDERLOIN | 42"
+      "name": "CHOOSE YOUR CUT",
+      "detail": "<p>The Belvedere Room features hand cut prime beef butchered in-house, then aged in duck fat, thyme and rosemary. This creates a unique steak experience we call &ldquo;The Padre Way&rdquo;</p>\n<p>&nbsp;</p>"
     },
     {
       "name": "10 OZ. BEEF FLAT IRON | 32"
@@ -19,6 +20,6 @@
       "name": "14 OZ. BEEF STRIP SIRLOIN | 30"
     }
   ],
-  "title": "THE BELVEDERE ROOM USES FRESH, HAND CUT USDA PRIME BEEF",
-  "sort_order": 6
+  "title": "COWBOYS & CATTLE",
+  "sort_order": 7
 }
