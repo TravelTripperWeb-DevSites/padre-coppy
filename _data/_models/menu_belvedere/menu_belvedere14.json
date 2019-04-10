@@ -1,0 +1,18 @@
+{
+  "menu_items": [
+    {
+      "name": "CLASSIC CAESAR SALAD | 9",
+      "detail": "<p>Baby Romaine, Parmigiano Reggiano, Caesar Dressing, Bakers Outpost Croutons</p>"
+    },
+    {
+      "name": "BROADFORK GARDEN SALAD | 12",
+      "detail": "<p>Farm Drops Off Daily, Please Ask Servers For Today&rsquo;s Crop</p>"
+    },
+    {
+      "name": "MOODY BLUES WEDGE | 12",
+      "detail": "<p>Baby Iceberg Lettuce, Heirloom Tomatoes, Applewood Bacon, Shaved Onion, Egg, Moody Blue Cheese Dressing</p>"
+    }
+  ],
+  "title": "ENTRÉES | GREEN",
+  "sort_order": 9
+}
