@@ -1,8 +1,12 @@
 {
   "menu_items": [
     {
-      "name": "PORK OSSO BUCCO : 24",
-      "detail": "<p>White Bean Ragu, Swiss Chard, Carrot Chips, Braising Jus</p>"
+      "name": "PRIME BEEF TARTARE : 15",
+      "detail": "<p>Shallot, Capers, Lemon Zest, Gremolata, Truffle Aioli, Radish, Bakers Outpost Grilled Toast</p>"
+    },
+    {
+      "name": "POMEGRANTE GLAZED LAMB BELLY | 16",
+      "detail": "<p>Toasted Pistachio, Goat Cheese, Pomegranate Seeds, Parsley</p>"
     }
   ],
   "title": "ENTRÉES | LAND",
