@@ -1,18 +1,18 @@
 {
   "menu_items": [
     {
-      "name": "SHRIMP & AVOCADO COCKTAIL | 18",
-      "detail": "<p>Fresh Horseradish, Lemon Wedge</p>"
+      "name": "SCOTTISH SALMON | 24",
+      "detail": "<p>3 Herb Couscous, Citrus Supreme Petite Salad, Toasted Pistachio, Pistachio Aillade</p>"
     },
     {
-      "name": "CRISPY SOFT SHELL CRAB | 16",
-      "detail": "<p>Spiced Peanuts, Cilantro, Thai Chili, Citrus Chili Glaze, Sriracha Aioli</p>"
+      "name": "LOBSTER GNOCCHI | 30",
+      "detail": "<p>Black Pepper Gnocchi, English Peas, Pancetta, Yellow Tomato Vodka Sauce, Toasted Pine Nut Crumble</p>"
     },
     {
-      "name": "LOBSTER CORN CHOWDER | 14",
-      "detail": "<p>Alaskan Cod, Lobster, Applewood Bacon, Red Bliss Potato, Chives, Bakers Outpost Grilled Toast</p>"
+      "name": "MAINE DIVER SCALLOPS | 28",
+      "detail": "<p>Pasilla Creamed Corn, Lima Beans, Fried Green Tomatoes, Radish Sprouts, Old Bay Butter</p>"
     }
   ],
-  "title": "ENTRÉES | SEA",
-  "sort_order": 11
+  "title": "ENTRÉES | COAST",
+  "sort_order": 12
 }
