@@ -1,22 +1,18 @@
 {
   "menu_items": [
     {
-      "name": "CAST IRON ROASTED SCOTTISH SALMON | 22",
-      "detail": "<p>Confit Tomato, Baby Spinach, Grilled Lemon, Beurre Blanc</p>"
+      "name": "SCOTTISH SALMON | 24",
+      "detail": "<p>3 Herb Couscous, Citrus Supreme Petite Salad, Toasted Pistachio, Pistachio Aillade</p>"
     },
     {
-      "name": "BRAISED SABLEFISH | 26",
-      "detail": "<p>Butter Beans, Pancetta, Baby Fennel, Carrots, Spicy Tomato Broth</p>"
+      "name": "LOBSTER GNOCCHI | 30",
+      "detail": "<p>Black Pepper Gnocchi, English Peas, Pancetta, Yellow Tomato Vodka Sauce, Toasted Pine Nut Crumble</p>"
     },
     {
-      "name": "BUTTER POACHED MAINE LOBSTER TAIL | 56",
-      "detail": "<p>Confit Tomato, Baby Spinach, Grilled Lemon, Drawn Butter</p>"
-    },
-    {
-      "name": "BEST DAMN LOBSTER MAC N’ CHEESE | 22",
-      "detail": "<p>Serves 2 Happy People<br />Conchigliette Pasta, Butter Poached Maine Lobster, White Cheddar, Fontina Cheese Sauce, Candied Pancetta, English Peas, Truffled Parmesan Panko Crust</p>"
+      "name": "MAINE DIVER SCALLOPS | 28",
+      "detail": "<p>Pasilla Creamed Corn, Lima Beans, Fried Green Tomatoes, Radish Sprouts, Old Bay Butter</p>"
     }
   ],
-  "title": "ENTRÉES | SEA",
-  "sort_order": 11
+  "title": "ENTRÉES | COAST",
+  "sort_order": 12
 }

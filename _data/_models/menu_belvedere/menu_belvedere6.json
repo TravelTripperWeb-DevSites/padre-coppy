@@ -1,24 +1,22 @@
 {
   "menu_items": [
     {
-      "name": "8 OZ. BEEF TENDERLOIN | 42"
+      "name": "CHOOSE YOUR CUT | USDA PRIME BEEF",
+      "detail": "<p>The Belvedere Room features hand cut prime beef butchered in-house, then aged in duck fat, thyme and rosemary. This creates a unique steak experience we call &ldquo;The Padre Way&rdquo;</p>\n<p><strong>8 OZ. TENDERLOIN</strong> : 42<br /> <strong>10 OZ. TOP SIRLOIN BASEBALL CUT</strong> | 32<br /> <strong>16 OZ. BONE OUT RIBEYE</strong> | 48<br /> <strong>14 OZ. NEW YORK STRIP LOIN</strong> | 38<br /> <strong>SANTA CAROTA BEEF</strong> | MP<br /> Santa Carota is Bakersfield&rsquo;s own original carrot-fed beef. This creates a juicer flavored beef that is high in beta-carotene. We invite you to taste this specialty beef straight from the rancher to you.</p>"
     },
     {
-      "name": "10 OZ. BEEF FLAT IRON | 32"
+      "name": "PICK TWO SIDES",
+      "detail": "<p><strong>YUKON FINGERLING</strong><br /><strong> BUTTERMILK SMASHED BABY REDS</strong><br /><strong> Loaded : 2 TRUFFLE FRIES</strong><br /><strong> 805 BEER BATTERED ONION RINGS</strong><br /><strong> BROCOLLINI</strong><br /><strong> ASPARAGUS</strong><br /><strong> CHARRED BRUSSELS SPROUTS</strong></p>"
     },
     {
-      "name": "16 OZ. BEEF SIRLOIN CC | 28"
+      "name": "ADD A SAUCE OR TWO",
+      "detail": "<p><strong>P1 STEAK SAUCE</strong><br /><strong> CHIMICHURRI</strong><br /><strong> CREAMY ATOMIC HORSERADISH</strong><br /><strong> RED WINE DEMI</strong><br /><strong> AU POIVRE</strong></p>"
     },
     {
-      "name": "16 OZ. BEEF RIBEYE | 48"
-    },
-    {
-      "name": "18 OZ. BEEF BONE IN RIBEYE | 75"
-    },
-    {
-      "name": "14 OZ. BEEF STRIP SIRLOIN | 30"
+      "name": "KICK IT UP ",
+      "detail": "<p><strong>BUTTER POACHED MAINE LOBSTER</strong>&nbsp;| 10<br /> <strong>CAMBOZOLA CRUSTED</strong>&nbsp;| 4<br /> <strong>TRUFFLE BUTTER</strong>&nbsp;| 2<br /> <strong>PEPPERCORN BUTTER</strong>&nbsp;| 2<br /> <strong>AU POIVRE</strong>&nbsp;| 4<br /> Peppercorn Crusted, Classic Au Poive Sauce</p>"
     }
   ],
-  "title": "THE BELVEDERE ROOM USES FRESH, HAND CUT USDA PRIME BEEF",
-  "sort_order": 6
+  "title": "COWBOYS & CATTLE",
+  "sort_order": 7
 }
