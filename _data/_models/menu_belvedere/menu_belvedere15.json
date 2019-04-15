@@ -1,0 +1,18 @@
+{
+  "menu_items": [
+    {
+      "detail": "<p>Cambozola Red Mill Polenta, English Peas &amp; Carrots, Crispy Leeks, Cabernet Au Jus</p>",
+      "name": "SANTA CAROTA BEEF CHEEKS | 24"
+    },
+    {
+      "name": "DUROC HERITAGE PORK | 22",
+      "detail": "<p>Grilled Pork Tenderloin, Cranberry Cognac Sausage, Braised Cabbage, Apple Fennel Hash, Dijon Cream Sauce</p>"
+    },
+    {
+      "name": "RACK OF ELK | 30",
+      "detail": "<p>Brown Butter Yams, Caulilini, Sauce Mole Negro, Watercress</p>"
+    }
+  ],
+  "title": "ENTRÉES | PASTURE",
+  "sort_order": 10
+}

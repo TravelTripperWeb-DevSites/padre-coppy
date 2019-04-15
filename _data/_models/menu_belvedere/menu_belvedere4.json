@@ -1,12 +1,16 @@
 {
   "menu_items": [
     {
-      "name": "JUMBO LUMP CRAB CAKE | 22",
-      "detail": "<p>Grilled Lemon, Remoulade, Petite Salad</p>"
+      "name": "SHRIMP & AVOCADO COCKTAIL | 18",
+      "detail": "<p>Fresh Horseradish, Lemon Wedge</p>"
     },
     {
-      "name": "BELVEDERE CHOWDER | 14",
-      "detail": "<p>Lobster, Alaskan Halibut, Scottish Salmon, Red Potato, Applewood Smoked Bacon, Chives</p>"
+      "name": "LOBSTER CORN CHOWDER | 14",
+      "detail": "<p>Alaskan Cod, Lobster, Applewood Bacon, Red Bliss Potato, Chives, Bakers Outpost Grilled Toast</p>"
+    },
+    {
+      "detail": "<p>Spiced Peanuts, Cilantro, Thai Chili, Citrus Chili Glaze, Sriracha Aioli</p>",
+      "name": "CRISPY SOFT SHELL CRAB | 16"
     }
   ],
   "title": "STARTERS | SEA",

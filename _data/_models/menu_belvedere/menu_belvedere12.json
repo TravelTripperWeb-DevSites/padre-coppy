@@ -1,14 +1,14 @@
 {
   "menu_items": [
     {
-      "name": "AUTONOMY FARMS ROASTED CHICKEN | 22",
-      "detail": "<p>Fresh Herbs, Grilled Lemon, Jus</p>"
+      "name": "MAPLE LEAF FARMS WHITE PEKING DUCK | 24",
+      "detail": "<p>Shiitake Mushrooms, Braised Leeks, Duck Confit Dumpling, Orange Ginger Glaze, Shiitake Broth</p>"
     },
     {
-      "name": "MAPLE LEAF FARMS DUCK | 24",
-      "detail": "<p>Cast Iron Roasted Duck Breast, Duck Leg Confit, Duck Jus, Watercress</p>"
+      "name": "AUTONOMY FARMS ROAST CHICKEN | 22",
+      "detail": "<p>Yukon Fingerling Potatoes, Applewood Bacon, Shaved Fennel, Wild Arugula, Sherry Chicken Jus</p>"
     }
   ],
-  "title": "ENTRÉES | SKY",
-  "sort_order": 12
+  "title": "ENTRÉES | COOP",
+  "sort_order": 11
 }
