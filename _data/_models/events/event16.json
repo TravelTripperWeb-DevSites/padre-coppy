@@ -25,5 +25,6 @@
     "description": ""
   },
   "short_description": "<p>This Easter Sunday, hop&nbsp;over&nbsp;a festive brunch at Belvedere Room at The Padre Hotel from 10am-4pm.</p>",
-  "view_event_button_url": "easter-brunch"
+  "view_event_button_url": "easter-brunch",
+  "unpublish": true
 }
