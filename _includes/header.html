@@ -14,7 +14,7 @@
 		        {% if link.dropdown%}
 		         <ul>
 		           {% for sublink in link.dropdown %}
-		            <li> <a  href="{{ sublink.url | absolute_url }}" title="{{ sublink.title }}">{{ sublink.title }}</a></li>
+		            <li> <a href="{{ sublink.url | absolute_url }}" title="{{ sublink.title }}" {% if sublink.newtab == true %} target="_blank"{% endif %}>{{ sublink.title }}</a></li>
 		           {% endfor %}
 		         </ul>
 		         {% endif %}
