@@ -7,9 +7,9 @@ main:
       - title: Specials
         url: /special-offers/
       - title: About us
-        url: /about-us/ 
+        url: /about-us/
       - title: Location
-        url: /location/   
+        url: /location/
       - title: Gallery
         url: /gallery/
   - title: Dine
@@ -22,11 +22,11 @@ main:
       - title: Prospect
         url: /dine/prospect/
       - title: PRAIRIE FIRE
-        url: /dine/prairie-fire/ 
+        url: /dine/prairie-fire/
       - title: FARMACY CAFE
-        url: /dine/farmacy-cafe/ 
+        url: /dine/farmacy-cafe/
       - title: PRIVATE DINING
-        url: /dine/private-dining/            
+        url: /dine/private-dining/
 
   - title: Play
     url: #
@@ -37,7 +37,10 @@ main:
         url: /play/spa-packages/
       - title: IN THE AREA
         url: /play/in-the-area/
-     
+      - title: Gift Cards
+        url: https://thepadrehotel.cardfoundry.com/giftcards.php
+        newtab: true
+
   - title: Gather
     url: #
     dropdown:
@@ -46,6 +49,6 @@ main:
       - title: WEDDINGS
         url: /gather/weddings/
       - title: EVENT PROMOS
-        url: /gather/event-promos/        
+        url: /gather/event-promos/
   - title: Contact
     url: /contact/
