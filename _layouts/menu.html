@@ -302,6 +302,32 @@ layout: default
                     </div>
                   </div>
                 </div>
+
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <a href="#fathersday" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Father's Day</a>
+                  </h3>
+                </div>
+                <div id="fathersday" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class=" col-md-8 col-md-push-3 no-gutter ">
+                        {% assign father  = site.data._models.menu_fathers_day  | sort: "sort_order" %}
+                         {% for item in father  %}
+                         {% if item.title != "others" %}
+                         <h3 class="item-name">{{item.title}}</h3>
+                         {% endif %}
+                           {% for menu in item.menu_items %}
+                            <h5> {{menu.name}} </h5>
+                            <p>{{menu.detail}}</p>
+                             <br>
+                           {% endfor %}
+                         {% endfor %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 {% comment %}
                 <div class="panel-heading">
                   <h3 class="panel-title">
