@@ -15,7 +15,7 @@ layout: default
         <div class="title">Padre hotel</div>
 
         <img src='/assets/images/dine/farmacy-cafe.jpg' class='img-width ' alt='Contact' />
-        <h1>MENUS</h1>
+        <h1 tabindex="0">MENUS</h1>
       </div>
     </div>
   </div>
@@ -41,11 +41,13 @@ layout: default
                         {% assign belvedere = site.data._models.menu_belvedere | sort: "sort_order" %}
                           {% for item in belvedere %}
                           {% if item.title != "others" %}
-                          <h3 class="item-name">{{item.title}}</h3>
+                          <h3 class="item-name">{{ item.title }}</h3>
                           {% endif %}
                             {% for menu in item.menu_items %}
-                             <h5> {{menu.name}} </h5>
-                             <p>{{menu.detail}}</p>
+                             <h5>{{ menu.name }}</h5>
+                             <div>
+                               {{ menu.detail }}
+                             </div>
                               <br>
                             {% endfor %}
                           {% endfor %}
@@ -66,11 +68,13 @@ layout: default
                         {% assign alldaymenu = site.data._models.menu_brimstone_allday  | sort: "sort_order" %}
                           {% for item in alldaymenu %}
                           {% if item.title != "others" %}
-                          <h3 class="item-name">{{item.title}}</h3>
+                          <h3 class="item-name">{{ item.title }}</h3>
                           {% endif %}
                             {% for menu in item.menu_items %}
-                             <h5> {{menu.name}} </h5>
-                             <p>{{menu.detail}}</p>
+                             <h5>{{ menu.name }}</h5>
+                             <div>
+                               {{ menu.detail }}
+                             </div>
                               <br>
                             {% endfor %}
                           {% endfor %}
@@ -90,11 +94,13 @@ layout: default
                          {% assign brunch = site.data._models.menu_brunch | sort: "sort_order"  %}
                           {% for item in brunch %}
                           {% if item.title != "others" %}
-                          <h3 class="item-name">{{item.title}}</h3>
+                          <h3 class="item-name">{{ item.title }}</h3>
                           {% endif %}
                             {% for menu in item.menu_items %}
-                             <h5> {{menu.name}} </h5>
-                             <p>{{menu.detail}}</p>
+                             <h5>{{ menu.name }}</h5>
+                             <div>
+                               {{ menu.detail }}
+                             </div>
                               <br>
                             {% endfor %}
                           {% endfor %}
@@ -114,11 +120,13 @@ layout: default
                         {% assign prairie = site.data._models.menu_prairie_fire  | sort: "sort_order" %}
                          {% for item in prairie %}
                          {% if item.title != "others" %}
-                         <h3 class="item-name">{{item.title}}</h3>
+                         <h3 class="item-name">{{ item.title }}</h3>
                          {% endif %}
                            {% for menu in item.menu_items %}
-                            <h5> {{menu.name}} </h5>
-                            <p>{{menu.detail}}</p>
+                            <h5>{{ menu.name }}</h5>
+                            <div>
+                              {{ menu.detail }}
+                            </div>
                              <br>
                            {% endfor %}
                          {% endfor %}
@@ -138,11 +146,13 @@ layout: default
                         {% assign farmacy = site.data._models.menu_farmacy_breakfast | sort: "sort_order" %}
                          {% for item in farmacy %}
                          {% if item.title != "others" %}
-                         <h3 class="item-name">{{item.title}}</h3>
+                         <h3 class="item-name">{{ item.title }}</h3>
                          {% endif %}
                            {% for menu in item.menu_items %}
-                            <h5> {{menu.name}} </h5>
-                            <p>{{menu.detail}}</p>
+                            <h5>{{ menu.name }}</h5>
+                            <div>
+                              {{ menu.detail }}
+                            </div>
                              <br>
                            {% endfor %}
                          {% endfor %}
@@ -162,11 +172,13 @@ layout: default
                         {% assign barista = site.data._models.menu_barista  | sort: "sort_order" %}
                          {% for item in barista %}
                          {% if item.title != "others" %}
-                         <h3 class="item-name">{{item.title}}</h3>
+                         <h3 class="item-name">{{ item.title }}</h3>
                          {% endif %}
                            {% for menu in item.menu_items %}
-                            <h5> {{menu.name}} </h5>
-                            <p>{{menu.detail}}</p>
+                            <h5>{{ menu.name }}</h5>
+                            <div>
+                              {{ menu.detail }}
+                            </div>
                              <br>
                            {% endfor %}
                          {% endfor %}
@@ -212,11 +224,13 @@ layout: default
                         {% assign wine  = site.data._models.menu_wine   | sort: "sort_order" %}
                          {% for item in wine  %}
                          {% if item.title != "others" %}
-                         <h3 class="item-name">{{item.title}}</h3>
+                         <h3 class="item-name">{{ item.title }}</h3>
                          {% endif %}
                            {% for menu in item.menu_items %}
-                            <h5> {{menu.name}} </h5>
-                            <p>{{menu.detail}}</p>
+                            <h5>{{ menu.name }}</h5>
+                            <div>
+                              {{ menu.detail }}
+                            </div>
                              <br>
                            {% endfor %}
                          {% endfor %}
@@ -237,11 +251,13 @@ layout: default
                         {% assign easter = site.data._models.menu_easter | sort: "sort_order" %}
                          {% for item in easter  %}
                          {% if item.title != "others" %}
-                         <h3 class="item-name">{{item.title}}</h3>
+                         <h3 class="item-name">{{ item.title }}</h3>
                          {% endif %}
                            {% for menu in item.menu_items %}
-                            <h5>{{menu.name}} </h5>
-                            <p>{{menu.detail}}</p>
+                            <h5>{{ menu.name }} </h5>
+                            <div>
+                              {{ menu.detail }}
+                            </div>
                              <br>
                            {% endfor %}
                          {% endfor %}
@@ -264,11 +280,11 @@ layout: default
                         {% assign val  = site.data._models.menu_valentines | sort: "sort_order" %}
                          {% for item in val %}
                          {% if item.title != "others" %}
-                         <h3 class="item-name">{{item.title}}</h3>
+                         <h3 class="item-name">{{ item.title }}</h3>
                          {% endif %}
                            {% for menu in item.menu_items %}
-                            <h5> {{menu.name}} </h5>
-                            <p>{{menu.detail}}</p>
+                            <h5>{{ menu.name }}</h5>
+                            <p>{{ menu.detail }}</p>
                              <br>
                            {% endfor %}
                          {% endfor %}
@@ -290,11 +306,13 @@ layout: default
                         {% assign nye  = site.data._models.menu_bubbles_brunch   | sort: "sort_order" %}
                          {% for item in nye  %}
                          {% if item.title != "others" %}
-                         <h3 class="item-name">{{item.title}}</h3>
+                         <h3 class="item-name">{{ item.title }}</h3>
                          {% endif %}
                            {% for menu in item.menu_items %}
-                            <h5> {{menu.name}} </h5>
-                            <p>{{menu.detail}}</p>
+                            <h5>{{ menu.name }}</h5>
+                            <div>
+                              {{ menu.detail }}
+                            </div>
                              <br>
                            {% endfor %}
                          {% endfor %}
@@ -315,12 +333,14 @@ layout: default
                         {% assign father  = site.data._models.menu_fathers_day  | sort: "sort_order" %}
                          {% for item in father  %}
                          {% if item.title != "others" %}
-                         <h3 class="item-name">{{item.title}}</h3>
+                         <h3 class="item-name">{{ item.title }}</h3>
                          {% endif %}
                            {% for menu in item.menu_items %}
-                            <h5> {{menu.name}} </h5>
-                            <p>{{menu.detail}}</p>
-                             <br>
+                            <h5>{{ menu.name }}</h5>
+                            <div>
+                              {{ menu.detail }}
+                              <br>
+                            </div>
                            {% endfor %}
                          {% endfor %}
                       </div>

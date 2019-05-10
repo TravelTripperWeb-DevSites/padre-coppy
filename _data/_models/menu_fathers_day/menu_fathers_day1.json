@@ -1,10 +1,10 @@
 {
   "menu_items": [
     {
-      "name": "test",
-      "detail": "<p>test</p>"
+      "name": "Father's Day Menu Test",
+      "detail": "<p>Father's Day Menu Test</p>"
     }
   ],
-  "title": "Test",
+  "title": "Father's Day Menu Test",
   "sort_order": 1
 }
