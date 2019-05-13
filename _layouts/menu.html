@@ -212,33 +212,9 @@ layout: default
                   </div>
                 </div>
                 {% endcomment %}
-                <div class="panel-heading">
-                  <h3 class="panel-title">
-                    <a href="#wine" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Wine Dinner</a>
-                  </h3>
-                </div>
-                <div id="wine" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <div class="row">
-                      <div class="col-md-8 col-md-push-3 no-gutter">
-                        {% assign wine  = site.data._models.menu_wine   | sort: "sort_order" %}
-                         {% for item in wine  %}
-                         {% if item.title != "others" %}
-                         <h3 class="item-name">{{ item.title }}</h3>
-                         {% endif %}
-                           {% for menu in item.menu_items %}
-                            <h5>{{ menu.name }}</h5>
-                            <div>
-                              {{ menu.detail }}
-                            </div>
-                             <br>
-                           {% endfor %}
-                         {% endfor %}
-                      </div>
-                    </div>
-                  </div>
-                </div>
 
+                {% comment %}
+                Easter Menu
                 <div class="panel-heading">
                   <h3 class="panel-title">
                     <a href="#easter" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Easter Menu</a>
@@ -265,6 +241,7 @@ layout: default
                     </div>
                   </div>
                 </div>
+                {% endcomment %}
 
                 {% comment %}
 
@@ -294,6 +271,8 @@ layout: default
                 </div>
                 {% endcomment %}
 
+                {% comment %}
+                Bubbles Brunch
                 <div class="panel-heading">
                   <h3 class="panel-title">
                     <a href="#bubbles" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Bubbles Brunch</a>
@@ -320,6 +299,7 @@ layout: default
                     </div>
                   </div>
                 </div>
+                {% endcomment %}
 
                 <div class="panel-heading">
                   <h3 class="panel-title">
@@ -331,6 +311,60 @@ layout: default
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
                         {% assign father  = site.data._models.menu_fathers_day  | sort: "sort_order" %}
+                         {% for item in father  %}
+                         {% if item.title != "others" %}
+                         <h3 class="item-name">{{ item.title }}</h3>
+                         {% endif %}
+                           {% for menu in item.menu_items %}
+                            <h5>{{ menu.name }}</h5>
+                            <div>
+                              {{ menu.detail }}
+                              <br>
+                            </div>
+                           {% endfor %}
+                         {% endfor %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <a href="#wine" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Wine Dinner</a>
+                  </h3>
+                </div>
+                <div id="wine" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class="col-md-8 col-md-push-3 no-gutter">
+                        {% assign wine  = site.data._models.menu_wine   | sort: "sort_order" %}
+                         {% for item in wine  %}
+                         {% if item.title != "others" %}
+                         <h3 class="item-name">{{ item.title }}</h3>
+                         {% endif %}
+                           {% for menu in item.menu_items %}
+                            <h5>{{ menu.name }}</h5>
+                            <div>
+                              {{ menu.detail }}
+                            </div>
+                             <br>
+                           {% endfor %}
+                         {% endfor %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <a href="#tequila" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Tequila Dinner</a>
+                  </h3>
+                </div>
+                <div id="tequila" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class=" col-md-8 col-md-push-3 no-gutter ">
+                        {% assign father  = site.data._models.menu_tequila_dinner | sort: "sort_order" %}
                          {% for item in father  %}
                          {% if item.title != "others" %}
                          <h3 class="item-name">{{ item.title }}</h3>
