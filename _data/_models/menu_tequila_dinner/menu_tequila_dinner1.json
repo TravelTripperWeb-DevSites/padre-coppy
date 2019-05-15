@@ -1,8 +1,24 @@
 {
   "menu_items": [
     {
-      "name": "Tequila Dinner",
-      "detail": "<p>Tequila Dinner</p>"
+      "name": "Appetizer",
+      "detail": "<p><strong>Shrimp Aguachile</strong><br /> <em>Black Tiger Shrimp, cucumber, red onion, squid ink oil, chili pequin</em><br /><br /> <strong>Skinny Margarita</strong><br /> A<em>zunia Blanco Tequila, cucumber, aloe, lime, agave&nbsp; &nbsp;</em></p>"
+    },
+    {
+      "name": "Salad",
+      "detail": "<p><strong>Lengua Escabeche</strong><br /><em>Chili manzana, radish, lime, orange, coriander, carrot&nbsp;</em><br /><br /> <strong>Paloma Spice&nbsp;</strong><br /> <em>Azunia Reposado, grapefruit soda, lime&nbsp;</em></p>"
+    },
+    {
+      "name": "Soup",
+      "detail": "<p><strong>Smoked Tomato Gazpacho</strong><br /> <em>Cascabel, cotija, salsa negra, charred scallion, crema</em>&nbsp;<br /><br /> <strong>Intermezzo</strong><br /><em>Cilantro, Lemon Sorbet&nbsp;</em><br /><br /> <strong>Azunia Blanco&nbsp;</strong></p>"
+    },
+    {
+      "name": "Entrée",
+      "detail": "<p><strong>Duck Mole Chichilo&nbsp;</strong><br /> <em>Elote Tamale, Roast Squash, Pickled Shallot&nbsp;</em><br /><br /> <strong>Azunia Tequila Flight</strong><br /> <em>Blanco, Reposado, Anejo, Premium Black&nbsp;</em></p>"
+    },
+    {
+      "detail": "<p><strong>Chongos Zamoranos</strong>&nbsp;<br /> Agave glazed mango, tequila syrup&nbsp;<br /><br /> <strong>Caf&eacute; Mexicano</strong><br />Cinnamon agave &amp; tequila&nbsp;<br /><br /> <strong>Azunia Anejo&nbsp;</strong>&nbsp;</p>",
+      "name": "Dessert"
     }
   ],
   "title": "Tequila Dinner",
