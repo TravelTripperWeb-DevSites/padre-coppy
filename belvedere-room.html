@@ -17,8 +17,10 @@ Order: 61
       <div class="col-md-12 no-gutter specials-listing-banner banner-color-overlay">
         {% include social-links.html %}
         <div class="title">The Padre Hotel</div>
-        <img class="img-width" src="../../../../../../../../../../assets/images/dine/belvedere-room.jpg" alt="Belvedere Room" />
+        <img class="img-width" src="//res.cloudinary.com/traveltripperweb/image/upload/v1558939151/z0vmgj90dlvzprbt5abb.jpg" alt="Belvedere Room Hero Banner" />
+        {% regionblock belvedere_main_header, type:header %}
         <h1>BELVEDERE ROOM</h1>
+        {% endregionblock %}
       </div>
     </div>
   </div>
@@ -27,8 +29,12 @@ Order: 61
 <section class="global-container">
   <div class="container belvedere-intro">
     <div class="row">
-      <p>Inspired by the relationships with local farms and its bounties, Belvedere Room has created an inventive menu highlighting the ample sustainable resources surrounding them. Sit down to a cozy meal in the company of friends as Chef Chris Sayre delights you with ever-evolving dishes influenced by the season.</p>
-      <p>Belvedere’s Champagne Sunday Brunch Buffet is a Bakersfield tradition and includes endless shrimp cocktail, all your breakfast favorites, hand-carved meats and a decadent station.</p>
+      {% regionblock belvedere_text1, type:text %}
+      <p>The Belvedere Room presents a distinctive dining experience, whether you’re in the mood for a casual meal or a special romantic dinner.</p>
+      <p>The elegant ambiance and exceptional food uniquely combine to marry old-world style and modern tastes. The room is majestic in appearance, sophisticated in service and satisfying to the appetite.</p>
+      <p>Belvedere’s is a modern steakhouse based on the classics and firmly rooted in the California cooking philosophy made famous by chefs like Alice Waters, with a focus on fresh, seasonal and local ingredients, the result is classic, flavorful, vibrant and satisfying food creatively reflecting the season and one of the best restaurants in Bakersfield. Wine selections that emphasize regional vineyards as well as highlights from around the world complement our dishes and contribute to an experience that is uniquely Padre.</p>
+      <p>Belvedere’s Champagne Sunday Brunch Buffet is a Bakersfield tradition and includes endless shrimp cocktail, all your breakfast favorites, hand-carved meats and a decadent dessert station.</p>
+      {% endregionblock %}
     </div>
   </div>
 </section>
@@ -46,7 +52,9 @@ Order: 61
         <img src="//res.cloudinary.com/traveltripperweb/image/upload/v1558608607/cdfffhx8knhkk8k0roco.jpg" alt="Belvedere Room" />
       </div>
     </div>
+    {% regionblock belvedere_sub_header, type:header %}
     <h2>THE PADRE PROUDLY WORKS WITH THE FOLLOWING LOCAL VENDORS</h2>
+    {% endregionblock %}
   </div>
 </section>
 
@@ -58,9 +66,13 @@ Order: 61
           <img src="//res.cloudinary.com/traveltripperweb/image/upload/v1558614415/emajhtd1zkyjycr0n7fi.jpg" alt="Belvedere Room" />
           <div class="overlay">
             <div class="content">
+              {% regionblock belvedere_header1, type:header %}
               <h4>Bakers' Outpost</h4>
+              {% endregionblock %}
               <span class="dimond dimond-white"> ◆</span>
+              {% regionblock belvedere_content1, type:text %}
               <p>Laura, our bread lady, keeps the kitchen stocked daily with loaves made from organic, sustainable heirloom grains locally sourced from Tehachapi.</p>
+              {% endregionblock %}
             </div>
           </div>
         </figure>
@@ -70,9 +82,13 @@ Order: 61
           <img class="img-top-border" src="//res.cloudinary.com/traveltripperweb/image/upload/v1558614415/aozsbb2hrrch4nezgqva.jpg" alt="Belvedere Room" />
           <div class="overlay">
             <div class="content">
+              {% regionblock belvedere_header2, type:header %}
               <h4>Bakers' Outpost</h4>
+              {% endregionblock %}
               <span class="dimond dimond-white"> ◆</span>
+              {% regionblock belvedere_content2, type:text %}
               <p>Laura, our bread lady, keeps the kitchen stocked daily with loaves made from organic, sustainable heirloom grains locally sourced from Tehachapi.</p>
+              {% endregionblock %}
             </div>
           </div>
         </figure>
@@ -84,9 +100,13 @@ Order: 61
           <img src="//res.cloudinary.com/traveltripperweb/image/upload/v1558677979/jcvjfbdmjognuti6v7hz.jpg" alt="Belvedere Room" />
           <div class="overlay">
             <div class="content">
+              {% regionblock belvedere_header3, type:header %}
               <h4>Bakers' Outpost</h4>
+              {% endregionblock %}
               <span class="dimond dimond-white"> ◆</span>
+              {% regionblock belvedere_content3, type:text %}
               <p>Laura, our bread lady, keeps the kitchen stocked daily with loaves made from organic, sustainable heirloom grains locally sourced from Tehachapi.</p>
+              {% endregionblock %}
             </div>
           </div>
         </figure>
@@ -96,9 +116,13 @@ Order: 61
           <img src="//res.cloudinary.com/traveltripperweb/image/upload/v1558677978/mcmfsur4nrc2usjpfsgf.jpg" alt="Belvedere Room" />
           <div class="overlay">
             <div class="content">
+              {% regionblock belvedere_header4, type:header %}
               <h4>Bakers' Outpost</h4>
+              {% endregionblock %}
               <span class="dimond dimond-white"> ◆</span>
+              {% regionblock belvedere_content4, type:text %}
               <p>Laura, our bread lady, keeps the kitchen stocked daily with loaves made from organic, sustainable heirloom grains locally sourced from Tehachapi.</p>
+              {% endregionblock %}
             </div>
           </div>
         </figure>
@@ -108,9 +132,13 @@ Order: 61
           <img src="//res.cloudinary.com/traveltripperweb/image/upload/v1558677979/kr3wd8yq8xaxknovfx8z.jpg" alt="Belvedere Room" />
           <div class="overlay">
             <div class="content">
+              {% regionblock belvedere_header5, type:header %}
               <h4>Bakers' Outpost</h4>
+              {% endregionblock %}
               <span class="dimond dimond-white"> ◆</span>
+              {% regionblock belvedere_content5, type:text %}
               <p>Laura, our bread lady, keeps the kitchen stocked daily with loaves made from organic, sustainable heirloom grains locally sourced from Tehachapi.</p>
+              {% endregionblock %}
             </div>
           </div>
         </figure>
@@ -124,10 +152,14 @@ Order: 61
     <div class="row">
       <div class="col-md-5">
         <div class="brown-button">
-          <a class="hover-transition" title="View Menu" href="/menu/#belvedere" rel="noopener noreferrer">MENU</a>
+          {% regionblock belvedere_btn1, type:text %}
+          <a class="hover-transition" title="View Menu" href="#" rel="noopener noreferrer">MENU</a>
+          {% endregionblock %}
         </div>
         <div class="brown-button">
-          <a class="hover-transition" title="View Menu" href="/menu/#belvedere" rel="noopener noreferrer">RESERVATION</a>
+          {% regionblock belvedere_btn2, type:text %}
+          <a class="hover-transition" title="Reservation" href="#" rel="noopener noreferrer">RESERVATION</a>
+          {% endregionblock %}
         </div>
         <div class="belvedere-logo">
           <img src="//res.cloudinary.com/traveltripperweb/image/upload/v1558690387/xaeow8zn8yg49si1s0ab.png" alt="Belvedere Logo">
@@ -135,12 +167,22 @@ Order: 61
       </div>
       <div class="col-md-7">
         <div class="dine-hours-section center-block">
+          {% regionblock belvedere_dine_head1, type:header %}
           <h4>Hours</h4>
+          {% endregionblock %}
+          {% regionblock belvedere_dine_head2, type:header %}
           <h6>Belvedere Dinner</h6>
+          {% endregionblock %}
+          {% regionblock belvedere_dine_content1, type:text %}
           <p><strong>Sunday &ndash;</strong> Thursday 5:30pm to 9pm</p>
           <p><strong>Friday &ndash; </strong>Saturday 5:30pm to 10pm</p>
+          {% endregionblock %}
+          {% regionblock belvedere_dine_head3, type:header %}
           <h6>Champagne Sunday Brunch</h6>
+          {% endregionblock %}
+          {% regionblock belvedere_dine_content2, type:text %}
           <p>9am-2pm</p>
+          {% endregionblock %}
         </div>
       </div>
     </div>
