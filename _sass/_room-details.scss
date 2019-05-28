@@ -1,5 +1,5 @@
 .room-container{
-	
+
 	.sublinks{
 		    padding: 22px 0px 15px 0px;
    			 border-bottom: 20px solid $Secondary;
@@ -7,7 +7,7 @@
 			    margin: 0;
 				padding: 0;
 				text-align: center;
-				
+
 			li{
 				list-style-type: none;
 				display: inline-block;
@@ -17,23 +17,23 @@
 				letter-spacing:.1em;
 			a{
 			color:#1a1a1a;
-			padding:10px 0px;	
+			padding:10px 0px;
 			display:block;
 			text-transform:uppercase;
-			
+
 			&:hover{
-				
+
 				color:$Secondary;
-				
+
 				}
-				
-			}	
-			
-			
+
+			}
+
+
 			}
 		  }
 		}
-	
+
 }
 
 
@@ -65,12 +65,12 @@
 			@media (max-width: 1154px){
 			line-height:inherit;
 			font-size:40px;
-				
+
 			}
 			@media (max-width: 600px){
 			line-height:inherit;
 			font-size:15px;
-				
+
 			}
 		}
 	h6{
@@ -80,21 +80,21 @@
 		line-height:26px;
 		@media (max-width: 1154px){
 			margin:10px;
-			font-size:15px;	
+			font-size:15px;
 			}
 			@media (max-width: 600px){
 			margin:10px;
-			font-size:9px;	
-				
+			font-size:9px;
+
 			}
 		}
-	a{	
+	a{
 		padding: 18px 20px;
-		
+
 		@media (max-width: 600px){
 				font-size:10px;
-			    padding: 5px 10px;	
-				
+			    padding: 5px 10px;
+
 			}
 		}
 }
@@ -107,7 +107,7 @@
 				display:none;
 			}
 		}
-	
+
 	h5{
 		font-size:18px;
 		font-family:$Av-Black ;
@@ -122,14 +122,14 @@
 			font-size: 14px;
 			padding:15px;
 		}
-		
+
 		}
-	
+
 	.room-couple-img-width{
-		
+
 		max-width:937px;
 				}
-	
+
 	.style-container{
 		padding-top:64px;
 		@media (max-width: 1154px){
@@ -148,11 +148,11 @@
 					max-width:438px;
 					}
 			@media (max-width: 1154px){
-			padding-left:15px;	
+			padding-left:15px;
 			}
-				
+
 			}
-		
+
 		a { margin: 25px 0px 50px 0px;
 			padding: 18px 20px;
 			@media (max-width:600px){
@@ -160,11 +160,11 @@
 		}
 		}
 		}
-	
+
 	.facilities-section{
 					padding:38px 20px 20px 133px;
 					@media (max-width: 1154px){
-					padding-left:15px;	
+					padding-left:15px;
 					}
 					h6{
 						font-family: $Medium;
@@ -178,7 +178,7 @@
 						list-style:none;
 						max-width: 255px;
 						li{
-							
+
 							color: #2b2a2a;
 							letter-spacing: .8px;
 							line-height: 35px;
@@ -203,15 +203,15 @@
 		background-color:$Secondary;
 		text-align:center;
 				.bg-text{
-				
+
 					font-family:$Didot-Bold;
 					font-size:120px;
 					text-transform:uppercase;
 					color:$Black;
-					position:relative;	
+					position:relative;
 					display: inline-block;
 					padding:5px 0px;
-					
+
 					@media (max-width : 800px)
 					{
 					 padding:10px;
@@ -219,12 +219,12 @@
 					 }
 					@media (max-width : 480px)
 					{
-					
+
 					 font-size:45px;
 					 }
 					span{
 						position:absolute;
-						font-size:20px;	
+						font-size:20px;
 						font-family:$Av-Black ;
 						text-align:center;
 						color: $White;
@@ -240,7 +240,7 @@
 						 }
 			}
 	 }
-		
+
 		}
 	.discover-list-container {
 		margin: 10px auto;
@@ -249,12 +249,12 @@
 		.col-md-4{
 			padding:0px 10px 20px 10px;
 			position:relative;
-			
+
 			}
 		.owl-item{
-			
+
 			padding:0px 14px;
-			
+
 			.item{
 				overflow:hidden;
 				}
@@ -270,7 +270,7 @@
 						}
 			}
 		.owl-prev{
-							
+
 				background-color: $Secondary;
 				font-size: 30px;
 				color: $White;
@@ -285,7 +285,7 @@
 					}
 			}
 		.owl-next{
-			    
+
 				background-color: $Secondary;
 				font-size: 30px;
 				color: $White;
@@ -298,13 +298,13 @@
 					background-color: #1a1a1a;
 					 transition: all 0.6s ease;
 					}
-			}	
-			
+			}
+
 		h3{
 			       margin: 35px 0px;
 			}
 		a{
-			
+
 			position:absolute;
 			left:50%;
 			top:50%;
@@ -327,18 +327,18 @@
 				 transition: all 0.6s ease;
 				}
 			}
-		
+
 		}
 	.button-container{
 			background-color: $Secondary;
 			padding: 33px 0px;
 			text-align: center;
 			max-width: 1095px;
-			
+
 
 			}
 .carousel-height{
-	
+
 	.item {
 		max-height:553px;
 		overflow:hidden;
@@ -346,5 +346,227 @@
 			width:100%;
 			}
 		}
-	
+
 	}
+
+// Belvedere Room Special Page Scss
+
+.global-container {
+	.belvedere-intro {
+		.row {
+			margin: 0;
+		}
+		margin: 17px auto;
+		font-family: $Medium;
+		font-size: 14px;
+		font-weight: 400;
+		letter-spacing: 1.4px;
+	}
+
+	.three-col-images {
+		.row {
+			.col-sm-3,
+			.col-sm-6 {
+				padding: 0 5px;
+			}
+
+			.p-l-0 {
+				padding-left: 0;
+				@media(max-width: $screen-sm-max) {
+					padding: 0 5px;
+				}
+			}
+
+			.p-r-0 {
+				padding-right: 0;
+				@media(max-width: $screen-sm-max) {
+					padding: 0 5px;
+				}
+			}
+
+			img {
+				display: block;
+				width: 100%;
+				height: 336px;
+				object-fit: cover;
+				@media(max-width: $screen-sm-min) {
+					height: 350px;
+					margin-bottom: 5px;
+					object-position: top;
+				}
+			}
+		}
+
+		h2 {
+			margin-bottom: 20px;
+			font-family: $Av-Black;
+			font-size: 21px;
+			font-weight: bold;
+			color: $Secondary;
+			text-align: center;
+			letter-spacing: 2.1px;
+		}
+	}
+
+	.vendor-images {
+		.row {
+			.col-sm-4 {
+				padding-right: 5px;
+				padding-left: 0;
+				@media(max-width: $screen-sm-max) {
+					padding: 0 5px;
+				}
+			}
+
+			.col-sm-8 {
+				padding-right: 0;
+				padding-left: 5px;
+				@media(max-width: $screen-sm-max) {
+					padding: 0 5px;
+				}
+			}
+
+			img {
+				display: block;
+				width: 100%;
+				height: 530px;
+				margin-bottom: 10px;
+				object-fit: cover;
+				@media(max-width: $screen-sm-min) {
+					height: 350px;
+					object-position: center;
+				}
+			}
+
+			figure {
+				position: relative;
+
+				.overlay {
+					position: absolute;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					background-color: rgba(128,109,68, .7);
+					opacity: 0;
+					transition: 0.3s;
+
+					&:hover {
+						opacity: 1;
+					}
+
+					.content {
+						position: relative;
+						top: 50%;
+						right: 0;
+						bottom: 0;
+						left: 0;
+						max-width: 320px;
+						margin: auto;
+						text-align: center;
+						transform: translateY(-50%);
+
+						h4 {
+							font-family: $Heavy;
+							font-size: 14px;
+							color: $White;
+							text-transform: uppercase;
+							letter-spacing: 1.4px;
+						}
+
+						span {
+							color: $White;
+						}
+
+						p {
+							font-family: $Book;
+							font-size: 14px;
+							font-weight: 400;
+							color: $White;
+							letter-spacing: 1.4px;
+						}
+					}
+				}
+			}
+
+			&.three-grid {
+				.col-sm-2 {
+					padding-right: 0;
+					padding-left: 5px;
+					@media(max-width: $screen-sm-max) {
+						padding: 0 5px;
+					}
+				}
+
+				.col-sm-6 {
+					padding-right: 0;
+					padding-left: 10px;
+					@media(max-width: $screen-sm-max) {
+						padding: 0 5px;
+					}
+				}
+
+				img {
+					display: block;
+					width: 100%;
+					height: 310px;
+					margin-bottom: 10px;
+					object-fit: cover;
+					@media(max-width: $screen-sm-min) {
+						height: 350px;
+						object-position: center;
+					}
+				}
+			}
+		}
+	}
+}
+
+.belvedere-dine {
+	margin: 20px auto;
+
+	.container {
+		.row {
+			.col-md-5 {
+				.brown-button {
+					a {
+						font-family: $Av-Black;
+						font-size: 14px;
+						font-weight: bold;
+					}
+				}
+
+				.belvedere-logo {
+					max-width: 200px;
+					margin: 0 auto;
+
+					@media (max-width: $screen-md-min) {
+						margin-bottom: 20px;
+					}
+
+					img {
+						width: 100%;
+					}
+				}
+			}
+
+			.col-md-7 {
+				padding: 0;
+
+				.dine-hours-section {
+					max-width: 100%;
+					margin: auto;
+
+					h4 {
+						padding-top: 10px;
+						color: $White;
+						font-size: 30px;
+						font-weight: bold;
+						font-family: $Heavy;
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
+	}
+}
