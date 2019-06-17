@@ -26,5 +26,6 @@
   "button_text": "<p>Call 661.427.4900</p>",
   "sort_order": 1,
   "view_event_button_url": "fathers-day-brunch",
-  "short_description": "<p>Celebrate dad this Father's Day by treating him a free flowing champagne brunch at Belvedere Room from 9am-2pm or BBQ specials at Brimstone or Belvedere.</p>"
+  "short_description": "<p>Celebrate dad this Father's Day by treating him a free flowing champagne brunch at Belvedere Room from 9am-2pm or BBQ specials at Brimstone or Belvedere.</p>",
+  "unpublish": true
 }
