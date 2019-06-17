@@ -26,5 +26,6 @@
   "button_text": "<p>Call 661.427.4900</p>",
   "sort_order": 1,
   "short_description": "<p>We're firing up the grill on the Prairie Fire rooftop this Father's Day with a special BBQ dinner for dad from 4-8pm.</p>",
-  "view_event_button_url": "fathers-day-bbq"
+  "view_event_button_url": "fathers-day-bbq",
+  "unpublish": true
 }
