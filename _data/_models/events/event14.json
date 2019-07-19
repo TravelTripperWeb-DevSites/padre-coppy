@@ -24,5 +24,6 @@
     "description": ""
   },
   "short_description": "<p>The Unplugged Forum presents live music every Wednesday night from 7pm - 10pm starting March 6th.&nbsp;Enjoy dinner, drinks and&nbsp;music under the stars on the Prairie Fire rooftop.</p>",
-  "view_event_button_url": "unplugged-forum"
+  "view_event_button_url": "unplugged-forum",
+  "unpublish": true
 }
