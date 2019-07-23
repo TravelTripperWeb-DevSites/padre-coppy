@@ -26,5 +26,6 @@
   "short_description": "<p>Cool down with Azunia Tequila on our rooftop bar on July 11th with five chef inspired courses perfectly paired with fresh, fun Azunia tequilas in various forms - cocktails, tasters, and more. Learn about how tequila is made, where it comes from, and how to differentiate between the many styles.</p>",
   "sort_order": 2,
   "view_event_button_url": "https://www.eventbrite.com/e/azunia-tequila-dinner-tickets-61465661448",
-  "button_text": "<p><a href=\"https://www.eventbrite.com/e/azunia-tequila-dinner-tickets-61465661448\" target=\"_blank\" rel=\"noopener noreferrer\">Tickets</a></p>"
+  "button_text": "<p><a href=\"https://www.eventbrite.com/e/azunia-tequila-dinner-tickets-61465661448\" target=\"_blank\" rel=\"noopener noreferrer\">Tickets</a></p>",
+  "unpublish": true
 }
