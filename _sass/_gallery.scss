@@ -2,7 +2,7 @@
 		max-width:938px;
 		margin:0px auto;
 		@media (max-width: 1154px){
-		margin-top:70px;	
+		margin-top:70px;
 		}
 		h4{	font-family: $Av-Black ;
 			text-align:center;
@@ -12,16 +12,16 @@
 			padding:50px 0px;
 			margin: 0px;
 			@media (max-width: 1154px){
-				
+
 				padding:30px;
-				
+
 				}
 			}
 	img{
 		 margin-bottom: 30px;
-		 
+
 	}
-	
+
 	.lastrow-img-margin{
 		@media (min-width: 1154px){
 		margin-bottom: 0px;
@@ -34,7 +34,7 @@
 		color:$Secondary;
 		font-weight:600;
 		letter-spacing:.1em;
-		
+
 		}
 	 .accolo_bodybold{
 	 	width:20%;
@@ -42,7 +42,7 @@
 	 }
 	 .accolo_bodytext{
 	 	padding:5px 10px ;
-	 	 
+
 	 }
 	 .accolo_textStyle,
 	 .accolo_selectStyle{
@@ -87,22 +87,22 @@
 
 
 	}
-	
+
 .media-container{
 	margin-top: 0px;
 	    font-size: 14px;
 		color: $Black;
 	a{
 		    color: #333333;
-			
-			
-			
+
+
+
 		&:hover{
 			color: $Secondary;
 		}
 	}
 	.fa{
-		   
+
 			font-size: 24px;
 			color: $Secondary;
 			padding-right: 5px;
@@ -110,8 +110,16 @@
 	.marketing-link{
 		margin-top:50px;
 		}
-			
+
 	}
-	
-	
-	
+
+
+
+	.eds-insider-slider{
+		margin-top: 45px;
+	}
+
+	.eds-insider-layout{
+		margin-top: 45px;
+		margin-bottom: 45px;
+	}
