@@ -267,3 +267,8 @@
         height: 20px;
     }
 }
+
+// GuestBook script target
+#theguestbook_website_widget_btn .modal-btn {
+  z-index: 999999999 !important;
+}
