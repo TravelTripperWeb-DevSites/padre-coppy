@@ -2,3 +2,6 @@ _site
 .sass-cache
 .DS_Store
 sitemap.json
+media.json
+models.json
+old_models.json
