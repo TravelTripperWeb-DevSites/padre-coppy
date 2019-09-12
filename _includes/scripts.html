@@ -67,4 +67,7 @@
 </script>
 
 <!-- HelloShift Chat Widget -->
+{% if jekyll.environment == "production" %}
 <script id="hs-chat-widget" data-client-id="padre" src="https://helloshift.com/loader.js"></script>
+{% endif %}
+
