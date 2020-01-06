@@ -8,3 +8,4 @@
 - A(.*):
     to: B$1
     code: '301'
+    type: regex
