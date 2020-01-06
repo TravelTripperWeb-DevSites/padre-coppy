@@ -1,2 +1,7 @@
 ---
-- A: B
+- A: !ruby/hash-with-ivars:ActionController::Parameters
+    elements:
+      to: B
+      code: '302'
+    ivars:
+      :@permitted: false
