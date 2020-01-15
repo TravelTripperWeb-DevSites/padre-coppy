@@ -1,7 +1,4 @@
 ---
-- A:
-    to: B
-    code: '302'
 - C:
     to: D
     code: '301'
