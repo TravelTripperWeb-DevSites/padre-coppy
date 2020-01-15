@@ -1,4 +1,7 @@
 ---
-- redirect-exact:
-    to: exact
-    code: '301'
+- home-page: home/
+- address: contactus/
+- blog: posts/
+- SUBSCRIBE: home/
+- Press-Releases/(.*): press/$1
+- location/(.*)-(.*): tmp-location/$1/$2
