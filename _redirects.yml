@@ -1,0 +1,21 @@
+---
+- home-page:
+    to: home/
+    code: '301'
+- address:
+    to: contactus/
+    code: '301'
+- blog:
+    to: posts/
+    code: '302'
+- SUBSCRIBE:
+    to: home/
+    code: '301'
+- Press-Releases/(.*):
+    to: press/$1
+    code: '301'
+    type: regex
+- location/(.*)-(.*):
+    to: tmp-location/$1/$2
+    code: '302'
+    type: regex
