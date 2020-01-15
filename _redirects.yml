@@ -5,7 +5,6 @@
 - C:
     to: D
     code: '301'
-    type: regex
 - A(.*):
     to: B$1
     code: '301'
