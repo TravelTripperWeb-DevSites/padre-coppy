@@ -1,12 +1,4 @@
 ---
-- A(.*):
-    to: B$1
-    code: '301'
-    type: regex
-- redirectall*:
-    to: ''
-    code: '301'
-    type: regex
 - redirect-exact:
     to: exact
     code: '301'
